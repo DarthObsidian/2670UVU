@@ -14100,10 +14100,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1524743843}
   - component: {fileID: 1524743848}
-  - component: {fileID: 1524743847}
-  - component: {fileID: 1524743846}
   - component: {fileID: 1524743845}
   - component: {fileID: 1524743844}
+  - component: {fileID: 1524743846}
   m_Layer: 16
   m_Name: AnimRoot
   m_TagString: Untagged
@@ -14157,25 +14156,12 @@ Rigidbody:
 --- !u!114 &1524743846
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114150962163048078, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524743842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1524743847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11499370, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1524743842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: ba913942f897cdd4fa926dd8c8dfacec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1524743848
@@ -14279,6 +14265,7 @@ GameObject:
   - component: {fileID: 1775461897}
   - component: {fileID: 1775461899}
   - component: {fileID: 1775461900}
+  - component: {fileID: 1775461901}
   m_Layer: 12
   m_Name: Character
   m_TagString: Player
@@ -14341,6 +14328,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc1261b283f965242af4b4bc4ffc3a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+--- !u!114 &1775461901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775461896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5012bd841b8903745a506bc3cf6c5664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1791437400
@@ -14741,7 +14740,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:

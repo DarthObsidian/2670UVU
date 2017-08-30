@@ -13,7 +13,7 @@ public class MoveCharacter : MonoBehaviour
 	void Start () 
 	{
 		cc = GetComponent<CharacterController>();
-		MoveInput.KeyAction = Move;
+		MoveInput.KeyAction += Move;
 	}
 
 	void Move(float _movement)

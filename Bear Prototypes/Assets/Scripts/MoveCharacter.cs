@@ -21,12 +21,13 @@ public class MoveCharacter : MonoBehaviour
 	void Move(float _movement)
 	{
 		tempMove.y -= gravity * Time.deltaTime;
-		tempMove.x = _movement * speed * Time.deltaTime;
+		
 		cc.Move(tempMove);
 		
 		if(cc.isGrounded)
 		{
 			jumpCount = 0;
+			tempMove.x = _movement * speed * Time.deltaTime;
 		}
 	}
 
@@ -37,5 +38,18 @@ public class MoveCharacter : MonoBehaviour
 			tempMove.y = jumpHeight;
 			jumpCount++;
 		}
+	}
+
+	void OnControllerColliderHit(ControllerColliderHit hit) //wall jump
+	{
+		if(!cc.isGrounded && hit.normal.y < 0.1f)
+		{
+			if(Input.GetKeyDown(KeyCode.Space))
+			{
+				tempMove = hit.normal * speed * Time.deltaTime;
+				tempMove.y = jumpHeight;
+				jumpCount = 1;
+			}	
+		}	
 	}
 }

@@ -10,6 +10,7 @@ public class MoveCharacter : MonoBehaviour
 	public float gravity = 1;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
+	const int JUMP_MAX = 2;
 
 	void Start () 
 	{
@@ -20,7 +21,10 @@ public class MoveCharacter : MonoBehaviour
 
 	void Move(float _movement)
 	{
-		tempMove.y -= gravity * Time.deltaTime;
+		if(!cc.isGrounded)
+		{
+			tempMove.y -= gravity * Time.deltaTime;
+		}
 		
 		cc.Move(tempMove);
 		
@@ -33,7 +37,7 @@ public class MoveCharacter : MonoBehaviour
 
 	void Jump()
 	{
-		if(jumpCount < 2)
+		if(jumpCount < JUMP_MAX)
 		{
 			tempMove.y = jumpHeight;
 			jumpCount++;

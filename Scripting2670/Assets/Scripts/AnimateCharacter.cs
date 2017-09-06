@@ -19,6 +19,7 @@ public class AnimateCharacter : MonoBehaviour
 		MoveInput.KeyAction += Animate;
 		PlayButton.Play -= OnPlay;
 	}
+	
     private void Animate(float obj)
     {
         anims.SetFloat("Walk", obj);

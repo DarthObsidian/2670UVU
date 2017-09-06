@@ -10,6 +10,7 @@ public class HealthController : MonoBehaviour
 	public int currentHealth;
 	public Slider healthSlider;
 	public Text gameOver;
+	public Button restart;
 
 	public void TakeDamage(int damage)
 	{
@@ -29,6 +30,7 @@ public class HealthController : MonoBehaviour
 		if(gameObject.tag == "Player")
 		{
 			gameOver.text = "GAME OVER";
+			//restart.gameObject.SetActive(true); //for some reason unity doesn't like keeping cc with a restart
 		}
 
     }

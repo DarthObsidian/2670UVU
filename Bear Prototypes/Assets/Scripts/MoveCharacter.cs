@@ -11,6 +11,8 @@ public class MoveCharacter : MonoBehaviour
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
 	const int JUMP_MAX = 2;
+	public float knockDistance;
+	bool knockFromRight = false;
 
 	void Start () 
 	{
@@ -55,5 +57,33 @@ public class MoveCharacter : MonoBehaviour
 				jumpCount = 1;
 			}	
 		}	
+	}
+	
+
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.tag == "Enemy")
+		{
+			if(other.transform.position.x <= gameObject.transform.position.x)
+			{
+				knockFromRight = true;
+			}
+			else
+			{
+				knockFromRight = false;
+			}
+
+			if(knockFromRight)
+			{
+				tempMove.y = knockDistance;
+				tempMove.x = knockDistance;
+			}
+			if(!knockFromRight)
+			{
+				tempMove.y = knockDistance;
+				tempMove.x = -knockDistance;
+			}
+		}
+		
 	}
 }

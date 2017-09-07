@@ -15,6 +15,9 @@ public class Attack : MonoBehaviour
 
 	void DoDamage(int damage)
 	{
-		go.GetComponent<HealthController>().TakeDamage(damage);
+		if(go.GetComponent<HealthController>() != null)
+		{
+			go.GetComponent<HealthController>().TakeDamage(damage);
+		}	
 	}	
 }

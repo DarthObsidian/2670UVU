@@ -24,8 +24,7 @@ public class CollectableController : MonoBehaviour
 
 			if(currentItems == maxItems)
 			{
-				MoveInput.KeyAction = null;
-				MoveInput.JumpAction = null;
+				gameObject.SetActive(false);
 				endGame.text = "YOU WIN";
 				replay.gameObject.SetActive(true);
 			}

@@ -64,7 +64,6 @@ public class MoveCharacter : MonoBehaviour
 			}	
 		}	
 	}
-	
 
 	void OnTriggerEnter(Collider other)
 	{
@@ -89,7 +88,6 @@ public class MoveCharacter : MonoBehaviour
 				tempMove.y = knockDistance;
 				tempMove.x = -knockDistance;
 			}
-		}
-		
+		}		
 	}
 }

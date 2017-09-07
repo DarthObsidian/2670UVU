@@ -21,8 +21,10 @@ public class HealthController : MonoBehaviour
 	{
 		currentHealth -= damage;
 		if(healthSlider != null)
+		{
 			healthSlider.value = currentHealth;
-
+		}
+		
 		if(currentHealth <= 0)
 		{
 			Death();

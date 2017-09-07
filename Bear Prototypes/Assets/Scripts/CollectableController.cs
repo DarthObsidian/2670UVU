@@ -8,6 +8,12 @@ public class CollectableController : MonoBehaviour
 	public int maxItems;//this won't work with more than one item
 	public int currentItems;
 	public Text endGame;
+	public Button replay;
+
+	void Start()
+	{
+		EndGame.End += Reset;
+	}
 
 	void OnTriggerEnter(Collider other)
 	{
@@ -21,7 +27,13 @@ public class CollectableController : MonoBehaviour
 				MoveInput.KeyAction = null;
 				MoveInput.JumpAction = null;
 				endGame.text = "YOU WIN";
+				replay.gameObject.SetActive(true);
 			}
 		}	
+	}
+
+	void Reset()
+	{
+		currentItems = 0;
 	}
 }

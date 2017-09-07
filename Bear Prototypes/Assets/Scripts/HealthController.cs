@@ -12,6 +12,11 @@ public class HealthController : MonoBehaviour
 	public Text gameOver;
 	public Button restart;
 
+	void Start()
+	{
+		EndGame.End += Restart;
+	}
+
 	public void TakeDamage(int damage)
 	{
 		currentHealth -= damage;
@@ -30,8 +35,15 @@ public class HealthController : MonoBehaviour
 		if(gameObject.tag == "Player")
 		{
 			gameOver.text = "GAME OVER";
-			//restart.gameObject.SetActive(true); //for some reason unity doesn't like keeping cc with a restart
+			restart.gameObject.SetActive(true);
 		}
-
     }
+
+	void Restart()
+	{
+		currentHealth = maxHealth;
+		restart.gameObject.SetActive(false);
+		gameOver.text = "";
+		healthSlider.value = currentHealth;
+	}
 }

@@ -1,0 +1,23 @@
+ideas list:
+check points
+Victory/defeat dance
+Throwing objects
+Pulling/pushing objects
+HUD
+Sliding
+Chasing collectables
+Prince of Persia
+Plank-falling Bridge
+Enemy chase
+Rope/Vine/Climb Swing
+Log falling/Jump
+Rock falling
+Edge Grab
+Swimming/Diving
+
+Expectations:
+Build upon last assignment and innovate and expand
+Trial and error mistakes are okay
+Three brand new mechanics
+A little pain is okay
+Think about a theme and levels of difficulty

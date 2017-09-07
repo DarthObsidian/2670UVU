@@ -42,8 +42,11 @@ public class HealthController : MonoBehaviour
 	void Restart()
 	{
 		currentHealth = maxHealth;
-		restart.gameObject.SetActive(false);
-		gameOver.text = "";
-		healthSlider.value = currentHealth;
+		if(restart != null && gameOver != null && healthSlider != null)
+		{
+			restart.gameObject.SetActive(false);
+			gameOver.text = "";
+			healthSlider.value = currentHealth;
+		}
 	}
 }

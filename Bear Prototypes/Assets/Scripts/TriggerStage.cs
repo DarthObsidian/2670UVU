@@ -5,8 +5,19 @@ using UnityEngine;
 public class TriggerStage : MonoBehaviour 
 {
 	public GameObject go;
+
+	void Start()
+	{
+		EndGame.End += Restart;
+	}
+
 	void OnTriggerEnter(Collider other)
 	{
 		go.SetActive(false);
+	}
+
+	void Restart()
+	{
+		go.SetActive(true);
 	}
 }

@@ -8,7 +8,9 @@ public class PushObject : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit)
 	{
-		Rigidbody body = hit.collider.attachedRigidbody;
+		if(hit.gameObject.tag == "Moveable")
+		{
+			Rigidbody body = hit.collider.attachedRigidbody;
 
 		if(body == null || body.isKinematic)
 		{
@@ -22,5 +24,6 @@ public class PushObject : MonoBehaviour
 
 		Vector3 pushDir = new Vector3 (hit.moveDirection.x, 0, 0);
 		body.velocity = pushDir * pushPower;
+		}
 	}
 }

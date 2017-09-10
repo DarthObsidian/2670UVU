@@ -22,5 +22,6 @@ public class PlayButton : MonoBehaviour
 	{
 		gameObject.SetActive(false);
 		info.enabled = false;
+		FLogController.LogAction();
 	}
 }

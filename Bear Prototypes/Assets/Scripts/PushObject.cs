@@ -8,7 +8,7 @@ public class PushObject : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit)
 	{
-		if(hit.gameObject.tag == "Moveable")
+		if(hit.gameObject.tag == "Moveable" || hit.gameObject.tag == "Rope")
 		{
 			Rigidbody body = hit.collider.attachedRigidbody;
 

@@ -1,0 +1,22 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="YoungBoyWalkCycle" ID="1">
+ <Element Name="Drawing" ID="1" Folder="Drawing">
+  <Drawing Key="Key" Name="1" Version="1"/>
+  <Drawing Key="Key" Name="1_2" Version="1"/>
+  <Drawing Key="Key" Name="2" Version="1"/>
+  <Drawing Key="Breakdown" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="Key" Name="6" Version="1"/>
+  <Drawing Key="Key" Name="6_1" Version="1"/>
+  <Drawing Key="Key" Name="7" Version="1"/>
+ </Element>
+ <Element Name="Background" ID="2" Folder="Background">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="Reference" ID="3" Folder="Reference">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+</SceneVersion>

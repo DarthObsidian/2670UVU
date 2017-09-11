@@ -29,17 +29,20 @@ public class MoveCharacter : MonoBehaviour
 
 	void Move(float _movement)
 	{
-		if(!cc.isGrounded)
+		if(cc.enabled)
 		{
-			tempMove.y -= gravity * Time.deltaTime;
-		}
+			if(!cc.isGrounded)
+			{
+				tempMove.y -= gravity * Time.deltaTime;
+			}
 		
-		cc.Move(tempMove);
+			cc.Move(tempMove);
 		
-		if(cc.isGrounded)
-		{
-			jumpCount = 0;
-			tempMove.x = _movement * speed * Time.deltaTime;
+			if(cc.isGrounded)
+			{
+				jumpCount = 0;
+				tempMove.x = _movement * speed * Time.deltaTime;
+			}
 		}
 	}
 

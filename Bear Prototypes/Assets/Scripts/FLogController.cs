@@ -7,11 +7,10 @@ public class FLogController : MonoBehaviour
 {
 	public Transform startPosition;
 	Vector3 temp;
-	public static Action LogAction;
 
 	void Start()
 	{
-		FLogController.LogAction += Begin;
+		PlayButton.Play += Begin;
 	}
 
 	void OnTriggerEnter()

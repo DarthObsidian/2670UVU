@@ -20,10 +20,8 @@ public class SwingFromRope : MonoBehaviour
 		if(hit.gameObject.tag == "Rope" && !foundRope)
 		{
 			ropeTrans = hit.transform;
-			print("rope");
 			foundRope = true;
 			StartCoroutine("Swing");
-			
 		}
 	}
 

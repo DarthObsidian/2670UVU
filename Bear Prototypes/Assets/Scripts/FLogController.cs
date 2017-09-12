@@ -7,21 +7,34 @@ public class FLogController : MonoBehaviour
 {
 	public Transform startPosition;
 	Vector3 temp;
+	CharacterController cc;
+	public float gravity;
+	bool falling = false;
 
 	void Start()
 	{
 		PlayButton.Play += Begin;
+		cc = gameObject.GetComponent<CharacterController>();
 	}
 
 	void OnTriggerEnter()
 	{
-		temp = gameObject.transform.position;
-		temp.y = startPosition.position.y;
-		gameObject.transform.position = temp;
+		cc.transform.position = startPosition.position;
 	}
 
 	void Begin()
 	{
-		gameObject.GetComponent<Rigidbody>().isKinematic = false;
+		falling = true;
+		StartCoroutine("Fall");
+	}
+
+	IEnumerator Fall()
+	{
+		while(falling)
+		{
+			temp.y = gravity * Time.deltaTime;
+			cc.Move(temp);
+			yield return new WaitForSeconds(0.01f);
+		}
 	}
 }

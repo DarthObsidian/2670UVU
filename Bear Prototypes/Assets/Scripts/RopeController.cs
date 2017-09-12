@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RopeController : MonoBehaviour {
+public class RopeController : MonoBehaviour 
+{
+	public int speed = 15;
+	Animator anims;
 
-	// Use this for initialization
-	void Start () {
-		
+	void Start()
+	{
+		PlayButton.Play += Begin;
+		anims = gameObject.GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	void Begin()
+	{
+		anims.SetBool("isPlaying", true);
 	}
 }

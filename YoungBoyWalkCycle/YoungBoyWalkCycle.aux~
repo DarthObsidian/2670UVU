@@ -10,6 +10,46 @@
   <Drawing Key="Key" Name="6" Version="1"/>
   <Drawing Key="Key" Name="6_1" Version="1"/>
   <Drawing Key="Key" Name="7" Version="1"/>
+  <Drawing Key="Breakdown" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="Breakdown" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="" Name="14" Version="1"/>
+  <Drawing Key="" Name="15" Version="1"/>
+  <Drawing Key="" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
+  <Drawing Key="" Name="18" Version="1"/>
+  <Drawing Key="Breakdown" Name="19" Version="1"/>
+  <Drawing Key="" Name="20" Version="1"/>
+  <Drawing Key="" Name="21" Version="1"/>
+  <Drawing Key="" Name="22" Version="1"/>
+  <Drawing Key="" Name="23" Version="1"/>
+  <Drawing Key="" Name="24" Version="1"/>
+  <Drawing Key="" Name="25" Version="1"/>
+  <Drawing Key="" Name="26" Version="1"/>
+  <Drawing Key="" Name="27" Version="1"/>
+  <Drawing Key="" Name="28" Version="1"/>
+  <Drawing Key="" Name="29" Version="1"/>
+  <Drawing Key="" Name="30" Version="1"/>
+  <Drawing Key="" Name="31" Version="1"/>
+  <Drawing Key="" Name="14_3" Version="1"/>
+  <Drawing Key="" Name="13_3" Version="1"/>
+  <Drawing Key="" Name="15_3" Version="1"/>
+  <Drawing Key="Breakdown" Name="12_3" Version="1"/>
+  <Drawing Key="" Name="17_3" Version="1"/>
+  <Drawing Key="" Name="16_3" Version="1"/>
+  <Drawing Key="" Name="18_3" Version="1"/>
+  <Drawing Key="Key" Name="7_3" Version="1"/>
+  <Drawing Key="" Name="27_3" Version="1"/>
+  <Drawing Key="" Name="26_3" Version="1"/>
+  <Drawing Key="" Name="28_3" Version="1"/>
+  <Drawing Key="Breakdown" Name="19_3" Version="1"/>
+  <Drawing Key="" Name="30_3" Version="1"/>
+  <Drawing Key="" Name="29_3" Version="1"/>
+  <Drawing Key="" Name="31_3" Version="1"/>
+  <Drawing Key="Key" Name="6_5" Version="1"/>
  </Element>
  <Element Name="Background" ID="2" Folder="Background">
   <Drawing Key="" Name="1" Version="1"/>
@@ -18,5 +58,73 @@
  <Element Name="Reference" ID="3" Folder="Reference">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="Arms" ID="4" Folder="Arms">
+  <Drawing Key="Breakdown" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="Key" Name="5" Version="1"/>
+  <Drawing Key="Key" Name="6" Version="1"/>
+  <Drawing Key="Breakdown" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="Key" Name="14" Version="1"/>
+  <Drawing Key="Breakdown" Name="15" Version="1"/>
+  <Drawing Key="" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
+  <Drawing Key="" Name="18" Version="1"/>
+  <Drawing Key="" Name="19" Version="1"/>
+  <Drawing Key="" Name="20" Version="1"/>
+  <Drawing Key="" Name="21" Version="1"/>
+  <Drawing Key="Key" Name="22" Version="1"/>
+  <Drawing Key="Breakdown" Name="23" Version="1"/>
+  <Drawing Key="" Name="24" Version="1"/>
+  <Drawing Key="" Name="25" Version="1"/>
+  <Drawing Key="" Name="26" Version="1"/>
+  <Drawing Key="" Name="27" Version="1"/>
+  <Drawing Key="" Name="28" Version="1"/>
+  <Drawing Key="" Name="29" Version="1"/>
+  <Drawing Key="" Name="30" Version="1"/>
+  <Drawing Key="" Name="31" Version="1"/>
+  <Drawing Key="" Name="32" Version="1"/>
+ </Element>
+ <Element Name="OtherArm" ID="5" Folder="OtherArm">
+  <Drawing Key="Key" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="Breakdown" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="Key" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="" Name="14" Version="1"/>
+  <Drawing Key="" Name="15" Version="1"/>
+  <Drawing Key="Breakdown" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
+  <Drawing Key="" Name="18" Version="1"/>
+  <Drawing Key="" Name="19" Version="1"/>
+  <Drawing Key="Key" Name="20" Version="1"/>
+  <Drawing Key="" Name="21" Version="1"/>
+  <Drawing Key="" Name="22" Version="1"/>
+  <Drawing Key="" Name="23" Version="1"/>
+  <Drawing Key="Breakdown" Name="24" Version="1"/>
+  <Drawing Key="" Name="25" Version="1"/>
+  <Drawing Key="" Name="26" Version="1"/>
+  <Drawing Key="" Name="27" Version="1"/>
+  <Drawing Key="Key" Name="28" Version="1"/>
+  <Drawing Key="" Name="29" Version="1"/>
+  <Drawing Key="" Name="30" Version="1"/>
+  <Drawing Key="" Name="31" Version="1"/>
+  <Drawing Key="Breakdown" Name="32" Version="1"/>
  </Element>
 </SceneVersion>

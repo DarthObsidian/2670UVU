@@ -68,7 +68,7 @@ public class MoveCharacter : MonoBehaviour
 		}	
 	}
 
-	void OnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider other) //knockback
 	{
 		if(other.tag == "Enemy")
 		{

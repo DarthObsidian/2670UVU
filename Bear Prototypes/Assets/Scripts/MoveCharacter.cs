@@ -10,7 +10,7 @@ public class MoveCharacter : MonoBehaviour
 	public float gravity = 1;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
-	const int JUMP_MAX = 2;
+	int jumpMax = 2;
 	public float knockDistance;
 	bool knockFromRight = false;
 
@@ -37,18 +37,18 @@ public class MoveCharacter : MonoBehaviour
 			}
 		
 			cc.Move(tempMove);
-		
+			tempMove.x = _movement * speed * Time.deltaTime;
+
 			if(cc.isGrounded || !cc.enabled)
 			{
 				jumpCount = 0;
-				tempMove.x = _movement * speed * Time.deltaTime;
 			}
 		}
 	}
 
 	void Jump()
 	{
-		if(jumpCount < JUMP_MAX)
+		if(jumpCount < jumpMax)
 		{
 			tempMove.y = jumpHeight;
 			jumpCount++;
@@ -91,6 +91,6 @@ public class MoveCharacter : MonoBehaviour
 				tempMove.y = knockDistance;
 				tempMove.x = -knockDistance;
 			}
-		}		
+		}	
 	}
 }

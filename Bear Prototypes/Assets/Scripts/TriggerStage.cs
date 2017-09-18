@@ -13,11 +13,16 @@ public class TriggerStage : MonoBehaviour
 
 	void OnTriggerEnter(Collider other)
 	{
+		go.SetActive(true);
+	}
+
+	void OnTriggerExit(Collider other)
+	{
 		go.SetActive(false);
 	}
 
 	void Restart()
 	{
-		go.SetActive(true);
+		go.SetActive(false);
 	}
 }

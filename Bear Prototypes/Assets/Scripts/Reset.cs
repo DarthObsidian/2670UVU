@@ -16,10 +16,5 @@ public class Reset : MonoBehaviour
     {
         gameObject.transform.position = startPosition.position;
 		gameObject.transform.rotation = startPosition.rotation;
-		gameObject.SetActive(true);
-		if(gameObject.tag == "False Floor")
-		{
-			gameObject.GetComponent<Rigidbody>().isKinematic = true;
-		}
     }
 }

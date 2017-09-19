@@ -37,11 +37,11 @@ public class MoveCharacter : MonoBehaviour
 			}
 		
 			cc.Move(tempMove);
-			tempMove.x = _movement * speed * Time.deltaTime;
 
 			if(cc.isGrounded || !cc.enabled)
 			{
 				jumpCount = 0;
+				tempMove.x = _movement * speed * Time.deltaTime;
 			}
 		}
 	}

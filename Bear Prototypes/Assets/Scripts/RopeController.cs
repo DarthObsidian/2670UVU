@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RopeController : MonoBehaviour 
 {
-	public int speed = 15;
 	Animator anims;
 
 	void Start()

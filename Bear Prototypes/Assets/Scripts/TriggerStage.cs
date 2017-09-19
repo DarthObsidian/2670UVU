@@ -5,6 +5,8 @@ using UnityEngine;
 public class TriggerStage : MonoBehaviour 
 {
 	public GameObject go;
+	public bool needsPress = false;
+	public bool willDisappear = false;
 
 	void Start()
 	{
@@ -13,16 +15,36 @@ public class TriggerStage : MonoBehaviour
 
 	void OnTriggerEnter(Collider other)
 	{
-		go.SetActive(true);
+		if(willDisappear)
+		{
+			go.SetActive(false);
+		} else {
+			go.SetActive(true);
+		}
+		
 	}
 
 	void OnTriggerExit(Collider other)
 	{
-		go.SetActive(false);
+		if(needsPress)
+		{
+			if(willDisappear)
+			{
+				go.SetActive(true);
+			} else {
+				go.SetActive(false);
+			}
+			
+		}
 	}
 
 	void Restart()
 	{
-		go.SetActive(false);
+		if(willDisappear)
+		{
+			go.SetActive(true);
+		} else {
+			go.SetActive(false);
+		}
 	}
 }

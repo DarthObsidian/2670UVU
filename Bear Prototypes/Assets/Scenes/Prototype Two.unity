@@ -3694,6 +3694,7 @@ GameObject:
   - component: {fileID: 1071362035}
   - component: {fileID: 1071362024}
   - component: {fileID: 1071362032}
+  - component: {fileID: 1071362033}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3847,6 +3848,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {fileID: 1628567948}
+--- !u!114 &1071362033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071362022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2224d428ee48f894d9266bbad1b46d2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 0
+  currentHealth: 0
+  healthSlider: {fileID: 0}
+  gameOver: {fileID: 114573443}
+  restart: {fileID: 1259892013}
 --- !u!114 &1071362035
 MonoBehaviour:
   m_ObjectHideFlags: 0

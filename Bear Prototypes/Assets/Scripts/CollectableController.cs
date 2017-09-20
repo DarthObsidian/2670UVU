@@ -22,11 +22,11 @@ public class CollectableController : MonoBehaviour
 			other.gameObject.SetActive(false);
 			currentItems++;
 
-			if(currentItems == maxItems)
+			if(currentItems >= maxItems)
 			{
-				gameObject.SetActive(false);
 				endGame.text = "YOU WIN";
 				replay.gameObject.SetActive(true);
+				gameObject.GetComponent<MoveInput>().canPlay = false;
 			}
 		}	
 	}

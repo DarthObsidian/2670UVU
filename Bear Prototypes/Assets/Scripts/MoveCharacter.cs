@@ -43,6 +43,13 @@ public class MoveCharacter : MonoBehaviour
 				jumpCount = 0;
 				tempMove.x = _movement * speed * Time.deltaTime;
 			}
+
+			if(gameObject.transform.position.z != 0)
+			{
+				Vector3 temp = cc.transform.position;
+				temp.z = 0;
+				cc.transform.position = temp;
+			}
 		}
 	}
 

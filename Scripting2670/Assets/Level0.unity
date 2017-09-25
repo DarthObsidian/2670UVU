@@ -489,7 +489,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422920, guid: 05fa78527c6b9425e8d6bf6e9ea40c25, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2384134, guid: 05fa78527c6b9425e8d6bf6e9ea40c25, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -501,7 +501,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0bc716c6cb7d45d4e95a4d7a26c6e0d0, type: 2}
     - target: {fileID: 122920, guid: 05fa78527c6b9425e8d6bf6e9ea40c25, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05fa78527c6b9425e8d6bf6e9ea40c25, type: 2}
@@ -936,7 +936,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4635286635543688, guid: e4fc59c02c233a845afae1b8056d535d, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1283685359199464, guid: e4fc59c02c233a845afae1b8056d535d, type: 2}
       propertyPath: m_IsActive
@@ -1175,7 +1175,6 @@ GameObject:
   - component: {fileID: 1285963340}
   - component: {fileID: 1285963339}
   - component: {fileID: 1285963343}
-  - component: {fileID: 1285963342}
   m_Layer: 16
   m_Name: AnimRoot
   m_TagString: Untagged
@@ -1244,18 +1243,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &1285963342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114193293151444992, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285963337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37dac04605a0f464c8fc8ac2bc443465, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1285963343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,7 +1808,7 @@ RectTransform:
   m_Children:
   - {fileID: 474068018}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2356,5 +2343,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

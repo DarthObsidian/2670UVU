@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -6,8 +7,8 @@ public class MoveCharacter : MonoBehaviour
 {
 	CharacterController cc;
 	Vector3 tempMove;
-	public float speed = 5;
-	public float gravity = 1;
+	float speed;
+	float gravity;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
 	int jumpMax = 2;
@@ -17,7 +18,9 @@ public class MoveCharacter : MonoBehaviour
 	void Start () 
 	{
 		cc = GetComponent<CharacterController>();
-		PlayButton.Play += OnPlay;	
+		PlayButton.Play += OnPlay;
+		speed = StaticVars.playerSpeed;
+		gravity = StaticVars.playerGravity;
 	}
 
 	void OnPlay()
@@ -25,9 +28,16 @@ public class MoveCharacter : MonoBehaviour
 		MoveInput.KeyAction += Move;
 		MoveInput.JumpAction = Jump;
 		PlayButton.Play -= OnPlay;
+		ChangeSpeed.SendSpeed = SendSpeedHandler;
 	}
 
-	void Move(float _movement)
+    private void SendSpeedHandler(float _speed, float _gravity)
+    {
+        speed = _speed;
+		gravity = _gravity;
+    }
+
+    void Move(float _movement)
 	{
 		if(cc.enabled)
 		{

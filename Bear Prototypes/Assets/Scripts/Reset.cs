@@ -6,7 +6,7 @@ using UnityEngine;
 public class Reset : MonoBehaviour 
 {
 	public Transform startPosition;
-	public bool beginState;
+	public bool beginState = true;
 
 	void Start()
 	{

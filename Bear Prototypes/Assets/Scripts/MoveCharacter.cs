@@ -12,8 +12,7 @@ public class MoveCharacter : MonoBehaviour
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
 	int jumpMax = 2;
-	public float knockDistance;
-	bool knockFromRight = false;
+	float knockDistance;
 
 	void Start () 
 	{
@@ -21,6 +20,7 @@ public class MoveCharacter : MonoBehaviour
 		PlayButton.Play += OnPlay;
 		speed = StaticVars.playerSpeed;
 		gravity = StaticVars.playerGravity;
+		knockDistance = StaticVars.defaultKnockback;
 	}
 
 	void OnPlay()
@@ -91,19 +91,10 @@ public class MoveCharacter : MonoBehaviour
 		{
 			if(other.transform.position.x <= gameObject.transform.position.x)
 			{
-				knockFromRight = true;
-			}
-			else
-			{
-				knockFromRight = false;
-			}
-
-			if(knockFromRight)
-			{
 				tempMove.y = knockDistance;
 				tempMove.x = knockDistance;
 			}
-			if(!knockFromRight)
+			else
 			{
 				tempMove.y = knockDistance;
 				tempMove.x = -knockDistance;

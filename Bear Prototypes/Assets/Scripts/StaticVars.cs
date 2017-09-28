@@ -12,5 +12,9 @@ public class StaticVars
 	public static float dragGravity;
 	public static float boostGravity;
 
+	public static float defaultKnockback;
+	public static float boostedKnockback;
+	public static float nerfedKnockback;
+
 	public enum GameSpeed { DRAG, BOOST	}
 }

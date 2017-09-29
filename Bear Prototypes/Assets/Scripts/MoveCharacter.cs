@@ -13,6 +13,7 @@ public class MoveCharacter : MonoBehaviour
 	int jumpCount = 0;
 	int jumpMax = 2;
 	float knockDistance;
+	float knockback;
 
 	void Start () 
 	{
@@ -29,6 +30,7 @@ public class MoveCharacter : MonoBehaviour
 		MoveInput.JumpAction = Jump;
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
+		ChangeKnockback.SendKnockback = SendKnockbackHandler;
 	}
 
     private void SendSpeedHandler(float _speed, float _gravity)
@@ -37,6 +39,12 @@ public class MoveCharacter : MonoBehaviour
 		gravity = _gravity;
     }
 
+	private void SendKnockbackHandler(float _knockback, float _knockDistance)
+	{
+		knockback = _knockback;
+		knockDistance = _knockDistance;
+	}	
+	
     void Move(float _movement)
 	{
 		if(cc.enabled)
@@ -91,12 +99,12 @@ public class MoveCharacter : MonoBehaviour
 		{
 			if(other.transform.position.x <= gameObject.transform.position.x)
 			{
-				tempMove.y = knockDistance;
+				tempMove.y = knockback;
 				tempMove.x = knockDistance;
 			}
 			else
 			{
-				tempMove.y = knockDistance;
+				tempMove.y = knockback;
 				tempMove.x = -knockDistance;
 			}
 		}	

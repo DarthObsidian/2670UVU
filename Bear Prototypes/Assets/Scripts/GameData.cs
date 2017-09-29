@@ -13,8 +13,14 @@ public class GameData : MonoBehaviour
 	public float boostGravity = 1f;
 
 	public float knockback = 0.1f;
-	public float boostedKnockback = 0.5f;
+	public float boostedKnockback = 0.2f;
 	public float nerfedKnockback = 0.05f;
+
+	public float knockDistance = 0.1f;
+	public float boostedKnockDistance = 0.2f;
+	public float nerfedKnockDistance = 0.05f;
+
+	public float bounce = 0.3f;
 
 	void Start()
 	{
@@ -29,5 +35,11 @@ public class GameData : MonoBehaviour
 		StaticVars.defaultKnockback = knockback;
 		StaticVars.boostedKnockback = boostedKnockback;
 		StaticVars.nerfedKnockback = nerfedKnockback;
+
+		StaticVars.defaultKnockDistance = knockDistance;
+		StaticVars.boostedKnockDistance = boostedKnockDistance;
+		StaticVars.nerfedKnockDistance = nerfedKnockDistance;
+
+		StaticVars.bounce = bounce;
 	}
 }

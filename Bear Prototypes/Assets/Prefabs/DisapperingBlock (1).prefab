@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33818346926100524}
   - component: {fileID: 65643727516627626}
   - component: {fileID: 23716532927255706}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: DisapperingBlock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704269150192572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 166.66, y: -23.5, z: 0}
+  m_LocalPosition: {x: 8.044557, y: 4.629329, z: 0}
   m_LocalScale: {x: 2.5402975, y: 11.322186, z: 8.768971}
   m_Children: []
   m_Father: {fileID: 0}

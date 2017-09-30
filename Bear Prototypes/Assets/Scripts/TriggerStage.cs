@@ -5,46 +5,53 @@ using UnityEngine;
 public class TriggerStage : MonoBehaviour 
 {
 	public GameObject go;
-	public bool needsPress = false;
-	public bool willDisappear = false;
+	public bool setStage;
+	public StaticVars.TriggerType type;
+	public StaticVars.ButtonType button;
 
-	void Start()
+	void OnTriggerEnter()
 	{
-		EndGame.End += Restart;
+		/* 
+		switch(button)
+		{
+			case StaticVars.ButtonType.BUTTON:
+				print("button pressed");
+				ChangeStage();
+				break;
+			case StaticVars.ButtonType.LEVER:
+				print("lever switced");
+				ChangeStage();
+				break;
+		}
+		*/
+		ChangeStage();
 	}
 
-	void OnTriggerEnter(Collider other)
+	void OnTriggerExit()
 	{
-		if(willDisappear)
+		setStage = !setStage;
+		switch(button)
 		{
-			go.SetActive(false);
-		} else {
-			go.SetActive(true);
+			case StaticVars.ButtonType.BUTTON:
+				ChangeStage();
+				setStage = !setStage;
+				break;
+			case StaticVars.ButtonType.LEVER:
+				break;
 		}
 		
 	}
 
-	void OnTriggerExit(Collider other)
+	void ChangeStage()
 	{
-		if(needsPress)
+		switch(type)
 		{
-			if(willDisappear)
-			{
-				go.SetActive(true);
-			} else {
-				go.SetActive(false);
-			}
-			
-		}
-	}
-
-	void Restart()
-	{
-		if(willDisappear)
-		{
-			go.SetActive(true);
-		} else {
-			go.SetActive(false);
+			case StaticVars.TriggerType.ANIM:
+				go.GetComponent<Animator>().SetBool("Move", setStage);
+				break;
+			case StaticVars.TriggerType.BOOL:
+				go.SetActive(setStage);
+				break;
 		}
 	}
 }

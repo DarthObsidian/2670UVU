@@ -20,6 +20,10 @@ public class GameData : MonoBehaviour
 	public float boostedKnockDistance = 0.2f;
 	public float nerfedKnockDistance = 0.05f;
 
+	public float knockCount;
+	public float boostedKnockCount;
+	public float nerfedKnockCount;
+
 	public float bounce = 0.3f;
 
 	void Start()
@@ -39,6 +43,10 @@ public class GameData : MonoBehaviour
 		StaticVars.defaultKnockDistance = knockDistance;
 		StaticVars.boostedKnockDistance = boostedKnockDistance;
 		StaticVars.nerfedKnockDistance = nerfedKnockDistance;
+
+		StaticVars.knockCount = knockCount;
+		StaticVars.boostedKnockCount = boostedKnockCount;
+		StaticVars.nerfedKnockCount = nerfedKnockCount;
 
 		StaticVars.bounce = bounce;
 	}

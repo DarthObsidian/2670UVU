@@ -14,6 +14,7 @@ public class MoveCharacter : MonoBehaviour
 	int jumpMax = 2;
 	float knockDistance;
 	float knockback;
+	float knockCount;
 
 	void Start () 
 	{
@@ -39,10 +40,11 @@ public class MoveCharacter : MonoBehaviour
 		gravity = _gravity;
     }
 
-	private void SendKnockbackHandler(float _knockback, float _knockDistance)
+	private void SendKnockbackHandler(float _knockback, float _knockDistance, float _knockCount)
 	{
 		knockback = _knockback;
 		knockDistance = _knockDistance;
+		knockCount = _knockCount;
 	}	
 	
     void Move(float _movement)
@@ -53,13 +55,19 @@ public class MoveCharacter : MonoBehaviour
 			{
 				tempMove.y -= gravity * Time.deltaTime;
 			}
-		
-			cc.Move(tempMove);
+
+			if(knockCount <= 0)
+			{
+				tempMove.x = _movement * speed * Time.deltaTime;
+			} else {
+				knockCount -= Time.deltaTime;
+			}
+
+			
 
 			if(cc.isGrounded || !cc.enabled)
 			{
 				jumpCount = 0;
-				tempMove.x = _movement * speed * Time.deltaTime;
 			}
 
 			if(gameObject.transform.position.z != 0)
@@ -68,6 +76,8 @@ public class MoveCharacter : MonoBehaviour
 				temp.z = 0;
 				cc.transform.position = temp;
 			}
+
+			cc.Move(tempMove);
 		}
 	}
 

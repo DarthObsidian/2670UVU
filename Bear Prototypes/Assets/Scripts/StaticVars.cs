@@ -20,8 +20,14 @@ public class StaticVars
 	public static float boostedKnockDistance;
 	public static float nerfedKnockDistance;
 
+	public static float knockCount;
+	public static float boostedKnockCount;
+	public static float nerfedKnockCount;
+
 	public static float bounce;
 
 	public enum GameSpeed { DRAG, BOOST	}
-	public enum KnockBack { INCREASE, DECREASE, BOUNCE }
+	public enum KnockBack { NORMAL, INCREASE, DECREASE, BOUNCE }
+	public enum TriggerType { ANIM, BOOL }
+	public enum ButtonType { LEVER, BUTTON }
 }

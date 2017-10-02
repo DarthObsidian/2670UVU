@@ -9,7 +9,7 @@ public class AttachObject : MonoBehaviour
 
 	void Awake()
 	{
-		SendAttach.ObjectAttach = ObjectAttachHandler;
+		SendAttach.ObjectAttach += ObjectAttachHandler;
 		LockedDoorController.Unattach += UnattachHandler;
 	}
 
@@ -20,17 +20,18 @@ public class AttachObject : MonoBehaviour
 
 	void OnTriggerEnter()
 	{
-		transform.parent = attachObject;
-		transform.localPosition = Vector3.zero;
-		transform.localRotation = Quaternion.identity;
+		if(StaticVars.holdingObject == false)
+		{
+			transform.parent = attachObject;
+			transform.localPosition = Vector3.zero;
+			transform.localRotation = Quaternion.identity;
+			StaticVars.holdingObject = true;
+		}
 	}
 
 	void UnattachHandler()
 	{
 		transform.parent = null;
-		if(gameObject.name == "Key")
-		{
-			gameObject.SetActive(false);
-		}
+		StaticVars.holdingObject = false;
 	}
 }

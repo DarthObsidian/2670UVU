@@ -31,7 +31,8 @@ public class StaticVars
 	public static float bounce;
 
 	public static bool hasKey;
-	
+	public static bool holdingObject;
+
 	public enum GameSpeed { DRAG, BOOST	}
 	public enum KnockBack { NORMAL, INCREASE, DECREASE, BOUNCE }
 	public enum TriggerType { ANIM, BOOL }

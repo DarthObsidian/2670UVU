@@ -13,7 +13,7 @@ public class LockedDoorController : MonoBehaviour
 		{
 			gameObject.SetActive(false);
 			Unattach();
-			StaticVars.hasKey = !StaticVars.hasKey;
+			KeyController.SetKey();
 		}
 	}
 }

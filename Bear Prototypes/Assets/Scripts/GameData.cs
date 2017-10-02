@@ -31,6 +31,7 @@ public class GameData : MonoBehaviour
 	public float bounce = 0.3f;
 
 	public bool hasKey = false;
+	public bool holdingObject = false;
 
 	void Start()
 	{
@@ -61,5 +62,6 @@ public class GameData : MonoBehaviour
 		StaticVars.bounce = bounce;
 
 		StaticVars.hasKey = hasKey;
+		StaticVars.holdingObject = holdingObject;
 	}
 }

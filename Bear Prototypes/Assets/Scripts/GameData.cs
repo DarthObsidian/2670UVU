@@ -12,6 +12,10 @@ public class GameData : MonoBehaviour
 	public float dragGravity = 0.25f;
 	public float boostGravity = 1f;
 
+	public float defaultJump = 0.2f;
+	public float dragJump = 0.02f;
+	public float boostJump;
+
 	public float knockback = 0.1f;
 	public float boostedKnockback = 0.2f;
 	public float nerfedKnockback = 0.05f;
@@ -26,6 +30,8 @@ public class GameData : MonoBehaviour
 
 	public float bounce = 0.3f;
 
+	public bool hasKey = false;
+
 	void Start()
 	{
 		StaticVars.playerSpeed = speed;
@@ -35,6 +41,10 @@ public class GameData : MonoBehaviour
 		StaticVars.playerGravity = gravity;
 		StaticVars.dragGravity = dragGravity;
 		StaticVars.boostGravity = boostGravity;
+
+		StaticVars.defaultJump = defaultJump;
+		StaticVars.dragJump = dragJump;
+		StaticVars.boostJump = boostJump;
 
 		StaticVars.defaultKnockback = knockback;
 		StaticVars.boostedKnockback = boostedKnockback;
@@ -49,5 +59,7 @@ public class GameData : MonoBehaviour
 		StaticVars.nerfedKnockCount = nerfedKnockCount;
 
 		StaticVars.bounce = bounce;
+
+		StaticVars.hasKey = hasKey;
 	}
 }

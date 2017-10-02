@@ -11,19 +11,6 @@ public class TriggerStage : MonoBehaviour
 
 	void OnTriggerEnter()
 	{
-		/* 
-		switch(button)
-		{
-			case StaticVars.ButtonType.BUTTON:
-				print("button pressed");
-				ChangeStage();
-				break;
-			case StaticVars.ButtonType.LEVER:
-				print("lever switced");
-				ChangeStage();
-				break;
-		}
-		*/
 		ChangeStage();
 	}
 

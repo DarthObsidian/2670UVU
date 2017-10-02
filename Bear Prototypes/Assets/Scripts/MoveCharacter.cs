@@ -11,10 +11,12 @@ public class MoveCharacter : MonoBehaviour
 	float gravity;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
-	int jumpMax = 2;
+	int jumpMax = 1;
 	float knockDistance;
 	float knockback;
 	float knockCount;
+
+	bool inWater = false;
 
 	void Start () 
 	{
@@ -32,12 +34,14 @@ public class MoveCharacter : MonoBehaviour
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		ChangeKnockback.SendKnockback = SendKnockbackHandler;
+		ChangeInWater.SendInWater = SendInWaterHandler;
 	}
 
-    private void SendSpeedHandler(float _speed, float _gravity)
+    private void SendSpeedHandler(float _speed, float _gravity, float _jump)
     {
         speed = _speed;
 		gravity = _gravity;
+		jumpHeight = _jump;
     }
 
 	private void SendKnockbackHandler(float _knockback, float _knockDistance, float _knockCount)
@@ -45,7 +49,12 @@ public class MoveCharacter : MonoBehaviour
 		knockback = _knockback;
 		knockDistance = _knockDistance;
 		knockCount = _knockCount;
-	}	
+	}
+
+	private void SendInWaterHandler(bool _inWater)
+	{
+		inWater = _inWater;
+	}
 	
     void Move(float _movement)
 	{
@@ -86,7 +95,7 @@ public class MoveCharacter : MonoBehaviour
 		if(jumpCount < jumpMax)
 		{
 			tempMove.y = jumpHeight;
-			jumpCount++;
+			if(!inWater) { jumpCount++; }
 		}
 	}
 

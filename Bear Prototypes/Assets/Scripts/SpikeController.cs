@@ -5,11 +5,11 @@ using UnityEngine;
 public class SpikeController : MonoBehaviour 
 {
 	public bool startState;
-	Animator anims;
+	public Animator anims;
 
 	void Start () 
 	{
-		anims = GetComponent<Animator>();
+		//anims = GetComponent<Animator>();
 		anims.SetBool("StartWithdrawn", startState);
 	}
 
@@ -18,7 +18,7 @@ public class SpikeController : MonoBehaviour
 		anims.SetTrigger("Withdraw");
 	}
 
-	void onTriggerExit()
+	void OnTriggerExit()
 	{
 		anims.SetTrigger("Withdraw");
 	}

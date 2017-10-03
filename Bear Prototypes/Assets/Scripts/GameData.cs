@@ -12,7 +12,7 @@ public class GameData : MonoBehaviour
 	public float dragGravity = 0.25f;
 	public float boostGravity = 1f;
 
-	public float defaultJump = 0.2f;
+	public float defaultJump = 0.3f;
 	public float dragJump = 0.02f;
 	public float boostJump;
 

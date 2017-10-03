@@ -60,10 +60,9 @@ public class MoveCharacter : MonoBehaviour
 	{
 		if(cc.enabled)
 		{
-			if(!cc.isGrounded && tempMove.y > -0.2)
+			if(!cc.isGrounded)
 			{
 				tempMove.y -= gravity * Time.deltaTime;
-				print(tempMove.y);
 			}
 
 			if(knockCount <= 0)
@@ -71,13 +70,6 @@ public class MoveCharacter : MonoBehaviour
 				tempMove.x = _movement * speed * Time.deltaTime;
 			} else {
 				knockCount -= Time.deltaTime;
-			}
-
-			
-
-			if(cc.isGrounded || !cc.enabled)
-			{
-				jumpCount = 0;
 			}
 
 			if(gameObject.transform.position.z != 0)
@@ -88,6 +80,12 @@ public class MoveCharacter : MonoBehaviour
 			}
 
 			cc.Move(tempMove);
+
+			if(cc.isGrounded || !cc.enabled)
+			{
+				jumpCount = 0;
+				tempMove.y = 0;
+			}
 		}
 	}
 

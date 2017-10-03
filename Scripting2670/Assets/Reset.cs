@@ -10,6 +10,7 @@ public class Reset : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		EndGame.End += ResetThis;
+		//added stuff keep
 	}
 	
 	// Update is called once per frame

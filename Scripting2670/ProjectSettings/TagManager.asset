@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PLASMA
   layers:
   - Default
   - TransparentFX
@@ -13,23 +14,23 @@ TagManager:
   - UI
   - 
   - 
+  - Player/Trigger
+  - 
+  - 
+  - 
+  - 
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - Level
   - 
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Weapons
   - 
   - 
   - 

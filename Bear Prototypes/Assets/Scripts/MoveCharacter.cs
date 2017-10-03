@@ -15,7 +15,6 @@ public class MoveCharacter : MonoBehaviour
 	float knockDistance;
 	float knockback;
 	float knockCount;
-
 	bool inWater = false;
 
 	void Start () 
@@ -60,16 +59,14 @@ public class MoveCharacter : MonoBehaviour
 	{
 		if(cc.enabled)
 		{
-			if(!cc.isGrounded)
-			{
-				tempMove.y -= gravity * Time.deltaTime;
-			}
+			cc.Move(tempMove);
 
-			if(knockCount <= 0)
+			if(cc.isGrounded)
 			{
-				tempMove.x = _movement * speed * Time.deltaTime;
+				jumpCount = 0;
+				tempMove.y = 0;				
 			} else {
-				knockCount -= Time.deltaTime;
+				tempMove.y -= gravity * Time.deltaTime;
 			}
 
 			if(gameObject.transform.position.z != 0)
@@ -79,12 +76,11 @@ public class MoveCharacter : MonoBehaviour
 				cc.transform.position = temp;
 			}
 
-			cc.Move(tempMove);
-
-			if(cc.isGrounded || !cc.enabled)
+			if(knockCount <= 0) //This prevents wall jump from working properly as it's x overrides the wall jump
 			{
-				jumpCount = 0;
-				tempMove.y = 0;
+				tempMove.x = _movement * speed * Time.deltaTime;
+			} else {
+				knockCount -= Time.deltaTime;
 			}
 		}
 	}
@@ -98,6 +94,7 @@ public class MoveCharacter : MonoBehaviour
 		}
 	}
 
+	/*
 	void OnControllerColliderHit(ControllerColliderHit hit) //wall jump
 	{
 		if(!cc.isGrounded && hit.normal.y < 0.1f)
@@ -108,8 +105,9 @@ public class MoveCharacter : MonoBehaviour
 				tempMove.y = jumpHeight;
 				jumpCount = 1;
 			}	
-		}	
+		}
 	}
+	*/
 
 	void OnTriggerEnter(Collider other) //knockback
 	{

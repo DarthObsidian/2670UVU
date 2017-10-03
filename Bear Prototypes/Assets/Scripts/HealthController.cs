@@ -33,11 +33,11 @@ public class HealthController : MonoBehaviour
 
     private void Death()
     {
-        gameObject.SetActive(false);
 		if(gameObject.tag == "Player")
 		{
 			gameOver.text = "GAME OVER";
 			restart.gameObject.SetActive(true);
+			GetComponent<MoveInput>().canPlay = false;
 		}
     }
 

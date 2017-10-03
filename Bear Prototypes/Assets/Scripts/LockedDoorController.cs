@@ -7,25 +7,23 @@ public class LockedDoorController : MonoBehaviour
 {
 	public static Action Unattach;
 	Animator anim;
-
 	public bool lockedDoor;
-	bool doorOpen;
 
 	void Start()
 	{
 		anim = GetComponentInChildren<Animator>();
+		EndGame.End += Reset;
 	}
 
 	void OnTriggerEnter(Collider other)
 	{
-		if(lockedDoor)
+		if(lockedDoor == true)
 		{
-			if(StaticVars.hasKey && doorOpen == false)
+			if(StaticVars.hasKey)
 			{
 				anim.SetTrigger("Open");
 				Unattach();
 				KeyController.SetKey();
-				doorOpen = true;
 			}
 		} else {
 			anim.SetTrigger("Open");
@@ -35,6 +33,14 @@ public class LockedDoorController : MonoBehaviour
 	void OnTriggerExit()
 	{
 		if(lockedDoor == false)
+		{
+			anim.SetTrigger("Close");
+		}
+	}
+
+	void Reset()
+	{
+		if(lockedDoor == true)
 		{
 			anim.SetTrigger("Close");
 		}

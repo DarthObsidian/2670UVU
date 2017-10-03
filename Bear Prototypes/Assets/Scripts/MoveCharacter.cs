@@ -11,7 +11,7 @@ public class MoveCharacter : MonoBehaviour
 	float gravity = 0.75f;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
-	int jumpMax = 1;
+	int jumpMax = 2;
 	float knockDistance;
 	float knockback;
 	float knockCount;

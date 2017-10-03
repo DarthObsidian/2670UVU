@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 23568633207328734}
   - component: {fileID: 65594585569040218}
   - component: {fileID: 95689381579344724}
-  - component: {fileID: 114238446418581386}
   m_Layer: 20
   m_Name: Door
   m_TagString: Untagged
@@ -68,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1181734942109954}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.393679, y: -80.7, z: 0}
+  m_LocalPosition: {x: 45.33, y: -80.7, z: 0}
   m_LocalScale: {x: 1, y: 5.2535157, z: 3.4502683}
   m_Children:
   - {fileID: 4347584727224574}
@@ -157,19 +156,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114238446418581386
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1346311763705960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9953a3292eb398a4f94972feb4e3b69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {fileID: 4898160449604546}
-  beginState: 1
 --- !u!114 &114945493084313976
 MonoBehaviour:
   m_ObjectHideFlags: 1

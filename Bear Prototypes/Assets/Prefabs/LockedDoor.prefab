@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4898160449604546}
   - component: {fileID: 65099071599066956}
   - component: {fileID: 114945493084313976}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: LockedDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 65594585569040218}
   - component: {fileID: 95689381579344724}
   - component: {fileID: 114238446418581386}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1181734942109954}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.24, y: 1.34, z: 0}
+  m_LocalPosition: {x: 11.393679, y: -80.7, z: 0}
   m_LocalScale: {x: 1, y: 5.2535157, z: 3.4502683}
   m_Children:
   - {fileID: 4347584727224574}

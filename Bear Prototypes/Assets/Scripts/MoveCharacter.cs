@@ -7,8 +7,8 @@ public class MoveCharacter : MonoBehaviour
 {
 	CharacterController cc;
 	Vector3 tempMove;
-	float speed;
-	float gravity;
+	float speed = 5;
+	float gravity = 0.75f;
 	public float jumpHeight = 0.2f;
 	int jumpCount = 0;
 	int jumpMax = 1;
@@ -60,9 +60,10 @@ public class MoveCharacter : MonoBehaviour
 	{
 		if(cc.enabled)
 		{
-			if(!cc.isGrounded)
+			if(!cc.isGrounded && tempMove.y > -0.2)
 			{
 				tempMove.y -= gravity * Time.deltaTime;
+				print(tempMove.y);
 			}
 
 			if(knockCount <= 0)

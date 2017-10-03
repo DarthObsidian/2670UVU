@@ -9,6 +9,10 @@ public class SendAttach : MonoBehaviour
 
 	void Start()
 	{
-		ObjectAttach(transform);
+		if(ObjectAttach != null)
+		{
+			ObjectAttach(transform);
+		}
+
 	}
 }

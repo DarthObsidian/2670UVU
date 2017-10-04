@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CollectableController : MonoBehaviour 
 {
-	public int maxItems;//this won't work with more than one item
+	public int maxItems;
 	public int currentItems;
 	public Text endGame;
 	public Button replay;

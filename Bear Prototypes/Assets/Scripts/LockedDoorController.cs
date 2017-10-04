@@ -8,7 +8,6 @@ public class LockedDoorController : MonoBehaviour
 	public static Action Unattach;
 	Animator anim;
 	public bool lockedDoor;
-
 	void Start()
 	{
 		anim = GetComponentInChildren<Animator>();
@@ -21,12 +20,12 @@ public class LockedDoorController : MonoBehaviour
 		{
 			if(StaticVars.hasKey)
 			{
-				anim.SetTrigger("Open");
+				anim.SetBool("OpenDoor", true);
 				Unattach();
 				KeyController.SetKey();
 			}
 		} else {
-			anim.SetTrigger("Open");
+			anim.SetBool("OpenDoor", true);
 		}
 	}
 
@@ -34,7 +33,7 @@ public class LockedDoorController : MonoBehaviour
 	{
 		if(lockedDoor == false)
 		{
-			anim.SetTrigger("Close");
+			anim.SetBool("OpenDoor", false);
 		}
 	}
 
@@ -42,7 +41,7 @@ public class LockedDoorController : MonoBehaviour
 	{
 		if(lockedDoor == true)
 		{
-			anim.SetTrigger("Close");
+			anim.SetBool("OpenDoor", false);
 		}
 	}
 }

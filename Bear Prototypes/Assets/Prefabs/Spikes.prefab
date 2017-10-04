@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33567700184494194}
   - component: {fileID: 23151539685173624}
   - component: {fileID: 114399829688015824}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 33787725370881826}
   - component: {fileID: 23741143706856866}
   - component: {fileID: 114255976018795320}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,9 +55,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4750174407276834}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spikes
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33542309036691354}
   - component: {fileID: 23026137064568138}
   - component: {fileID: 114340426421513298}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 33518283597327856}
   - component: {fileID: 23938561851079944}
   - component: {fileID: 114090750738134738}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 33029797114814276}
   - component: {fileID: 23505472408326174}
   - component: {fileID: 114322848400346664}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 33800396984272410}
   - component: {fileID: 23774204571044978}
   - component: {fileID: 114463205093134022}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,9 +146,10 @@ GameObject:
   - component: {fileID: 65278501954680738}
   - component: {fileID: 65842271397951270}
   - component: {fileID: 114414286763253672}
-  m_Layer: 14
+  - component: {fileID: 114612731019912252}
+  m_Layer: 20
   m_Name: AnimationRoot
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +165,7 @@ GameObject:
   - component: {fileID: 33443441765770226}
   - component: {fileID: 23462609982757958}
   - component: {fileID: 114548531073715980}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +183,7 @@ GameObject:
   - component: {fileID: 33035767421560978}
   - component: {fileID: 23641689681917928}
   - component: {fileID: 114532746010114090}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +201,7 @@ GameObject:
   - component: {fileID: 33355200095800262}
   - component: {fileID: 23109620013816326}
   - component: {fileID: 114742418051727206}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +219,7 @@ GameObject:
   - component: {fileID: 33884992377238422}
   - component: {fileID: 23479242804978524}
   - component: {fileID: 114428258966929952}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +237,7 @@ GameObject:
   - component: {fileID: 33164389856232190}
   - component: {fileID: 23434415022234728}
   - component: {fileID: 114134387058455704}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +255,7 @@ GameObject:
   - component: {fileID: 33593347151470796}
   - component: {fileID: 23823604594311362}
   - component: {fileID: 114188962420238990}
-  m_Layer: 14
+  m_Layer: 20
   m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,8 +398,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341934367852536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.724, y: -0.68, z: 0}
-  m_LocalScale: {x: 0.45074713, y: 0.45074713, z: 0.45074713}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.60586816, y: 0.6058684, z: 0.6058684}
   m_Children:
   - {fileID: 4214647094554898}
   m_Father: {fileID: 0}
@@ -1133,6 +1134,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 5
+--- !u!114 &114612731019912252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586437929343536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff929742e4b6f34986e3f287a7181be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoint: {fileID: 0}
 --- !u!114 &114742418051727206
 MonoBehaviour:
   m_ObjectHideFlags: 1

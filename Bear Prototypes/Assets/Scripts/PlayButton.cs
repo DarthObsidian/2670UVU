@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class PlayButton : MonoBehaviour 
 {
 	public static Action Play;
-	public Text info;
-
 	public GameObject player;
 
 	public void PushPlay()
@@ -25,6 +23,5 @@ public class PlayButton : MonoBehaviour
 	void TurnOffButton()
 	{
 		gameObject.SetActive(false);
-		info.enabled = false;
 	}
 }

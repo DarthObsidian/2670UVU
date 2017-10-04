@@ -15,11 +15,22 @@ public class SpikeController : MonoBehaviour
 
 	void OnTriggerEnter()
 	{
-		anims.SetTrigger("Withdraw");
+		if(startState == true)
+		{
+			anims.SetBool("Attack", true);
+		} else {
+			anims.SetBool("Attack", false);
+		}
+		
 	}
 
 	void OnTriggerExit()
 	{
-		anims.SetTrigger("Withdraw");
+		if(startState == true)
+		{
+			anims.SetBool("Attack", false);
+		} else {
+			anims.SetBool("Attack", true);
+		}
 	}
 }

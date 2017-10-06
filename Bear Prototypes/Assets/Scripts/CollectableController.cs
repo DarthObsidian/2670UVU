@@ -26,6 +26,7 @@ public class CollectableController : MonoBehaviour
 			{
 				endGame.text = "YOU WIN";
 				replay.gameObject.SetActive(true);
+				gameObject.SetActive(false);
 				gameObject.GetComponent<MoveInput>().canPlay = false;
 			}
 		}	

@@ -15,8 +15,8 @@ public class Reset : MonoBehaviour
 
     private void Restart()
     {
-		gameObject.SetActive(beginState);
         gameObject.transform.position = startPosition.position;
 		gameObject.transform.rotation = startPosition.rotation;
+		gameObject.SetActive(beginState);
     }
 }

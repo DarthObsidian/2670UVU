@@ -36,6 +36,7 @@ public class MoveCharacter : MonoBehaviour
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		ChangeKnockback.SendKnockback = SendKnockbackHandler;
 		ChangeInWater.SendInWater = SendInWaterHandler;
+		ChangeJumpCount.ChangeJumpAction = ChangeJumpCountHandler;
 	}
 
     private void SendSpeedHandler(float _speed, float _gravity, float _jump)
@@ -55,6 +56,11 @@ public class MoveCharacter : MonoBehaviour
 	private void SendInWaterHandler(bool _inWater)
 	{
 		inWater = _inWater;
+	}
+
+	private void ChangeJumpCountHandler(int _newCount)
+	{
+		jumpCount = _newCount;
 	}
 	
     void Move(float _movement)

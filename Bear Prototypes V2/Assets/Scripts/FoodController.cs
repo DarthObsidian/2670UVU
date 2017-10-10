@@ -19,5 +19,7 @@ public class FoodController : MonoBehaviour
 	void SetFoodHandler()
 	{
 		gameObject.SetActive(false);
+		StaticVars.hasFood = false;
+		AttachObject.UnattachAction();
 	}
 }

@@ -5,7 +5,6 @@ using System;
 
 public class LockedDoorController : MonoBehaviour 
 {
-	public static Action Unattach;
 	Animator anim;
 	public bool lockedDoor;
 	void Start()
@@ -21,7 +20,7 @@ public class LockedDoorController : MonoBehaviour
 			if(StaticVars.hasKey)
 			{
 				anim.SetBool("OpenDoor", true);
-				Unattach();
+				AttachObject.UnattachAction();
 				KeyController.SetKey();
 			}
 		} else {

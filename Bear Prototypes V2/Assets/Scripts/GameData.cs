@@ -32,6 +32,11 @@ public class GameData : MonoBehaviour
 
 	public bool hasKey = false;
 	public bool holdingObject = false;
+	public bool hasFood = false;
+
+	public int altarCount = 0;
+	public int totalAltars = 3;
+	public int startingAltars = 3;
 
 	void Start()
 	{
@@ -63,5 +68,10 @@ public class GameData : MonoBehaviour
 
 		StaticVars.hasKey = hasKey;
 		StaticVars.holdingObject = holdingObject;
+		StaticVars.hasFood = hasFood;
+
+		StaticVars.altarCount = altarCount;
+		StaticVars.totalAltars = totalAltars;
+		StaticVars.startingAltars = startingAltars;
 	}
 }

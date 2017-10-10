@@ -32,9 +32,15 @@ public class StaticVars
 
 	public static bool hasKey;
 	public static bool holdingObject;
+	public static bool hasFood;
+
+	public static int altarCount;
+	public static int totalAltars;
+	public static int startingAltars;
 
 	public enum GameSpeed { DRAG, BOOST	}
 	public enum KnockBack { NORMAL, INCREASE, DECREASE, BOUNCE }
 	public enum TriggerType { ANIM, BOOL }
 	public enum ButtonType { LEVER, BUTTON }
+	public enum Instructions { CROUCH, JUMP, ALTARS }
 }

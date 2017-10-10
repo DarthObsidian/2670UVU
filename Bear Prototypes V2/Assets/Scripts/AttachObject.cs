@@ -6,11 +6,11 @@ using UnityEngine;
 public class AttachObject : MonoBehaviour 
 {
 	Transform attachObject;
+	public static Action UnattachAction;
 
 	void Awake()
 	{
 		SendAttach.ObjectAttach += ObjectAttachHandler;
-		LockedDoorController.Unattach += UnattachHandler;
 	}
 
     private void ObjectAttachHandler(Transform _transform)
@@ -25,6 +25,7 @@ public class AttachObject : MonoBehaviour
 			transform.parent = attachObject;
 			transform.localPosition = Vector3.zero;
 			transform.localRotation = Quaternion.identity;
+			UnattachAction = UnattachHandler;
 			StaticVars.holdingObject = true;
 		}
 	}

@@ -7,6 +7,7 @@ public class MoveInput : MonoBehaviour
 {
     public static Action<float> KeyAction;
     public static Action JumpAction;
+    public static Action CrouchAction;
     public bool canPlay;
 
     public void BeginHandler()
@@ -26,6 +27,11 @@ public class MoveInput : MonoBehaviour
 		    if(KeyAction != null)
             {         
                 KeyAction(Input.GetAxis("Horizontal"));
+            }
+
+            if(Input.GetKeyDown(KeyCode.S) && CrouchAction != null)
+            {
+                CrouchAction();
             }
             yield return new WaitForSeconds(0.01f);
         }

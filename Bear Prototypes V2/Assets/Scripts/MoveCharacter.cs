@@ -7,6 +7,7 @@ public class MoveCharacter : MonoBehaviour
 {
 	CharacterController cc;
 	Vector3 tempMove;
+	Vector3 scale = Vector3.one; //This will need to be removed once I've got a crouching animation
 	float speed = 5;
 	float gravity = 0.75f;
 	public float jumpHeight = 0.2f;
@@ -30,6 +31,7 @@ public class MoveCharacter : MonoBehaviour
 	{
 		MoveInput.KeyAction += Move;
 		MoveInput.JumpAction = Jump;
+		MoveInput.CrouchAction = Crouch;
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		ChangeKnockback.SendKnockback = SendKnockbackHandler;
@@ -76,7 +78,7 @@ public class MoveCharacter : MonoBehaviour
 				cc.transform.position = temp;
 			}
 
-			if(knockCount <= 0) //This prevents wall jump from working properly as it's x overrides the wall jump
+			if(knockCount <= 0)
 			{
 				tempMove.x = _movement * speed * Time.deltaTime;
 			} else {
@@ -94,21 +96,6 @@ public class MoveCharacter : MonoBehaviour
 		}
 	}
 
-	/*
-	void OnControllerColliderHit(ControllerColliderHit hit) //wall jump
-	{
-		if(!cc.isGrounded && hit.normal.y < 0.1f)
-		{
-			if(Input.GetKeyDown(KeyCode.Space))
-			{
-				tempMove = hit.normal * speed * Time.deltaTime;
-				tempMove.y = jumpHeight;
-				jumpCount = 1;
-			}	
-		}
-	}
-	*/
-
 	void OnTriggerEnter(Collider other) //knockback
 	{
 		if(other.tag == "Enemy")
@@ -124,5 +111,19 @@ public class MoveCharacter : MonoBehaviour
 				tempMove.x = -knockDistance;
 			}
 		}	
+	}
+
+	void Crouch()//this will need to change once i have a crouching animation
+	{	
+		if(transform.localScale.y == 0.5f)
+		{
+			transform.localScale = Vector3.one;
+			SendSpeedHandler(StaticVars.playerSpeed, StaticVars.playerGravity, StaticVars.defaultJump);
+		} else {
+			scale.y = 0.5f;
+			transform.localScale = scale;
+			SendSpeedHandler(3.0f, StaticVars.playerGravity, StaticVars.defaultJump);
+		}
+			
 	}
 }

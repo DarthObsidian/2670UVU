@@ -30,5 +30,6 @@ public class AltarController : MonoBehaviour
 	{
 		StaticVars.altarCount = 0;
 		StaticVars.totalAltars = StaticVars.startingAltars;
+		GetComponent<BoxCollider>().enabled = true;
 	}
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BearController : MonoBehaviour 
 {
+	public GameObject attacker;
+
 	void OnTriggerEnter()
 	{
 		if(StaticVars.hasFood == true)
@@ -11,7 +13,15 @@ public class BearController : MonoBehaviour
 			FoodController.SetFood();
 			gameObject.SetActive(false);
 		} else {
-			//swipe at player;
+			StartCoroutine("ShowAttack");
 		}
+	}
+
+	IEnumerator ShowAttack()
+	{
+
+		attacker.SetActive(true);
+		yield return new WaitForSeconds(0.1f);
+		attacker.SetActive(false);
 	}
 }

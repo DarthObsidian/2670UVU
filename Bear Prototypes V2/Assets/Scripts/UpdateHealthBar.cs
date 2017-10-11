@@ -12,7 +12,10 @@ public class UpdateHealthBar : MonoBehaviour
 
 	void Start () 
 	{
+		myRenderer = GetComponent<Image>();
 		SendHealth.HealthAction += ChangeHealthBar;
+		myRenderer.color = good;
+		EndGame.End += Restart;
 	}
 
 	void ChangeHealthBar(float _health)
@@ -26,5 +29,11 @@ public class UpdateHealthBar : MonoBehaviour
 		} else {
 			myRenderer.color = bad;
 		}
+	}
+
+	void Restart()
+	{
+		transform.localScale = Vector3.one;
+		myRenderer.color = good;
 	}
 }

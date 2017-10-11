@@ -74,7 +74,12 @@ public class MoveCharacter : MonoBehaviour
 				jumpCount = 0;
 				tempMove.y = 0;				
 			} else {
-				tempMove.y -= gravity * Time.deltaTime;
+				if(inWater == false || Input.GetKeyDown(KeyCode.Space))
+				{
+					tempMove.y -= gravity * Time.deltaTime;
+				} else {
+					tempMove.y = -gravity * Time.deltaTime;
+				}
 			}
 
 			if(gameObject.transform.position.z != 0)
@@ -124,11 +129,17 @@ public class MoveCharacter : MonoBehaviour
 		if(transform.localScale.y == 0.5f)
 		{
 			transform.localScale = Vector3.one;
-			SendSpeedHandler(StaticVars.playerSpeed, StaticVars.playerGravity, StaticVars.defaultJump);
+			if(inWater == false)
+			{
+				SendSpeedHandler(StaticVars.playerSpeed, StaticVars.playerGravity, StaticVars.defaultJump);
+			}
 		} else {
 			scale.y = 0.5f;
 			transform.localScale = scale;
-			SendSpeedHandler(3.0f, StaticVars.playerGravity, StaticVars.defaultJump);
+			if(inWater == false)
+			{
+				SendSpeedHandler(3.0f, StaticVars.playerGravity, StaticVars.defaultJump);
+			}
 		}
 			
 	}

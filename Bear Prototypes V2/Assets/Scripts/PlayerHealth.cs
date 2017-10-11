@@ -6,8 +6,11 @@ public class PlayerHealth : MonoBehaviour
 {
 	public float power = 0.1f;
 
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
 	{
-		SendHealth.UpdateHealth(power);	
+		if(other.tag == "Player")
+		{
+			SendHealth.UpdateHealth(power);	
+		}
 	}
 }

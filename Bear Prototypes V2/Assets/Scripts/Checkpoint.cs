@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Checkpoint : MonoBehaviour 
 {
-	public Transform checkpoint;
+	public static Action<Transform> CheckpointAction; 
 
-	void OnTriggerEnter(Collider other)
+	void OnTriggerEnter()
 	{
-		
+		CheckpointAction(transform);
 	}
 }

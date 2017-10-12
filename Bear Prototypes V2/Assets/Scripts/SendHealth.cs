@@ -11,10 +11,6 @@ public class SendHealth
 	public static void UpdateHealth(float _power)
 	{
 		health += _power;
-		if(health <= 0)
-		{
-			Death.DeathAction();
-		}
 		if(health < 0)
 		{
 			health = 0;
@@ -25,5 +21,10 @@ public class SendHealth
 		}
 
 		HealthAction(health);
+
+		if(health <= 0)
+		{
+			Death.DeathAction();
+		}
 	}
 }

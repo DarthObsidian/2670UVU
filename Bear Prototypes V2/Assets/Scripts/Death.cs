@@ -8,11 +8,7 @@ public class Death : MonoBehaviour
 {
 	Transform checkpoint;
 	public static Action DeathAction;
-
-	public GameObject player;
-	public Button replay;
-	public Text endGame;
-
+	
 	void Start()
 	{
 		Checkpoint.CheckpointAction = CheckpointActionHandler;

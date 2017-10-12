@@ -11234,6 +11234,7 @@ GameObject:
   - component: {fileID: 1071362029}
   - component: {fileID: 1071362027}
   - component: {fileID: 1071362032}
+  - component: {fileID: 1071362024}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -11275,6 +11276,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1071362024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071362022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9953a3292eb398a4f94972feb4e3b69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {fileID: 82735612}
+  beginState: 1
 --- !u!33 &1071362025
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15758,7 +15772,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.75, z: 1.0000002}
+  m_Size: {x: 0.75, y: 0.75, z: 1.0000002}
   m_Center: {x: 0, y: -0.35, z: -0.95}
 --- !u!23 &1492409224
 MeshRenderer:
@@ -20126,7 +20140,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.75, z: 1.0000002}
+  m_Size: {x: 0.75, y: 0.75, z: 1.0000002}
   m_Center: {x: 0, y: -0.35, z: -0.95}
 --- !u!23 &1917603643
 MeshRenderer:

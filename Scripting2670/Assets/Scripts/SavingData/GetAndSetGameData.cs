@@ -5,30 +5,39 @@ using UnityEngine;
 
 public class GetAndSetGameData : MonoBehaviour 
 {
-	public Data data;
-	public static Action<int> UpdateGold;
+		public static Action<int> UpdateGold;
 
 	void Awake()
 	{
 		ForPurchase.PurchaseAction += PurchaseHandler;
+		BuyGold.BuyGoldAction += BuyGoldHandler;
 	}
 
     private void PurchaseHandler(int _price, GameObject _item)
     {
-		if(data.gold >= _price)
+		if(StaticVars.data.gold >= _price)
 		{
-			data.gold -= _price;
-			UpdateGold(data.gold);
+			StaticVars.data.gold -= _price;
+			UpdateGold(StaticVars.data.gold);
+
+			StaticVars.data.purchases.Add(_item);
 		}
     }
 
+	private void BuyGoldHandler(int _gold)
+	{
+		StaticVars.data.gold += _gold;
+		UpdateGold(StaticVars.data.gold);
+	}
+
     void Start()
 	{
-		data = JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		StaticVars.GetData();
+		UpdateGold(StaticVars.data.gold);
 	}
 
 	void OnApplicationQuit()
 	{
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(data));
+		StaticVars.SetData();
 	}
 }

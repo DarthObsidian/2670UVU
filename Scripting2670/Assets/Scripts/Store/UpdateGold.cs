@@ -10,7 +10,7 @@ public class UpdateGold : MonoBehaviour
 	void Awake()
 	{
 		GetAndSetGameData.UpdateGold += UpdateGoldHandler;
-		goldUI.GetComponent<Text>();
+		goldUI = GetComponent<Text>();
 	}
 
     private void UpdateGoldHandler(int _gold)

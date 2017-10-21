@@ -14,7 +14,7 @@ public class EndGame : MonoBehaviour
 	{
 		End();
 		endText.text = "";
-		gameObject.SetActive(false);
+		//gameObject.SetActive(false);
 		player.GetComponent<MoveInput>().canPlay = true;
 		player.GetComponent<MoveInput>().BeginHandler();
 	}

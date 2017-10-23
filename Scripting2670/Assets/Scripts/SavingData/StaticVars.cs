@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StaticVars
 {
+	/*
 	public static Data data = new Data();
 
 	public static void GetData()
@@ -15,4 +16,5 @@ public class StaticVars
 	{
 		data.SetData(data);
 	}
+	*/
 }

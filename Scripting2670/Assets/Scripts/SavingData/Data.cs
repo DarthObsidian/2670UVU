@@ -11,15 +11,33 @@ public class Data
 
 	public int gold = 100;
 
-	public List<GameObject> purchases;
+	public List<string> purchases;
+	public static Data _Instance;
 
-	public Data GetData()
+	public static Data Instance 
 	{
-		return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		get
+		{
+			if(_Instance == null)
+			{
+				GetData();
+			}
+			return _Instance;
+		}
 	}
 
-	public void SetData(Data _data)
+	public static void GetData()
 	{
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(_data));
+		if(string.IsNullOrEmpty(PlayerPrefs.GetString("GameData")))
+		{
+			_Instance = new Data();
+		}
+
+		_Instance = JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+	}
+
+	public static void SetData()
+	{
+		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(Instance));
 	}
 }

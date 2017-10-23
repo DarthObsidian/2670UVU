@@ -5,35 +5,33 @@ using UnityEngine.UI;
 
 public class UpdateHealthBar : MonoBehaviour 
 {
-	Vector3 scale = Vector3.one;
 	public Color good = Color.green;
 	public Color bad = Color.red;
-	private Image myRenderer;
+	private Image healthBar;
 
 	void Start () 
 	{
-		myRenderer = GetComponent<Image>();
+		healthBar = GetComponent<Image>();
 		SendHealth.HealthAction += ChangeHealthBar;
-		myRenderer.color = good;
+		healthBar.color = good;
 		EndGame.End += Restart;
 	}
 
 	void ChangeHealthBar(float _health)
 	{
-		scale.x = _health;
-		transform.localScale = scale;
+		healthBar.fillAmount = _health;
 
 		if(_health > 0.5)
 		{
-			myRenderer.color = good;
+			healthBar.color = good;
 		} else {
-			myRenderer.color = bad;
+			healthBar.color = bad;
 		}
 	}
 
 	void Restart()
 	{
-		transform.localScale = Vector3.one;
-		myRenderer.color = good;
+		healthBar.fillAmount = 1;
+		healthBar.color = good;
 	}
 }

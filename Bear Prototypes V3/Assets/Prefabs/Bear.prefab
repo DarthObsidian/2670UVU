@@ -86,7 +86,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -102,7 +101,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -152,8 +150,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.5, z: 0.5}
+  m_Center: {x: 0.15, y: 0, z: 0}
 --- !u!114 &114283481198771622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c56a4edf9c7853d4fbb4526f97b8ab9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockType: 0
+  knockType: 1
 --- !u!114 &114951408602250172
 MonoBehaviour:
   m_ObjectHideFlags: 1

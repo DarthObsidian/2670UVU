@@ -33,12 +33,13 @@ public class GameData : MonoBehaviour
 	public bool hasKey = false;
 	public bool holdingObject = false;
 	public bool hasFood = false;
+	public bool menuOpen = true;
 
 	public int altarCount = 0;
 	public int totalAltars = 3;
 	public int startingAltars = 3;
 
-	void Start()
+	void Awake()
 	{
 		StaticVars.playerSpeed = speed;
 		StaticVars.dragSpeed = dragSpeed;
@@ -69,6 +70,7 @@ public class GameData : MonoBehaviour
 		StaticVars.hasKey = hasKey;
 		StaticVars.holdingObject = holdingObject;
 		StaticVars.hasFood = hasFood;
+		StaticVars.menuOpen = menuOpen;
 
 		StaticVars.altarCount = altarCount;
 		StaticVars.totalAltars = totalAltars;

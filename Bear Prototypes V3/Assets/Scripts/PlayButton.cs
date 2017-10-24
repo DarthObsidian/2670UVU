@@ -24,5 +24,7 @@ public class PlayButton : MonoBehaviour
 	void TurnOffButton()
 	{
 		startMenu.gameObject.SetActive(false);
+		StaticVars.menuOpen = false;
+		
 	}
 }

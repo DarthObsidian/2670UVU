@@ -30,7 +30,7 @@ public class MoveCharacter : MonoBehaviour
 
 	void OnPlay()
 	{
-		MoveInput.KeyAction += Move;
+		MoveInput.KeyAction = Move;
 		MoveInput.JumpAction = Jump;
 		MoveInput.CrouchAction = Crouch;
 		PlayButton.Play -= OnPlay;
@@ -148,5 +148,6 @@ public class MoveCharacter : MonoBehaviour
 	{
 		gameObject.transform.localScale = Vector3.one;
 		tempMove = Vector3.zero;
+		PlayButton.Play += OnPlay;
 	}
 }

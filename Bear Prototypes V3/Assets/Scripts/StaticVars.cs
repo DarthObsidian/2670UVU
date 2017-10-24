@@ -33,6 +33,7 @@ public class StaticVars
 	public static bool hasKey;
 	public static bool holdingObject;
 	public static bool hasFood;
+	public static bool menuOpen;
 
 	public static int altarCount;
 	public static int totalAltars;

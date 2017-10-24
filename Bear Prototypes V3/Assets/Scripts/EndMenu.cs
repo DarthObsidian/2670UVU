@@ -19,6 +19,7 @@ public class EndMenu : MonoBehaviour
 		endMenu.gameObject.SetActive(true);
 		Time.timeScale = 0;
 		player.GetComponent<MoveInput>().canPlay = false;
+		StaticVars.menuOpen = true;
 	}
 
 	void Restart()

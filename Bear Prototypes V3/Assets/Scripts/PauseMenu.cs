@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && player.GetComponent<MoveInput>().canPlay == true)
+        if(Input.GetKeyDown(KeyCode.Escape) && StaticVars.menuOpen == false)
         {
             Pause();
         }    

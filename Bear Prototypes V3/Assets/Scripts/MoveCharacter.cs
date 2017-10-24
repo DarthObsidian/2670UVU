@@ -22,6 +22,7 @@ public class MoveCharacter : MonoBehaviour
 	{
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
+		EndGame.End += Restart;
 		speed = StaticVars.playerSpeed;
 		gravity = StaticVars.playerGravity;
 		knockDistance = StaticVars.defaultKnockback;
@@ -140,7 +141,12 @@ public class MoveCharacter : MonoBehaviour
 			{
 				SendSpeedHandler(3.0f, StaticVars.playerGravity, StaticVars.defaultJump);
 			}
-		}
-			
+		}		
+	}
+
+	void Restart()
+	{
+		gameObject.transform.localScale = Vector3.one;
+		tempMove = Vector3.zero;
 	}
 }

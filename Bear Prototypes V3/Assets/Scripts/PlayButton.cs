@@ -8,6 +8,7 @@ public class PlayButton : MonoBehaviour
 {
 	public static Action Play;
 	public GameObject player;
+	public Image startMenu;
 
 	public void PushPlay()
 	{
@@ -22,6 +23,6 @@ public class PlayButton : MonoBehaviour
 
 	void TurnOffButton()
 	{
-		gameObject.SetActive(false);
+		startMenu.gameObject.SetActive(false);
 	}
 }

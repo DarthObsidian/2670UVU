@@ -4,6 +4,7 @@ using System.Collections.Generic;
 [System.Serializable]
 public class Data
 {
+	Data(){}
 	public int totalScore;
 	public float health;
 	public string playerName;

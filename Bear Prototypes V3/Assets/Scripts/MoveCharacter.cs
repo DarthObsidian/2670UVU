@@ -17,6 +17,7 @@ public class MoveCharacter : MonoBehaviour
 	float knockback;
 	float knockCount;
 	bool inWater = false;
+	bool firstStart = true;
 
 	void Start () 
 	{
@@ -30,7 +31,12 @@ public class MoveCharacter : MonoBehaviour
 
 	void OnPlay()
 	{
-		MoveInput.KeyAction = Move;
+		if(firstStart == true)
+		{
+			MoveInput.KeyAction = Move;
+			firstStart = false;
+		}
+		
 		MoveInput.JumpAction = Jump;
 		MoveInput.CrouchAction = Crouch;
 		PlayButton.Play -= OnPlay;

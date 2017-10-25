@@ -8,6 +8,7 @@ public class FlipCharacter : MonoBehaviour
 
 	Quaternion myRotate;
 	Vector3 rotValue;
+	bool firstStart = true;
 
 	void Start () 
 	{
@@ -16,7 +17,12 @@ public class FlipCharacter : MonoBehaviour
 
 	void OnPlay()
 	{
-		MoveInput.KeyAction += Filp;
+		if(firstStart == true)
+		{
+			MoveInput.KeyAction += Filp;
+			firstStart  = false;
+		}
+		
 		PlayButton.Play -= OnPlay;
 	}
 

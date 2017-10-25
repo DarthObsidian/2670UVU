@@ -7,6 +7,11 @@ public class IdolController : MonoBehaviour
 {
 	public static Action<Transform> IdolAction;
 
+	void Start()
+	{
+		EndGame.End += Restart;
+	}
+
 	void OnTriggerEnter()
 	{
 		if(IdolAction == null)
@@ -23,4 +28,9 @@ public class IdolController : MonoBehaviour
 		IdolAction = null;
 	}
 
+	void Restart()
+	{
+		AttachObject.UnattachAction();
+		gameObject.transform.localScale = Vector3.one;
+	}
 }

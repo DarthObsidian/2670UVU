@@ -136,17 +136,9 @@ public class MoveCharacter : MonoBehaviour
 		if(transform.localScale.y == 0.5f)
 		{
 			transform.localScale = Vector3.one;
-			if(inWater == false)
-			{
-				SendSpeedHandler(StaticVars.playerSpeed, StaticVars.playerGravity, StaticVars.defaultJump);
-			}
 		} else {
 			scale.y = 0.5f;
 			transform.localScale = scale;
-			if(inWater == false)
-			{
-				SendSpeedHandler(3.0f, StaticVars.playerGravity, StaticVars.defaultJump);
-			}
 		}		
 	}
 

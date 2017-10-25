@@ -30,7 +30,11 @@ public class IdolController : MonoBehaviour
 
 	void Restart()
 	{
-		AttachObject.UnattachAction();
+		if(AttachObject.UnattachAction != null)
+		{
+			AttachObject.UnattachAction();
+		}
 		gameObject.transform.localScale = Vector3.one;
+		IdolAction = null;
 	}
 }

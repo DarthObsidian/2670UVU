@@ -16,16 +16,10 @@ public class MoveCharacter : MonoBehaviour
 	void Start () 
 	{
 		cc = GetComponent<CharacterController>();
-		PlayButton.Play += OnPlay;
-	}
-
-	void OnPlay()
-	{
 		MoveInput.KeyAction += Move;
-		PlayButton.Play -= OnPlay;
 		MoveInput.JumpAction = Jump;
 	}
-
+	
 	void Move(float _movement)
 	{
 		if(!cc.isGrounded)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class FFloorController : MonoBehaviour 
 {
 	public Transform startTranform;
+	public BoxCollider bc;
 	Animator anims;
 
 	void Start()
@@ -17,6 +18,7 @@ public class FFloorController : MonoBehaviour
 		if(other.tag == "Player")
 		{
 			StartCoroutine("Fall");
+			bc.enabled = false;
 		}
 	}
 
@@ -38,5 +40,6 @@ public class FFloorController : MonoBehaviour
 		gameObject.transform.position = startTranform.position;
 		yield return new WaitForSeconds(0.3f);
 		anims.SetBool("Blink", false);
+		bc.enabled = true;
 	}
 }

@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Altar.ma
-//Last modified: Tue, Oct 31, 2017 08:03:06 AM
+//Last modified: Tue, Oct 31, 2017 12:16:51 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "16D67098-4EF1-4C06-BCC5-5E8E1917723C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.47605457340587631 2.1579003962870922 -2.4343051652021708 ;
-	setAttr ".r" -type "double3" -18.338352729717435 170.59999999999874 0 ;
+	setAttr ".t" -type "double3" 0.29570780464842378 2.073561573195799 -4.0774991380204577 ;
+	setAttr ".r" -type "double3" -14.738352729709822 178.99999999997999 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "97457604-4545-A6C8-9181-95B57D2BCE30";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2.5954166388361268;
+	setAttr ".coi" 4.6856144375408952;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -84,22 +84,19 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.375 0 0.625 0 0.375
 		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
+		 0.875 0.25;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  1.0940415 1.7150115 0.094041467 
-		0.094041467 1.7150115 -1.0940415 1.0940415 0.75996208 0.094041467 0.094041467 0.75996208 
-		-1.0940415 -0.094041467 0.75996208 1.0940415 -1.0940415 0.75996208 -0.094041467 -0.094041467 
-		1.7150115 1.0940415 -1.0940415 1.7150115 -0.094041467;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 8 ".vt[0:7]"  0.59404147 1.21501148 0.59404147 0.59404147 1.21501148 -0.59404147
+		 0.59404147 1.25996208 0.59404147 0.59404147 1.25996208 -0.59404147 -0.59404147 1.25996208 0.59404147
+		 -0.59404147 1.25996208 -0.59404147 -0.59404147 1.21501148 0.59404147 -0.59404147 1.21501148 -0.59404147;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
 		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+	setAttr -s 5 -ch 20 ".fc[0:4]" -type "polyFaces" 
 		f 4 0 5 -2 -5
 		mu 0 4 0 1 3 2
 		f 4 1 7 -3 -7
@@ -109,9 +106,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 		f 4 3 11 -1 -11
 		mu 0 4 6 7 9 8
 		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
+		mu 0 4 1 10 11 3;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -127,65 +122,48 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".vif" yes;
 	setAttr ".pv" -type "double2" 0.5 0.375 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.875 0 0.875 0.25 0.125
-		 0 0.125 0.25 0.625 0.34402913 0.71902907 0.25 0.2809709 0.25 0.375 0.34402913 0.2809709
-		 0 0.71902907 0 0.625 0.41708237 0.79208231 0.25 0.20791763 0.25 0.375 0.41708237
-		 0.20791763 0 0.79208237 0 0.71902907 0 0.79208237 0 0.71902907 0.118336 0.79208231
-		 0.11819825;
+	setAttr -s 22 ".uvst[0].uvsp[0:21]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.875 0 0.875 0.25 0.625
+		 0.34402913 0.71902907 0.25 0.375 0.34402913 0.71902907 0 0.625 0.41708237 0.79208231
+		 0.25 0.375 0.41708237 0.79208237 0 0.71902907 0 0.79208237 0 0.71902907 0.118336
+		 0.79208231 0.11819825;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 20 ".pt[0:19]" -type "float3"  0.77810675 1.7575629 -0.054650664 
-		-0.22189319 1.7575629 -0.61086428 0.77810675 0.88294876 -0.054650664 -0.22189319 
-		0.88294876 -0.61086428 0.23514891 0.88294876 0.94534928 -0.76485103 0.88294876 0.38913566 
-		0.23514891 1.7575629 0.94534928 -0.76485103 1.7575629 0.38913566 -0.40992332 0.88294876 
-		-0.27281052 0.59007663 0.88294876 0.28340316 0.59007663 1.7575629 0.28340316 -0.40992332 
-		1.7575629 -0.27281052 -0.57245624 0.88294876 0.019402519 0.4275437 0.88294876 0.57561624 
-		0.4275437 1.7575629 0.57561624 -0.57245624 1.7575629 0.019402549 -0.57392633 1.7575629 
-		-0.36403126 -0.73645926 1.7575629 -0.071818203 -0.49629653 1.3435695 -0.32085249 
-		-0.65891981 1.3440515 -0.028689682;
-	setAttr -s 20 ".vt[0:19]"  -0.49999994 -0.5 0.49999997 0.5 -0.5 0.49999997
-		 -0.49999994 0.49999905 0.49999997 0.5 0.49999905 0.49999997 -0.49999994 0.49999905 -0.49999997
-		 0.5 0.49999905 -0.49999997 -0.49999994 -0.5 -0.49999997 0.5 -0.5 -0.49999997 0.5 0.49999905 0.16194618
-		 -0.49999994 0.49999905 0.16194618 -0.49999994 -0.5 0.16194618 0.5 -0.5 0.16194618
-		 0.5 0.49999905 -0.13026686 -0.49999994 0.49999905 -0.13026686 -0.49999994 -0.5 -0.13026689
-		 0.5 -0.5 -0.13026689 0.66400301 -0.5 0.16194618 0.66400301 -0.5 -0.13026688 0.58637321 -0.026656464 0.16194618
-		 0.58646357 -0.027207464 -0.13026688;
-	setAttr -s 33 ".ed[0:32]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 9 0
-		 3 8 0 4 6 0 5 7 0 6 14 0 7 15 0 8 12 0 9 13 0 8 9 1 10 0 0 9 10 1 11 1 0 11 8 0 12 5 0
-		 13 4 0 12 13 1 14 10 0 13 14 1 15 12 0 11 16 0 16 18 0 15 17 0 17 16 0 12 19 0 18 8 0
-		 19 17 0 18 19 1;
-	setAttr -s 14 -ch 56 ".fc[0:13]" -type "polyFaces" 
+	setAttr -s 18 ".vt[0:17]"  0.27810681 1.25756288 0.44534931 0.27810681 1.25756288 -0.11086431
+		 0.27810681 1.3829478 0.44534931 0.27810681 1.3829478 -0.11086431 -0.26485103 1.3829478 0.44534931
+		 -0.26485103 1.3829478 -0.11086431 -0.26485103 1.25756288 0.44534931 -0.26485103 1.25756288 -0.11086431
+		 0.090076685 1.3829478 -0.11086434 0.090076685 1.3829478 0.44534934 0.090076685 1.25756288 -0.11086434
+		 -0.072456241 1.3829478 -0.11086434 -0.072456241 1.3829478 0.4453494 -0.072456241 1.25756288 -0.11086434
+		 0.090076685 1.25756288 -0.20208508 -0.072456241 1.25756288 -0.20208508 0.090076685 1.31691301 -0.15890631
+		 -0.072456241 1.31684399 -0.15895656;
+	setAttr -s 28 ".ed[0:27]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 9 0
+		 3 8 0 4 6 0 5 7 0 7 13 0 8 11 0 9 12 0 8 9 1 10 1 0 10 8 0 11 5 0 12 4 0 11 12 1
+		 13 11 0 10 14 0 14 16 0 13 15 0 15 14 0 11 17 0 16 8 0 17 15 0 16 17 1;
+	setAttr -s 11 -ch 44 ".fc[0:10]" -type "polyFaces" 
 		f 4 0 5 -2 -5
 		mu 0 4 0 1 3 2
-		f 4 1 7 14 -7
-		mu 0 4 2 3 12 15
+		f 4 1 7 13 -7
+		mu 0 4 2 3 10 12
 		f 4 2 9 -4 -9
 		mu 0 4 4 5 7 6
-		f 4 -18 18 -8 -6
-		mu 0 4 1 17 13 3
-		f 4 15 4 6 16
-		mu 0 4 16 0 2 14
-		f 4 -15 12 21 -14
-		mu 0 4 15 12 18 21
-		f 4 22 -17 13 23
-		mu 0 4 22 16 14 20
-		f 4 -22 19 -3 -21
-		mu 0 4 21 18 5 4
-		f 4 10 -24 20 8
-		mu 0 4 10 22 20 11
-		f 4 -25 -12 -10 -20
-		mu 0 4 19 23 8 9
-		f 4 -19 25 26 30
-		mu 0 4 13 17 24 26
-		f 4 24 29 31 -28
-		mu 0 4 23 19 27 25
-		f 4 32 -30 -13 -31
-		mu 0 4 26 27 19 13
-		f 4 -32 -33 -27 -29
-		mu 0 4 25 27 26 24;
+		f 4 -15 15 -8 -6
+		mu 0 4 1 13 11 3
+		f 4 -14 11 18 -13
+		mu 0 4 12 10 14 16
+		f 4 -19 16 -3 -18
+		mu 0 4 16 14 5 4
+		f 4 -20 -11 -10 -17
+		mu 0 4 15 17 8 9
+		f 4 -16 20 21 25
+		mu 0 4 11 13 18 20
+		f 4 19 24 26 -23
+		mu 0 4 17 15 21 19
+		f 4 27 -25 -12 -26
+		mu 0 4 20 21 15 11
+		f 4 -27 -28 -22 -24
+		mu 0 4 19 21 20 18;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -245,23 +223,20 @@ createNode mesh -n "pCylinderShape5" -p "pCylinder5";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.421875 0.020933509
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.421875 0.020933509
 		 0.421875 0.29156646 0.65625 0.15625 0.375 0.3125 0.45833334 0.3125 0.54166669 0.3125
 		 0.625 0.3125 0.375 0.68843985 0.45833334 0.68843985 0.54166669 0.68843985 0.625 0.68843985
-		 0.421875 0.70843351 0.421875 0.97906649 0.65625 0.84375 0.5 0.15000001 0.5 0.83749998;
+		 0.5 0.15000001;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0.27571291 2.2923808 1.2868266 
-		0.34952503 2.2923808 -0.44522417 -1.187381 2.2923808 0.35687813 0.27571291 0.72242588 
-		1.2868266 0.34952503 0.72242588 -0.44522417 -1.187381 0.72242588 0.35687813 -0.18738104 
-		2.2923808 0.39949349 -0.18738104 0.72242588 0.39949349;
-	setAttr -s 8 ".vt[0:7]"  -0.49999994 -1 -0.86602551 -0.50000006 -1 0.86602539
-		 1 -1 0 -0.49999994 1 -0.86602551 -0.50000006 1 0.86602539 1 1 0 0 -1 0 0 1 0;
-	setAttr -s 15 ".ed[0:14]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
-		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1 3 7 1 4 7 1 5 7 1;
-	setAttr -s 9 -ch 30 ".fc[0:8]" -type "polyFaces" 
+	setAttr -s 7 ".vt[0:6]"  -0.22428703 1.29238081 0.4208011 -0.15047503 1.29238081 0.42080122
+		 -0.18738103 1.29238081 0.35687813 -0.22428703 1.72242594 0.4208011 -0.15047503 1.72242594 0.42080122
+		 -0.18738103 1.72242594 0.35687813 -0.18738104 1.29238081 0.39949349;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
+		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1;
+	setAttr -s 6 -ch 21 ".fc[0:5]" -type "polyFaces" 
 		f 4 0 7 -4 -7
 		mu 0 4 3 4 8 7
 		f 4 1 8 -5 -8
@@ -269,17 +244,11 @@ createNode mesh -n "pCylinderShape5" -p "pCylinder5";
 		f 4 2 6 -6 -9
 		mu 0 4 5 6 10 9
 		f 3 -1 -10 10
-		mu 0 3 1 0 14
+		mu 0 3 1 0 11
 		f 3 -2 -11 11
-		mu 0 3 2 1 14
+		mu 0 3 2 1 11
 		f 3 -3 -12 9
-		mu 0 3 0 2 14
-		f 3 3 13 -13
-		mu 0 3 12 11 15
-		f 3 4 14 -14
-		mu 0 3 11 13 15
-		f 3 5 12 -15
-		mu 0 3 13 12 15;
+		mu 0 3 0 2 11;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -295,23 +264,20 @@ createNode mesh -n "pCylinderShape4" -p "pCylinder4";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.421875 0.020933509
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.421875 0.020933509
 		 0.421875 0.29156646 0.65625 0.15625 0.375 0.3125 0.45833334 0.3125 0.54166669 0.3125
 		 0.625 0.3125 0.375 0.68843985 0.45833334 0.68843985 0.54166669 0.68843985 0.625 0.68843985
-		 0.421875 0.70843351 0.421875 0.97906649 0.65625 0.84375 0.5 0.15000001 0.5 0.83749998;
+		 0.5 0.15000001;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0.65063977 2.2923808 1.2868266 
-		0.7244519 2.2923808 -0.44522417 -0.8124541 2.2923808 0.35687813 0.65063977 0.72242588 
-		1.2868266 0.7244519 0.72242588 -0.44522417 -0.8124541 0.72242588 0.35687813 0.18754584 
-		2.2923808 0.39949349 0.18754584 0.72242588 0.39949349;
-	setAttr -s 8 ".vt[0:7]"  -0.49999994 -1 -0.86602551 -0.50000006 -1 0.86602539
-		 1 -1 0 -0.49999994 1 -0.86602551 -0.50000006 1 0.86602539 1 1 0 0 -1 0 0 1 0;
-	setAttr -s 15 ".ed[0:14]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
-		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1 3 7 1 4 7 1 5 7 1;
-	setAttr -s 9 -ch 30 ".fc[0:8]" -type "polyFaces" 
+	setAttr -s 7 ".vt[0:6]"  0.15063983 1.29238081 0.4208011 0.22445184 1.29238081 0.42080122
+		 0.1875459 1.29238081 0.35687813 0.15063983 1.72242594 0.4208011 0.22445184 1.72242594 0.42080122
+		 0.1875459 1.72242594 0.35687813 0.18754584 1.29238081 0.39949349;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
+		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1;
+	setAttr -s 6 -ch 21 ".fc[0:5]" -type "polyFaces" 
 		f 4 0 7 -4 -7
 		mu 0 4 3 4 8 7
 		f 4 1 8 -5 -8
@@ -319,17 +285,11 @@ createNode mesh -n "pCylinderShape4" -p "pCylinder4";
 		f 4 2 6 -6 -9
 		mu 0 4 5 6 10 9
 		f 3 -1 -10 10
-		mu 0 3 1 0 14
+		mu 0 3 1 0 11
 		f 3 -2 -11 11
-		mu 0 3 2 1 14
+		mu 0 3 2 1 11
 		f 3 -3 -12 9
-		mu 0 3 0 2 14
-		f 3 3 13 -13
-		mu 0 3 12 11 15
-		f 3 4 14 -14
-		mu 0 3 11 13 15
-		f 3 5 12 -15
-		mu 0 3 13 12 15;
+		mu 0 3 0 2 11;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -346,23 +306,20 @@ createNode mesh -n "pCylinderShape3" -p "pCylinder3";
 	setAttr ".vif" yes;
 	setAttr ".pv" -type "double2" 0.515625 0.16671675443649292 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.421875 0.020933509
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.421875 0.020933509
 		 0.421875 0.29156646 0.65625 0.15625 0.375 0.3125 0.45833334 0.3125 0.54166669 0.3125
 		 0.625 0.3125 0.375 0.68843985 0.45833334 0.68843985 0.54166669 0.68843985 0.625 0.68843985
-		 0.421875 0.70843351 0.421875 0.97906649 0.65625 0.84375 0.5 0.15000001 0.5 0.83749998;
+		 0.5 0.15000001;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0.65063977 2.2923808 0.85488456 
-		0.7244519 2.2923808 -0.87716633 -0.8124541 2.2923808 -0.075064003 0.65063977 0.72242588 
-		0.85488456 0.7244519 0.72242588 -0.87716633 -0.8124541 0.72242588 -0.075064003 0.18754584 
-		2.2923808 -0.032448631 0.18754584 0.72242588 -0.032448631;
-	setAttr -s 8 ".vt[0:7]"  -0.49999994 -1 -0.86602551 -0.50000006 -1 0.86602539
-		 1 -1 0 -0.49999994 1 -0.86602551 -0.50000006 1 0.86602539 1 1 0 0 -1 0 0 1 0;
-	setAttr -s 15 ".ed[0:14]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
-		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1 3 7 1 4 7 1 5 7 1;
-	setAttr -s 9 -ch 30 ".fc[0:8]" -type "polyFaces" 
+	setAttr -s 7 ".vt[0:6]"  0.15063983 1.29238081 -0.011140943 0.22445184 1.29238081 -0.011140943
+		 0.1875459 1.29238081 -0.075064003 0.15063983 1.72242594 -0.011140943 0.22445184 1.72242594 -0.011140943
+		 0.1875459 1.72242594 -0.075064003 0.18754584 1.29238081 -0.032448631;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
+		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1;
+	setAttr -s 6 -ch 21 ".fc[0:5]" -type "polyFaces" 
 		f 4 0 7 -4 -7
 		mu 0 4 3 4 8 7
 		f 4 1 8 -5 -8
@@ -370,17 +327,11 @@ createNode mesh -n "pCylinderShape3" -p "pCylinder3";
 		f 4 2 6 -6 -9
 		mu 0 4 5 6 10 9
 		f 3 -1 -10 10
-		mu 0 3 1 0 14
+		mu 0 3 1 0 11
 		f 3 -2 -11 11
-		mu 0 3 2 1 14
+		mu 0 3 2 1 11
 		f 3 -3 -12 9
-		mu 0 3 0 2 14
-		f 3 3 13 -13
-		mu 0 3 12 11 15
-		f 3 4 14 -14
-		mu 0 3 11 13 15
-		f 3 5 12 -15
-		mu 0 3 13 12 15;
+		mu 0 3 0 2 11;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -396,23 +347,20 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.421875 0.020933509
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.421875 0.020933509
 		 0.421875 0.29156646 0.65625 0.15625 0.375 0.3125 0.45833334 0.3125 0.54166669 0.3125
 		 0.625 0.3125 0.375 0.68843985 0.45833334 0.68843985 0.54166669 0.68843985 0.625 0.68843985
-		 0.421875 0.70843351 0.421875 0.97906649 0.65625 0.84375 0.5 0.15000001 0.5 0.83749998;
+		 0.5 0.15000001;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0.27571291 2.2923808 0.85488456 
-		0.34952503 2.2923808 -0.87716633 -1.187381 2.2923808 -0.075064003 0.27571291 0.72242588 
-		0.85488456 0.34952503 0.72242588 -0.87716633 -1.187381 0.72242588 -0.075064003 -0.18738104 
-		2.2923808 -0.032448631 -0.18738104 0.72242588 -0.032448631;
-	setAttr -s 8 ".vt[0:7]"  -0.49999994 -1 -0.86602551 -0.50000006 -1 0.86602539
-		 1 -1 0 -0.49999994 1 -0.86602551 -0.50000006 1 0.86602539 1 1 0 0 -1 0 0 1 0;
-	setAttr -s 15 ".ed[0:14]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
-		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1 3 7 1 4 7 1 5 7 1;
-	setAttr -s 9 -ch 30 ".fc[0:8]" -type "polyFaces" 
+	setAttr -s 7 ".vt[0:6]"  -0.22428703 1.29238081 -0.011140943 -0.15047503 1.29238081 -0.011140943
+		 -0.18738103 1.29238081 -0.075064003 -0.22428703 1.72242594 -0.011140943 -0.15047503 1.72242594 -0.011140943
+		 -0.18738103 1.72242594 -0.075064003 -0.18738104 1.29238081 -0.032448631;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 1 2 0 2 0 0 3 4 0 4 5 0 5 3 0 0 3 0
+		 1 4 0 2 5 0 6 0 1 6 1 1 6 2 1;
+	setAttr -s 6 -ch 21 ".fc[0:5]" -type "polyFaces" 
 		f 4 0 7 -4 -7
 		mu 0 4 3 4 8 7
 		f 4 1 8 -5 -8
@@ -420,17 +368,11 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 		f 4 2 6 -6 -9
 		mu 0 4 5 6 10 9
 		f 3 -1 -10 10
-		mu 0 3 1 0 14
+		mu 0 3 1 0 11
 		f 3 -2 -11 11
-		mu 0 3 2 1 14
+		mu 0 3 2 1 11
 		f 3 -3 -12 9
-		mu 0 3 0 2 14
-		f 3 3 13 -13
-		mu 0 3 12 11 15
-		f 3 4 14 -14
-		mu 0 3 11 13 15
-		f 3 5 12 -15
-		mu 0 3 13 12 15;
+		mu 0 3 0 2 11;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
@@ -447,52 +389,47 @@ createNode mesh -n "pCubeShape3" -p "pCube3";
 	setAttr ".vif" yes;
 	setAttr ".pv" -type "double2" 0.5 0.5 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.29166666
-		 0.33333334 0.70833331 0.33333334 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0 0.125
-		 0 0.24872974 0 0.375 0.87372977 0.625 0.85477078 0.77022928 0;
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.375 0 0.625 0 0.29166666
+		 0.33333334 0.70833331 0.33333334 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0 0.375
+		 0.87372977 0.625 0.85477078 0.77022928 0;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0.75723726 2.2111084 -0.072234571 
-		-0.24276274 2.2111084 -0.58670914 0.5 1.8928044 0.4277654 -0.5 1.8928044 -0.086709149 
-		0.24276274 2.2111084 0.92776537 -0.75723726 2.2111084 0.41329086 0.5 2.2111084 0.4328464 
-		-0.5 2.2111084 -0.005792141;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.15558672 0
-		 0.5 0.15558672 0 -0.5 -0.5 -0.5 0.5 -0.5 -0.5 -0.5 -0.5 -0.0050809979 0.5 -0.5 -0.080917001;
+	setAttr -s 8 ".vt[0:7]"  0.25723726 1.71110845 0.42776543 0.25723726 1.71110845 -0.086709142
+		 0 2.048391104 0.4277654 0 2.048391104 -0.086709149 -0.25723726 1.71110845 0.42776537
+		 -0.25723726 1.71110845 -0.086709142 0 1.71110845 0.4277654 0 1.71110845 -0.086709142;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 0 2 0 1 3 0 2 4 0 3 5 0
 		 4 6 0 5 7 0 6 0 0 7 1 0 6 7 1;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+	setAttr -s 5 -ch 20 ".fc[0:4]" -type "polyFaces" 
 		f 4 0 4 -2 -4
 		mu 0 4 0 1 3 2
 		f 4 1 6 -3 -6
 		mu 0 4 2 3 5 4
 		f 4 11 10 -1 -10
-		mu 0 4 11 12 7 6
+		mu 0 4 9 10 7 6
 		f 4 -11 -9 -7 -5
-		mu 0 4 1 13 8 3
-		f 4 7 9 3 5
-		mu 0 4 9 10 0 2
+		mu 0 4 1 11 8 3
 		f 4 2 8 -12 -8
-		mu 0 4 4 5 12 11;
+		mu 0 4 4 5 10 9;
 	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "90045D63-456F-E750-0B05-4B86C0C12036";
+	rename -uid "79C76F46-4D86-EA93-5583-3197EC33188F";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FA7D56B6-478A-3A23-F488-DEB30580E7A2";
+	rename -uid "1B27B92E-40E9-4F51-F170-36BECC87B6C0";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "4EB536BF-4C18-46F2-8C93-3BAF718D8149";
+	rename -uid "AEF5205C-4084-16EA-0F8F-7E9238C48ED1";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "0FB7F82B-4395-068A-E7CB-FDB3A85551FC";
+	rename -uid "9E008E6E-4A37-65BE-E9B0-39954649392C";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "775E8EE2-4D10-EBCC-763C-8B89F122450E";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "F0387ED5-4D4B-5262-D39A-45BACC0C4E02";
+	rename -uid "9C5A5E83-4D64-260E-AD8A-1287A3A6C831";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "D1FD812D-44AC-6F7C-21BD-2BA4336145E9";
 	setAttr ".g" yes;
@@ -502,16 +439,16 @@ createNode script -n "uiConfigurationScriptNode";
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
 		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
 		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n"
-		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n"
+		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 542\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n"
 		+ "            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n"
 		+ "            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n"
-		+ "            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 542\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
-		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 542\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1093\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1091\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n"
 		+ "            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n"
 		+ "            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n"
@@ -533,8 +470,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n"
 		+ "                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1093\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1093\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1091\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1091\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 10 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";

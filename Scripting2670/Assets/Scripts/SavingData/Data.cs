@@ -13,7 +13,10 @@ public class Data
 	public int gold = 100;
 
 	public List<string> purchases;
-	public static Data _Instance;
+	public List<Weapon> weapons;
+
+	const string DATA_NAME = "GameData";
+	static Data _Instance;
 
 	public static Data Instance 
 	{
@@ -29,16 +32,16 @@ public class Data
 
 	public static void GetData()
 	{
-		if(string.IsNullOrEmpty(PlayerPrefs.GetString("GameData")))
+		if(string.IsNullOrEmpty(PlayerPrefs.GetString(DATA_NAME)))
 		{
 			_Instance = new Data();
 		}
 
-		_Instance = JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		_Instance = JsonUtility.FromJson<Data>(PlayerPrefs.GetString(DATA_NAME));
 	}
 
 	public static void SetData()
 	{
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(Instance));
+		PlayerPrefs.SetString(DATA_NAME, JsonUtility.ToJson(Instance));
 	}
 }

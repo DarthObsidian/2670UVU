@@ -3,7 +3,7 @@ guid: bae12f661fb65be44bb235200b35b4d4
 timeCreated: 1509545425
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Altar1
     100002: Altar10
@@ -444,6 +444,649 @@ ModelImporter:
     100872: Ground5
     100874: Ground6
     100876: RootMaze
+    100878: Door 3
+    100880: ForestTree18
+    100882: ForestTree19
+    100884: ForestTree20
+    100886: ForestTree21
+    100888: ForestTree22
+    100890: ForestTree23
+    100892: ForestTree24
+    100894: ForestTree25
+    100896: ForestTree26
+    100898: ForestTree27
+    100900: Ground9
+    100902: Idol1
+    100904: Idol2
+    100906: Idol3
+    100908: pCube7
+    100910: pCylinder1 36
+    100912: pCylinder1 37
+    100914: pCylinder1 38
+    100916: pCylinder1 39
+    100918: pCylinder1 40
+    100920: pCylinder1 41
+    100922: pCylinder1 42
+    100924: pCylinder1 43
+    100926: pCylinder1 44
+    100928: pCylinder1 45
+    100930: pCylinder1 46
+    100932: pCylinder1 47
+    100934: pCylinder1 48
+    100936: pCylinder1 49
+    100938: pCylinder10 10
+    100940: pCylinder10 11
+    100942: pCylinder10 12
+    100944: pCylinder10 8
+    100946: pCylinder10 9
+    100948: pCylinder11 10
+    100950: pCylinder11 11
+    100952: pCylinder11 12
+    100954: pCylinder11 8
+    100956: pCylinder11 9
+    100958: pCylinder12 10
+    100960: pCylinder12 11
+    100962: pCylinder12 12
+    100964: pCylinder12 8
+    100966: pCylinder12 9
+    100968: pCylinder13 10
+    100970: pCylinder13 11
+    100972: pCylinder13 12
+    100974: pCylinder13 8
+    100976: pCylinder13 9
+    100978: pCylinder14 10
+    100980: pCylinder14 11
+    100982: pCylinder14 12
+    100984: pCylinder14 8
+    100986: pCylinder14 9
+    100988: pCylinder15 10
+    100990: pCylinder15 11
+    100992: pCylinder15 12
+    100994: pCylinder15 8
+    100996: pCylinder15 9
+    100998: pCylinder16 10
+    101000: pCylinder16 11
+    101002: pCylinder16 12
+    101004: pCylinder16 8
+    101006: pCylinder16 9
+    101008: pCylinder17 10
+    101010: pCylinder17 11
+    101012: pCylinder17 12
+    101014: pCylinder17 8
+    101016: pCylinder17 9
+    101018: pCylinder18 10
+    101020: pCylinder18 11
+    101022: pCylinder18 12
+    101024: pCylinder18 8
+    101026: pCylinder18 9
+    101028: pCylinder2 36
+    101030: pCylinder2 37
+    101032: pCylinder2 38
+    101034: pCylinder2 39
+    101036: pCylinder2 40
+    101038: pCylinder2 41
+    101040: pCylinder2 42
+    101042: pCylinder2 43
+    101044: pCylinder2 44
+    101046: pCylinder2 45
+    101048: pCylinder2 46
+    101050: pCylinder2 47
+    101052: pCylinder2 48
+    101054: pCylinder2 49
+    101056: pCylinder3 36
+    101058: pCylinder3 37
+    101060: pCylinder3 38
+    101062: pCylinder3 39
+    101064: pCylinder3 40
+    101066: pCylinder3 41
+    101068: pCylinder3 42
+    101070: pCylinder3 43
+    101072: pCylinder3 44
+    101074: pCylinder3 45
+    101076: pCylinder3 46
+    101078: pCylinder3 47
+    101080: pCylinder3 48
+    101082: pCylinder3 49
+    101084: pCylinder4 36
+    101086: pCylinder4 37
+    101088: pCylinder4 38
+    101090: pCylinder4 39
+    101092: pCylinder4 40
+    101094: pCylinder4 41
+    101096: pCylinder4 42
+    101098: pCylinder4 43
+    101100: pCylinder4 44
+    101102: pCylinder4 45
+    101104: pCylinder4 46
+    101106: pCylinder4 47
+    101108: pCylinder4 48
+    101110: pCylinder4 49
+    101112: pCylinder5 36
+    101114: pCylinder5 37
+    101116: pCylinder5 38
+    101118: pCylinder5 39
+    101120: pCylinder5 40
+    101122: pCylinder5 41
+    101124: pCylinder5 42
+    101126: pCylinder5 43
+    101128: pCylinder5 44
+    101130: pCylinder5 45
+    101132: pCylinder5 46
+    101134: pCylinder5 47
+    101136: pCylinder5 48
+    101138: pCylinder5 49
+    101140: pCylinder6 23
+    101142: pCylinder6 24
+    101144: pCylinder6 25
+    101146: pCylinder6 26
+    101148: pCylinder6 27
+    101150: pCylinder6 28
+    101152: pCylinder6 29
+    101154: pCylinder6 30
+    101156: pCylinder6 31
+    101158: pCylinder6 32
+    101160: pCylinder6 33
+    101162: pCylinder6 34
+    101164: pCylinder6 35
+    101166: pCylinder6 36
+    101168: pCylinder7 16
+    101170: pCylinder7 17
+    101172: pCylinder7 18
+    101174: pCylinder7 19
+    101176: pCylinder7 20
+    101178: pCylinder7 21
+    101180: pCylinder7 22
+    101182: pCylinder7 23
+    101184: pCylinder8 13
+    101186: pCylinder8 14
+    101188: pCylinder8 15
+    101190: pCylinder8 16
+    101192: pCylinder8 17
+    101194: pCylinder8 18
+    101196: pCylinder8 19
+    101198: pCylinder9 10
+    101200: pCylinder9 11
+    101202: pCylinder9 12
+    101204: pCylinder9 8
+    101206: pCylinder9 9
+    101208: SwampGround_Puzzle4
+    101210: SwampTree10
+    101212: SwampTree11
+    101214: SwampTree12
+    101216: SwampTree13
+    101218: TeleTree4
+    101220: Tree 3
+    101222: Base 1
+    101224: bridge1
+    101226: Checkpoint2
+    101228: Door 4
+    101230: Door1
+    101232: DoorFrame
+    101234: Ground_Temple
+    101236: Idol4
+    101238: Idol5
+    101240: Idol6
+    101242: Idol7
+    101244: LockedDoor1
+    101246: pCylinder1 50
+    101248: pCylinder1 51
+    101250: pCylinder1 52
+    101252: pCylinder1 53
+    101254: pCylinder1 54
+    101256: pCylinder1 55
+    101258: pCylinder1 56
+    101260: pCylinder1 57
+    101262: pCylinder1 58
+    101264: pCylinder1 59
+    101266: pCylinder1 60
+    101268: pCylinder1 61
+    101270: pCylinder1 62
+    101272: pCylinder1 63
+    101274: pCylinder10 13
+    101276: pCylinder11 13
+    101278: pCylinder12 13
+    101280: pCylinder13 13
+    101282: pCylinder14 13
+    101284: pCylinder15 13
+    101286: pCylinder16 13
+    101288: pCylinder17 13
+    101290: pCylinder18 13
+    101292: pCylinder19 1
+    101294: pCylinder2 50
+    101296: pCylinder2 51
+    101298: pCylinder2 52
+    101300: pCylinder2 53
+    101302: pCylinder2 54
+    101304: pCylinder2 55
+    101306: pCylinder2 56
+    101308: pCylinder2 57
+    101310: pCylinder2 58
+    101312: pCylinder2 59
+    101314: pCylinder2 60
+    101316: pCylinder2 61
+    101318: pCylinder2 62
+    101320: pCylinder2 63
+    101322: pCylinder20 1
+    101324: pCylinder21 1
+    101326: pCylinder22 1
+    101328: pCylinder23 1
+    101330: pCylinder24 1
+    101332: pCylinder25 1
+    101334: pCylinder26 1
+    101336: pCylinder27 1
+    101338: pCylinder28 1
+    101340: pCylinder29 1
+    101342: pCylinder3 50
+    101344: pCylinder3 51
+    101346: pCylinder3 52
+    101348: pCylinder3 53
+    101350: pCylinder3 54
+    101352: pCylinder3 55
+    101354: pCylinder3 56
+    101356: pCylinder3 57
+    101358: pCylinder3 58
+    101360: pCylinder3 59
+    101362: pCylinder3 60
+    101364: pCylinder3 61
+    101366: pCylinder3 62
+    101368: pCylinder3 63
+    101370: pCylinder30 1
+    101372: pCylinder31 1
+    101374: pCylinder32 1
+    101376: pCylinder33 1
+    101378: pCylinder34 1
+    101380: pCylinder4 50
+    101382: pCylinder4 51
+    101384: pCylinder4 52
+    101386: pCylinder4 53
+    101388: pCylinder4 54
+    101390: pCylinder4 55
+    101392: pCylinder4 56
+    101394: pCylinder4 57
+    101396: pCylinder4 58
+    101398: pCylinder4 59
+    101400: pCylinder4 60
+    101402: pCylinder4 61
+    101404: pCylinder4 62
+    101406: pCylinder4 63
+    101408: pCylinder5 50
+    101410: pCylinder5 51
+    101412: pCylinder5 52
+    101414: pCylinder5 53
+    101416: pCylinder5 54
+    101418: pCylinder5 55
+    101420: pCylinder5 56
+    101422: pCylinder5 57
+    101424: pCylinder5 58
+    101426: pCylinder5 59
+    101428: pCylinder5 60
+    101430: pCylinder5 61
+    101432: pCylinder5 62
+    101434: pCylinder5 63
+    101436: pCylinder6 37
+    101438: pCylinder6 38
+    101440: pCylinder6 39
+    101442: pCylinder6 40
+    101444: pCylinder6 41
+    101446: pCylinder6 42
+    101448: pCylinder6 43
+    101450: pCylinder6 44
+    101452: pCylinder6 45
+    101454: pCylinder6 46
+    101456: pCylinder6 47
+    101458: pCylinder6 48
+    101460: pCylinder6 49
+    101462: pCylinder6 50
+    101464: pCylinder7 24
+    101466: pCylinder7 25
+    101468: pCylinder7 26
+    101470: pCylinder7 27
+    101472: pCylinder7 28
+    101474: pCylinder7 29
+    101476: pCylinder8 20
+    101478: pCylinder9 13
+    101480: SwampTree14
+    101482: SwampTree15
+    101484: SwampTree16
+    101486: SwampTree17
+    101488: SwampTree18
+    101490: SwampTree19
+    101492: SwampTree20
+    101494: SwampTree21
+    101496: SwampTree22
+    101498: SwampTree23
+    101500: SwampTree24
+    101502: SwampTree25
+    101504: SwampTree26
+    101506: Torch 1
+    101508: Wall
+    101510: Water
+    101512: Water2
+    101514: Base 2
+    101516: Checkpoint3
+    101518: Crate
+    101520: CrystalTrigger1
+    101522: Door 5
+    101524: Door 6
+    101526: Door1 1
+    101528: Door1 2
+    101530: DoorFrame 1
+    101532: DoorFrame 2
+    101534: FallingFloor1
+    101536: FallingFloor2
+    101538: FallingFloor3
+    101540: FallingFloor4
+    101542: FallingFloor5
+    101544: FallingFloor6
+    101546: FallingFloor7
+    101548: FallingFloor8
+    101550: Ground_Temple1
+    101552: Ground_Temple2
+    101554: Ground_Temple3
+    101556: Key1
+    101558: LockedDoor2
+    101560: LockedDoor3
+    101562: Torch 2
+    101564: Wall 1
+    101566: Wall 2
+    101568: Ground_TemplePuzzle:Base
+    101570: Ground_TemplePuzzle:Checkpoint3
+    101572: Ground_TemplePuzzle:Crate
+    101574: Ground_TemplePuzzle:Crate1
+    101576: Ground_TemplePuzzle:Crate2
+    101578: Ground_TemplePuzzle:CrystalTrigger1
+    101580: Ground_TemplePuzzle:CrystalTrigger2
+    101582: Ground_TemplePuzzle:CrystalTrigger3
+    101584: Ground_TemplePuzzle:Door
+    101586: Ground_TemplePuzzle:Door 1
+    101588: Ground_TemplePuzzle:Door 2
+    101590: Ground_TemplePuzzle:Door 3
+    101592: Ground_TemplePuzzle:Door 4
+    101594: Ground_TemplePuzzle:Door 5
+    101596: Ground_TemplePuzzle:Door1
+    101598: Ground_TemplePuzzle:Door1 1
+    101600: Ground_TemplePuzzle:Door1 2
+    101602: Ground_TemplePuzzle:Door1 3
+    101604: Ground_TemplePuzzle:Door1 4
+    101606: Ground_TemplePuzzle:Door1 5
+    101608: Ground_TemplePuzzle:DoorFrame
+    101610: Ground_TemplePuzzle:DoorFrame 1
+    101612: Ground_TemplePuzzle:DoorFrame 2
+    101614: Ground_TemplePuzzle:DoorFrame 3
+    101616: Ground_TemplePuzzle:DoorFrame 4
+    101618: Ground_TemplePuzzle:DoorFrame 5
+    101620: Ground_TemplePuzzle:FallingFloor1
+    101622: Ground_TemplePuzzle:FallingFloor10
+    101624: Ground_TemplePuzzle:FallingFloor11
+    101626: Ground_TemplePuzzle:FallingFloor12
+    101628: Ground_TemplePuzzle:FallingFloor13
+    101630: Ground_TemplePuzzle:FallingFloor14
+    101632: Ground_TemplePuzzle:FallingFloor15
+    101634: Ground_TemplePuzzle:FallingFloor2
+    101636: Ground_TemplePuzzle:FallingFloor25
+    101638: Ground_TemplePuzzle:FallingFloor26
+    101640: Ground_TemplePuzzle:FallingFloor27
+    101642: Ground_TemplePuzzle:FallingFloor28
+    101644: Ground_TemplePuzzle:FallingFloor29
+    101646: Ground_TemplePuzzle:FallingFloor3
+    101648: Ground_TemplePuzzle:FallingFloor30
+    101650: Ground_TemplePuzzle:FallingFloor31
+    101652: Ground_TemplePuzzle:FallingFloor32
+    101654: Ground_TemplePuzzle:FallingFloor33
+    101656: Ground_TemplePuzzle:FallingFloor34
+    101658: Ground_TemplePuzzle:FallingFloor35
+    101660: Ground_TemplePuzzle:FallingFloor4
+    101662: Ground_TemplePuzzle:FallingFloor5
+    101664: Ground_TemplePuzzle:FallingFloor6
+    101666: Ground_TemplePuzzle:FallingFloor7
+    101668: Ground_TemplePuzzle:FallingFloor8
+    101670: Ground_TemplePuzzle:Ground_Temple
+    101672: Ground_TemplePuzzle:Ground_Temple17
+    101674: Ground_TemplePuzzle:Ground_Temple19
+    101676: Ground_TemplePuzzle:Ground_Temple9
+    101678: Ground_TemplePuzzle:Idol10
+    101680: Ground_TemplePuzzle:Idol11
+    101682: Ground_TemplePuzzle:Idol12
+    101684: Ground_TemplePuzzle:Idol13
+    101686: Ground_TemplePuzzle:Idol8
+    101688: Ground_TemplePuzzle:Idol9
+    101690: Ground_TemplePuzzle:Key1
+    101692: Ground_TemplePuzzle:Key2
+    101694: Ground_TemplePuzzle:Key3
+    101696: Ground_TemplePuzzle:Key4
+    101698: Ground_TemplePuzzle:LockedDoor1
+    101700: Ground_TemplePuzzle:LockedDoor2
+    101702: Ground_TemplePuzzle:LockedDoor3
+    101704: Ground_TemplePuzzle:LockedDoor4
+    101706: Ground_TemplePuzzle:LockedDoor5
+    101708: Ground_TemplePuzzle:LockedDoor6
+    101710: Ground_TemplePuzzle:pCone1
+    101712: Ground_TemplePuzzle:pCone1 1
+    101714: Ground_TemplePuzzle:pCone1 10
+    101716: Ground_TemplePuzzle:pCone1 11
+    101718: Ground_TemplePuzzle:pCone1 12
+    101720: Ground_TemplePuzzle:pCone1 13
+    101722: Ground_TemplePuzzle:pCone1 14
+    101724: Ground_TemplePuzzle:pCone1 15
+    101726: Ground_TemplePuzzle:pCone1 16
+    101728: Ground_TemplePuzzle:pCone1 17
+    101730: Ground_TemplePuzzle:pCone1 18
+    101732: Ground_TemplePuzzle:pCone1 19
+    101734: Ground_TemplePuzzle:pCone1 2
+    101736: Ground_TemplePuzzle:pCone1 3
+    101738: Ground_TemplePuzzle:pCone1 4
+    101740: Ground_TemplePuzzle:pCone1 5
+    101742: Ground_TemplePuzzle:pCone1 6
+    101744: Ground_TemplePuzzle:pCone1 7
+    101746: Ground_TemplePuzzle:pCone1 8
+    101748: Ground_TemplePuzzle:pCone1 9
+    101750: Ground_TemplePuzzle:pCone10
+    101752: Ground_TemplePuzzle:pCone10 1
+    101754: Ground_TemplePuzzle:pCone10 10
+    101756: Ground_TemplePuzzle:pCone10 11
+    101758: Ground_TemplePuzzle:pCone10 12
+    101760: Ground_TemplePuzzle:pCone10 13
+    101762: Ground_TemplePuzzle:pCone10 14
+    101764: Ground_TemplePuzzle:pCone10 15
+    101766: Ground_TemplePuzzle:pCone10 16
+    101768: Ground_TemplePuzzle:pCone10 17
+    101770: Ground_TemplePuzzle:pCone10 18
+    101772: Ground_TemplePuzzle:pCone10 19
+    101774: Ground_TemplePuzzle:pCone10 2
+    101776: Ground_TemplePuzzle:pCone10 3
+    101778: Ground_TemplePuzzle:pCone10 4
+    101780: Ground_TemplePuzzle:pCone10 5
+    101782: Ground_TemplePuzzle:pCone10 6
+    101784: Ground_TemplePuzzle:pCone10 7
+    101786: Ground_TemplePuzzle:pCone10 8
+    101788: Ground_TemplePuzzle:pCone10 9
+    101790: Ground_TemplePuzzle:pCone11
+    101792: Ground_TemplePuzzle:pCone11 1
+    101794: Ground_TemplePuzzle:pCone11 10
+    101796: Ground_TemplePuzzle:pCone11 11
+    101798: Ground_TemplePuzzle:pCone11 12
+    101800: Ground_TemplePuzzle:pCone11 13
+    101802: Ground_TemplePuzzle:pCone11 14
+    101804: Ground_TemplePuzzle:pCone11 15
+    101806: Ground_TemplePuzzle:pCone11 16
+    101808: Ground_TemplePuzzle:pCone11 17
+    101810: Ground_TemplePuzzle:pCone11 18
+    101812: Ground_TemplePuzzle:pCone11 19
+    101814: Ground_TemplePuzzle:pCone11 2
+    101816: Ground_TemplePuzzle:pCone11 3
+    101818: Ground_TemplePuzzle:pCone11 4
+    101820: Ground_TemplePuzzle:pCone11 5
+    101822: Ground_TemplePuzzle:pCone11 6
+    101824: Ground_TemplePuzzle:pCone11 7
+    101826: Ground_TemplePuzzle:pCone11 8
+    101828: Ground_TemplePuzzle:pCone11 9
+    101830: Ground_TemplePuzzle:pCone2
+    101832: Ground_TemplePuzzle:pCone2 1
+    101834: Ground_TemplePuzzle:pCone2 10
+    101836: Ground_TemplePuzzle:pCone2 11
+    101838: Ground_TemplePuzzle:pCone2 12
+    101840: Ground_TemplePuzzle:pCone2 13
+    101842: Ground_TemplePuzzle:pCone2 14
+    101844: Ground_TemplePuzzle:pCone2 15
+    101846: Ground_TemplePuzzle:pCone2 16
+    101848: Ground_TemplePuzzle:pCone2 17
+    101850: Ground_TemplePuzzle:pCone2 18
+    101852: Ground_TemplePuzzle:pCone2 19
+    101854: Ground_TemplePuzzle:pCone2 2
+    101856: Ground_TemplePuzzle:pCone2 3
+    101858: Ground_TemplePuzzle:pCone2 4
+    101860: Ground_TemplePuzzle:pCone2 5
+    101862: Ground_TemplePuzzle:pCone2 6
+    101864: Ground_TemplePuzzle:pCone2 7
+    101866: Ground_TemplePuzzle:pCone2 8
+    101868: Ground_TemplePuzzle:pCone2 9
+    101870: Ground_TemplePuzzle:pCone3
+    101872: Ground_TemplePuzzle:pCone3 1
+    101874: Ground_TemplePuzzle:pCone3 10
+    101876: Ground_TemplePuzzle:pCone3 11
+    101878: Ground_TemplePuzzle:pCone3 12
+    101880: Ground_TemplePuzzle:pCone3 13
+    101882: Ground_TemplePuzzle:pCone3 14
+    101884: Ground_TemplePuzzle:pCone3 15
+    101886: Ground_TemplePuzzle:pCone3 16
+    101888: Ground_TemplePuzzle:pCone3 17
+    101890: Ground_TemplePuzzle:pCone3 18
+    101892: Ground_TemplePuzzle:pCone3 19
+    101894: Ground_TemplePuzzle:pCone3 2
+    101896: Ground_TemplePuzzle:pCone3 3
+    101898: Ground_TemplePuzzle:pCone3 4
+    101900: Ground_TemplePuzzle:pCone3 5
+    101902: Ground_TemplePuzzle:pCone3 6
+    101904: Ground_TemplePuzzle:pCone3 7
+    101906: Ground_TemplePuzzle:pCone3 8
+    101908: Ground_TemplePuzzle:pCone3 9
+    101910: Ground_TemplePuzzle:pCone4
+    101912: Ground_TemplePuzzle:pCone4 1
+    101914: Ground_TemplePuzzle:pCone4 10
+    101916: Ground_TemplePuzzle:pCone4 11
+    101918: Ground_TemplePuzzle:pCone4 12
+    101920: Ground_TemplePuzzle:pCone4 13
+    101922: Ground_TemplePuzzle:pCone4 14
+    101924: Ground_TemplePuzzle:pCone4 15
+    101926: Ground_TemplePuzzle:pCone4 16
+    101928: Ground_TemplePuzzle:pCone4 17
+    101930: Ground_TemplePuzzle:pCone4 18
+    101932: Ground_TemplePuzzle:pCone4 19
+    101934: Ground_TemplePuzzle:pCone4 2
+    101936: Ground_TemplePuzzle:pCone4 3
+    101938: Ground_TemplePuzzle:pCone4 4
+    101940: Ground_TemplePuzzle:pCone4 5
+    101942: Ground_TemplePuzzle:pCone4 6
+    101944: Ground_TemplePuzzle:pCone4 7
+    101946: Ground_TemplePuzzle:pCone4 8
+    101948: Ground_TemplePuzzle:pCone4 9
+    101950: Ground_TemplePuzzle:pCone5
+    101952: Ground_TemplePuzzle:pCone5 1
+    101954: Ground_TemplePuzzle:pCone5 10
+    101956: Ground_TemplePuzzle:pCone5 11
+    101958: Ground_TemplePuzzle:pCone5 12
+    101960: Ground_TemplePuzzle:pCone5 13
+    101962: Ground_TemplePuzzle:pCone5 14
+    101964: Ground_TemplePuzzle:pCone5 15
+    101966: Ground_TemplePuzzle:pCone5 16
+    101968: Ground_TemplePuzzle:pCone5 17
+    101970: Ground_TemplePuzzle:pCone5 18
+    101972: Ground_TemplePuzzle:pCone5 19
+    101974: Ground_TemplePuzzle:pCone5 2
+    101976: Ground_TemplePuzzle:pCone5 3
+    101978: Ground_TemplePuzzle:pCone5 4
+    101980: Ground_TemplePuzzle:pCone5 5
+    101982: Ground_TemplePuzzle:pCone5 6
+    101984: Ground_TemplePuzzle:pCone5 7
+    101986: Ground_TemplePuzzle:pCone5 8
+    101988: Ground_TemplePuzzle:pCone5 9
+    101990: Ground_TemplePuzzle:pCone7
+    101992: Ground_TemplePuzzle:pCone7 1
+    101994: Ground_TemplePuzzle:pCone7 10
+    101996: Ground_TemplePuzzle:pCone7 11
+    101998: Ground_TemplePuzzle:pCone7 12
+    102000: Ground_TemplePuzzle:pCone7 13
+    102002: Ground_TemplePuzzle:pCone7 14
+    102004: Ground_TemplePuzzle:pCone7 15
+    102006: Ground_TemplePuzzle:pCone7 16
+    102008: Ground_TemplePuzzle:pCone7 17
+    102010: Ground_TemplePuzzle:pCone7 18
+    102012: Ground_TemplePuzzle:pCone7 19
+    102014: Ground_TemplePuzzle:pCone7 2
+    102016: Ground_TemplePuzzle:pCone7 3
+    102018: Ground_TemplePuzzle:pCone7 4
+    102020: Ground_TemplePuzzle:pCone7 5
+    102022: Ground_TemplePuzzle:pCone7 6
+    102024: Ground_TemplePuzzle:pCone7 7
+    102026: Ground_TemplePuzzle:pCone7 8
+    102028: Ground_TemplePuzzle:pCone7 9
+    102030: Ground_TemplePuzzle:pCone8
+    102032: Ground_TemplePuzzle:pCone8 1
+    102034: Ground_TemplePuzzle:pCone8 10
+    102036: Ground_TemplePuzzle:pCone8 11
+    102038: Ground_TemplePuzzle:pCone8 12
+    102040: Ground_TemplePuzzle:pCone8 13
+    102042: Ground_TemplePuzzle:pCone8 14
+    102044: Ground_TemplePuzzle:pCone8 15
+    102046: Ground_TemplePuzzle:pCone8 16
+    102048: Ground_TemplePuzzle:pCone8 17
+    102050: Ground_TemplePuzzle:pCone8 18
+    102052: Ground_TemplePuzzle:pCone8 19
+    102054: Ground_TemplePuzzle:pCone8 2
+    102056: Ground_TemplePuzzle:pCone8 3
+    102058: Ground_TemplePuzzle:pCone8 4
+    102060: Ground_TemplePuzzle:pCone8 5
+    102062: Ground_TemplePuzzle:pCone8 6
+    102064: Ground_TemplePuzzle:pCone8 7
+    102066: Ground_TemplePuzzle:pCone8 8
+    102068: Ground_TemplePuzzle:pCone8 9
+    102070: Ground_TemplePuzzle:pCone9
+    102072: Ground_TemplePuzzle:pCone9 1
+    102074: Ground_TemplePuzzle:pCone9 10
+    102076: Ground_TemplePuzzle:pCone9 11
+    102078: Ground_TemplePuzzle:pCone9 12
+    102080: Ground_TemplePuzzle:pCone9 13
+    102082: Ground_TemplePuzzle:pCone9 14
+    102084: Ground_TemplePuzzle:pCone9 15
+    102086: Ground_TemplePuzzle:pCone9 16
+    102088: Ground_TemplePuzzle:pCone9 17
+    102090: Ground_TemplePuzzle:pCone9 18
+    102092: Ground_TemplePuzzle:pCone9 19
+    102094: Ground_TemplePuzzle:pCone9 2
+    102096: Ground_TemplePuzzle:pCone9 3
+    102098: Ground_TemplePuzzle:pCone9 4
+    102100: Ground_TemplePuzzle:pCone9 5
+    102102: Ground_TemplePuzzle:pCone9 6
+    102104: Ground_TemplePuzzle:pCone9 7
+    102106: Ground_TemplePuzzle:pCone9 8
+    102108: Ground_TemplePuzzle:pCone9 9
+    102110: Ground_TemplePuzzle:Spikes
+    102112: Ground_TemplePuzzle:Spikes1
+    102114: Ground_TemplePuzzle:Spikes10
+    102116: Ground_TemplePuzzle:Spikes11
+    102118: Ground_TemplePuzzle:Spikes12
+    102120: Ground_TemplePuzzle:Spikes13
+    102122: Ground_TemplePuzzle:Spikes14
+    102124: Ground_TemplePuzzle:Spikes15
+    102126: Ground_TemplePuzzle:Spikes16
+    102128: Ground_TemplePuzzle:Spikes17
+    102130: Ground_TemplePuzzle:Spikes18
+    102132: Ground_TemplePuzzle:Spikes19
+    102134: Ground_TemplePuzzle:Spikes2
+    102136: Ground_TemplePuzzle:Spikes3
+    102138: Ground_TemplePuzzle:Spikes4
+    102140: Ground_TemplePuzzle:Spikes5
+    102142: Ground_TemplePuzzle:Spikes6
+    102144: Ground_TemplePuzzle:Spikes7
+    102146: Ground_TemplePuzzle:Spikes8
+    102148: Ground_TemplePuzzle:Spikes9
+    102150: Ground_TemplePuzzle:Torch
+    102152: Ground_TemplePuzzle:Wall
+    102154: Ground_TemplePuzzle:Wall 1
+    102156: Ground_TemplePuzzle:Wall 2
+    102158: Ground_TemplePuzzle:Wall 3
+    102160: Ground_TemplePuzzle:Wall 4
+    102162: Ground_TemplePuzzle:Wall 5
     400000: Altar1
     400002: Altar10
     400004: Altar11
@@ -883,6 +1526,649 @@ ModelImporter:
     400872: Ground5
     400874: Ground6
     400876: RootMaze
+    400878: Door 3
+    400880: ForestTree18
+    400882: ForestTree19
+    400884: ForestTree20
+    400886: ForestTree21
+    400888: ForestTree22
+    400890: ForestTree23
+    400892: ForestTree24
+    400894: ForestTree25
+    400896: ForestTree26
+    400898: ForestTree27
+    400900: Ground9
+    400902: Idol1
+    400904: Idol2
+    400906: Idol3
+    400908: pCube7
+    400910: pCylinder1 36
+    400912: pCylinder1 37
+    400914: pCylinder1 38
+    400916: pCylinder1 39
+    400918: pCylinder1 40
+    400920: pCylinder1 41
+    400922: pCylinder1 42
+    400924: pCylinder1 43
+    400926: pCylinder1 44
+    400928: pCylinder1 45
+    400930: pCylinder1 46
+    400932: pCylinder1 47
+    400934: pCylinder1 48
+    400936: pCylinder1 49
+    400938: pCylinder10 10
+    400940: pCylinder10 11
+    400942: pCylinder10 12
+    400944: pCylinder10 8
+    400946: pCylinder10 9
+    400948: pCylinder11 10
+    400950: pCylinder11 11
+    400952: pCylinder11 12
+    400954: pCylinder11 8
+    400956: pCylinder11 9
+    400958: pCylinder12 10
+    400960: pCylinder12 11
+    400962: pCylinder12 12
+    400964: pCylinder12 8
+    400966: pCylinder12 9
+    400968: pCylinder13 10
+    400970: pCylinder13 11
+    400972: pCylinder13 12
+    400974: pCylinder13 8
+    400976: pCylinder13 9
+    400978: pCylinder14 10
+    400980: pCylinder14 11
+    400982: pCylinder14 12
+    400984: pCylinder14 8
+    400986: pCylinder14 9
+    400988: pCylinder15 10
+    400990: pCylinder15 11
+    400992: pCylinder15 12
+    400994: pCylinder15 8
+    400996: pCylinder15 9
+    400998: pCylinder16 10
+    401000: pCylinder16 11
+    401002: pCylinder16 12
+    401004: pCylinder16 8
+    401006: pCylinder16 9
+    401008: pCylinder17 10
+    401010: pCylinder17 11
+    401012: pCylinder17 12
+    401014: pCylinder17 8
+    401016: pCylinder17 9
+    401018: pCylinder18 10
+    401020: pCylinder18 11
+    401022: pCylinder18 12
+    401024: pCylinder18 8
+    401026: pCylinder18 9
+    401028: pCylinder2 36
+    401030: pCylinder2 37
+    401032: pCylinder2 38
+    401034: pCylinder2 39
+    401036: pCylinder2 40
+    401038: pCylinder2 41
+    401040: pCylinder2 42
+    401042: pCylinder2 43
+    401044: pCylinder2 44
+    401046: pCylinder2 45
+    401048: pCylinder2 46
+    401050: pCylinder2 47
+    401052: pCylinder2 48
+    401054: pCylinder2 49
+    401056: pCylinder3 36
+    401058: pCylinder3 37
+    401060: pCylinder3 38
+    401062: pCylinder3 39
+    401064: pCylinder3 40
+    401066: pCylinder3 41
+    401068: pCylinder3 42
+    401070: pCylinder3 43
+    401072: pCylinder3 44
+    401074: pCylinder3 45
+    401076: pCylinder3 46
+    401078: pCylinder3 47
+    401080: pCylinder3 48
+    401082: pCylinder3 49
+    401084: pCylinder4 36
+    401086: pCylinder4 37
+    401088: pCylinder4 38
+    401090: pCylinder4 39
+    401092: pCylinder4 40
+    401094: pCylinder4 41
+    401096: pCylinder4 42
+    401098: pCylinder4 43
+    401100: pCylinder4 44
+    401102: pCylinder4 45
+    401104: pCylinder4 46
+    401106: pCylinder4 47
+    401108: pCylinder4 48
+    401110: pCylinder4 49
+    401112: pCylinder5 36
+    401114: pCylinder5 37
+    401116: pCylinder5 38
+    401118: pCylinder5 39
+    401120: pCylinder5 40
+    401122: pCylinder5 41
+    401124: pCylinder5 42
+    401126: pCylinder5 43
+    401128: pCylinder5 44
+    401130: pCylinder5 45
+    401132: pCylinder5 46
+    401134: pCylinder5 47
+    401136: pCylinder5 48
+    401138: pCylinder5 49
+    401140: pCylinder6 23
+    401142: pCylinder6 24
+    401144: pCylinder6 25
+    401146: pCylinder6 26
+    401148: pCylinder6 27
+    401150: pCylinder6 28
+    401152: pCylinder6 29
+    401154: pCylinder6 30
+    401156: pCylinder6 31
+    401158: pCylinder6 32
+    401160: pCylinder6 33
+    401162: pCylinder6 34
+    401164: pCylinder6 35
+    401166: pCylinder6 36
+    401168: pCylinder7 16
+    401170: pCylinder7 17
+    401172: pCylinder7 18
+    401174: pCylinder7 19
+    401176: pCylinder7 20
+    401178: pCylinder7 21
+    401180: pCylinder7 22
+    401182: pCylinder7 23
+    401184: pCylinder8 13
+    401186: pCylinder8 14
+    401188: pCylinder8 15
+    401190: pCylinder8 16
+    401192: pCylinder8 17
+    401194: pCylinder8 18
+    401196: pCylinder8 19
+    401198: pCylinder9 10
+    401200: pCylinder9 11
+    401202: pCylinder9 12
+    401204: pCylinder9 8
+    401206: pCylinder9 9
+    401208: SwampGround_Puzzle4
+    401210: SwampTree10
+    401212: SwampTree11
+    401214: SwampTree12
+    401216: SwampTree13
+    401218: TeleTree4
+    401220: Tree 3
+    401222: Base 1
+    401224: bridge1
+    401226: Checkpoint2
+    401228: Door 4
+    401230: Door1
+    401232: DoorFrame
+    401234: Ground_Temple
+    401236: Idol4
+    401238: Idol5
+    401240: Idol6
+    401242: Idol7
+    401244: LockedDoor1
+    401246: pCylinder1 50
+    401248: pCylinder1 51
+    401250: pCylinder1 52
+    401252: pCylinder1 53
+    401254: pCylinder1 54
+    401256: pCylinder1 55
+    401258: pCylinder1 56
+    401260: pCylinder1 57
+    401262: pCylinder1 58
+    401264: pCylinder1 59
+    401266: pCylinder1 60
+    401268: pCylinder1 61
+    401270: pCylinder1 62
+    401272: pCylinder1 63
+    401274: pCylinder10 13
+    401276: pCylinder11 13
+    401278: pCylinder12 13
+    401280: pCylinder13 13
+    401282: pCylinder14 13
+    401284: pCylinder15 13
+    401286: pCylinder16 13
+    401288: pCylinder17 13
+    401290: pCylinder18 13
+    401292: pCylinder19 1
+    401294: pCylinder2 50
+    401296: pCylinder2 51
+    401298: pCylinder2 52
+    401300: pCylinder2 53
+    401302: pCylinder2 54
+    401304: pCylinder2 55
+    401306: pCylinder2 56
+    401308: pCylinder2 57
+    401310: pCylinder2 58
+    401312: pCylinder2 59
+    401314: pCylinder2 60
+    401316: pCylinder2 61
+    401318: pCylinder2 62
+    401320: pCylinder2 63
+    401322: pCylinder20 1
+    401324: pCylinder21 1
+    401326: pCylinder22 1
+    401328: pCylinder23 1
+    401330: pCylinder24 1
+    401332: pCylinder25 1
+    401334: pCylinder26 1
+    401336: pCylinder27 1
+    401338: pCylinder28 1
+    401340: pCylinder29 1
+    401342: pCylinder3 50
+    401344: pCylinder3 51
+    401346: pCylinder3 52
+    401348: pCylinder3 53
+    401350: pCylinder3 54
+    401352: pCylinder3 55
+    401354: pCylinder3 56
+    401356: pCylinder3 57
+    401358: pCylinder3 58
+    401360: pCylinder3 59
+    401362: pCylinder3 60
+    401364: pCylinder3 61
+    401366: pCylinder3 62
+    401368: pCylinder3 63
+    401370: pCylinder30 1
+    401372: pCylinder31 1
+    401374: pCylinder32 1
+    401376: pCylinder33 1
+    401378: pCylinder34 1
+    401380: pCylinder4 50
+    401382: pCylinder4 51
+    401384: pCylinder4 52
+    401386: pCylinder4 53
+    401388: pCylinder4 54
+    401390: pCylinder4 55
+    401392: pCylinder4 56
+    401394: pCylinder4 57
+    401396: pCylinder4 58
+    401398: pCylinder4 59
+    401400: pCylinder4 60
+    401402: pCylinder4 61
+    401404: pCylinder4 62
+    401406: pCylinder4 63
+    401408: pCylinder5 50
+    401410: pCylinder5 51
+    401412: pCylinder5 52
+    401414: pCylinder5 53
+    401416: pCylinder5 54
+    401418: pCylinder5 55
+    401420: pCylinder5 56
+    401422: pCylinder5 57
+    401424: pCylinder5 58
+    401426: pCylinder5 59
+    401428: pCylinder5 60
+    401430: pCylinder5 61
+    401432: pCylinder5 62
+    401434: pCylinder5 63
+    401436: pCylinder6 37
+    401438: pCylinder6 38
+    401440: pCylinder6 39
+    401442: pCylinder6 40
+    401444: pCylinder6 41
+    401446: pCylinder6 42
+    401448: pCylinder6 43
+    401450: pCylinder6 44
+    401452: pCylinder6 45
+    401454: pCylinder6 46
+    401456: pCylinder6 47
+    401458: pCylinder6 48
+    401460: pCylinder6 49
+    401462: pCylinder6 50
+    401464: pCylinder7 24
+    401466: pCylinder7 25
+    401468: pCylinder7 26
+    401470: pCylinder7 27
+    401472: pCylinder7 28
+    401474: pCylinder7 29
+    401476: pCylinder8 20
+    401478: pCylinder9 13
+    401480: SwampTree14
+    401482: SwampTree15
+    401484: SwampTree16
+    401486: SwampTree17
+    401488: SwampTree18
+    401490: SwampTree19
+    401492: SwampTree20
+    401494: SwampTree21
+    401496: SwampTree22
+    401498: SwampTree23
+    401500: SwampTree24
+    401502: SwampTree25
+    401504: SwampTree26
+    401506: Torch 1
+    401508: Wall
+    401510: Water
+    401512: Water2
+    401514: Base 2
+    401516: Checkpoint3
+    401518: Crate
+    401520: CrystalTrigger1
+    401522: Door 5
+    401524: Door 6
+    401526: Door1 1
+    401528: Door1 2
+    401530: DoorFrame 1
+    401532: DoorFrame 2
+    401534: FallingFloor1
+    401536: FallingFloor2
+    401538: FallingFloor3
+    401540: FallingFloor4
+    401542: FallingFloor5
+    401544: FallingFloor6
+    401546: FallingFloor7
+    401548: FallingFloor8
+    401550: Ground_Temple1
+    401552: Ground_Temple2
+    401554: Ground_Temple3
+    401556: Key1
+    401558: LockedDoor2
+    401560: LockedDoor3
+    401562: Torch 2
+    401564: Wall 1
+    401566: Wall 2
+    401568: Ground_TemplePuzzle:Base
+    401570: Ground_TemplePuzzle:Checkpoint3
+    401572: Ground_TemplePuzzle:Crate
+    401574: Ground_TemplePuzzle:Crate1
+    401576: Ground_TemplePuzzle:Crate2
+    401578: Ground_TemplePuzzle:CrystalTrigger1
+    401580: Ground_TemplePuzzle:CrystalTrigger2
+    401582: Ground_TemplePuzzle:CrystalTrigger3
+    401584: Ground_TemplePuzzle:Door
+    401586: Ground_TemplePuzzle:Door 1
+    401588: Ground_TemplePuzzle:Door 2
+    401590: Ground_TemplePuzzle:Door 3
+    401592: Ground_TemplePuzzle:Door 4
+    401594: Ground_TemplePuzzle:Door 5
+    401596: Ground_TemplePuzzle:Door1
+    401598: Ground_TemplePuzzle:Door1 1
+    401600: Ground_TemplePuzzle:Door1 2
+    401602: Ground_TemplePuzzle:Door1 3
+    401604: Ground_TemplePuzzle:Door1 4
+    401606: Ground_TemplePuzzle:Door1 5
+    401608: Ground_TemplePuzzle:DoorFrame
+    401610: Ground_TemplePuzzle:DoorFrame 1
+    401612: Ground_TemplePuzzle:DoorFrame 2
+    401614: Ground_TemplePuzzle:DoorFrame 3
+    401616: Ground_TemplePuzzle:DoorFrame 4
+    401618: Ground_TemplePuzzle:DoorFrame 5
+    401620: Ground_TemplePuzzle:FallingFloor1
+    401622: Ground_TemplePuzzle:FallingFloor10
+    401624: Ground_TemplePuzzle:FallingFloor11
+    401626: Ground_TemplePuzzle:FallingFloor12
+    401628: Ground_TemplePuzzle:FallingFloor13
+    401630: Ground_TemplePuzzle:FallingFloor14
+    401632: Ground_TemplePuzzle:FallingFloor15
+    401634: Ground_TemplePuzzle:FallingFloor2
+    401636: Ground_TemplePuzzle:FallingFloor25
+    401638: Ground_TemplePuzzle:FallingFloor26
+    401640: Ground_TemplePuzzle:FallingFloor27
+    401642: Ground_TemplePuzzle:FallingFloor28
+    401644: Ground_TemplePuzzle:FallingFloor29
+    401646: Ground_TemplePuzzle:FallingFloor3
+    401648: Ground_TemplePuzzle:FallingFloor30
+    401650: Ground_TemplePuzzle:FallingFloor31
+    401652: Ground_TemplePuzzle:FallingFloor32
+    401654: Ground_TemplePuzzle:FallingFloor33
+    401656: Ground_TemplePuzzle:FallingFloor34
+    401658: Ground_TemplePuzzle:FallingFloor35
+    401660: Ground_TemplePuzzle:FallingFloor4
+    401662: Ground_TemplePuzzle:FallingFloor5
+    401664: Ground_TemplePuzzle:FallingFloor6
+    401666: Ground_TemplePuzzle:FallingFloor7
+    401668: Ground_TemplePuzzle:FallingFloor8
+    401670: Ground_TemplePuzzle:Ground_Temple
+    401672: Ground_TemplePuzzle:Ground_Temple17
+    401674: Ground_TemplePuzzle:Ground_Temple19
+    401676: Ground_TemplePuzzle:Ground_Temple9
+    401678: Ground_TemplePuzzle:Idol10
+    401680: Ground_TemplePuzzle:Idol11
+    401682: Ground_TemplePuzzle:Idol12
+    401684: Ground_TemplePuzzle:Idol13
+    401686: Ground_TemplePuzzle:Idol8
+    401688: Ground_TemplePuzzle:Idol9
+    401690: Ground_TemplePuzzle:Key1
+    401692: Ground_TemplePuzzle:Key2
+    401694: Ground_TemplePuzzle:Key3
+    401696: Ground_TemplePuzzle:Key4
+    401698: Ground_TemplePuzzle:LockedDoor1
+    401700: Ground_TemplePuzzle:LockedDoor2
+    401702: Ground_TemplePuzzle:LockedDoor3
+    401704: Ground_TemplePuzzle:LockedDoor4
+    401706: Ground_TemplePuzzle:LockedDoor5
+    401708: Ground_TemplePuzzle:LockedDoor6
+    401710: Ground_TemplePuzzle:pCone1
+    401712: Ground_TemplePuzzle:pCone1 1
+    401714: Ground_TemplePuzzle:pCone1 10
+    401716: Ground_TemplePuzzle:pCone1 11
+    401718: Ground_TemplePuzzle:pCone1 12
+    401720: Ground_TemplePuzzle:pCone1 13
+    401722: Ground_TemplePuzzle:pCone1 14
+    401724: Ground_TemplePuzzle:pCone1 15
+    401726: Ground_TemplePuzzle:pCone1 16
+    401728: Ground_TemplePuzzle:pCone1 17
+    401730: Ground_TemplePuzzle:pCone1 18
+    401732: Ground_TemplePuzzle:pCone1 19
+    401734: Ground_TemplePuzzle:pCone1 2
+    401736: Ground_TemplePuzzle:pCone1 3
+    401738: Ground_TemplePuzzle:pCone1 4
+    401740: Ground_TemplePuzzle:pCone1 5
+    401742: Ground_TemplePuzzle:pCone1 6
+    401744: Ground_TemplePuzzle:pCone1 7
+    401746: Ground_TemplePuzzle:pCone1 8
+    401748: Ground_TemplePuzzle:pCone1 9
+    401750: Ground_TemplePuzzle:pCone10
+    401752: Ground_TemplePuzzle:pCone10 1
+    401754: Ground_TemplePuzzle:pCone10 10
+    401756: Ground_TemplePuzzle:pCone10 11
+    401758: Ground_TemplePuzzle:pCone10 12
+    401760: Ground_TemplePuzzle:pCone10 13
+    401762: Ground_TemplePuzzle:pCone10 14
+    401764: Ground_TemplePuzzle:pCone10 15
+    401766: Ground_TemplePuzzle:pCone10 16
+    401768: Ground_TemplePuzzle:pCone10 17
+    401770: Ground_TemplePuzzle:pCone10 18
+    401772: Ground_TemplePuzzle:pCone10 19
+    401774: Ground_TemplePuzzle:pCone10 2
+    401776: Ground_TemplePuzzle:pCone10 3
+    401778: Ground_TemplePuzzle:pCone10 4
+    401780: Ground_TemplePuzzle:pCone10 5
+    401782: Ground_TemplePuzzle:pCone10 6
+    401784: Ground_TemplePuzzle:pCone10 7
+    401786: Ground_TemplePuzzle:pCone10 8
+    401788: Ground_TemplePuzzle:pCone10 9
+    401790: Ground_TemplePuzzle:pCone11
+    401792: Ground_TemplePuzzle:pCone11 1
+    401794: Ground_TemplePuzzle:pCone11 10
+    401796: Ground_TemplePuzzle:pCone11 11
+    401798: Ground_TemplePuzzle:pCone11 12
+    401800: Ground_TemplePuzzle:pCone11 13
+    401802: Ground_TemplePuzzle:pCone11 14
+    401804: Ground_TemplePuzzle:pCone11 15
+    401806: Ground_TemplePuzzle:pCone11 16
+    401808: Ground_TemplePuzzle:pCone11 17
+    401810: Ground_TemplePuzzle:pCone11 18
+    401812: Ground_TemplePuzzle:pCone11 19
+    401814: Ground_TemplePuzzle:pCone11 2
+    401816: Ground_TemplePuzzle:pCone11 3
+    401818: Ground_TemplePuzzle:pCone11 4
+    401820: Ground_TemplePuzzle:pCone11 5
+    401822: Ground_TemplePuzzle:pCone11 6
+    401824: Ground_TemplePuzzle:pCone11 7
+    401826: Ground_TemplePuzzle:pCone11 8
+    401828: Ground_TemplePuzzle:pCone11 9
+    401830: Ground_TemplePuzzle:pCone2
+    401832: Ground_TemplePuzzle:pCone2 1
+    401834: Ground_TemplePuzzle:pCone2 10
+    401836: Ground_TemplePuzzle:pCone2 11
+    401838: Ground_TemplePuzzle:pCone2 12
+    401840: Ground_TemplePuzzle:pCone2 13
+    401842: Ground_TemplePuzzle:pCone2 14
+    401844: Ground_TemplePuzzle:pCone2 15
+    401846: Ground_TemplePuzzle:pCone2 16
+    401848: Ground_TemplePuzzle:pCone2 17
+    401850: Ground_TemplePuzzle:pCone2 18
+    401852: Ground_TemplePuzzle:pCone2 19
+    401854: Ground_TemplePuzzle:pCone2 2
+    401856: Ground_TemplePuzzle:pCone2 3
+    401858: Ground_TemplePuzzle:pCone2 4
+    401860: Ground_TemplePuzzle:pCone2 5
+    401862: Ground_TemplePuzzle:pCone2 6
+    401864: Ground_TemplePuzzle:pCone2 7
+    401866: Ground_TemplePuzzle:pCone2 8
+    401868: Ground_TemplePuzzle:pCone2 9
+    401870: Ground_TemplePuzzle:pCone3
+    401872: Ground_TemplePuzzle:pCone3 1
+    401874: Ground_TemplePuzzle:pCone3 10
+    401876: Ground_TemplePuzzle:pCone3 11
+    401878: Ground_TemplePuzzle:pCone3 12
+    401880: Ground_TemplePuzzle:pCone3 13
+    401882: Ground_TemplePuzzle:pCone3 14
+    401884: Ground_TemplePuzzle:pCone3 15
+    401886: Ground_TemplePuzzle:pCone3 16
+    401888: Ground_TemplePuzzle:pCone3 17
+    401890: Ground_TemplePuzzle:pCone3 18
+    401892: Ground_TemplePuzzle:pCone3 19
+    401894: Ground_TemplePuzzle:pCone3 2
+    401896: Ground_TemplePuzzle:pCone3 3
+    401898: Ground_TemplePuzzle:pCone3 4
+    401900: Ground_TemplePuzzle:pCone3 5
+    401902: Ground_TemplePuzzle:pCone3 6
+    401904: Ground_TemplePuzzle:pCone3 7
+    401906: Ground_TemplePuzzle:pCone3 8
+    401908: Ground_TemplePuzzle:pCone3 9
+    401910: Ground_TemplePuzzle:pCone4
+    401912: Ground_TemplePuzzle:pCone4 1
+    401914: Ground_TemplePuzzle:pCone4 10
+    401916: Ground_TemplePuzzle:pCone4 11
+    401918: Ground_TemplePuzzle:pCone4 12
+    401920: Ground_TemplePuzzle:pCone4 13
+    401922: Ground_TemplePuzzle:pCone4 14
+    401924: Ground_TemplePuzzle:pCone4 15
+    401926: Ground_TemplePuzzle:pCone4 16
+    401928: Ground_TemplePuzzle:pCone4 17
+    401930: Ground_TemplePuzzle:pCone4 18
+    401932: Ground_TemplePuzzle:pCone4 19
+    401934: Ground_TemplePuzzle:pCone4 2
+    401936: Ground_TemplePuzzle:pCone4 3
+    401938: Ground_TemplePuzzle:pCone4 4
+    401940: Ground_TemplePuzzle:pCone4 5
+    401942: Ground_TemplePuzzle:pCone4 6
+    401944: Ground_TemplePuzzle:pCone4 7
+    401946: Ground_TemplePuzzle:pCone4 8
+    401948: Ground_TemplePuzzle:pCone4 9
+    401950: Ground_TemplePuzzle:pCone5
+    401952: Ground_TemplePuzzle:pCone5 1
+    401954: Ground_TemplePuzzle:pCone5 10
+    401956: Ground_TemplePuzzle:pCone5 11
+    401958: Ground_TemplePuzzle:pCone5 12
+    401960: Ground_TemplePuzzle:pCone5 13
+    401962: Ground_TemplePuzzle:pCone5 14
+    401964: Ground_TemplePuzzle:pCone5 15
+    401966: Ground_TemplePuzzle:pCone5 16
+    401968: Ground_TemplePuzzle:pCone5 17
+    401970: Ground_TemplePuzzle:pCone5 18
+    401972: Ground_TemplePuzzle:pCone5 19
+    401974: Ground_TemplePuzzle:pCone5 2
+    401976: Ground_TemplePuzzle:pCone5 3
+    401978: Ground_TemplePuzzle:pCone5 4
+    401980: Ground_TemplePuzzle:pCone5 5
+    401982: Ground_TemplePuzzle:pCone5 6
+    401984: Ground_TemplePuzzle:pCone5 7
+    401986: Ground_TemplePuzzle:pCone5 8
+    401988: Ground_TemplePuzzle:pCone5 9
+    401990: Ground_TemplePuzzle:pCone7
+    401992: Ground_TemplePuzzle:pCone7 1
+    401994: Ground_TemplePuzzle:pCone7 10
+    401996: Ground_TemplePuzzle:pCone7 11
+    401998: Ground_TemplePuzzle:pCone7 12
+    402000: Ground_TemplePuzzle:pCone7 13
+    402002: Ground_TemplePuzzle:pCone7 14
+    402004: Ground_TemplePuzzle:pCone7 15
+    402006: Ground_TemplePuzzle:pCone7 16
+    402008: Ground_TemplePuzzle:pCone7 17
+    402010: Ground_TemplePuzzle:pCone7 18
+    402012: Ground_TemplePuzzle:pCone7 19
+    402014: Ground_TemplePuzzle:pCone7 2
+    402016: Ground_TemplePuzzle:pCone7 3
+    402018: Ground_TemplePuzzle:pCone7 4
+    402020: Ground_TemplePuzzle:pCone7 5
+    402022: Ground_TemplePuzzle:pCone7 6
+    402024: Ground_TemplePuzzle:pCone7 7
+    402026: Ground_TemplePuzzle:pCone7 8
+    402028: Ground_TemplePuzzle:pCone7 9
+    402030: Ground_TemplePuzzle:pCone8
+    402032: Ground_TemplePuzzle:pCone8 1
+    402034: Ground_TemplePuzzle:pCone8 10
+    402036: Ground_TemplePuzzle:pCone8 11
+    402038: Ground_TemplePuzzle:pCone8 12
+    402040: Ground_TemplePuzzle:pCone8 13
+    402042: Ground_TemplePuzzle:pCone8 14
+    402044: Ground_TemplePuzzle:pCone8 15
+    402046: Ground_TemplePuzzle:pCone8 16
+    402048: Ground_TemplePuzzle:pCone8 17
+    402050: Ground_TemplePuzzle:pCone8 18
+    402052: Ground_TemplePuzzle:pCone8 19
+    402054: Ground_TemplePuzzle:pCone8 2
+    402056: Ground_TemplePuzzle:pCone8 3
+    402058: Ground_TemplePuzzle:pCone8 4
+    402060: Ground_TemplePuzzle:pCone8 5
+    402062: Ground_TemplePuzzle:pCone8 6
+    402064: Ground_TemplePuzzle:pCone8 7
+    402066: Ground_TemplePuzzle:pCone8 8
+    402068: Ground_TemplePuzzle:pCone8 9
+    402070: Ground_TemplePuzzle:pCone9
+    402072: Ground_TemplePuzzle:pCone9 1
+    402074: Ground_TemplePuzzle:pCone9 10
+    402076: Ground_TemplePuzzle:pCone9 11
+    402078: Ground_TemplePuzzle:pCone9 12
+    402080: Ground_TemplePuzzle:pCone9 13
+    402082: Ground_TemplePuzzle:pCone9 14
+    402084: Ground_TemplePuzzle:pCone9 15
+    402086: Ground_TemplePuzzle:pCone9 16
+    402088: Ground_TemplePuzzle:pCone9 17
+    402090: Ground_TemplePuzzle:pCone9 18
+    402092: Ground_TemplePuzzle:pCone9 19
+    402094: Ground_TemplePuzzle:pCone9 2
+    402096: Ground_TemplePuzzle:pCone9 3
+    402098: Ground_TemplePuzzle:pCone9 4
+    402100: Ground_TemplePuzzle:pCone9 5
+    402102: Ground_TemplePuzzle:pCone9 6
+    402104: Ground_TemplePuzzle:pCone9 7
+    402106: Ground_TemplePuzzle:pCone9 8
+    402108: Ground_TemplePuzzle:pCone9 9
+    402110: Ground_TemplePuzzle:Spikes
+    402112: Ground_TemplePuzzle:Spikes1
+    402114: Ground_TemplePuzzle:Spikes10
+    402116: Ground_TemplePuzzle:Spikes11
+    402118: Ground_TemplePuzzle:Spikes12
+    402120: Ground_TemplePuzzle:Spikes13
+    402122: Ground_TemplePuzzle:Spikes14
+    402124: Ground_TemplePuzzle:Spikes15
+    402126: Ground_TemplePuzzle:Spikes16
+    402128: Ground_TemplePuzzle:Spikes17
+    402130: Ground_TemplePuzzle:Spikes18
+    402132: Ground_TemplePuzzle:Spikes19
+    402134: Ground_TemplePuzzle:Spikes2
+    402136: Ground_TemplePuzzle:Spikes3
+    402138: Ground_TemplePuzzle:Spikes4
+    402140: Ground_TemplePuzzle:Spikes5
+    402142: Ground_TemplePuzzle:Spikes6
+    402144: Ground_TemplePuzzle:Spikes7
+    402146: Ground_TemplePuzzle:Spikes8
+    402148: Ground_TemplePuzzle:Spikes9
+    402150: Ground_TemplePuzzle:Torch
+    402152: Ground_TemplePuzzle:Wall
+    402154: Ground_TemplePuzzle:Wall 1
+    402156: Ground_TemplePuzzle:Wall 2
+    402158: Ground_TemplePuzzle:Wall 3
+    402160: Ground_TemplePuzzle:Wall 4
+    402162: Ground_TemplePuzzle:Wall 5
     2300000: Door
     2300002: Door 1
     2300004: ForestGround
@@ -1279,6 +2565,588 @@ ModelImporter:
     2300786: Ground4
     2300788: Ground5
     2300790: Ground6
+    2300792: Door 3
+    2300794: Ground9
+    2300796: Idol1
+    2300798: Idol2
+    2300800: Idol3
+    2300802: pCube7
+    2300804: pCylinder1 36
+    2300806: pCylinder1 37
+    2300808: pCylinder1 38
+    2300810: pCylinder1 39
+    2300812: pCylinder1 40
+    2300814: pCylinder1 41
+    2300816: pCylinder1 42
+    2300818: pCylinder1 43
+    2300820: pCylinder1 44
+    2300822: pCylinder1 45
+    2300824: pCylinder1 46
+    2300826: pCylinder1 47
+    2300828: pCylinder1 48
+    2300830: pCylinder1 49
+    2300832: pCylinder10 10
+    2300834: pCylinder10 11
+    2300836: pCylinder10 12
+    2300838: pCylinder10 8
+    2300840: pCylinder10 9
+    2300842: pCylinder11 10
+    2300844: pCylinder11 11
+    2300846: pCylinder11 12
+    2300848: pCylinder11 8
+    2300850: pCylinder11 9
+    2300852: pCylinder12 10
+    2300854: pCylinder12 11
+    2300856: pCylinder12 12
+    2300858: pCylinder12 8
+    2300860: pCylinder12 9
+    2300862: pCylinder13 10
+    2300864: pCylinder13 11
+    2300866: pCylinder13 12
+    2300868: pCylinder13 8
+    2300870: pCylinder13 9
+    2300872: pCylinder14 10
+    2300874: pCylinder14 11
+    2300876: pCylinder14 12
+    2300878: pCylinder14 8
+    2300880: pCylinder14 9
+    2300882: pCylinder15 10
+    2300884: pCylinder15 11
+    2300886: pCylinder15 12
+    2300888: pCylinder15 8
+    2300890: pCylinder15 9
+    2300892: pCylinder16 10
+    2300894: pCylinder16 11
+    2300896: pCylinder16 12
+    2300898: pCylinder16 8
+    2300900: pCylinder16 9
+    2300902: pCylinder17 10
+    2300904: pCylinder17 11
+    2300906: pCylinder17 12
+    2300908: pCylinder17 8
+    2300910: pCylinder17 9
+    2300912: pCylinder18 10
+    2300914: pCylinder18 11
+    2300916: pCylinder18 12
+    2300918: pCylinder18 8
+    2300920: pCylinder18 9
+    2300922: pCylinder2 36
+    2300924: pCylinder2 37
+    2300926: pCylinder2 38
+    2300928: pCylinder2 39
+    2300930: pCylinder2 40
+    2300932: pCylinder2 41
+    2300934: pCylinder2 42
+    2300936: pCylinder2 43
+    2300938: pCylinder2 44
+    2300940: pCylinder2 45
+    2300942: pCylinder2 46
+    2300944: pCylinder2 47
+    2300946: pCylinder2 48
+    2300948: pCylinder2 49
+    2300950: pCylinder3 36
+    2300952: pCylinder3 37
+    2300954: pCylinder3 38
+    2300956: pCylinder3 39
+    2300958: pCylinder3 40
+    2300960: pCylinder3 41
+    2300962: pCylinder3 42
+    2300964: pCylinder3 43
+    2300966: pCylinder3 44
+    2300968: pCylinder3 45
+    2300970: pCylinder3 46
+    2300972: pCylinder3 47
+    2300974: pCylinder3 48
+    2300976: pCylinder3 49
+    2300978: pCylinder4 36
+    2300980: pCylinder4 37
+    2300982: pCylinder4 38
+    2300984: pCylinder4 39
+    2300986: pCylinder4 40
+    2300988: pCylinder4 41
+    2300990: pCylinder4 42
+    2300992: pCylinder4 43
+    2300994: pCylinder4 44
+    2300996: pCylinder4 45
+    2300998: pCylinder4 46
+    2301000: pCylinder4 47
+    2301002: pCylinder4 48
+    2301004: pCylinder4 49
+    2301006: pCylinder5 36
+    2301008: pCylinder5 37
+    2301010: pCylinder5 38
+    2301012: pCylinder5 39
+    2301014: pCylinder5 40
+    2301016: pCylinder5 41
+    2301018: pCylinder5 42
+    2301020: pCylinder5 43
+    2301022: pCylinder5 44
+    2301024: pCylinder5 45
+    2301026: pCylinder5 46
+    2301028: pCylinder5 47
+    2301030: pCylinder5 48
+    2301032: pCylinder5 49
+    2301034: pCylinder6 23
+    2301036: pCylinder6 24
+    2301038: pCylinder6 25
+    2301040: pCylinder6 26
+    2301042: pCylinder6 27
+    2301044: pCylinder6 28
+    2301046: pCylinder6 29
+    2301048: pCylinder6 30
+    2301050: pCylinder6 31
+    2301052: pCylinder6 32
+    2301054: pCylinder6 33
+    2301056: pCylinder6 34
+    2301058: pCylinder6 35
+    2301060: pCylinder6 36
+    2301062: pCylinder7 16
+    2301064: pCylinder7 17
+    2301066: pCylinder7 18
+    2301068: pCylinder7 19
+    2301070: pCylinder7 20
+    2301072: pCylinder7 21
+    2301074: pCylinder7 22
+    2301076: pCylinder7 23
+    2301078: pCylinder8 13
+    2301080: pCylinder8 14
+    2301082: pCylinder8 15
+    2301084: pCylinder8 16
+    2301086: pCylinder8 17
+    2301088: pCylinder8 18
+    2301090: pCylinder8 19
+    2301092: pCylinder9 10
+    2301094: pCylinder9 11
+    2301096: pCylinder9 12
+    2301098: pCylinder9 8
+    2301100: pCylinder9 9
+    2301102: SwampGround_Puzzle4
+    2301104: Tree 3
+    2301106: Base 1
+    2301108: Door 4
+    2301110: Door1
+    2301112: DoorFrame
+    2301114: Ground_Temple
+    2301116: Idol4
+    2301118: Idol5
+    2301120: Idol6
+    2301122: Idol7
+    2301124: pCylinder1 50
+    2301126: pCylinder1 51
+    2301128: pCylinder1 52
+    2301130: pCylinder1 53
+    2301132: pCylinder1 54
+    2301134: pCylinder1 55
+    2301136: pCylinder1 56
+    2301138: pCylinder1 57
+    2301140: pCylinder1 58
+    2301142: pCylinder1 59
+    2301144: pCylinder1 60
+    2301146: pCylinder1 61
+    2301148: pCylinder1 62
+    2301150: pCylinder1 63
+    2301152: pCylinder10 13
+    2301154: pCylinder11 13
+    2301156: pCylinder12 13
+    2301158: pCylinder13 13
+    2301160: pCylinder14 13
+    2301162: pCylinder15 13
+    2301164: pCylinder16 13
+    2301166: pCylinder17 13
+    2301168: pCylinder18 13
+    2301170: pCylinder19 1
+    2301172: pCylinder2 50
+    2301174: pCylinder2 51
+    2301176: pCylinder2 52
+    2301178: pCylinder2 53
+    2301180: pCylinder2 54
+    2301182: pCylinder2 55
+    2301184: pCylinder2 56
+    2301186: pCylinder2 57
+    2301188: pCylinder2 58
+    2301190: pCylinder2 59
+    2301192: pCylinder2 60
+    2301194: pCylinder2 61
+    2301196: pCylinder2 62
+    2301198: pCylinder2 63
+    2301200: pCylinder20 1
+    2301202: pCylinder21 1
+    2301204: pCylinder22 1
+    2301206: pCylinder23 1
+    2301208: pCylinder24 1
+    2301210: pCylinder25 1
+    2301212: pCylinder26 1
+    2301214: pCylinder27 1
+    2301216: pCylinder28 1
+    2301218: pCylinder29 1
+    2301220: pCylinder3 50
+    2301222: pCylinder3 51
+    2301224: pCylinder3 52
+    2301226: pCylinder3 53
+    2301228: pCylinder3 54
+    2301230: pCylinder3 55
+    2301232: pCylinder3 56
+    2301234: pCylinder3 57
+    2301236: pCylinder3 58
+    2301238: pCylinder3 59
+    2301240: pCylinder3 60
+    2301242: pCylinder3 61
+    2301244: pCylinder3 62
+    2301246: pCylinder3 63
+    2301248: pCylinder30 1
+    2301250: pCylinder31 1
+    2301252: pCylinder32 1
+    2301254: pCylinder33 1
+    2301256: pCylinder34 1
+    2301258: pCylinder4 50
+    2301260: pCylinder4 51
+    2301262: pCylinder4 52
+    2301264: pCylinder4 53
+    2301266: pCylinder4 54
+    2301268: pCylinder4 55
+    2301270: pCylinder4 56
+    2301272: pCylinder4 57
+    2301274: pCylinder4 58
+    2301276: pCylinder4 59
+    2301278: pCylinder4 60
+    2301280: pCylinder4 61
+    2301282: pCylinder4 62
+    2301284: pCylinder4 63
+    2301286: pCylinder5 50
+    2301288: pCylinder5 51
+    2301290: pCylinder5 52
+    2301292: pCylinder5 53
+    2301294: pCylinder5 54
+    2301296: pCylinder5 55
+    2301298: pCylinder5 56
+    2301300: pCylinder5 57
+    2301302: pCylinder5 58
+    2301304: pCylinder5 59
+    2301306: pCylinder5 60
+    2301308: pCylinder5 61
+    2301310: pCylinder5 62
+    2301312: pCylinder5 63
+    2301314: pCylinder6 37
+    2301316: pCylinder6 38
+    2301318: pCylinder6 39
+    2301320: pCylinder6 40
+    2301322: pCylinder6 41
+    2301324: pCylinder6 42
+    2301326: pCylinder6 43
+    2301328: pCylinder6 44
+    2301330: pCylinder6 45
+    2301332: pCylinder6 46
+    2301334: pCylinder6 47
+    2301336: pCylinder6 48
+    2301338: pCylinder6 49
+    2301340: pCylinder6 50
+    2301342: pCylinder7 24
+    2301344: pCylinder7 25
+    2301346: pCylinder7 26
+    2301348: pCylinder7 27
+    2301350: pCylinder7 28
+    2301352: pCylinder7 29
+    2301354: pCylinder8 20
+    2301356: pCylinder9 13
+    2301358: Torch 1
+    2301360: Wall
+    2301362: Water
+    2301364: Water2
+    2301366: Base 2
+    2301368: Crate
+    2301370: CrystalTrigger1
+    2301372: Door 5
+    2301374: Door 6
+    2301376: Door1 1
+    2301378: Door1 2
+    2301380: DoorFrame 1
+    2301382: DoorFrame 2
+    2301384: FallingFloor1
+    2301386: FallingFloor2
+    2301388: FallingFloor3
+    2301390: FallingFloor4
+    2301392: FallingFloor5
+    2301394: FallingFloor6
+    2301396: FallingFloor7
+    2301398: FallingFloor8
+    2301400: Ground_Temple1
+    2301402: Ground_Temple2
+    2301404: Ground_Temple3
+    2301406: Key1
+    2301408: Torch 2
+    2301410: Wall 1
+    2301412: Wall 2
+    2301414: Ground_TemplePuzzle:Base
+    2301416: Ground_TemplePuzzle:Crate
+    2301418: Ground_TemplePuzzle:Crate1
+    2301420: Ground_TemplePuzzle:Crate2
+    2301422: Ground_TemplePuzzle:CrystalTrigger1
+    2301424: Ground_TemplePuzzle:CrystalTrigger2
+    2301426: Ground_TemplePuzzle:CrystalTrigger3
+    2301428: Ground_TemplePuzzle:Door
+    2301430: Ground_TemplePuzzle:Door 1
+    2301432: Ground_TemplePuzzle:Door 2
+    2301434: Ground_TemplePuzzle:Door 3
+    2301436: Ground_TemplePuzzle:Door 4
+    2301438: Ground_TemplePuzzle:Door 5
+    2301440: Ground_TemplePuzzle:Door1
+    2301442: Ground_TemplePuzzle:Door1 1
+    2301444: Ground_TemplePuzzle:Door1 2
+    2301446: Ground_TemplePuzzle:Door1 3
+    2301448: Ground_TemplePuzzle:Door1 4
+    2301450: Ground_TemplePuzzle:Door1 5
+    2301452: Ground_TemplePuzzle:DoorFrame
+    2301454: Ground_TemplePuzzle:DoorFrame 1
+    2301456: Ground_TemplePuzzle:DoorFrame 2
+    2301458: Ground_TemplePuzzle:DoorFrame 3
+    2301460: Ground_TemplePuzzle:DoorFrame 4
+    2301462: Ground_TemplePuzzle:DoorFrame 5
+    2301464: Ground_TemplePuzzle:FallingFloor1
+    2301466: Ground_TemplePuzzle:FallingFloor10
+    2301468: Ground_TemplePuzzle:FallingFloor11
+    2301470: Ground_TemplePuzzle:FallingFloor12
+    2301472: Ground_TemplePuzzle:FallingFloor13
+    2301474: Ground_TemplePuzzle:FallingFloor14
+    2301476: Ground_TemplePuzzle:FallingFloor15
+    2301478: Ground_TemplePuzzle:FallingFloor2
+    2301480: Ground_TemplePuzzle:FallingFloor25
+    2301482: Ground_TemplePuzzle:FallingFloor26
+    2301484: Ground_TemplePuzzle:FallingFloor27
+    2301486: Ground_TemplePuzzle:FallingFloor28
+    2301488: Ground_TemplePuzzle:FallingFloor29
+    2301490: Ground_TemplePuzzle:FallingFloor3
+    2301492: Ground_TemplePuzzle:FallingFloor30
+    2301494: Ground_TemplePuzzle:FallingFloor31
+    2301496: Ground_TemplePuzzle:FallingFloor32
+    2301498: Ground_TemplePuzzle:FallingFloor33
+    2301500: Ground_TemplePuzzle:FallingFloor34
+    2301502: Ground_TemplePuzzle:FallingFloor35
+    2301504: Ground_TemplePuzzle:FallingFloor4
+    2301506: Ground_TemplePuzzle:FallingFloor5
+    2301508: Ground_TemplePuzzle:FallingFloor6
+    2301510: Ground_TemplePuzzle:FallingFloor7
+    2301512: Ground_TemplePuzzle:FallingFloor8
+    2301514: Ground_TemplePuzzle:Ground_Temple
+    2301516: Ground_TemplePuzzle:Ground_Temple17
+    2301518: Ground_TemplePuzzle:Ground_Temple19
+    2301520: Ground_TemplePuzzle:Ground_Temple9
+    2301522: Ground_TemplePuzzle:Idol10
+    2301524: Ground_TemplePuzzle:Idol11
+    2301526: Ground_TemplePuzzle:Idol12
+    2301528: Ground_TemplePuzzle:Idol13
+    2301530: Ground_TemplePuzzle:Idol8
+    2301532: Ground_TemplePuzzle:Idol9
+    2301534: Ground_TemplePuzzle:Key1
+    2301536: Ground_TemplePuzzle:Key2
+    2301538: Ground_TemplePuzzle:Key3
+    2301540: Ground_TemplePuzzle:Key4
+    2301542: Ground_TemplePuzzle:pCone1
+    2301544: Ground_TemplePuzzle:pCone1 1
+    2301546: Ground_TemplePuzzle:pCone1 10
+    2301548: Ground_TemplePuzzle:pCone1 11
+    2301550: Ground_TemplePuzzle:pCone1 12
+    2301552: Ground_TemplePuzzle:pCone1 13
+    2301554: Ground_TemplePuzzle:pCone1 14
+    2301556: Ground_TemplePuzzle:pCone1 15
+    2301558: Ground_TemplePuzzle:pCone1 16
+    2301560: Ground_TemplePuzzle:pCone1 17
+    2301562: Ground_TemplePuzzle:pCone1 18
+    2301564: Ground_TemplePuzzle:pCone1 19
+    2301566: Ground_TemplePuzzle:pCone1 2
+    2301568: Ground_TemplePuzzle:pCone1 3
+    2301570: Ground_TemplePuzzle:pCone1 4
+    2301572: Ground_TemplePuzzle:pCone1 5
+    2301574: Ground_TemplePuzzle:pCone1 6
+    2301576: Ground_TemplePuzzle:pCone1 7
+    2301578: Ground_TemplePuzzle:pCone1 8
+    2301580: Ground_TemplePuzzle:pCone1 9
+    2301582: Ground_TemplePuzzle:pCone10
+    2301584: Ground_TemplePuzzle:pCone10 1
+    2301586: Ground_TemplePuzzle:pCone10 10
+    2301588: Ground_TemplePuzzle:pCone10 11
+    2301590: Ground_TemplePuzzle:pCone10 12
+    2301592: Ground_TemplePuzzle:pCone10 13
+    2301594: Ground_TemplePuzzle:pCone10 14
+    2301596: Ground_TemplePuzzle:pCone10 15
+    2301598: Ground_TemplePuzzle:pCone10 16
+    2301600: Ground_TemplePuzzle:pCone10 17
+    2301602: Ground_TemplePuzzle:pCone10 18
+    2301604: Ground_TemplePuzzle:pCone10 19
+    2301606: Ground_TemplePuzzle:pCone10 2
+    2301608: Ground_TemplePuzzle:pCone10 3
+    2301610: Ground_TemplePuzzle:pCone10 4
+    2301612: Ground_TemplePuzzle:pCone10 5
+    2301614: Ground_TemplePuzzle:pCone10 6
+    2301616: Ground_TemplePuzzle:pCone10 7
+    2301618: Ground_TemplePuzzle:pCone10 8
+    2301620: Ground_TemplePuzzle:pCone10 9
+    2301622: Ground_TemplePuzzle:pCone11
+    2301624: Ground_TemplePuzzle:pCone11 1
+    2301626: Ground_TemplePuzzle:pCone11 10
+    2301628: Ground_TemplePuzzle:pCone11 11
+    2301630: Ground_TemplePuzzle:pCone11 12
+    2301632: Ground_TemplePuzzle:pCone11 13
+    2301634: Ground_TemplePuzzle:pCone11 14
+    2301636: Ground_TemplePuzzle:pCone11 15
+    2301638: Ground_TemplePuzzle:pCone11 16
+    2301640: Ground_TemplePuzzle:pCone11 17
+    2301642: Ground_TemplePuzzle:pCone11 18
+    2301644: Ground_TemplePuzzle:pCone11 19
+    2301646: Ground_TemplePuzzle:pCone11 2
+    2301648: Ground_TemplePuzzle:pCone11 3
+    2301650: Ground_TemplePuzzle:pCone11 4
+    2301652: Ground_TemplePuzzle:pCone11 5
+    2301654: Ground_TemplePuzzle:pCone11 6
+    2301656: Ground_TemplePuzzle:pCone11 7
+    2301658: Ground_TemplePuzzle:pCone11 8
+    2301660: Ground_TemplePuzzle:pCone11 9
+    2301662: Ground_TemplePuzzle:pCone2
+    2301664: Ground_TemplePuzzle:pCone2 1
+    2301666: Ground_TemplePuzzle:pCone2 10
+    2301668: Ground_TemplePuzzle:pCone2 11
+    2301670: Ground_TemplePuzzle:pCone2 12
+    2301672: Ground_TemplePuzzle:pCone2 13
+    2301674: Ground_TemplePuzzle:pCone2 14
+    2301676: Ground_TemplePuzzle:pCone2 15
+    2301678: Ground_TemplePuzzle:pCone2 16
+    2301680: Ground_TemplePuzzle:pCone2 17
+    2301682: Ground_TemplePuzzle:pCone2 18
+    2301684: Ground_TemplePuzzle:pCone2 19
+    2301686: Ground_TemplePuzzle:pCone2 2
+    2301688: Ground_TemplePuzzle:pCone2 3
+    2301690: Ground_TemplePuzzle:pCone2 4
+    2301692: Ground_TemplePuzzle:pCone2 5
+    2301694: Ground_TemplePuzzle:pCone2 6
+    2301696: Ground_TemplePuzzle:pCone2 7
+    2301698: Ground_TemplePuzzle:pCone2 8
+    2301700: Ground_TemplePuzzle:pCone2 9
+    2301702: Ground_TemplePuzzle:pCone3
+    2301704: Ground_TemplePuzzle:pCone3 1
+    2301706: Ground_TemplePuzzle:pCone3 10
+    2301708: Ground_TemplePuzzle:pCone3 11
+    2301710: Ground_TemplePuzzle:pCone3 12
+    2301712: Ground_TemplePuzzle:pCone3 13
+    2301714: Ground_TemplePuzzle:pCone3 14
+    2301716: Ground_TemplePuzzle:pCone3 15
+    2301718: Ground_TemplePuzzle:pCone3 16
+    2301720: Ground_TemplePuzzle:pCone3 17
+    2301722: Ground_TemplePuzzle:pCone3 18
+    2301724: Ground_TemplePuzzle:pCone3 19
+    2301726: Ground_TemplePuzzle:pCone3 2
+    2301728: Ground_TemplePuzzle:pCone3 3
+    2301730: Ground_TemplePuzzle:pCone3 4
+    2301732: Ground_TemplePuzzle:pCone3 5
+    2301734: Ground_TemplePuzzle:pCone3 6
+    2301736: Ground_TemplePuzzle:pCone3 7
+    2301738: Ground_TemplePuzzle:pCone3 8
+    2301740: Ground_TemplePuzzle:pCone3 9
+    2301742: Ground_TemplePuzzle:pCone4
+    2301744: Ground_TemplePuzzle:pCone4 1
+    2301746: Ground_TemplePuzzle:pCone4 10
+    2301748: Ground_TemplePuzzle:pCone4 11
+    2301750: Ground_TemplePuzzle:pCone4 12
+    2301752: Ground_TemplePuzzle:pCone4 13
+    2301754: Ground_TemplePuzzle:pCone4 14
+    2301756: Ground_TemplePuzzle:pCone4 15
+    2301758: Ground_TemplePuzzle:pCone4 16
+    2301760: Ground_TemplePuzzle:pCone4 17
+    2301762: Ground_TemplePuzzle:pCone4 18
+    2301764: Ground_TemplePuzzle:pCone4 19
+    2301766: Ground_TemplePuzzle:pCone4 2
+    2301768: Ground_TemplePuzzle:pCone4 3
+    2301770: Ground_TemplePuzzle:pCone4 4
+    2301772: Ground_TemplePuzzle:pCone4 5
+    2301774: Ground_TemplePuzzle:pCone4 6
+    2301776: Ground_TemplePuzzle:pCone4 7
+    2301778: Ground_TemplePuzzle:pCone4 8
+    2301780: Ground_TemplePuzzle:pCone4 9
+    2301782: Ground_TemplePuzzle:pCone5
+    2301784: Ground_TemplePuzzle:pCone5 1
+    2301786: Ground_TemplePuzzle:pCone5 10
+    2301788: Ground_TemplePuzzle:pCone5 11
+    2301790: Ground_TemplePuzzle:pCone5 12
+    2301792: Ground_TemplePuzzle:pCone5 13
+    2301794: Ground_TemplePuzzle:pCone5 14
+    2301796: Ground_TemplePuzzle:pCone5 15
+    2301798: Ground_TemplePuzzle:pCone5 16
+    2301800: Ground_TemplePuzzle:pCone5 17
+    2301802: Ground_TemplePuzzle:pCone5 18
+    2301804: Ground_TemplePuzzle:pCone5 19
+    2301806: Ground_TemplePuzzle:pCone5 2
+    2301808: Ground_TemplePuzzle:pCone5 3
+    2301810: Ground_TemplePuzzle:pCone5 4
+    2301812: Ground_TemplePuzzle:pCone5 5
+    2301814: Ground_TemplePuzzle:pCone5 6
+    2301816: Ground_TemplePuzzle:pCone5 7
+    2301818: Ground_TemplePuzzle:pCone5 8
+    2301820: Ground_TemplePuzzle:pCone5 9
+    2301822: Ground_TemplePuzzle:pCone7
+    2301824: Ground_TemplePuzzle:pCone7 1
+    2301826: Ground_TemplePuzzle:pCone7 10
+    2301828: Ground_TemplePuzzle:pCone7 11
+    2301830: Ground_TemplePuzzle:pCone7 12
+    2301832: Ground_TemplePuzzle:pCone7 13
+    2301834: Ground_TemplePuzzle:pCone7 14
+    2301836: Ground_TemplePuzzle:pCone7 15
+    2301838: Ground_TemplePuzzle:pCone7 16
+    2301840: Ground_TemplePuzzle:pCone7 17
+    2301842: Ground_TemplePuzzle:pCone7 18
+    2301844: Ground_TemplePuzzle:pCone7 19
+    2301846: Ground_TemplePuzzle:pCone7 2
+    2301848: Ground_TemplePuzzle:pCone7 3
+    2301850: Ground_TemplePuzzle:pCone7 4
+    2301852: Ground_TemplePuzzle:pCone7 5
+    2301854: Ground_TemplePuzzle:pCone7 6
+    2301856: Ground_TemplePuzzle:pCone7 7
+    2301858: Ground_TemplePuzzle:pCone7 8
+    2301860: Ground_TemplePuzzle:pCone7 9
+    2301862: Ground_TemplePuzzle:pCone8
+    2301864: Ground_TemplePuzzle:pCone8 1
+    2301866: Ground_TemplePuzzle:pCone8 10
+    2301868: Ground_TemplePuzzle:pCone8 11
+    2301870: Ground_TemplePuzzle:pCone8 12
+    2301872: Ground_TemplePuzzle:pCone8 13
+    2301874: Ground_TemplePuzzle:pCone8 14
+    2301876: Ground_TemplePuzzle:pCone8 15
+    2301878: Ground_TemplePuzzle:pCone8 16
+    2301880: Ground_TemplePuzzle:pCone8 17
+    2301882: Ground_TemplePuzzle:pCone8 18
+    2301884: Ground_TemplePuzzle:pCone8 19
+    2301886: Ground_TemplePuzzle:pCone8 2
+    2301888: Ground_TemplePuzzle:pCone8 3
+    2301890: Ground_TemplePuzzle:pCone8 4
+    2301892: Ground_TemplePuzzle:pCone8 5
+    2301894: Ground_TemplePuzzle:pCone8 6
+    2301896: Ground_TemplePuzzle:pCone8 7
+    2301898: Ground_TemplePuzzle:pCone8 8
+    2301900: Ground_TemplePuzzle:pCone8 9
+    2301902: Ground_TemplePuzzle:pCone9
+    2301904: Ground_TemplePuzzle:pCone9 1
+    2301906: Ground_TemplePuzzle:pCone9 10
+    2301908: Ground_TemplePuzzle:pCone9 11
+    2301910: Ground_TemplePuzzle:pCone9 12
+    2301912: Ground_TemplePuzzle:pCone9 13
+    2301914: Ground_TemplePuzzle:pCone9 14
+    2301916: Ground_TemplePuzzle:pCone9 15
+    2301918: Ground_TemplePuzzle:pCone9 16
+    2301920: Ground_TemplePuzzle:pCone9 17
+    2301922: Ground_TemplePuzzle:pCone9 18
+    2301924: Ground_TemplePuzzle:pCone9 19
+    2301926: Ground_TemplePuzzle:pCone9 2
+    2301928: Ground_TemplePuzzle:pCone9 3
+    2301930: Ground_TemplePuzzle:pCone9 4
+    2301932: Ground_TemplePuzzle:pCone9 5
+    2301934: Ground_TemplePuzzle:pCone9 6
+    2301936: Ground_TemplePuzzle:pCone9 7
+    2301938: Ground_TemplePuzzle:pCone9 8
+    2301940: Ground_TemplePuzzle:pCone9 9
+    2301942: Ground_TemplePuzzle:Torch
+    2301944: Ground_TemplePuzzle:Wall
+    2301946: Ground_TemplePuzzle:Wall 1
+    2301948: Ground_TemplePuzzle:Wall 2
+    2301950: Ground_TemplePuzzle:Wall 3
+    2301952: Ground_TemplePuzzle:Wall 4
+    2301954: Ground_TemplePuzzle:Wall 5
     3300000: Door
     3300002: Door 1
     3300004: ForestGround
@@ -1675,6 +3543,588 @@ ModelImporter:
     3300786: Ground4
     3300788: Ground5
     3300790: Ground6
+    3300792: Door 3
+    3300794: Ground9
+    3300796: Idol1
+    3300798: Idol2
+    3300800: Idol3
+    3300802: pCube7
+    3300804: pCylinder1 36
+    3300806: pCylinder1 37
+    3300808: pCylinder1 38
+    3300810: pCylinder1 39
+    3300812: pCylinder1 40
+    3300814: pCylinder1 41
+    3300816: pCylinder1 42
+    3300818: pCylinder1 43
+    3300820: pCylinder1 44
+    3300822: pCylinder1 45
+    3300824: pCylinder1 46
+    3300826: pCylinder1 47
+    3300828: pCylinder1 48
+    3300830: pCylinder1 49
+    3300832: pCylinder10 10
+    3300834: pCylinder10 11
+    3300836: pCylinder10 12
+    3300838: pCylinder10 8
+    3300840: pCylinder10 9
+    3300842: pCylinder11 10
+    3300844: pCylinder11 11
+    3300846: pCylinder11 12
+    3300848: pCylinder11 8
+    3300850: pCylinder11 9
+    3300852: pCylinder12 10
+    3300854: pCylinder12 11
+    3300856: pCylinder12 12
+    3300858: pCylinder12 8
+    3300860: pCylinder12 9
+    3300862: pCylinder13 10
+    3300864: pCylinder13 11
+    3300866: pCylinder13 12
+    3300868: pCylinder13 8
+    3300870: pCylinder13 9
+    3300872: pCylinder14 10
+    3300874: pCylinder14 11
+    3300876: pCylinder14 12
+    3300878: pCylinder14 8
+    3300880: pCylinder14 9
+    3300882: pCylinder15 10
+    3300884: pCylinder15 11
+    3300886: pCylinder15 12
+    3300888: pCylinder15 8
+    3300890: pCylinder15 9
+    3300892: pCylinder16 10
+    3300894: pCylinder16 11
+    3300896: pCylinder16 12
+    3300898: pCylinder16 8
+    3300900: pCylinder16 9
+    3300902: pCylinder17 10
+    3300904: pCylinder17 11
+    3300906: pCylinder17 12
+    3300908: pCylinder17 8
+    3300910: pCylinder17 9
+    3300912: pCylinder18 10
+    3300914: pCylinder18 11
+    3300916: pCylinder18 12
+    3300918: pCylinder18 8
+    3300920: pCylinder18 9
+    3300922: pCylinder2 36
+    3300924: pCylinder2 37
+    3300926: pCylinder2 38
+    3300928: pCylinder2 39
+    3300930: pCylinder2 40
+    3300932: pCylinder2 41
+    3300934: pCylinder2 42
+    3300936: pCylinder2 43
+    3300938: pCylinder2 44
+    3300940: pCylinder2 45
+    3300942: pCylinder2 46
+    3300944: pCylinder2 47
+    3300946: pCylinder2 48
+    3300948: pCylinder2 49
+    3300950: pCylinder3 36
+    3300952: pCylinder3 37
+    3300954: pCylinder3 38
+    3300956: pCylinder3 39
+    3300958: pCylinder3 40
+    3300960: pCylinder3 41
+    3300962: pCylinder3 42
+    3300964: pCylinder3 43
+    3300966: pCylinder3 44
+    3300968: pCylinder3 45
+    3300970: pCylinder3 46
+    3300972: pCylinder3 47
+    3300974: pCylinder3 48
+    3300976: pCylinder3 49
+    3300978: pCylinder4 36
+    3300980: pCylinder4 37
+    3300982: pCylinder4 38
+    3300984: pCylinder4 39
+    3300986: pCylinder4 40
+    3300988: pCylinder4 41
+    3300990: pCylinder4 42
+    3300992: pCylinder4 43
+    3300994: pCylinder4 44
+    3300996: pCylinder4 45
+    3300998: pCylinder4 46
+    3301000: pCylinder4 47
+    3301002: pCylinder4 48
+    3301004: pCylinder4 49
+    3301006: pCylinder5 36
+    3301008: pCylinder5 37
+    3301010: pCylinder5 38
+    3301012: pCylinder5 39
+    3301014: pCylinder5 40
+    3301016: pCylinder5 41
+    3301018: pCylinder5 42
+    3301020: pCylinder5 43
+    3301022: pCylinder5 44
+    3301024: pCylinder5 45
+    3301026: pCylinder5 46
+    3301028: pCylinder5 47
+    3301030: pCylinder5 48
+    3301032: pCylinder5 49
+    3301034: pCylinder6 23
+    3301036: pCylinder6 24
+    3301038: pCylinder6 25
+    3301040: pCylinder6 26
+    3301042: pCylinder6 27
+    3301044: pCylinder6 28
+    3301046: pCylinder6 29
+    3301048: pCylinder6 30
+    3301050: pCylinder6 31
+    3301052: pCylinder6 32
+    3301054: pCylinder6 33
+    3301056: pCylinder6 34
+    3301058: pCylinder6 35
+    3301060: pCylinder6 36
+    3301062: pCylinder7 16
+    3301064: pCylinder7 17
+    3301066: pCylinder7 18
+    3301068: pCylinder7 19
+    3301070: pCylinder7 20
+    3301072: pCylinder7 21
+    3301074: pCylinder7 22
+    3301076: pCylinder7 23
+    3301078: pCylinder8 13
+    3301080: pCylinder8 14
+    3301082: pCylinder8 15
+    3301084: pCylinder8 16
+    3301086: pCylinder8 17
+    3301088: pCylinder8 18
+    3301090: pCylinder8 19
+    3301092: pCylinder9 10
+    3301094: pCylinder9 11
+    3301096: pCylinder9 12
+    3301098: pCylinder9 8
+    3301100: pCylinder9 9
+    3301102: SwampGround_Puzzle4
+    3301104: Tree 3
+    3301106: Base 1
+    3301108: Door 4
+    3301110: Door1
+    3301112: DoorFrame
+    3301114: Ground_Temple
+    3301116: Idol4
+    3301118: Idol5
+    3301120: Idol6
+    3301122: Idol7
+    3301124: pCylinder1 50
+    3301126: pCylinder1 51
+    3301128: pCylinder1 52
+    3301130: pCylinder1 53
+    3301132: pCylinder1 54
+    3301134: pCylinder1 55
+    3301136: pCylinder1 56
+    3301138: pCylinder1 57
+    3301140: pCylinder1 58
+    3301142: pCylinder1 59
+    3301144: pCylinder1 60
+    3301146: pCylinder1 61
+    3301148: pCylinder1 62
+    3301150: pCylinder1 63
+    3301152: pCylinder10 13
+    3301154: pCylinder11 13
+    3301156: pCylinder12 13
+    3301158: pCylinder13 13
+    3301160: pCylinder14 13
+    3301162: pCylinder15 13
+    3301164: pCylinder16 13
+    3301166: pCylinder17 13
+    3301168: pCylinder18 13
+    3301170: pCylinder19 1
+    3301172: pCylinder2 50
+    3301174: pCylinder2 51
+    3301176: pCylinder2 52
+    3301178: pCylinder2 53
+    3301180: pCylinder2 54
+    3301182: pCylinder2 55
+    3301184: pCylinder2 56
+    3301186: pCylinder2 57
+    3301188: pCylinder2 58
+    3301190: pCylinder2 59
+    3301192: pCylinder2 60
+    3301194: pCylinder2 61
+    3301196: pCylinder2 62
+    3301198: pCylinder2 63
+    3301200: pCylinder20 1
+    3301202: pCylinder21 1
+    3301204: pCylinder22 1
+    3301206: pCylinder23 1
+    3301208: pCylinder24 1
+    3301210: pCylinder25 1
+    3301212: pCylinder26 1
+    3301214: pCylinder27 1
+    3301216: pCylinder28 1
+    3301218: pCylinder29 1
+    3301220: pCylinder3 50
+    3301222: pCylinder3 51
+    3301224: pCylinder3 52
+    3301226: pCylinder3 53
+    3301228: pCylinder3 54
+    3301230: pCylinder3 55
+    3301232: pCylinder3 56
+    3301234: pCylinder3 57
+    3301236: pCylinder3 58
+    3301238: pCylinder3 59
+    3301240: pCylinder3 60
+    3301242: pCylinder3 61
+    3301244: pCylinder3 62
+    3301246: pCylinder3 63
+    3301248: pCylinder30 1
+    3301250: pCylinder31 1
+    3301252: pCylinder32 1
+    3301254: pCylinder33 1
+    3301256: pCylinder34 1
+    3301258: pCylinder4 50
+    3301260: pCylinder4 51
+    3301262: pCylinder4 52
+    3301264: pCylinder4 53
+    3301266: pCylinder4 54
+    3301268: pCylinder4 55
+    3301270: pCylinder4 56
+    3301272: pCylinder4 57
+    3301274: pCylinder4 58
+    3301276: pCylinder4 59
+    3301278: pCylinder4 60
+    3301280: pCylinder4 61
+    3301282: pCylinder4 62
+    3301284: pCylinder4 63
+    3301286: pCylinder5 50
+    3301288: pCylinder5 51
+    3301290: pCylinder5 52
+    3301292: pCylinder5 53
+    3301294: pCylinder5 54
+    3301296: pCylinder5 55
+    3301298: pCylinder5 56
+    3301300: pCylinder5 57
+    3301302: pCylinder5 58
+    3301304: pCylinder5 59
+    3301306: pCylinder5 60
+    3301308: pCylinder5 61
+    3301310: pCylinder5 62
+    3301312: pCylinder5 63
+    3301314: pCylinder6 37
+    3301316: pCylinder6 38
+    3301318: pCylinder6 39
+    3301320: pCylinder6 40
+    3301322: pCylinder6 41
+    3301324: pCylinder6 42
+    3301326: pCylinder6 43
+    3301328: pCylinder6 44
+    3301330: pCylinder6 45
+    3301332: pCylinder6 46
+    3301334: pCylinder6 47
+    3301336: pCylinder6 48
+    3301338: pCylinder6 49
+    3301340: pCylinder6 50
+    3301342: pCylinder7 24
+    3301344: pCylinder7 25
+    3301346: pCylinder7 26
+    3301348: pCylinder7 27
+    3301350: pCylinder7 28
+    3301352: pCylinder7 29
+    3301354: pCylinder8 20
+    3301356: pCylinder9 13
+    3301358: Torch 1
+    3301360: Wall
+    3301362: Water
+    3301364: Water2
+    3301366: Base 2
+    3301368: Crate
+    3301370: CrystalTrigger1
+    3301372: Door 5
+    3301374: Door 6
+    3301376: Door1 1
+    3301378: Door1 2
+    3301380: DoorFrame 1
+    3301382: DoorFrame 2
+    3301384: FallingFloor1
+    3301386: FallingFloor2
+    3301388: FallingFloor3
+    3301390: FallingFloor4
+    3301392: FallingFloor5
+    3301394: FallingFloor6
+    3301396: FallingFloor7
+    3301398: FallingFloor8
+    3301400: Ground_Temple1
+    3301402: Ground_Temple2
+    3301404: Ground_Temple3
+    3301406: Key1
+    3301408: Torch 2
+    3301410: Wall 1
+    3301412: Wall 2
+    3301414: Ground_TemplePuzzle:Base
+    3301416: Ground_TemplePuzzle:Crate
+    3301418: Ground_TemplePuzzle:Crate1
+    3301420: Ground_TemplePuzzle:Crate2
+    3301422: Ground_TemplePuzzle:CrystalTrigger1
+    3301424: Ground_TemplePuzzle:CrystalTrigger2
+    3301426: Ground_TemplePuzzle:CrystalTrigger3
+    3301428: Ground_TemplePuzzle:Door
+    3301430: Ground_TemplePuzzle:Door 1
+    3301432: Ground_TemplePuzzle:Door 2
+    3301434: Ground_TemplePuzzle:Door 3
+    3301436: Ground_TemplePuzzle:Door 4
+    3301438: Ground_TemplePuzzle:Door 5
+    3301440: Ground_TemplePuzzle:Door1
+    3301442: Ground_TemplePuzzle:Door1 1
+    3301444: Ground_TemplePuzzle:Door1 2
+    3301446: Ground_TemplePuzzle:Door1 3
+    3301448: Ground_TemplePuzzle:Door1 4
+    3301450: Ground_TemplePuzzle:Door1 5
+    3301452: Ground_TemplePuzzle:DoorFrame
+    3301454: Ground_TemplePuzzle:DoorFrame 1
+    3301456: Ground_TemplePuzzle:DoorFrame 2
+    3301458: Ground_TemplePuzzle:DoorFrame 3
+    3301460: Ground_TemplePuzzle:DoorFrame 4
+    3301462: Ground_TemplePuzzle:DoorFrame 5
+    3301464: Ground_TemplePuzzle:FallingFloor1
+    3301466: Ground_TemplePuzzle:FallingFloor10
+    3301468: Ground_TemplePuzzle:FallingFloor11
+    3301470: Ground_TemplePuzzle:FallingFloor12
+    3301472: Ground_TemplePuzzle:FallingFloor13
+    3301474: Ground_TemplePuzzle:FallingFloor14
+    3301476: Ground_TemplePuzzle:FallingFloor15
+    3301478: Ground_TemplePuzzle:FallingFloor2
+    3301480: Ground_TemplePuzzle:FallingFloor25
+    3301482: Ground_TemplePuzzle:FallingFloor26
+    3301484: Ground_TemplePuzzle:FallingFloor27
+    3301486: Ground_TemplePuzzle:FallingFloor28
+    3301488: Ground_TemplePuzzle:FallingFloor29
+    3301490: Ground_TemplePuzzle:FallingFloor3
+    3301492: Ground_TemplePuzzle:FallingFloor30
+    3301494: Ground_TemplePuzzle:FallingFloor31
+    3301496: Ground_TemplePuzzle:FallingFloor32
+    3301498: Ground_TemplePuzzle:FallingFloor33
+    3301500: Ground_TemplePuzzle:FallingFloor34
+    3301502: Ground_TemplePuzzle:FallingFloor35
+    3301504: Ground_TemplePuzzle:FallingFloor4
+    3301506: Ground_TemplePuzzle:FallingFloor5
+    3301508: Ground_TemplePuzzle:FallingFloor6
+    3301510: Ground_TemplePuzzle:FallingFloor7
+    3301512: Ground_TemplePuzzle:FallingFloor8
+    3301514: Ground_TemplePuzzle:Ground_Temple
+    3301516: Ground_TemplePuzzle:Ground_Temple17
+    3301518: Ground_TemplePuzzle:Ground_Temple19
+    3301520: Ground_TemplePuzzle:Ground_Temple9
+    3301522: Ground_TemplePuzzle:Idol10
+    3301524: Ground_TemplePuzzle:Idol11
+    3301526: Ground_TemplePuzzle:Idol12
+    3301528: Ground_TemplePuzzle:Idol13
+    3301530: Ground_TemplePuzzle:Idol8
+    3301532: Ground_TemplePuzzle:Idol9
+    3301534: Ground_TemplePuzzle:Key1
+    3301536: Ground_TemplePuzzle:Key2
+    3301538: Ground_TemplePuzzle:Key3
+    3301540: Ground_TemplePuzzle:Key4
+    3301542: Ground_TemplePuzzle:pCone1
+    3301544: Ground_TemplePuzzle:pCone1 1
+    3301546: Ground_TemplePuzzle:pCone1 10
+    3301548: Ground_TemplePuzzle:pCone1 11
+    3301550: Ground_TemplePuzzle:pCone1 12
+    3301552: Ground_TemplePuzzle:pCone1 13
+    3301554: Ground_TemplePuzzle:pCone1 14
+    3301556: Ground_TemplePuzzle:pCone1 15
+    3301558: Ground_TemplePuzzle:pCone1 16
+    3301560: Ground_TemplePuzzle:pCone1 17
+    3301562: Ground_TemplePuzzle:pCone1 18
+    3301564: Ground_TemplePuzzle:pCone1 19
+    3301566: Ground_TemplePuzzle:pCone1 2
+    3301568: Ground_TemplePuzzle:pCone1 3
+    3301570: Ground_TemplePuzzle:pCone1 4
+    3301572: Ground_TemplePuzzle:pCone1 5
+    3301574: Ground_TemplePuzzle:pCone1 6
+    3301576: Ground_TemplePuzzle:pCone1 7
+    3301578: Ground_TemplePuzzle:pCone1 8
+    3301580: Ground_TemplePuzzle:pCone1 9
+    3301582: Ground_TemplePuzzle:pCone10
+    3301584: Ground_TemplePuzzle:pCone10 1
+    3301586: Ground_TemplePuzzle:pCone10 10
+    3301588: Ground_TemplePuzzle:pCone10 11
+    3301590: Ground_TemplePuzzle:pCone10 12
+    3301592: Ground_TemplePuzzle:pCone10 13
+    3301594: Ground_TemplePuzzle:pCone10 14
+    3301596: Ground_TemplePuzzle:pCone10 15
+    3301598: Ground_TemplePuzzle:pCone10 16
+    3301600: Ground_TemplePuzzle:pCone10 17
+    3301602: Ground_TemplePuzzle:pCone10 18
+    3301604: Ground_TemplePuzzle:pCone10 19
+    3301606: Ground_TemplePuzzle:pCone10 2
+    3301608: Ground_TemplePuzzle:pCone10 3
+    3301610: Ground_TemplePuzzle:pCone10 4
+    3301612: Ground_TemplePuzzle:pCone10 5
+    3301614: Ground_TemplePuzzle:pCone10 6
+    3301616: Ground_TemplePuzzle:pCone10 7
+    3301618: Ground_TemplePuzzle:pCone10 8
+    3301620: Ground_TemplePuzzle:pCone10 9
+    3301622: Ground_TemplePuzzle:pCone11
+    3301624: Ground_TemplePuzzle:pCone11 1
+    3301626: Ground_TemplePuzzle:pCone11 10
+    3301628: Ground_TemplePuzzle:pCone11 11
+    3301630: Ground_TemplePuzzle:pCone11 12
+    3301632: Ground_TemplePuzzle:pCone11 13
+    3301634: Ground_TemplePuzzle:pCone11 14
+    3301636: Ground_TemplePuzzle:pCone11 15
+    3301638: Ground_TemplePuzzle:pCone11 16
+    3301640: Ground_TemplePuzzle:pCone11 17
+    3301642: Ground_TemplePuzzle:pCone11 18
+    3301644: Ground_TemplePuzzle:pCone11 19
+    3301646: Ground_TemplePuzzle:pCone11 2
+    3301648: Ground_TemplePuzzle:pCone11 3
+    3301650: Ground_TemplePuzzle:pCone11 4
+    3301652: Ground_TemplePuzzle:pCone11 5
+    3301654: Ground_TemplePuzzle:pCone11 6
+    3301656: Ground_TemplePuzzle:pCone11 7
+    3301658: Ground_TemplePuzzle:pCone11 8
+    3301660: Ground_TemplePuzzle:pCone11 9
+    3301662: Ground_TemplePuzzle:pCone2
+    3301664: Ground_TemplePuzzle:pCone2 1
+    3301666: Ground_TemplePuzzle:pCone2 10
+    3301668: Ground_TemplePuzzle:pCone2 11
+    3301670: Ground_TemplePuzzle:pCone2 12
+    3301672: Ground_TemplePuzzle:pCone2 13
+    3301674: Ground_TemplePuzzle:pCone2 14
+    3301676: Ground_TemplePuzzle:pCone2 15
+    3301678: Ground_TemplePuzzle:pCone2 16
+    3301680: Ground_TemplePuzzle:pCone2 17
+    3301682: Ground_TemplePuzzle:pCone2 18
+    3301684: Ground_TemplePuzzle:pCone2 19
+    3301686: Ground_TemplePuzzle:pCone2 2
+    3301688: Ground_TemplePuzzle:pCone2 3
+    3301690: Ground_TemplePuzzle:pCone2 4
+    3301692: Ground_TemplePuzzle:pCone2 5
+    3301694: Ground_TemplePuzzle:pCone2 6
+    3301696: Ground_TemplePuzzle:pCone2 7
+    3301698: Ground_TemplePuzzle:pCone2 8
+    3301700: Ground_TemplePuzzle:pCone2 9
+    3301702: Ground_TemplePuzzle:pCone3
+    3301704: Ground_TemplePuzzle:pCone3 1
+    3301706: Ground_TemplePuzzle:pCone3 10
+    3301708: Ground_TemplePuzzle:pCone3 11
+    3301710: Ground_TemplePuzzle:pCone3 12
+    3301712: Ground_TemplePuzzle:pCone3 13
+    3301714: Ground_TemplePuzzle:pCone3 14
+    3301716: Ground_TemplePuzzle:pCone3 15
+    3301718: Ground_TemplePuzzle:pCone3 16
+    3301720: Ground_TemplePuzzle:pCone3 17
+    3301722: Ground_TemplePuzzle:pCone3 18
+    3301724: Ground_TemplePuzzle:pCone3 19
+    3301726: Ground_TemplePuzzle:pCone3 2
+    3301728: Ground_TemplePuzzle:pCone3 3
+    3301730: Ground_TemplePuzzle:pCone3 4
+    3301732: Ground_TemplePuzzle:pCone3 5
+    3301734: Ground_TemplePuzzle:pCone3 6
+    3301736: Ground_TemplePuzzle:pCone3 7
+    3301738: Ground_TemplePuzzle:pCone3 8
+    3301740: Ground_TemplePuzzle:pCone3 9
+    3301742: Ground_TemplePuzzle:pCone4
+    3301744: Ground_TemplePuzzle:pCone4 1
+    3301746: Ground_TemplePuzzle:pCone4 10
+    3301748: Ground_TemplePuzzle:pCone4 11
+    3301750: Ground_TemplePuzzle:pCone4 12
+    3301752: Ground_TemplePuzzle:pCone4 13
+    3301754: Ground_TemplePuzzle:pCone4 14
+    3301756: Ground_TemplePuzzle:pCone4 15
+    3301758: Ground_TemplePuzzle:pCone4 16
+    3301760: Ground_TemplePuzzle:pCone4 17
+    3301762: Ground_TemplePuzzle:pCone4 18
+    3301764: Ground_TemplePuzzle:pCone4 19
+    3301766: Ground_TemplePuzzle:pCone4 2
+    3301768: Ground_TemplePuzzle:pCone4 3
+    3301770: Ground_TemplePuzzle:pCone4 4
+    3301772: Ground_TemplePuzzle:pCone4 5
+    3301774: Ground_TemplePuzzle:pCone4 6
+    3301776: Ground_TemplePuzzle:pCone4 7
+    3301778: Ground_TemplePuzzle:pCone4 8
+    3301780: Ground_TemplePuzzle:pCone4 9
+    3301782: Ground_TemplePuzzle:pCone5
+    3301784: Ground_TemplePuzzle:pCone5 1
+    3301786: Ground_TemplePuzzle:pCone5 10
+    3301788: Ground_TemplePuzzle:pCone5 11
+    3301790: Ground_TemplePuzzle:pCone5 12
+    3301792: Ground_TemplePuzzle:pCone5 13
+    3301794: Ground_TemplePuzzle:pCone5 14
+    3301796: Ground_TemplePuzzle:pCone5 15
+    3301798: Ground_TemplePuzzle:pCone5 16
+    3301800: Ground_TemplePuzzle:pCone5 17
+    3301802: Ground_TemplePuzzle:pCone5 18
+    3301804: Ground_TemplePuzzle:pCone5 19
+    3301806: Ground_TemplePuzzle:pCone5 2
+    3301808: Ground_TemplePuzzle:pCone5 3
+    3301810: Ground_TemplePuzzle:pCone5 4
+    3301812: Ground_TemplePuzzle:pCone5 5
+    3301814: Ground_TemplePuzzle:pCone5 6
+    3301816: Ground_TemplePuzzle:pCone5 7
+    3301818: Ground_TemplePuzzle:pCone5 8
+    3301820: Ground_TemplePuzzle:pCone5 9
+    3301822: Ground_TemplePuzzle:pCone7
+    3301824: Ground_TemplePuzzle:pCone7 1
+    3301826: Ground_TemplePuzzle:pCone7 10
+    3301828: Ground_TemplePuzzle:pCone7 11
+    3301830: Ground_TemplePuzzle:pCone7 12
+    3301832: Ground_TemplePuzzle:pCone7 13
+    3301834: Ground_TemplePuzzle:pCone7 14
+    3301836: Ground_TemplePuzzle:pCone7 15
+    3301838: Ground_TemplePuzzle:pCone7 16
+    3301840: Ground_TemplePuzzle:pCone7 17
+    3301842: Ground_TemplePuzzle:pCone7 18
+    3301844: Ground_TemplePuzzle:pCone7 19
+    3301846: Ground_TemplePuzzle:pCone7 2
+    3301848: Ground_TemplePuzzle:pCone7 3
+    3301850: Ground_TemplePuzzle:pCone7 4
+    3301852: Ground_TemplePuzzle:pCone7 5
+    3301854: Ground_TemplePuzzle:pCone7 6
+    3301856: Ground_TemplePuzzle:pCone7 7
+    3301858: Ground_TemplePuzzle:pCone7 8
+    3301860: Ground_TemplePuzzle:pCone7 9
+    3301862: Ground_TemplePuzzle:pCone8
+    3301864: Ground_TemplePuzzle:pCone8 1
+    3301866: Ground_TemplePuzzle:pCone8 10
+    3301868: Ground_TemplePuzzle:pCone8 11
+    3301870: Ground_TemplePuzzle:pCone8 12
+    3301872: Ground_TemplePuzzle:pCone8 13
+    3301874: Ground_TemplePuzzle:pCone8 14
+    3301876: Ground_TemplePuzzle:pCone8 15
+    3301878: Ground_TemplePuzzle:pCone8 16
+    3301880: Ground_TemplePuzzle:pCone8 17
+    3301882: Ground_TemplePuzzle:pCone8 18
+    3301884: Ground_TemplePuzzle:pCone8 19
+    3301886: Ground_TemplePuzzle:pCone8 2
+    3301888: Ground_TemplePuzzle:pCone8 3
+    3301890: Ground_TemplePuzzle:pCone8 4
+    3301892: Ground_TemplePuzzle:pCone8 5
+    3301894: Ground_TemplePuzzle:pCone8 6
+    3301896: Ground_TemplePuzzle:pCone8 7
+    3301898: Ground_TemplePuzzle:pCone8 8
+    3301900: Ground_TemplePuzzle:pCone8 9
+    3301902: Ground_TemplePuzzle:pCone9
+    3301904: Ground_TemplePuzzle:pCone9 1
+    3301906: Ground_TemplePuzzle:pCone9 10
+    3301908: Ground_TemplePuzzle:pCone9 11
+    3301910: Ground_TemplePuzzle:pCone9 12
+    3301912: Ground_TemplePuzzle:pCone9 13
+    3301914: Ground_TemplePuzzle:pCone9 14
+    3301916: Ground_TemplePuzzle:pCone9 15
+    3301918: Ground_TemplePuzzle:pCone9 16
+    3301920: Ground_TemplePuzzle:pCone9 17
+    3301922: Ground_TemplePuzzle:pCone9 18
+    3301924: Ground_TemplePuzzle:pCone9 19
+    3301926: Ground_TemplePuzzle:pCone9 2
+    3301928: Ground_TemplePuzzle:pCone9 3
+    3301930: Ground_TemplePuzzle:pCone9 4
+    3301932: Ground_TemplePuzzle:pCone9 5
+    3301934: Ground_TemplePuzzle:pCone9 6
+    3301936: Ground_TemplePuzzle:pCone9 7
+    3301938: Ground_TemplePuzzle:pCone9 8
+    3301940: Ground_TemplePuzzle:pCone9 9
+    3301942: Ground_TemplePuzzle:Torch
+    3301944: Ground_TemplePuzzle:Wall
+    3301946: Ground_TemplePuzzle:Wall 1
+    3301948: Ground_TemplePuzzle:Wall 2
+    3301950: Ground_TemplePuzzle:Wall 3
+    3301952: Ground_TemplePuzzle:Wall 4
+    3301954: Ground_TemplePuzzle:Wall 5
     4300000: ForestGround
     4300002: pCube1
     4300004: pCube2
@@ -2071,11 +4521,600 @@ ModelImporter:
     4300786: Ground4
     4300788: Ground5
     4300790: Ground6
+    4300792: pCylinder3
+    4300794: pCylinder4
+    4300796: pCylinder8
+    4300798: pCylinder5
+    4300800: pCylinder7
+    4300802: pCylinder6
+    4300804: pCylinder2
+    4300806: pCylinder1
+    4300808: pCylinder9
+    4300810: pCylinder5
+    4300812: pCylinder4
+    4300814: pCylinder3
+    4300816: pCylinder1
+    4300818: pCylinder2
+    4300820: pCylinder7
+    4300822: pCylinder8
+    4300824: pCylinder6
+    4300826: pCylinder18
+    4300828: pCylinder17
+    4300830: pCylinder16
+    4300832: pCylinder12
+    4300834: pCylinder11
+    4300836: pCylinder10
+    4300838: pCylinder15
+    4300840: pCylinder14
+    4300842: pCylinder13
+    4300844: pCylinder9
+    4300846: pCylinder5
+    4300848: pCylinder4
+    4300850: pCylinder3
+    4300852: pCylinder1
+    4300854: pCylinder2
+    4300856: pCylinder7
+    4300858: pCylinder8
+    4300860: pCylinder6
+    4300862: pCylinder18
+    4300864: pCylinder17
+    4300866: pCylinder16
+    4300868: pCylinder12
+    4300870: pCylinder11
+    4300872: pCylinder10
+    4300874: pCylinder15
+    4300876: pCylinder14
+    4300878: pCylinder13
+    4300880: pCylinder9
+    4300882: pCylinder5
+    4300884: pCylinder4
+    4300886: pCylinder3
+    4300888: pCylinder1
+    4300890: pCylinder2
+    4300892: pCylinder7
+    4300894: pCylinder8
+    4300896: pCylinder6
+    4300898: pCylinder18
+    4300900: pCylinder17
+    4300902: pCylinder16
+    4300904: pCylinder12
+    4300906: pCylinder11
+    4300908: pCylinder10
+    4300910: pCylinder15
+    4300912: pCylinder14
+    4300914: pCylinder13
+    4300916: pCylinder6
+    4300918: pCylinder3
+    4300920: pCylinder4
+    4300922: pCylinder5
+    4300924: pCylinder2
+    4300926: pCylinder1
+    4300928: pCylinder3
+    4300930: pCylinder4
+    4300932: pCylinder8
+    4300934: pCylinder5
+    4300936: pCylinder7
+    4300938: pCylinder6
+    4300940: pCylinder2
+    4300942: pCylinder1
+    4300944: pCylinder9
+    4300946: pCylinder5
+    4300948: pCylinder4
+    4300950: pCylinder3
+    4300952: pCylinder1
+    4300954: pCylinder2
+    4300956: pCylinder7
+    4300958: pCylinder8
+    4300960: pCylinder6
+    4300962: pCylinder18
+    4300964: pCylinder17
+    4300966: pCylinder16
+    4300968: pCylinder12
+    4300970: pCylinder11
+    4300972: pCylinder10
+    4300974: pCylinder15
+    4300976: pCylinder14
+    4300978: pCylinder13
+    4300980: pCylinder3
+    4300982: pCylinder1
+    4300984: pCylinder2
+    4300986: pCylinder5
+    4300988: pCylinder6
+    4300990: pCylinder4
+    4300992: pCylinder3
+    4300994: pCylinder1
+    4300996: pCylinder2
+    4300998: pCylinder5
+    4301000: pCylinder6
+    4301002: pCylinder4
+    4301004: Ground9
+    4301006: Idol1
+    4301008: Idol2
+    4301010: Idol3
+    4301012: pCylinder9
+    4301014: pCylinder5
+    4301016: pCylinder4
+    4301018: pCylinder3
+    4301020: pCylinder1
+    4301022: pCylinder2
+    4301024: pCylinder7
+    4301026: pCylinder8
+    4301028: pCylinder6
+    4301030: pCylinder18
+    4301032: pCylinder17
+    4301034: pCylinder16
+    4301036: pCylinder12
+    4301038: pCylinder11
+    4301040: pCylinder10
+    4301042: pCylinder15
+    4301044: pCylinder14
+    4301046: pCylinder13
+    4301048: pCylinder3
+    4301050: pCylinder1
+    4301052: pCylinder2
+    4301054: pCylinder5
+    4301056: pCylinder6
+    4301058: pCylinder4
+    4301060: SwampGround_Puzzle4
+    4301062: Tree
+    4301064: Door
+    4301066: pCylinder3
+    4301068: pCylinder4
+    4301070: pCylinder5
+    4301072: pCylinder6
+    4301074: pCylinder7
+    4301076: pCylinder2
+    4301078: pCylinder1
+    4301080: pCylinder4
+    4301082: pCylinder3
+    4301084: pCylinder6
+    4301086: pCylinder5
+    4301088: pCylinder2
+    4301090: pCylinder1
+    4301092: pCylinder6
+    4301094: pCylinder3
+    4301096: pCylinder4
+    4301098: pCylinder5
+    4301100: pCylinder2
+    4301102: pCylinder1
+    4301104: pCube7
+    4301106: Water
+    4301108: Idol4
+    4301110: pCylinder3
+    4301112: pCylinder4
+    4301114: pCylinder5
+    4301116: pCylinder6
+    4301118: pCylinder7
+    4301120: pCylinder2
+    4301122: pCylinder1
+    4301124: Idol5
+    4301126: pCylinder6
+    4301128: pCylinder3
+    4301130: pCylinder4
+    4301132: pCylinder5
+    4301134: pCylinder2
+    4301136: pCylinder1
+    4301138: pCylinder6
+    4301140: pCylinder3
+    4301142: pCylinder4
+    4301144: pCylinder5
+    4301146: pCylinder2
+    4301148: pCylinder1
+    4301150: pCylinder6
+    4301152: pCylinder3
+    4301154: pCylinder4
+    4301156: pCylinder5
+    4301158: pCylinder2
+    4301160: pCylinder1
+    4301162: pCylinder4
+    4301164: pCylinder3
+    4301166: pCylinder6
+    4301168: pCylinder5
+    4301170: pCylinder2
+    4301172: pCylinder1
+    4301174: pCylinder3
+    4301176: pCylinder4
+    4301178: pCylinder5
+    4301180: pCylinder6
+    4301182: pCylinder7
+    4301184: pCylinder2
+    4301186: pCylinder1
+    4301188: pCylinder6
+    4301190: pCylinder3
+    4301192: pCylinder4
+    4301194: pCylinder5
+    4301196: pCylinder2
+    4301198: pCylinder1
+    4301200: pCylinder4
+    4301202: pCylinder3
+    4301204: pCylinder6
+    4301206: pCylinder5
+    4301208: pCylinder2
+    4301210: pCylinder1
+    4301212: Water2
+    4301214: Idol6
+    4301216: Torch
+    4301218: Base
+    4301220: pCylinder7
+    4301222: pCylinder6
+    4301224: pCylinder23
+    4301226: pCylinder5
+    4301228: pCylinder21
+    4301230: pCylinder20
+    4301232: pCylinder22
+    4301234: pCylinder28
+    4301236: pCylinder27
+    4301238: pCylinder8
+    4301240: pCylinder24
+    4301242: pCylinder9
+    4301244: pCylinder26
+    4301246: pCylinder25
+    4301248: pCylinder19
+    4301250: pCylinder18
+    4301252: pCylinder17
+    4301254: pCylinder16
+    4301256: pCylinder15
+    4301258: pCylinder14
+    4301260: pCylinder13
+    4301262: pCylinder3
+    4301264: pCylinder4
+    4301266: pCylinder12
+    4301268: pCylinder11
+    4301270: pCylinder10
+    4301272: pCylinder2
+    4301274: pCylinder1
+    4301276: pCylinder33
+    4301278: pCylinder34
+    4301280: pCylinder32
+    4301282: pCylinder31
+    4301284: pCylinder30
+    4301286: pCylinder29
+    4301288: pCylinder3
+    4301290: pCylinder4
+    4301292: pCylinder5
+    4301294: pCylinder6
+    4301296: pCylinder7
+    4301298: pCylinder2
+    4301300: pCylinder1
+    4301302: pCylinder3
+    4301304: pCylinder4
+    4301306: pCylinder5
+    4301308: pCylinder6
+    4301310: pCylinder7
+    4301312: pCylinder2
+    4301314: pCylinder1
+    4301316: pCylinder3
+    4301318: pCylinder4
+    4301320: pCylinder5
+    4301322: pCylinder6
+    4301324: pCylinder7
+    4301326: pCylinder2
+    4301328: pCylinder1
+    4301330: pCylinder6
+    4301332: pCylinder3
+    4301334: pCylinder4
+    4301336: pCylinder5
+    4301338: pCylinder2
+    4301340: pCylinder1
+    4301342: pCylinder6
+    4301344: pCylinder3
+    4301346: pCylinder4
+    4301348: pCylinder5
+    4301350: pCylinder2
+    4301352: pCylinder1
+    4301354: Idol7
+    4301356: Ground_Temple
+    4301358: Door1
+    4301360: Door
+    4301362: Wall
+    4301364: DoorFrame
+    4301366: Ground_Temple1
+    4301368: Ground_Temple2
+    4301370: Door1
+    4301372: Door
+    4301374: Wall
+    4301376: DoorFrame
+    4301378: CrystalTrigger1
+    4301380: Crate
+    4301382: FallingFloor1
+    4301384: FallingFloor2
+    4301386: FallingFloor3
+    4301388: FallingFloor4
+    4301390: FallingFloor5
+    4301392: FallingFloor6
+    4301394: FallingFloor7
+    4301396: FallingFloor8
+    4301398: Ground_Temple3
+    4301400: Torch
+    4301402: Base
+    4301404: Door1
+    4301406: Door
+    4301408: Wall
+    4301410: DoorFrame
+    4301412: Key1
+    4301414: Ground_TemplePuzzle:Ground_Temple
+    4301416: Ground_TemplePuzzle:Door1
+    4301418: Ground_TemplePuzzle:Door
+    4301420: Ground_TemplePuzzle:Wall
+    4301422: Ground_TemplePuzzle:DoorFrame
+    4301424: Ground_TemplePuzzle:Door1
+    4301426: Ground_TemplePuzzle:Door
+    4301428: Ground_TemplePuzzle:Wall
+    4301430: Ground_TemplePuzzle:DoorFrame
+    4301432: Ground_TemplePuzzle:CrystalTrigger1
+    4301434: Ground_TemplePuzzle:Crate
+    4301436: Ground_TemplePuzzle:FallingFloor1
+    4301438: Ground_TemplePuzzle:FallingFloor2
+    4301440: Ground_TemplePuzzle:FallingFloor3
+    4301442: Ground_TemplePuzzle:FallingFloor4
+    4301444: Ground_TemplePuzzle:FallingFloor5
+    4301446: Ground_TemplePuzzle:FallingFloor6
+    4301448: Ground_TemplePuzzle:FallingFloor7
+    4301450: Ground_TemplePuzzle:FallingFloor8
+    4301452: Ground_TemplePuzzle:Torch
+    4301454: Ground_TemplePuzzle:Base
+    4301456: Ground_TemplePuzzle:Door1
+    4301458: Ground_TemplePuzzle:Door
+    4301460: Ground_TemplePuzzle:Wall
+    4301462: Ground_TemplePuzzle:DoorFrame
+    4301464: Ground_TemplePuzzle:Key1
+    4301466: Ground_TemplePuzzle:FallingFloor10
+    4301468: Ground_TemplePuzzle:FallingFloor11
+    4301470: Ground_TemplePuzzle:FallingFloor12
+    4301472: Ground_TemplePuzzle:FallingFloor13
+    4301474: Ground_TemplePuzzle:FallingFloor14
+    4301476: Ground_TemplePuzzle:Idol8
+    4301478: Ground_TemplePuzzle:Door1
+    4301480: Ground_TemplePuzzle:Door
+    4301482: Ground_TemplePuzzle:Wall
+    4301484: Ground_TemplePuzzle:DoorFrame
+    4301486: Ground_TemplePuzzle:pCone2
+    4301488: Ground_TemplePuzzle:pCone3
+    4301490: Ground_TemplePuzzle:pCone1
+    4301492: Ground_TemplePuzzle:pCone11
+    4301494: Ground_TemplePuzzle:pCone10
+    4301496: Ground_TemplePuzzle:pCone9
+    4301498: Ground_TemplePuzzle:pCone8
+    4301500: Ground_TemplePuzzle:pCone7
+    4301502: Ground_TemplePuzzle:pCone5
+    4301504: Ground_TemplePuzzle:pCone4
+    4301506: Ground_TemplePuzzle:Key2
+    4301508: Ground_TemplePuzzle:Ground_Temple9
+    4301510: Ground_TemplePuzzle:CrystalTrigger2
+    4301512: Ground_TemplePuzzle:Crate1
+    4301514: Ground_TemplePuzzle:Idol9
+    4301516: Ground_TemplePuzzle:Key3
+    4301518: Ground_TemplePuzzle:pCone2
+    4301520: Ground_TemplePuzzle:pCone3
+    4301522: Ground_TemplePuzzle:pCone1
+    4301524: Ground_TemplePuzzle:pCone11
+    4301526: Ground_TemplePuzzle:pCone10
+    4301528: Ground_TemplePuzzle:pCone9
+    4301530: Ground_TemplePuzzle:pCone8
+    4301532: Ground_TemplePuzzle:pCone7
+    4301534: Ground_TemplePuzzle:pCone5
+    4301536: Ground_TemplePuzzle:pCone4
+    4301538: Ground_TemplePuzzle:pCone2
+    4301540: Ground_TemplePuzzle:pCone3
+    4301542: Ground_TemplePuzzle:pCone1
+    4301544: Ground_TemplePuzzle:pCone11
+    4301546: Ground_TemplePuzzle:pCone10
+    4301548: Ground_TemplePuzzle:pCone9
+    4301550: Ground_TemplePuzzle:pCone8
+    4301552: Ground_TemplePuzzle:pCone7
+    4301554: Ground_TemplePuzzle:pCone5
+    4301556: Ground_TemplePuzzle:pCone4
+    4301558: Ground_TemplePuzzle:pCone2
+    4301560: Ground_TemplePuzzle:pCone3
+    4301562: Ground_TemplePuzzle:pCone1
+    4301564: Ground_TemplePuzzle:pCone11
+    4301566: Ground_TemplePuzzle:pCone10
+    4301568: Ground_TemplePuzzle:pCone9
+    4301570: Ground_TemplePuzzle:pCone8
+    4301572: Ground_TemplePuzzle:pCone7
+    4301574: Ground_TemplePuzzle:pCone5
+    4301576: Ground_TemplePuzzle:pCone4
+    4301578: Ground_TemplePuzzle:pCone2
+    4301580: Ground_TemplePuzzle:pCone3
+    4301582: Ground_TemplePuzzle:pCone1
+    4301584: Ground_TemplePuzzle:pCone11
+    4301586: Ground_TemplePuzzle:pCone10
+    4301588: Ground_TemplePuzzle:pCone9
+    4301590: Ground_TemplePuzzle:pCone8
+    4301592: Ground_TemplePuzzle:pCone7
+    4301594: Ground_TemplePuzzle:pCone5
+    4301596: Ground_TemplePuzzle:pCone4
+    4301598: Ground_TemplePuzzle:pCone2
+    4301600: Ground_TemplePuzzle:pCone3
+    4301602: Ground_TemplePuzzle:pCone1
+    4301604: Ground_TemplePuzzle:pCone11
+    4301606: Ground_TemplePuzzle:pCone10
+    4301608: Ground_TemplePuzzle:pCone9
+    4301610: Ground_TemplePuzzle:pCone8
+    4301612: Ground_TemplePuzzle:pCone7
+    4301614: Ground_TemplePuzzle:pCone5
+    4301616: Ground_TemplePuzzle:pCone4
+    4301618: Ground_TemplePuzzle:pCone2
+    4301620: Ground_TemplePuzzle:pCone3
+    4301622: Ground_TemplePuzzle:pCone1
+    4301624: Ground_TemplePuzzle:pCone11
+    4301626: Ground_TemplePuzzle:pCone10
+    4301628: Ground_TemplePuzzle:pCone9
+    4301630: Ground_TemplePuzzle:pCone8
+    4301632: Ground_TemplePuzzle:pCone7
+    4301634: Ground_TemplePuzzle:pCone5
+    4301636: Ground_TemplePuzzle:pCone4
+    4301638: Ground_TemplePuzzle:Idol10
+    4301640: Ground_TemplePuzzle:FallingFloor15
+    4301642: Ground_TemplePuzzle:pCone2
+    4301644: Ground_TemplePuzzle:pCone3
+    4301646: Ground_TemplePuzzle:pCone1
+    4301648: Ground_TemplePuzzle:pCone11
+    4301650: Ground_TemplePuzzle:pCone10
+    4301652: Ground_TemplePuzzle:pCone9
+    4301654: Ground_TemplePuzzle:pCone8
+    4301656: Ground_TemplePuzzle:pCone7
+    4301658: Ground_TemplePuzzle:pCone5
+    4301660: Ground_TemplePuzzle:pCone4
+    4301662: Ground_TemplePuzzle:pCone2
+    4301664: Ground_TemplePuzzle:pCone3
+    4301666: Ground_TemplePuzzle:pCone1
+    4301668: Ground_TemplePuzzle:pCone11
+    4301670: Ground_TemplePuzzle:pCone10
+    4301672: Ground_TemplePuzzle:pCone9
+    4301674: Ground_TemplePuzzle:pCone8
+    4301676: Ground_TemplePuzzle:pCone7
+    4301678: Ground_TemplePuzzle:pCone5
+    4301680: Ground_TemplePuzzle:pCone4
+    4301682: Ground_TemplePuzzle:Door1
+    4301684: Ground_TemplePuzzle:Door
+    4301686: Ground_TemplePuzzle:Wall
+    4301688: Ground_TemplePuzzle:DoorFrame
+    4301690: Ground_TemplePuzzle:Idol11
+    4301692: Ground_TemplePuzzle:Idol12
+    4301694: Ground_TemplePuzzle:Idol13
+    4301696: Ground_TemplePuzzle:CrystalTrigger3
+    4301698: Ground_TemplePuzzle:Crate2
+    4301700: Ground_TemplePuzzle:Key4
+    4301702: Ground_TemplePuzzle:pCone2
+    4301704: Ground_TemplePuzzle:pCone3
+    4301706: Ground_TemplePuzzle:pCone1
+    4301708: Ground_TemplePuzzle:pCone11
+    4301710: Ground_TemplePuzzle:pCone10
+    4301712: Ground_TemplePuzzle:pCone9
+    4301714: Ground_TemplePuzzle:pCone8
+    4301716: Ground_TemplePuzzle:pCone7
+    4301718: Ground_TemplePuzzle:pCone5
+    4301720: Ground_TemplePuzzle:pCone4
+    4301722: Ground_TemplePuzzle:pCone2
+    4301724: Ground_TemplePuzzle:pCone3
+    4301726: Ground_TemplePuzzle:pCone1
+    4301728: Ground_TemplePuzzle:pCone11
+    4301730: Ground_TemplePuzzle:pCone10
+    4301732: Ground_TemplePuzzle:pCone9
+    4301734: Ground_TemplePuzzle:pCone8
+    4301736: Ground_TemplePuzzle:pCone7
+    4301738: Ground_TemplePuzzle:pCone5
+    4301740: Ground_TemplePuzzle:pCone4
+    4301742: Ground_TemplePuzzle:pCone2
+    4301744: Ground_TemplePuzzle:pCone3
+    4301746: Ground_TemplePuzzle:pCone1
+    4301748: Ground_TemplePuzzle:pCone11
+    4301750: Ground_TemplePuzzle:pCone10
+    4301752: Ground_TemplePuzzle:pCone9
+    4301754: Ground_TemplePuzzle:pCone8
+    4301756: Ground_TemplePuzzle:pCone7
+    4301758: Ground_TemplePuzzle:pCone5
+    4301760: Ground_TemplePuzzle:pCone4
+    4301762: Ground_TemplePuzzle:Door1
+    4301764: Ground_TemplePuzzle:Door
+    4301766: Ground_TemplePuzzle:Wall
+    4301768: Ground_TemplePuzzle:DoorFrame
+    4301770: Ground_TemplePuzzle:pCone2
+    4301772: Ground_TemplePuzzle:pCone3
+    4301774: Ground_TemplePuzzle:pCone1
+    4301776: Ground_TemplePuzzle:pCone11
+    4301778: Ground_TemplePuzzle:pCone10
+    4301780: Ground_TemplePuzzle:pCone9
+    4301782: Ground_TemplePuzzle:pCone8
+    4301784: Ground_TemplePuzzle:pCone7
+    4301786: Ground_TemplePuzzle:pCone5
+    4301788: Ground_TemplePuzzle:pCone4
+    4301790: Ground_TemplePuzzle:Ground_Temple17
+    4301792: Ground_TemplePuzzle:Ground_Temple19
+    4301794: Ground_TemplePuzzle:pCone2
+    4301796: Ground_TemplePuzzle:pCone3
+    4301798: Ground_TemplePuzzle:pCone1
+    4301800: Ground_TemplePuzzle:pCone11
+    4301802: Ground_TemplePuzzle:pCone10
+    4301804: Ground_TemplePuzzle:pCone9
+    4301806: Ground_TemplePuzzle:pCone8
+    4301808: Ground_TemplePuzzle:pCone7
+    4301810: Ground_TemplePuzzle:pCone5
+    4301812: Ground_TemplePuzzle:pCone4
+    4301814: Ground_TemplePuzzle:pCone2
+    4301816: Ground_TemplePuzzle:pCone3
+    4301818: Ground_TemplePuzzle:pCone1
+    4301820: Ground_TemplePuzzle:pCone11
+    4301822: Ground_TemplePuzzle:pCone10
+    4301824: Ground_TemplePuzzle:pCone9
+    4301826: Ground_TemplePuzzle:pCone8
+    4301828: Ground_TemplePuzzle:pCone7
+    4301830: Ground_TemplePuzzle:pCone5
+    4301832: Ground_TemplePuzzle:pCone4
+    4301834: Ground_TemplePuzzle:pCone2
+    4301836: Ground_TemplePuzzle:pCone3
+    4301838: Ground_TemplePuzzle:pCone1
+    4301840: Ground_TemplePuzzle:pCone11
+    4301842: Ground_TemplePuzzle:pCone10
+    4301844: Ground_TemplePuzzle:pCone9
+    4301846: Ground_TemplePuzzle:pCone8
+    4301848: Ground_TemplePuzzle:pCone7
+    4301850: Ground_TemplePuzzle:pCone5
+    4301852: Ground_TemplePuzzle:pCone4
+    4301854: Ground_TemplePuzzle:pCone2
+    4301856: Ground_TemplePuzzle:pCone3
+    4301858: Ground_TemplePuzzle:pCone1
+    4301860: Ground_TemplePuzzle:pCone11
+    4301862: Ground_TemplePuzzle:pCone10
+    4301864: Ground_TemplePuzzle:pCone9
+    4301866: Ground_TemplePuzzle:pCone8
+    4301868: Ground_TemplePuzzle:pCone7
+    4301870: Ground_TemplePuzzle:pCone5
+    4301872: Ground_TemplePuzzle:pCone4
+    4301874: Ground_TemplePuzzle:pCone2
+    4301876: Ground_TemplePuzzle:pCone3
+    4301878: Ground_TemplePuzzle:pCone1
+    4301880: Ground_TemplePuzzle:pCone11
+    4301882: Ground_TemplePuzzle:pCone10
+    4301884: Ground_TemplePuzzle:pCone9
+    4301886: Ground_TemplePuzzle:pCone8
+    4301888: Ground_TemplePuzzle:pCone7
+    4301890: Ground_TemplePuzzle:pCone5
+    4301892: Ground_TemplePuzzle:pCone4
+    4301894: Ground_TemplePuzzle:pCone2
+    4301896: Ground_TemplePuzzle:pCone3
+    4301898: Ground_TemplePuzzle:pCone1
+    4301900: Ground_TemplePuzzle:pCone11
+    4301902: Ground_TemplePuzzle:pCone10
+    4301904: Ground_TemplePuzzle:pCone9
+    4301906: Ground_TemplePuzzle:pCone8
+    4301908: Ground_TemplePuzzle:pCone7
+    4301910: Ground_TemplePuzzle:pCone5
+    4301912: Ground_TemplePuzzle:pCone4
+    4301914: Ground_TemplePuzzle:pCone2
+    4301916: Ground_TemplePuzzle:pCone3
+    4301918: Ground_TemplePuzzle:pCone1
+    4301920: Ground_TemplePuzzle:pCone11
+    4301922: Ground_TemplePuzzle:pCone10
+    4301924: Ground_TemplePuzzle:pCone9
+    4301926: Ground_TemplePuzzle:pCone8
+    4301928: Ground_TemplePuzzle:pCone7
+    4301930: Ground_TemplePuzzle:pCone5
+    4301932: Ground_TemplePuzzle:pCone4
+    4301934: Ground_TemplePuzzle:FallingFloor25
+    4301936: Ground_TemplePuzzle:FallingFloor26
+    4301938: Ground_TemplePuzzle:FallingFloor27
+    4301940: Ground_TemplePuzzle:FallingFloor28
+    4301942: Ground_TemplePuzzle:FallingFloor29
+    4301944: Ground_TemplePuzzle:FallingFloor30
+    4301946: Ground_TemplePuzzle:FallingFloor31
+    4301948: Ground_TemplePuzzle:FallingFloor32
+    4301950: Ground_TemplePuzzle:FallingFloor33
+    4301952: Ground_TemplePuzzle:FallingFloor34
+    4301954: Ground_TemplePuzzle:FallingFloor35
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 123cf49f7f2ed054db35b3936ae9da9c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -2088,6 +5127,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

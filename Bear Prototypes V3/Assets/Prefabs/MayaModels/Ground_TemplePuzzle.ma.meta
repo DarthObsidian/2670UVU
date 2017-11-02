@@ -1,0 +1,1498 @@
+fileFormatVersion: 2
+guid: 4033bed74adae334c8df67496991c8cc
+timeCreated: 1509597546
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base
+    100002: Checkpoint3
+    100004: Crate
+    100006: Crate1
+    100008: Crate2
+    100010: CrystalTrigger1
+    100012: CrystalTrigger2
+    100014: CrystalTrigger3
+    100016: Door
+    100018: Door 1
+    100020: Door 2
+    100022: Door 3
+    100024: Door 4
+    100026: Door 5
+    100028: Door1
+    100030: Door1 1
+    100032: Door1 2
+    100034: Door1 3
+    100036: Door1 4
+    100038: Door1 5
+    100040: DoorFrame
+    100042: DoorFrame 1
+    100044: DoorFrame 2
+    100046: DoorFrame 3
+    100048: DoorFrame 4
+    100050: DoorFrame 5
+    100052: FallingFloor1
+    100054: FallingFloor10
+    100056: FallingFloor11
+    100058: FallingFloor12
+    100060: FallingFloor13
+    100062: FallingFloor14
+    100064: FallingFloor15
+    100066: FallingFloor2
+    100068: FallingFloor25
+    100070: FallingFloor26
+    100072: FallingFloor27
+    100074: FallingFloor28
+    100076: FallingFloor29
+    100078: FallingFloor3
+    100080: FallingFloor30
+    100082: FallingFloor31
+    100084: FallingFloor32
+    100086: FallingFloor33
+    100088: FallingFloor34
+    100090: FallingFloor35
+    100092: FallingFloor4
+    100094: FallingFloor5
+    100096: FallingFloor6
+    100098: FallingFloor7
+    100100: FallingFloor8
+    100102: Ground_Temple
+    100104: Ground_Temple17
+    100106: Ground_Temple19
+    100108: Ground_Temple9
+    100110: //RootNode
+    100112: Idol10
+    100114: Idol11
+    100116: Idol12
+    100118: Idol13
+    100120: Idol8
+    100122: Idol9
+    100124: Key1
+    100126: Key2
+    100128: Key3
+    100130: Key4
+    100132: LockedDoor1
+    100134: LockedDoor2
+    100136: LockedDoor3
+    100138: LockedDoor4
+    100140: LockedDoor5
+    100142: LockedDoor6
+    100144: pCone1
+    100146: pCone1 1
+    100148: pCone1 10
+    100150: pCone1 11
+    100152: pCone1 12
+    100154: pCone1 13
+    100156: pCone1 14
+    100158: pCone1 15
+    100160: pCone1 16
+    100162: pCone1 17
+    100164: pCone1 18
+    100166: pCone1 19
+    100168: pCone1 2
+    100170: pCone1 3
+    100172: pCone1 4
+    100174: pCone1 5
+    100176: pCone1 6
+    100178: pCone1 7
+    100180: pCone1 8
+    100182: pCone1 9
+    100184: pCone10
+    100186: pCone10 1
+    100188: pCone10 10
+    100190: pCone10 11
+    100192: pCone10 12
+    100194: pCone10 13
+    100196: pCone10 14
+    100198: pCone10 15
+    100200: pCone10 16
+    100202: pCone10 17
+    100204: pCone10 18
+    100206: pCone10 19
+    100208: pCone10 2
+    100210: pCone10 3
+    100212: pCone10 4
+    100214: pCone10 5
+    100216: pCone10 6
+    100218: pCone10 7
+    100220: pCone10 8
+    100222: pCone10 9
+    100224: pCone11
+    100226: pCone11 1
+    100228: pCone11 10
+    100230: pCone11 11
+    100232: pCone11 12
+    100234: pCone11 13
+    100236: pCone11 14
+    100238: pCone11 15
+    100240: pCone11 16
+    100242: pCone11 17
+    100244: pCone11 18
+    100246: pCone11 19
+    100248: pCone11 2
+    100250: pCone11 3
+    100252: pCone11 4
+    100254: pCone11 5
+    100256: pCone11 6
+    100258: pCone11 7
+    100260: pCone11 8
+    100262: pCone11 9
+    100264: pCone2
+    100266: pCone2 1
+    100268: pCone2 10
+    100270: pCone2 11
+    100272: pCone2 12
+    100274: pCone2 13
+    100276: pCone2 14
+    100278: pCone2 15
+    100280: pCone2 16
+    100282: pCone2 17
+    100284: pCone2 18
+    100286: pCone2 19
+    100288: pCone2 2
+    100290: pCone2 3
+    100292: pCone2 4
+    100294: pCone2 5
+    100296: pCone2 6
+    100298: pCone2 7
+    100300: pCone2 8
+    100302: pCone2 9
+    100304: pCone3
+    100306: pCone3 1
+    100308: pCone3 10
+    100310: pCone3 11
+    100312: pCone3 12
+    100314: pCone3 13
+    100316: pCone3 14
+    100318: pCone3 15
+    100320: pCone3 16
+    100322: pCone3 17
+    100324: pCone3 18
+    100326: pCone3 19
+    100328: pCone3 2
+    100330: pCone3 3
+    100332: pCone3 4
+    100334: pCone3 5
+    100336: pCone3 6
+    100338: pCone3 7
+    100340: pCone3 8
+    100342: pCone3 9
+    100344: pCone4
+    100346: pCone4 1
+    100348: pCone4 10
+    100350: pCone4 11
+    100352: pCone4 12
+    100354: pCone4 13
+    100356: pCone4 14
+    100358: pCone4 15
+    100360: pCone4 16
+    100362: pCone4 17
+    100364: pCone4 18
+    100366: pCone4 19
+    100368: pCone4 2
+    100370: pCone4 3
+    100372: pCone4 4
+    100374: pCone4 5
+    100376: pCone4 6
+    100378: pCone4 7
+    100380: pCone4 8
+    100382: pCone4 9
+    100384: pCone5
+    100386: pCone5 1
+    100388: pCone5 10
+    100390: pCone5 11
+    100392: pCone5 12
+    100394: pCone5 13
+    100396: pCone5 14
+    100398: pCone5 15
+    100400: pCone5 16
+    100402: pCone5 17
+    100404: pCone5 18
+    100406: pCone5 19
+    100408: pCone5 2
+    100410: pCone5 3
+    100412: pCone5 4
+    100414: pCone5 5
+    100416: pCone5 6
+    100418: pCone5 7
+    100420: pCone5 8
+    100422: pCone5 9
+    100424: pCone7
+    100426: pCone7 1
+    100428: pCone7 10
+    100430: pCone7 11
+    100432: pCone7 12
+    100434: pCone7 13
+    100436: pCone7 14
+    100438: pCone7 15
+    100440: pCone7 16
+    100442: pCone7 17
+    100444: pCone7 18
+    100446: pCone7 19
+    100448: pCone7 2
+    100450: pCone7 3
+    100452: pCone7 4
+    100454: pCone7 5
+    100456: pCone7 6
+    100458: pCone7 7
+    100460: pCone7 8
+    100462: pCone7 9
+    100464: pCone8
+    100466: pCone8 1
+    100468: pCone8 10
+    100470: pCone8 11
+    100472: pCone8 12
+    100474: pCone8 13
+    100476: pCone8 14
+    100478: pCone8 15
+    100480: pCone8 16
+    100482: pCone8 17
+    100484: pCone8 18
+    100486: pCone8 19
+    100488: pCone8 2
+    100490: pCone8 3
+    100492: pCone8 4
+    100494: pCone8 5
+    100496: pCone8 6
+    100498: pCone8 7
+    100500: pCone8 8
+    100502: pCone8 9
+    100504: pCone9
+    100506: pCone9 1
+    100508: pCone9 10
+    100510: pCone9 11
+    100512: pCone9 12
+    100514: pCone9 13
+    100516: pCone9 14
+    100518: pCone9 15
+    100520: pCone9 16
+    100522: pCone9 17
+    100524: pCone9 18
+    100526: pCone9 19
+    100528: pCone9 2
+    100530: pCone9 3
+    100532: pCone9 4
+    100534: pCone9 5
+    100536: pCone9 6
+    100538: pCone9 7
+    100540: pCone9 8
+    100542: pCone9 9
+    100544: Spikes
+    100546: Spikes1
+    100548: Spikes10
+    100550: Spikes11
+    100552: Spikes12
+    100554: Spikes13
+    100556: Spikes14
+    100558: Spikes15
+    100560: Spikes16
+    100562: Spikes17
+    100564: Spikes18
+    100566: Spikes19
+    100568: Spikes2
+    100570: Spikes3
+    100572: Spikes4
+    100574: Spikes5
+    100576: Spikes6
+    100578: Spikes7
+    100580: Spikes8
+    100582: Spikes9
+    100584: Torch
+    100586: Wall
+    100588: Wall 1
+    100590: Wall 2
+    100592: Wall 3
+    100594: Wall 4
+    100596: Wall 5
+    400000: Base
+    400002: Checkpoint3
+    400004: Crate
+    400006: Crate1
+    400008: Crate2
+    400010: CrystalTrigger1
+    400012: CrystalTrigger2
+    400014: CrystalTrigger3
+    400016: Door
+    400018: Door 1
+    400020: Door 2
+    400022: Door 3
+    400024: Door 4
+    400026: Door 5
+    400028: Door1
+    400030: Door1 1
+    400032: Door1 2
+    400034: Door1 3
+    400036: Door1 4
+    400038: Door1 5
+    400040: DoorFrame
+    400042: DoorFrame 1
+    400044: DoorFrame 2
+    400046: DoorFrame 3
+    400048: DoorFrame 4
+    400050: DoorFrame 5
+    400052: FallingFloor1
+    400054: FallingFloor10
+    400056: FallingFloor11
+    400058: FallingFloor12
+    400060: FallingFloor13
+    400062: FallingFloor14
+    400064: FallingFloor15
+    400066: FallingFloor2
+    400068: FallingFloor25
+    400070: FallingFloor26
+    400072: FallingFloor27
+    400074: FallingFloor28
+    400076: FallingFloor29
+    400078: FallingFloor3
+    400080: FallingFloor30
+    400082: FallingFloor31
+    400084: FallingFloor32
+    400086: FallingFloor33
+    400088: FallingFloor34
+    400090: FallingFloor35
+    400092: FallingFloor4
+    400094: FallingFloor5
+    400096: FallingFloor6
+    400098: FallingFloor7
+    400100: FallingFloor8
+    400102: Ground_Temple
+    400104: Ground_Temple17
+    400106: Ground_Temple19
+    400108: Ground_Temple9
+    400110: //RootNode
+    400112: Idol10
+    400114: Idol11
+    400116: Idol12
+    400118: Idol13
+    400120: Idol8
+    400122: Idol9
+    400124: Key1
+    400126: Key2
+    400128: Key3
+    400130: Key4
+    400132: LockedDoor1
+    400134: LockedDoor2
+    400136: LockedDoor3
+    400138: LockedDoor4
+    400140: LockedDoor5
+    400142: LockedDoor6
+    400144: pCone1
+    400146: pCone1 1
+    400148: pCone1 10
+    400150: pCone1 11
+    400152: pCone1 12
+    400154: pCone1 13
+    400156: pCone1 14
+    400158: pCone1 15
+    400160: pCone1 16
+    400162: pCone1 17
+    400164: pCone1 18
+    400166: pCone1 19
+    400168: pCone1 2
+    400170: pCone1 3
+    400172: pCone1 4
+    400174: pCone1 5
+    400176: pCone1 6
+    400178: pCone1 7
+    400180: pCone1 8
+    400182: pCone1 9
+    400184: pCone10
+    400186: pCone10 1
+    400188: pCone10 10
+    400190: pCone10 11
+    400192: pCone10 12
+    400194: pCone10 13
+    400196: pCone10 14
+    400198: pCone10 15
+    400200: pCone10 16
+    400202: pCone10 17
+    400204: pCone10 18
+    400206: pCone10 19
+    400208: pCone10 2
+    400210: pCone10 3
+    400212: pCone10 4
+    400214: pCone10 5
+    400216: pCone10 6
+    400218: pCone10 7
+    400220: pCone10 8
+    400222: pCone10 9
+    400224: pCone11
+    400226: pCone11 1
+    400228: pCone11 10
+    400230: pCone11 11
+    400232: pCone11 12
+    400234: pCone11 13
+    400236: pCone11 14
+    400238: pCone11 15
+    400240: pCone11 16
+    400242: pCone11 17
+    400244: pCone11 18
+    400246: pCone11 19
+    400248: pCone11 2
+    400250: pCone11 3
+    400252: pCone11 4
+    400254: pCone11 5
+    400256: pCone11 6
+    400258: pCone11 7
+    400260: pCone11 8
+    400262: pCone11 9
+    400264: pCone2
+    400266: pCone2 1
+    400268: pCone2 10
+    400270: pCone2 11
+    400272: pCone2 12
+    400274: pCone2 13
+    400276: pCone2 14
+    400278: pCone2 15
+    400280: pCone2 16
+    400282: pCone2 17
+    400284: pCone2 18
+    400286: pCone2 19
+    400288: pCone2 2
+    400290: pCone2 3
+    400292: pCone2 4
+    400294: pCone2 5
+    400296: pCone2 6
+    400298: pCone2 7
+    400300: pCone2 8
+    400302: pCone2 9
+    400304: pCone3
+    400306: pCone3 1
+    400308: pCone3 10
+    400310: pCone3 11
+    400312: pCone3 12
+    400314: pCone3 13
+    400316: pCone3 14
+    400318: pCone3 15
+    400320: pCone3 16
+    400322: pCone3 17
+    400324: pCone3 18
+    400326: pCone3 19
+    400328: pCone3 2
+    400330: pCone3 3
+    400332: pCone3 4
+    400334: pCone3 5
+    400336: pCone3 6
+    400338: pCone3 7
+    400340: pCone3 8
+    400342: pCone3 9
+    400344: pCone4
+    400346: pCone4 1
+    400348: pCone4 10
+    400350: pCone4 11
+    400352: pCone4 12
+    400354: pCone4 13
+    400356: pCone4 14
+    400358: pCone4 15
+    400360: pCone4 16
+    400362: pCone4 17
+    400364: pCone4 18
+    400366: pCone4 19
+    400368: pCone4 2
+    400370: pCone4 3
+    400372: pCone4 4
+    400374: pCone4 5
+    400376: pCone4 6
+    400378: pCone4 7
+    400380: pCone4 8
+    400382: pCone4 9
+    400384: pCone5
+    400386: pCone5 1
+    400388: pCone5 10
+    400390: pCone5 11
+    400392: pCone5 12
+    400394: pCone5 13
+    400396: pCone5 14
+    400398: pCone5 15
+    400400: pCone5 16
+    400402: pCone5 17
+    400404: pCone5 18
+    400406: pCone5 19
+    400408: pCone5 2
+    400410: pCone5 3
+    400412: pCone5 4
+    400414: pCone5 5
+    400416: pCone5 6
+    400418: pCone5 7
+    400420: pCone5 8
+    400422: pCone5 9
+    400424: pCone7
+    400426: pCone7 1
+    400428: pCone7 10
+    400430: pCone7 11
+    400432: pCone7 12
+    400434: pCone7 13
+    400436: pCone7 14
+    400438: pCone7 15
+    400440: pCone7 16
+    400442: pCone7 17
+    400444: pCone7 18
+    400446: pCone7 19
+    400448: pCone7 2
+    400450: pCone7 3
+    400452: pCone7 4
+    400454: pCone7 5
+    400456: pCone7 6
+    400458: pCone7 7
+    400460: pCone7 8
+    400462: pCone7 9
+    400464: pCone8
+    400466: pCone8 1
+    400468: pCone8 10
+    400470: pCone8 11
+    400472: pCone8 12
+    400474: pCone8 13
+    400476: pCone8 14
+    400478: pCone8 15
+    400480: pCone8 16
+    400482: pCone8 17
+    400484: pCone8 18
+    400486: pCone8 19
+    400488: pCone8 2
+    400490: pCone8 3
+    400492: pCone8 4
+    400494: pCone8 5
+    400496: pCone8 6
+    400498: pCone8 7
+    400500: pCone8 8
+    400502: pCone8 9
+    400504: pCone9
+    400506: pCone9 1
+    400508: pCone9 10
+    400510: pCone9 11
+    400512: pCone9 12
+    400514: pCone9 13
+    400516: pCone9 14
+    400518: pCone9 15
+    400520: pCone9 16
+    400522: pCone9 17
+    400524: pCone9 18
+    400526: pCone9 19
+    400528: pCone9 2
+    400530: pCone9 3
+    400532: pCone9 4
+    400534: pCone9 5
+    400536: pCone9 6
+    400538: pCone9 7
+    400540: pCone9 8
+    400542: pCone9 9
+    400544: Spikes
+    400546: Spikes1
+    400548: Spikes10
+    400550: Spikes11
+    400552: Spikes12
+    400554: Spikes13
+    400556: Spikes14
+    400558: Spikes15
+    400560: Spikes16
+    400562: Spikes17
+    400564: Spikes18
+    400566: Spikes19
+    400568: Spikes2
+    400570: Spikes3
+    400572: Spikes4
+    400574: Spikes5
+    400576: Spikes6
+    400578: Spikes7
+    400580: Spikes8
+    400582: Spikes9
+    400584: Torch
+    400586: Wall
+    400588: Wall 1
+    400590: Wall 2
+    400592: Wall 3
+    400594: Wall 4
+    400596: Wall 5
+    2100000: lambert1
+    2300000: Base
+    2300002: Crate
+    2300004: Crate1
+    2300006: Crate2
+    2300008: CrystalTrigger1
+    2300010: CrystalTrigger2
+    2300012: CrystalTrigger3
+    2300014: Door
+    2300016: Door 1
+    2300018: Door 2
+    2300020: Door 3
+    2300022: Door 4
+    2300024: Door 5
+    2300026: Door1
+    2300028: Door1 1
+    2300030: Door1 2
+    2300032: Door1 3
+    2300034: Door1 4
+    2300036: Door1 5
+    2300038: DoorFrame
+    2300040: DoorFrame 1
+    2300042: DoorFrame 2
+    2300044: DoorFrame 3
+    2300046: DoorFrame 4
+    2300048: DoorFrame 5
+    2300050: FallingFloor1
+    2300052: FallingFloor10
+    2300054: FallingFloor11
+    2300056: FallingFloor12
+    2300058: FallingFloor13
+    2300060: FallingFloor14
+    2300062: FallingFloor15
+    2300064: FallingFloor2
+    2300066: FallingFloor25
+    2300068: FallingFloor26
+    2300070: FallingFloor27
+    2300072: FallingFloor28
+    2300074: FallingFloor29
+    2300076: FallingFloor3
+    2300078: FallingFloor30
+    2300080: FallingFloor31
+    2300082: FallingFloor32
+    2300084: FallingFloor33
+    2300086: FallingFloor34
+    2300088: FallingFloor35
+    2300090: FallingFloor4
+    2300092: FallingFloor5
+    2300094: FallingFloor6
+    2300096: FallingFloor7
+    2300098: FallingFloor8
+    2300100: Ground_Temple
+    2300102: Ground_Temple17
+    2300104: Ground_Temple19
+    2300106: Ground_Temple9
+    2300108: Idol10
+    2300110: Idol11
+    2300112: Idol12
+    2300114: Idol13
+    2300116: Idol8
+    2300118: Idol9
+    2300120: Key1
+    2300122: Key2
+    2300124: Key3
+    2300126: Key4
+    2300128: pCone1
+    2300130: pCone1 1
+    2300132: pCone1 10
+    2300134: pCone1 11
+    2300136: pCone1 12
+    2300138: pCone1 13
+    2300140: pCone1 14
+    2300142: pCone1 15
+    2300144: pCone1 16
+    2300146: pCone1 17
+    2300148: pCone1 18
+    2300150: pCone1 19
+    2300152: pCone1 2
+    2300154: pCone1 3
+    2300156: pCone1 4
+    2300158: pCone1 5
+    2300160: pCone1 6
+    2300162: pCone1 7
+    2300164: pCone1 8
+    2300166: pCone1 9
+    2300168: pCone10
+    2300170: pCone10 1
+    2300172: pCone10 10
+    2300174: pCone10 11
+    2300176: pCone10 12
+    2300178: pCone10 13
+    2300180: pCone10 14
+    2300182: pCone10 15
+    2300184: pCone10 16
+    2300186: pCone10 17
+    2300188: pCone10 18
+    2300190: pCone10 19
+    2300192: pCone10 2
+    2300194: pCone10 3
+    2300196: pCone10 4
+    2300198: pCone10 5
+    2300200: pCone10 6
+    2300202: pCone10 7
+    2300204: pCone10 8
+    2300206: pCone10 9
+    2300208: pCone11
+    2300210: pCone11 1
+    2300212: pCone11 10
+    2300214: pCone11 11
+    2300216: pCone11 12
+    2300218: pCone11 13
+    2300220: pCone11 14
+    2300222: pCone11 15
+    2300224: pCone11 16
+    2300226: pCone11 17
+    2300228: pCone11 18
+    2300230: pCone11 19
+    2300232: pCone11 2
+    2300234: pCone11 3
+    2300236: pCone11 4
+    2300238: pCone11 5
+    2300240: pCone11 6
+    2300242: pCone11 7
+    2300244: pCone11 8
+    2300246: pCone11 9
+    2300248: pCone2
+    2300250: pCone2 1
+    2300252: pCone2 10
+    2300254: pCone2 11
+    2300256: pCone2 12
+    2300258: pCone2 13
+    2300260: pCone2 14
+    2300262: pCone2 15
+    2300264: pCone2 16
+    2300266: pCone2 17
+    2300268: pCone2 18
+    2300270: pCone2 19
+    2300272: pCone2 2
+    2300274: pCone2 3
+    2300276: pCone2 4
+    2300278: pCone2 5
+    2300280: pCone2 6
+    2300282: pCone2 7
+    2300284: pCone2 8
+    2300286: pCone2 9
+    2300288: pCone3
+    2300290: pCone3 1
+    2300292: pCone3 10
+    2300294: pCone3 11
+    2300296: pCone3 12
+    2300298: pCone3 13
+    2300300: pCone3 14
+    2300302: pCone3 15
+    2300304: pCone3 16
+    2300306: pCone3 17
+    2300308: pCone3 18
+    2300310: pCone3 19
+    2300312: pCone3 2
+    2300314: pCone3 3
+    2300316: pCone3 4
+    2300318: pCone3 5
+    2300320: pCone3 6
+    2300322: pCone3 7
+    2300324: pCone3 8
+    2300326: pCone3 9
+    2300328: pCone4
+    2300330: pCone4 1
+    2300332: pCone4 10
+    2300334: pCone4 11
+    2300336: pCone4 12
+    2300338: pCone4 13
+    2300340: pCone4 14
+    2300342: pCone4 15
+    2300344: pCone4 16
+    2300346: pCone4 17
+    2300348: pCone4 18
+    2300350: pCone4 19
+    2300352: pCone4 2
+    2300354: pCone4 3
+    2300356: pCone4 4
+    2300358: pCone4 5
+    2300360: pCone4 6
+    2300362: pCone4 7
+    2300364: pCone4 8
+    2300366: pCone4 9
+    2300368: pCone5
+    2300370: pCone5 1
+    2300372: pCone5 10
+    2300374: pCone5 11
+    2300376: pCone5 12
+    2300378: pCone5 13
+    2300380: pCone5 14
+    2300382: pCone5 15
+    2300384: pCone5 16
+    2300386: pCone5 17
+    2300388: pCone5 18
+    2300390: pCone5 19
+    2300392: pCone5 2
+    2300394: pCone5 3
+    2300396: pCone5 4
+    2300398: pCone5 5
+    2300400: pCone5 6
+    2300402: pCone5 7
+    2300404: pCone5 8
+    2300406: pCone5 9
+    2300408: pCone7
+    2300410: pCone7 1
+    2300412: pCone7 10
+    2300414: pCone7 11
+    2300416: pCone7 12
+    2300418: pCone7 13
+    2300420: pCone7 14
+    2300422: pCone7 15
+    2300424: pCone7 16
+    2300426: pCone7 17
+    2300428: pCone7 18
+    2300430: pCone7 19
+    2300432: pCone7 2
+    2300434: pCone7 3
+    2300436: pCone7 4
+    2300438: pCone7 5
+    2300440: pCone7 6
+    2300442: pCone7 7
+    2300444: pCone7 8
+    2300446: pCone7 9
+    2300448: pCone8
+    2300450: pCone8 1
+    2300452: pCone8 10
+    2300454: pCone8 11
+    2300456: pCone8 12
+    2300458: pCone8 13
+    2300460: pCone8 14
+    2300462: pCone8 15
+    2300464: pCone8 16
+    2300466: pCone8 17
+    2300468: pCone8 18
+    2300470: pCone8 19
+    2300472: pCone8 2
+    2300474: pCone8 3
+    2300476: pCone8 4
+    2300478: pCone8 5
+    2300480: pCone8 6
+    2300482: pCone8 7
+    2300484: pCone8 8
+    2300486: pCone8 9
+    2300488: pCone9
+    2300490: pCone9 1
+    2300492: pCone9 10
+    2300494: pCone9 11
+    2300496: pCone9 12
+    2300498: pCone9 13
+    2300500: pCone9 14
+    2300502: pCone9 15
+    2300504: pCone9 16
+    2300506: pCone9 17
+    2300508: pCone9 18
+    2300510: pCone9 19
+    2300512: pCone9 2
+    2300514: pCone9 3
+    2300516: pCone9 4
+    2300518: pCone9 5
+    2300520: pCone9 6
+    2300522: pCone9 7
+    2300524: pCone9 8
+    2300526: pCone9 9
+    2300528: Torch
+    2300530: Wall
+    2300532: Wall 1
+    2300534: Wall 2
+    2300536: Wall 3
+    2300538: Wall 4
+    2300540: Wall 5
+    3300000: Base
+    3300002: Crate
+    3300004: Crate1
+    3300006: Crate2
+    3300008: CrystalTrigger1
+    3300010: CrystalTrigger2
+    3300012: CrystalTrigger3
+    3300014: Door
+    3300016: Door 1
+    3300018: Door 2
+    3300020: Door 3
+    3300022: Door 4
+    3300024: Door 5
+    3300026: Door1
+    3300028: Door1 1
+    3300030: Door1 2
+    3300032: Door1 3
+    3300034: Door1 4
+    3300036: Door1 5
+    3300038: DoorFrame
+    3300040: DoorFrame 1
+    3300042: DoorFrame 2
+    3300044: DoorFrame 3
+    3300046: DoorFrame 4
+    3300048: DoorFrame 5
+    3300050: FallingFloor1
+    3300052: FallingFloor10
+    3300054: FallingFloor11
+    3300056: FallingFloor12
+    3300058: FallingFloor13
+    3300060: FallingFloor14
+    3300062: FallingFloor15
+    3300064: FallingFloor2
+    3300066: FallingFloor25
+    3300068: FallingFloor26
+    3300070: FallingFloor27
+    3300072: FallingFloor28
+    3300074: FallingFloor29
+    3300076: FallingFloor3
+    3300078: FallingFloor30
+    3300080: FallingFloor31
+    3300082: FallingFloor32
+    3300084: FallingFloor33
+    3300086: FallingFloor34
+    3300088: FallingFloor35
+    3300090: FallingFloor4
+    3300092: FallingFloor5
+    3300094: FallingFloor6
+    3300096: FallingFloor7
+    3300098: FallingFloor8
+    3300100: Ground_Temple
+    3300102: Ground_Temple17
+    3300104: Ground_Temple19
+    3300106: Ground_Temple9
+    3300108: Idol10
+    3300110: Idol11
+    3300112: Idol12
+    3300114: Idol13
+    3300116: Idol8
+    3300118: Idol9
+    3300120: Key1
+    3300122: Key2
+    3300124: Key3
+    3300126: Key4
+    3300128: pCone1
+    3300130: pCone1 1
+    3300132: pCone1 10
+    3300134: pCone1 11
+    3300136: pCone1 12
+    3300138: pCone1 13
+    3300140: pCone1 14
+    3300142: pCone1 15
+    3300144: pCone1 16
+    3300146: pCone1 17
+    3300148: pCone1 18
+    3300150: pCone1 19
+    3300152: pCone1 2
+    3300154: pCone1 3
+    3300156: pCone1 4
+    3300158: pCone1 5
+    3300160: pCone1 6
+    3300162: pCone1 7
+    3300164: pCone1 8
+    3300166: pCone1 9
+    3300168: pCone10
+    3300170: pCone10 1
+    3300172: pCone10 10
+    3300174: pCone10 11
+    3300176: pCone10 12
+    3300178: pCone10 13
+    3300180: pCone10 14
+    3300182: pCone10 15
+    3300184: pCone10 16
+    3300186: pCone10 17
+    3300188: pCone10 18
+    3300190: pCone10 19
+    3300192: pCone10 2
+    3300194: pCone10 3
+    3300196: pCone10 4
+    3300198: pCone10 5
+    3300200: pCone10 6
+    3300202: pCone10 7
+    3300204: pCone10 8
+    3300206: pCone10 9
+    3300208: pCone11
+    3300210: pCone11 1
+    3300212: pCone11 10
+    3300214: pCone11 11
+    3300216: pCone11 12
+    3300218: pCone11 13
+    3300220: pCone11 14
+    3300222: pCone11 15
+    3300224: pCone11 16
+    3300226: pCone11 17
+    3300228: pCone11 18
+    3300230: pCone11 19
+    3300232: pCone11 2
+    3300234: pCone11 3
+    3300236: pCone11 4
+    3300238: pCone11 5
+    3300240: pCone11 6
+    3300242: pCone11 7
+    3300244: pCone11 8
+    3300246: pCone11 9
+    3300248: pCone2
+    3300250: pCone2 1
+    3300252: pCone2 10
+    3300254: pCone2 11
+    3300256: pCone2 12
+    3300258: pCone2 13
+    3300260: pCone2 14
+    3300262: pCone2 15
+    3300264: pCone2 16
+    3300266: pCone2 17
+    3300268: pCone2 18
+    3300270: pCone2 19
+    3300272: pCone2 2
+    3300274: pCone2 3
+    3300276: pCone2 4
+    3300278: pCone2 5
+    3300280: pCone2 6
+    3300282: pCone2 7
+    3300284: pCone2 8
+    3300286: pCone2 9
+    3300288: pCone3
+    3300290: pCone3 1
+    3300292: pCone3 10
+    3300294: pCone3 11
+    3300296: pCone3 12
+    3300298: pCone3 13
+    3300300: pCone3 14
+    3300302: pCone3 15
+    3300304: pCone3 16
+    3300306: pCone3 17
+    3300308: pCone3 18
+    3300310: pCone3 19
+    3300312: pCone3 2
+    3300314: pCone3 3
+    3300316: pCone3 4
+    3300318: pCone3 5
+    3300320: pCone3 6
+    3300322: pCone3 7
+    3300324: pCone3 8
+    3300326: pCone3 9
+    3300328: pCone4
+    3300330: pCone4 1
+    3300332: pCone4 10
+    3300334: pCone4 11
+    3300336: pCone4 12
+    3300338: pCone4 13
+    3300340: pCone4 14
+    3300342: pCone4 15
+    3300344: pCone4 16
+    3300346: pCone4 17
+    3300348: pCone4 18
+    3300350: pCone4 19
+    3300352: pCone4 2
+    3300354: pCone4 3
+    3300356: pCone4 4
+    3300358: pCone4 5
+    3300360: pCone4 6
+    3300362: pCone4 7
+    3300364: pCone4 8
+    3300366: pCone4 9
+    3300368: pCone5
+    3300370: pCone5 1
+    3300372: pCone5 10
+    3300374: pCone5 11
+    3300376: pCone5 12
+    3300378: pCone5 13
+    3300380: pCone5 14
+    3300382: pCone5 15
+    3300384: pCone5 16
+    3300386: pCone5 17
+    3300388: pCone5 18
+    3300390: pCone5 19
+    3300392: pCone5 2
+    3300394: pCone5 3
+    3300396: pCone5 4
+    3300398: pCone5 5
+    3300400: pCone5 6
+    3300402: pCone5 7
+    3300404: pCone5 8
+    3300406: pCone5 9
+    3300408: pCone7
+    3300410: pCone7 1
+    3300412: pCone7 10
+    3300414: pCone7 11
+    3300416: pCone7 12
+    3300418: pCone7 13
+    3300420: pCone7 14
+    3300422: pCone7 15
+    3300424: pCone7 16
+    3300426: pCone7 17
+    3300428: pCone7 18
+    3300430: pCone7 19
+    3300432: pCone7 2
+    3300434: pCone7 3
+    3300436: pCone7 4
+    3300438: pCone7 5
+    3300440: pCone7 6
+    3300442: pCone7 7
+    3300444: pCone7 8
+    3300446: pCone7 9
+    3300448: pCone8
+    3300450: pCone8 1
+    3300452: pCone8 10
+    3300454: pCone8 11
+    3300456: pCone8 12
+    3300458: pCone8 13
+    3300460: pCone8 14
+    3300462: pCone8 15
+    3300464: pCone8 16
+    3300466: pCone8 17
+    3300468: pCone8 18
+    3300470: pCone8 19
+    3300472: pCone8 2
+    3300474: pCone8 3
+    3300476: pCone8 4
+    3300478: pCone8 5
+    3300480: pCone8 6
+    3300482: pCone8 7
+    3300484: pCone8 8
+    3300486: pCone8 9
+    3300488: pCone9
+    3300490: pCone9 1
+    3300492: pCone9 10
+    3300494: pCone9 11
+    3300496: pCone9 12
+    3300498: pCone9 13
+    3300500: pCone9 14
+    3300502: pCone9 15
+    3300504: pCone9 16
+    3300506: pCone9 17
+    3300508: pCone9 18
+    3300510: pCone9 19
+    3300512: pCone9 2
+    3300514: pCone9 3
+    3300516: pCone9 4
+    3300518: pCone9 5
+    3300520: pCone9 6
+    3300522: pCone9 7
+    3300524: pCone9 8
+    3300526: pCone9 9
+    3300528: Torch
+    3300530: Wall
+    3300532: Wall 1
+    3300534: Wall 2
+    3300536: Wall 3
+    3300538: Wall 4
+    3300540: Wall 5
+    4300000: Ground_Temple
+    4300002: Door1
+    4300004: Door
+    4300006: Wall
+    4300008: DoorFrame
+    4300010: Door1
+    4300012: Door
+    4300014: Wall
+    4300016: DoorFrame
+    4300018: CrystalTrigger1
+    4300020: Crate
+    4300022: FallingFloor1
+    4300024: FallingFloor2
+    4300026: FallingFloor3
+    4300028: FallingFloor4
+    4300030: FallingFloor5
+    4300032: FallingFloor6
+    4300034: FallingFloor7
+    4300036: FallingFloor8
+    4300038: Torch
+    4300040: Base
+    4300042: Door1
+    4300044: Door
+    4300046: Wall
+    4300048: DoorFrame
+    4300050: Key1
+    4300052: FallingFloor10
+    4300054: FallingFloor11
+    4300056: FallingFloor12
+    4300058: FallingFloor13
+    4300060: FallingFloor14
+    4300062: Idol8
+    4300064: Door1
+    4300066: Door
+    4300068: Wall
+    4300070: DoorFrame
+    4300072: pCone2
+    4300074: pCone3
+    4300076: pCone1
+    4300078: pCone11
+    4300080: pCone10
+    4300082: pCone9
+    4300084: pCone8
+    4300086: pCone7
+    4300088: pCone5
+    4300090: pCone4
+    4300092: Key2
+    4300094: Ground_Temple9
+    4300096: CrystalTrigger2
+    4300098: Crate1
+    4300100: Idol9
+    4300102: Key3
+    4300104: pCone2
+    4300106: pCone3
+    4300108: pCone1
+    4300110: pCone11
+    4300112: pCone10
+    4300114: pCone9
+    4300116: pCone8
+    4300118: pCone7
+    4300120: pCone5
+    4300122: pCone4
+    4300124: pCone2
+    4300126: pCone3
+    4300128: pCone1
+    4300130: pCone11
+    4300132: pCone10
+    4300134: pCone9
+    4300136: pCone8
+    4300138: pCone7
+    4300140: pCone5
+    4300142: pCone4
+    4300144: pCone2
+    4300146: pCone3
+    4300148: pCone1
+    4300150: pCone11
+    4300152: pCone10
+    4300154: pCone9
+    4300156: pCone8
+    4300158: pCone7
+    4300160: pCone5
+    4300162: pCone4
+    4300164: pCone2
+    4300166: pCone3
+    4300168: pCone1
+    4300170: pCone11
+    4300172: pCone10
+    4300174: pCone9
+    4300176: pCone8
+    4300178: pCone7
+    4300180: pCone5
+    4300182: pCone4
+    4300184: pCone2
+    4300186: pCone3
+    4300188: pCone1
+    4300190: pCone11
+    4300192: pCone10
+    4300194: pCone9
+    4300196: pCone8
+    4300198: pCone7
+    4300200: pCone5
+    4300202: pCone4
+    4300204: pCone2
+    4300206: pCone3
+    4300208: pCone1
+    4300210: pCone11
+    4300212: pCone10
+    4300214: pCone9
+    4300216: pCone8
+    4300218: pCone7
+    4300220: pCone5
+    4300222: pCone4
+    4300224: Idol10
+    4300226: FallingFloor15
+    4300228: pCone2
+    4300230: pCone3
+    4300232: pCone1
+    4300234: pCone11
+    4300236: pCone10
+    4300238: pCone9
+    4300240: pCone8
+    4300242: pCone7
+    4300244: pCone5
+    4300246: pCone4
+    4300248: pCone2
+    4300250: pCone3
+    4300252: pCone1
+    4300254: pCone11
+    4300256: pCone10
+    4300258: pCone9
+    4300260: pCone8
+    4300262: pCone7
+    4300264: pCone5
+    4300266: pCone4
+    4300268: Door1
+    4300270: Door
+    4300272: Wall
+    4300274: DoorFrame
+    4300276: Idol11
+    4300278: Idol12
+    4300280: Idol13
+    4300282: CrystalTrigger3
+    4300284: Crate2
+    4300286: Key4
+    4300288: pCone2
+    4300290: pCone3
+    4300292: pCone1
+    4300294: pCone11
+    4300296: pCone10
+    4300298: pCone9
+    4300300: pCone8
+    4300302: pCone7
+    4300304: pCone5
+    4300306: pCone4
+    4300308: pCone2
+    4300310: pCone3
+    4300312: pCone1
+    4300314: pCone11
+    4300316: pCone10
+    4300318: pCone9
+    4300320: pCone8
+    4300322: pCone7
+    4300324: pCone5
+    4300326: pCone4
+    4300328: pCone2
+    4300330: pCone3
+    4300332: pCone1
+    4300334: pCone11
+    4300336: pCone10
+    4300338: pCone9
+    4300340: pCone8
+    4300342: pCone7
+    4300344: pCone5
+    4300346: pCone4
+    4300348: Door1
+    4300350: Door
+    4300352: Wall
+    4300354: DoorFrame
+    4300356: pCone2
+    4300358: pCone3
+    4300360: pCone1
+    4300362: pCone11
+    4300364: pCone10
+    4300366: pCone9
+    4300368: pCone8
+    4300370: pCone7
+    4300372: pCone5
+    4300374: pCone4
+    4300376: Ground_Temple17
+    4300378: Ground_Temple19
+    4300380: pCone2
+    4300382: pCone3
+    4300384: pCone1
+    4300386: pCone11
+    4300388: pCone10
+    4300390: pCone9
+    4300392: pCone8
+    4300394: pCone7
+    4300396: pCone5
+    4300398: pCone4
+    4300400: pCone2
+    4300402: pCone3
+    4300404: pCone1
+    4300406: pCone11
+    4300408: pCone10
+    4300410: pCone9
+    4300412: pCone8
+    4300414: pCone7
+    4300416: pCone5
+    4300418: pCone4
+    4300420: pCone2
+    4300422: pCone3
+    4300424: pCone1
+    4300426: pCone11
+    4300428: pCone10
+    4300430: pCone9
+    4300432: pCone8
+    4300434: pCone7
+    4300436: pCone5
+    4300438: pCone4
+    4300440: pCone2
+    4300442: pCone3
+    4300444: pCone1
+    4300446: pCone11
+    4300448: pCone10
+    4300450: pCone9
+    4300452: pCone8
+    4300454: pCone7
+    4300456: pCone5
+    4300458: pCone4
+    4300460: pCone2
+    4300462: pCone3
+    4300464: pCone1
+    4300466: pCone11
+    4300468: pCone10
+    4300470: pCone9
+    4300472: pCone8
+    4300474: pCone7
+    4300476: pCone5
+    4300478: pCone4
+    4300480: pCone2
+    4300482: pCone3
+    4300484: pCone1
+    4300486: pCone11
+    4300488: pCone10
+    4300490: pCone9
+    4300492: pCone8
+    4300494: pCone7
+    4300496: pCone5
+    4300498: pCone4
+    4300500: pCone2
+    4300502: pCone3
+    4300504: pCone1
+    4300506: pCone11
+    4300508: pCone10
+    4300510: pCone9
+    4300512: pCone8
+    4300514: pCone7
+    4300516: pCone5
+    4300518: pCone4
+    4300520: FallingFloor25
+    4300522: FallingFloor26
+    4300524: FallingFloor27
+    4300526: FallingFloor28
+    4300528: FallingFloor29
+    4300530: FallingFloor30
+    4300532: FallingFloor31
+    4300534: FallingFloor32
+    4300536: FallingFloor33
+    4300538: FallingFloor34
+    4300540: FallingFloor35
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

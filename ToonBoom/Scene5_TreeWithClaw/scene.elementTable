@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elements source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
- <element id="1" elementName="LittleBoy" elementFolder="LittleBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="1" elementName="LittleBoyRough" elementFolder="LittleBoyRough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="3" elementName="Scene5" elementFolder="Scene5" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="4" elementName="Background" elementFolder="Background" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="5" elementName="Tree" elementFolder="Tree" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="6" elementName="OlderBoy" elementFolder="OlderBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="6" elementName="OlderboyRough" elementFolder="OlderboyRough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="LittleBoyHead" elementFolder="LittleBoyHead" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="8" elementName="LittleBoyTorso" elementFolder="LittleBoyTorso" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="9" elementName="LittleBoyArmForeground" elementFolder="LittleBoyArmForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="10" elementName="LittleBoyArmBackground" elementFolder="LittleBoyArmBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="11" elementName="LittleBoyLegBackground" elementFolder="LittleBoyLegBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="12" elementName="LittleBoyLegForeground" elementFolder="LittleBoyLegForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

@@ -1,6 +1,6 @@
 <!DOCTYPE SceneVersion>
 <SceneVersion VersionName="Scene5_TreeWithClaw" ID="1">
- <Element Name="LittleBoy" ID="1" Folder="LittleBoy">
+ <Element Name="LittleBoyRough" ID="1" Folder="LittleBoyRough">
   <Drawing Key="Key" Name="1" Version="1"/>
   <Drawing Key="Breakdown" Name="2" Version="1"/>
   <Drawing Key="Key" Name="3" Version="1"/>
@@ -329,7 +329,7 @@
   <Drawing Key="" Name="51" Version="1"/>
   <Drawing Key="" Name="52" Version="1"/>
  </Element>
- <Element Name="OlderBoy" ID="6" Folder="OlderBoy">
+ <Element Name="OlderboyRough" ID="6" Folder="OlderboyRough">
   <Drawing Key="Key" Name="1" Version="1"/>
   <Drawing Key="Key" Name="2" Version="1"/>
   <Drawing Key="Key" Name="3" Version="1"/>
@@ -494,5 +494,28 @@
   <Drawing Key="" Name="162" Version="1"/>
   <Drawing Key="" Name="163" Version="1"/>
   <Drawing Key="" Name="164" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyHead" ID="7" Folder="LittleBoyHead">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyTorso" ID="8" Folder="LittleBoyTorso">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyArmForeground" ID="9" Folder="LittleBoyArmForeground">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyArmBackground" ID="10" Folder="LittleBoyArmBackground">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyLegBackground" ID="11" Folder="LittleBoyLegBackground">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="LittleBoyLegForeground" ID="12" Folder="LittleBoyLegForeground">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
 </SceneVersion>

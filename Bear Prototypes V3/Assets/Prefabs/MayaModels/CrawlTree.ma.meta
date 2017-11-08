@@ -3,7 +3,7 @@ guid: 6c323fb02a5ae3a40bbfbaa4f8ece9ee
 timeCreated: 1509395888
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: pCylinder1
@@ -13,6 +13,17 @@ ModelImporter:
     100010: pCylinder5
     100012: pCylinder6
     100014: pCylinder7
+    100016: pCylinder10
+    100018: pCylinder11
+    100020: pCylinder12
+    100022: pCylinder13
+    100024: pCylinder14
+    100026: pCylinder15
+    100028: pCylinder16
+    100030: pCylinder17
+    100032: pCylinder18
+    100034: pCylinder9
+    100036: Trunk
     400000: //RootNode
     400002: pCylinder1
     400004: pCylinder2
@@ -21,6 +32,17 @@ ModelImporter:
     400010: pCylinder5
     400012: pCylinder6
     400014: pCylinder7
+    400016: pCylinder10
+    400018: pCylinder11
+    400020: pCylinder12
+    400022: pCylinder13
+    400024: pCylinder14
+    400026: pCylinder15
+    400028: pCylinder16
+    400030: pCylinder17
+    400032: pCylinder18
+    400034: pCylinder9
+    400036: Trunk
     2300000: pCylinder1
     2300002: pCylinder2
     2300004: pCylinder3
@@ -28,6 +50,17 @@ ModelImporter:
     2300008: pCylinder5
     2300010: pCylinder6
     2300012: pCylinder7
+    2300014: pCylinder10
+    2300016: pCylinder11
+    2300018: pCylinder12
+    2300020: pCylinder13
+    2300022: pCylinder14
+    2300024: pCylinder15
+    2300026: pCylinder16
+    2300028: pCylinder17
+    2300030: pCylinder18
+    2300032: pCylinder9
+    2300034: Trunk
     3300000: pCylinder1
     3300002: pCylinder2
     3300004: pCylinder3
@@ -35,6 +68,17 @@ ModelImporter:
     3300008: pCylinder5
     3300010: pCylinder6
     3300012: pCylinder7
+    3300014: pCylinder10
+    3300016: pCylinder11
+    3300018: pCylinder12
+    3300020: pCylinder13
+    3300022: pCylinder14
+    3300024: pCylinder15
+    3300026: pCylinder16
+    3300028: pCylinder17
+    3300030: pCylinder18
+    3300032: pCylinder9
+    3300034: Trunk
     4300000: pCylinder1
     4300002: pCylinder2
     4300004: pCylinder3
@@ -42,11 +86,29 @@ ModelImporter:
     4300008: pCylinder5
     4300010: pCylinder6
     4300012: pCylinder7
+    4300014: Trunk
+    4300016: pCylinder9
+    4300018: pCylinder10
+    4300020: pCylinder11
+    4300022: pCylinder12
+    4300024: pCylinder13
+    4300026: pCylinder14
+    4300028: pCylinder15
+    4300030: pCylinder16
+    4300032: pCylinder17
+    4300034: pCylinder18
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 123cf49f7f2ed054db35b3936ae9da9c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -59,6 +121,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -93,7 +156,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -112,7 +175,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

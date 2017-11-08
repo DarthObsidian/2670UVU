@@ -1087,6 +1087,36 @@ ModelImporter:
     102158: Ground_TemplePuzzle:Wall 3
     102160: Ground_TemplePuzzle:Wall 4
     102162: Ground_TemplePuzzle:Wall 5
+    102164: CrawlTree3
+    102166: CrawlTree:CrawlTree
+    102168: CrawlTree:pCylinder10
+    102170: CrawlTree:pCylinder11
+    102172: CrawlTree:pCylinder12
+    102174: CrawlTree:pCylinder13
+    102176: CrawlTree:pCylinder14
+    102178: CrawlTree:pCylinder15
+    102180: CrawlTree:pCylinder16
+    102182: CrawlTree:pCylinder17
+    102184: CrawlTree:pCylinder18
+    102186: CrawlTree:pCylinder2
+    102188: CrawlTree:pCylinder3
+    102190: CrawlTree:pCylinder4
+    102192: CrawlTree:pCylinder5
+    102194: CrawlTree:pCylinder6
+    102196: CrawlTree:pCylinder7
+    102198: CrawlTree:pCylinder9
+    102200: CrawlTree:Trunk
+    102202: pCylinder10 14
+    102204: pCylinder11 14
+    102206: pCylinder12 14
+    102208: pCylinder13 14
+    102210: pCylinder14 14
+    102212: pCylinder15 14
+    102214: pCylinder16 14
+    102216: pCylinder17 14
+    102218: pCylinder18 14
+    102220: pCylinder9 14
+    102222: Trunk
     400000: Altar1
     400002: Altar10
     400004: Altar11
@@ -2169,6 +2199,36 @@ ModelImporter:
     402158: Ground_TemplePuzzle:Wall 3
     402160: Ground_TemplePuzzle:Wall 4
     402162: Ground_TemplePuzzle:Wall 5
+    402164: CrawlTree3
+    402166: CrawlTree:CrawlTree
+    402168: CrawlTree:pCylinder10
+    402170: CrawlTree:pCylinder11
+    402172: CrawlTree:pCylinder12
+    402174: CrawlTree:pCylinder13
+    402176: CrawlTree:pCylinder14
+    402178: CrawlTree:pCylinder15
+    402180: CrawlTree:pCylinder16
+    402182: CrawlTree:pCylinder17
+    402184: CrawlTree:pCylinder18
+    402186: CrawlTree:pCylinder2
+    402188: CrawlTree:pCylinder3
+    402190: CrawlTree:pCylinder4
+    402192: CrawlTree:pCylinder5
+    402194: CrawlTree:pCylinder6
+    402196: CrawlTree:pCylinder7
+    402198: CrawlTree:pCylinder9
+    402200: CrawlTree:Trunk
+    402202: pCylinder10 14
+    402204: pCylinder11 14
+    402206: pCylinder12 14
+    402208: pCylinder13 14
+    402210: pCylinder14 14
+    402212: pCylinder15 14
+    402214: pCylinder16 14
+    402216: pCylinder17 14
+    402218: pCylinder18 14
+    402220: pCylinder9 14
+    402222: Trunk
     2300000: Door
     2300002: Door 1
     2300004: ForestGround
@@ -3147,6 +3207,34 @@ ModelImporter:
     2301950: Ground_TemplePuzzle:Wall 3
     2301952: Ground_TemplePuzzle:Wall 4
     2301954: Ground_TemplePuzzle:Wall 5
+    2301956: CrawlTree:pCylinder10
+    2301958: CrawlTree:pCylinder11
+    2301960: CrawlTree:pCylinder12
+    2301962: CrawlTree:pCylinder13
+    2301964: CrawlTree:pCylinder14
+    2301966: CrawlTree:pCylinder15
+    2301968: CrawlTree:pCylinder16
+    2301970: CrawlTree:pCylinder17
+    2301972: CrawlTree:pCylinder18
+    2301974: CrawlTree:pCylinder2
+    2301976: CrawlTree:pCylinder3
+    2301978: CrawlTree:pCylinder4
+    2301980: CrawlTree:pCylinder5
+    2301982: CrawlTree:pCylinder6
+    2301984: CrawlTree:pCylinder7
+    2301986: CrawlTree:pCylinder9
+    2301988: CrawlTree:Trunk
+    2301990: pCylinder10 14
+    2301992: pCylinder11 14
+    2301994: pCylinder12 14
+    2301996: pCylinder13 14
+    2301998: pCylinder14 14
+    2302000: pCylinder15 14
+    2302002: pCylinder16 14
+    2302004: pCylinder17 14
+    2302006: pCylinder18 14
+    2302008: pCylinder9 14
+    2302010: Trunk
     3300000: Door
     3300002: Door 1
     3300004: ForestGround
@@ -4125,6 +4213,34 @@ ModelImporter:
     3301950: Ground_TemplePuzzle:Wall 3
     3301952: Ground_TemplePuzzle:Wall 4
     3301954: Ground_TemplePuzzle:Wall 5
+    3301956: CrawlTree:pCylinder10
+    3301958: CrawlTree:pCylinder11
+    3301960: CrawlTree:pCylinder12
+    3301962: CrawlTree:pCylinder13
+    3301964: CrawlTree:pCylinder14
+    3301966: CrawlTree:pCylinder15
+    3301968: CrawlTree:pCylinder16
+    3301970: CrawlTree:pCylinder17
+    3301972: CrawlTree:pCylinder18
+    3301974: CrawlTree:pCylinder2
+    3301976: CrawlTree:pCylinder3
+    3301978: CrawlTree:pCylinder4
+    3301980: CrawlTree:pCylinder5
+    3301982: CrawlTree:pCylinder6
+    3301984: CrawlTree:pCylinder7
+    3301986: CrawlTree:pCylinder9
+    3301988: CrawlTree:Trunk
+    3301990: pCylinder10 14
+    3301992: pCylinder11 14
+    3301994: pCylinder12 14
+    3301996: pCylinder13 14
+    3301998: pCylinder14 14
+    3302000: pCylinder15 14
+    3302002: pCylinder16 14
+    3302004: pCylinder17 14
+    3302006: pCylinder18 14
+    3302008: pCylinder9 14
+    3302010: Trunk
     4300000: ForestGround
     4300002: pCube1
     4300004: pCube2
@@ -5103,6 +5219,34 @@ ModelImporter:
     4301950: Ground_TemplePuzzle:FallingFloor33
     4301952: Ground_TemplePuzzle:FallingFloor34
     4301954: Ground_TemplePuzzle:FallingFloor35
+    4301956: CrawlTree:pCylinder2
+    4301958: CrawlTree:pCylinder3
+    4301960: CrawlTree:pCylinder7
+    4301962: CrawlTree:pCylinder6
+    4301964: CrawlTree:pCylinder5
+    4301966: CrawlTree:pCylinder4
+    4301968: CrawlTree:Trunk
+    4301970: CrawlTree:pCylinder9
+    4301972: CrawlTree:pCylinder10
+    4301974: CrawlTree:pCylinder11
+    4301976: CrawlTree:pCylinder12
+    4301978: CrawlTree:pCylinder13
+    4301980: CrawlTree:pCylinder14
+    4301982: CrawlTree:pCylinder15
+    4301984: CrawlTree:pCylinder16
+    4301986: CrawlTree:pCylinder17
+    4301988: CrawlTree:pCylinder18
+    4301990: Trunk
+    4301992: pCylinder9
+    4301994: pCylinder10
+    4301996: pCylinder11
+    4301998: pCylinder12
+    4302000: pCylinder13
+    4302002: pCylinder14
+    4302004: pCylinder15
+    4302006: pCylinder16
+    4302008: pCylinder17
+    4302010: pCylinder18
     9500000: //RootNode
   externalObjects:
   - first:

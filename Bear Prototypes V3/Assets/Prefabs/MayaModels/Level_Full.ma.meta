@@ -1117,6 +1117,25 @@ ModelImporter:
     102218: pCylinder18 14
     102220: pCylinder9 14
     102222: Trunk
+    102224: CrawlTree4:CrawlTree
+    102226: CrawlTree4:pCylinder10
+    102228: CrawlTree4:pCylinder11
+    102230: CrawlTree4:pCylinder12
+    102232: CrawlTree4:pCylinder13
+    102234: CrawlTree4:pCylinder14
+    102236: CrawlTree4:pCylinder15
+    102238: CrawlTree4:pCylinder16
+    102240: CrawlTree4:pCylinder17
+    102242: CrawlTree4:pCylinder18
+    102244: CrawlTree4:pCylinder2
+    102246: CrawlTree4:pCylinder3
+    102248: CrawlTree4:pCylinder4
+    102250: CrawlTree4:pCylinder5
+    102252: CrawlTree4:pCylinder6
+    102254: CrawlTree4:pCylinder7
+    102256: CrawlTree4:pCylinder9
+    102258: CrawlTree4:Trunk
+    102260: CrawlTree5
     400000: Altar1
     400002: Altar10
     400004: Altar11
@@ -2229,6 +2248,25 @@ ModelImporter:
     402218: pCylinder18 14
     402220: pCylinder9 14
     402222: Trunk
+    402224: CrawlTree4:CrawlTree
+    402226: CrawlTree4:pCylinder10
+    402228: CrawlTree4:pCylinder11
+    402230: CrawlTree4:pCylinder12
+    402232: CrawlTree4:pCylinder13
+    402234: CrawlTree4:pCylinder14
+    402236: CrawlTree4:pCylinder15
+    402238: CrawlTree4:pCylinder16
+    402240: CrawlTree4:pCylinder17
+    402242: CrawlTree4:pCylinder18
+    402244: CrawlTree4:pCylinder2
+    402246: CrawlTree4:pCylinder3
+    402248: CrawlTree4:pCylinder4
+    402250: CrawlTree4:pCylinder5
+    402252: CrawlTree4:pCylinder6
+    402254: CrawlTree4:pCylinder7
+    402256: CrawlTree4:pCylinder9
+    402258: CrawlTree4:Trunk
+    402260: CrawlTree5
     2300000: Door
     2300002: Door 1
     2300004: ForestGround
@@ -3235,6 +3273,23 @@ ModelImporter:
     2302006: pCylinder18 14
     2302008: pCylinder9 14
     2302010: Trunk
+    2302012: CrawlTree4:pCylinder10
+    2302014: CrawlTree4:pCylinder11
+    2302016: CrawlTree4:pCylinder12
+    2302018: CrawlTree4:pCylinder13
+    2302020: CrawlTree4:pCylinder14
+    2302022: CrawlTree4:pCylinder15
+    2302024: CrawlTree4:pCylinder16
+    2302026: CrawlTree4:pCylinder17
+    2302028: CrawlTree4:pCylinder18
+    2302030: CrawlTree4:pCylinder2
+    2302032: CrawlTree4:pCylinder3
+    2302034: CrawlTree4:pCylinder4
+    2302036: CrawlTree4:pCylinder5
+    2302038: CrawlTree4:pCylinder6
+    2302040: CrawlTree4:pCylinder7
+    2302042: CrawlTree4:pCylinder9
+    2302044: CrawlTree4:Trunk
     3300000: Door
     3300002: Door 1
     3300004: ForestGround
@@ -4241,6 +4296,23 @@ ModelImporter:
     3302006: pCylinder18 14
     3302008: pCylinder9 14
     3302010: Trunk
+    3302012: CrawlTree4:pCylinder10
+    3302014: CrawlTree4:pCylinder11
+    3302016: CrawlTree4:pCylinder12
+    3302018: CrawlTree4:pCylinder13
+    3302020: CrawlTree4:pCylinder14
+    3302022: CrawlTree4:pCylinder15
+    3302024: CrawlTree4:pCylinder16
+    3302026: CrawlTree4:pCylinder17
+    3302028: CrawlTree4:pCylinder18
+    3302030: CrawlTree4:pCylinder2
+    3302032: CrawlTree4:pCylinder3
+    3302034: CrawlTree4:pCylinder4
+    3302036: CrawlTree4:pCylinder5
+    3302038: CrawlTree4:pCylinder6
+    3302040: CrawlTree4:pCylinder7
+    3302042: CrawlTree4:pCylinder9
+    3302044: CrawlTree4:Trunk
     4300000: ForestGround
     4300002: pCube1
     4300004: pCube2
@@ -5247,6 +5319,23 @@ ModelImporter:
     4302006: pCylinder16
     4302008: pCylinder17
     4302010: pCylinder18
+    4302012: CrawlTree4:pCylinder2
+    4302014: CrawlTree4:pCylinder3
+    4302016: CrawlTree4:pCylinder7
+    4302018: CrawlTree4:pCylinder6
+    4302020: CrawlTree4:pCylinder5
+    4302022: CrawlTree4:pCylinder4
+    4302024: CrawlTree4:Trunk
+    4302026: CrawlTree4:pCylinder9
+    4302028: CrawlTree4:pCylinder10
+    4302030: CrawlTree4:pCylinder11
+    4302032: CrawlTree4:pCylinder12
+    4302034: CrawlTree4:pCylinder13
+    4302036: CrawlTree4:pCylinder14
+    4302038: CrawlTree4:pCylinder15
+    4302040: CrawlTree4:pCylinder16
+    4302042: CrawlTree4:pCylinder17
+    4302044: CrawlTree4:pCylinder18
     9500000: //RootNode
   externalObjects:
   - first:

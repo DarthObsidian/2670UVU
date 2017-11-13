@@ -538,6 +538,12 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="8" elementName="LittleBoyTorso" elementFolder="LittleBoyTorso" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -572,6 +578,12 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="9" elementName="LittleBoyArmForeground" elementFolder="LittleBoyArmForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -606,6 +618,12 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="10" elementName="LittleBoyArmBackground" elementFolder="LittleBoyArmBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -638,6 +656,9 @@
     <dwg name="26" scaleFactor="1"/>
     <dwg name="27" scaleFactor="1"/>
     <dwg name="28" scaleFactor="1"/>
+    <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="11" elementName="LittleBoyLegBackground" elementFolder="LittleBoyLegBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -672,6 +693,12 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="12" elementName="LittleBoyLegForeground" elementFolder="LittleBoyLegForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -706,6 +733,12 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -1181,6 +1214,12 @@
      <elementSeq exposures="28" val="29" id="7"/>
      <elementSeq exposures="29" val="30" id="7"/>
      <elementSeq exposures="30" val="28" id="7"/>
+     <elementSeq exposures="31" val="32" id="7"/>
+     <elementSeq exposures="32" val="33" id="7"/>
+     <elementSeq exposures="33" val="31" id="7"/>
+     <elementSeq exposures="34" val="35" id="7"/>
+     <elementSeq exposures="35" val="36" id="7"/>
+     <elementSeq exposures="36" val="34" id="7"/>
     </column>
     <column type="0" name="LittleBoyTorso" displayOrder="5" width="100" anonymous="true" id="8">
      <elementSeq exposures="1" val="1" id="8"/>
@@ -1213,6 +1252,12 @@
      <elementSeq exposures="28" val="29" id="8"/>
      <elementSeq exposures="29" val="30" id="8"/>
      <elementSeq exposures="30" val="28" id="8"/>
+     <elementSeq exposures="31" val="32" id="8"/>
+     <elementSeq exposures="32" val="33" id="8"/>
+     <elementSeq exposures="33" val="31" id="8"/>
+     <elementSeq exposures="34" val="35" id="8"/>
+     <elementSeq exposures="35" val="36" id="8"/>
+     <elementSeq exposures="36" val="34" id="8"/>
     </column>
     <column type="0" name="LittleBoyArmForeground" displayOrder="3" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
@@ -1245,6 +1290,12 @@
      <elementSeq exposures="28" val="29" id="9"/>
      <elementSeq exposures="29" val="30" id="9"/>
      <elementSeq exposures="30" val="28" id="9"/>
+     <elementSeq exposures="31" val="32" id="9"/>
+     <elementSeq exposures="32" val="33" id="9"/>
+     <elementSeq exposures="33" val="31" id="9"/>
+     <elementSeq exposures="34" val="35" id="9"/>
+     <elementSeq exposures="35" val="36" id="9"/>
+     <elementSeq exposures="36" val="34" id="9"/>
     </column>
     <column type="0" name="LittleBoyArmBackground" displayOrder="8" width="100" anonymous="true" id="10">
      <elementSeq exposures="1" val="1" id="10"/>
@@ -1275,6 +1326,9 @@
      <elementSeq exposures="28" val="27" id="10"/>
      <elementSeq exposures="29" val="28" id="10"/>
      <elementSeq exposures="30" val="26" id="10"/>
+     <elementSeq exposures="31" val="30" id="10"/>
+     <elementSeq exposures="32" val="31" id="10"/>
+     <elementSeq exposures="33" val="29" id="10"/>
     </column>
     <column type="0" name="LittleBoyLegBackground" displayOrder="7" width="100" anonymous="true" id="11">
      <elementSeq exposures="1" val="1" id="11"/>
@@ -1307,6 +1361,12 @@
      <elementSeq exposures="28" val="29" id="11"/>
      <elementSeq exposures="29" val="30" id="11"/>
      <elementSeq exposures="30" val="28" id="11"/>
+     <elementSeq exposures="31" val="32" id="11"/>
+     <elementSeq exposures="32" val="33" id="11"/>
+     <elementSeq exposures="33" val="31" id="11"/>
+     <elementSeq exposures="34" val="35" id="11"/>
+     <elementSeq exposures="35" val="36" id="11"/>
+     <elementSeq exposures="36" val="34" id="11"/>
     </column>
     <column type="0" name="LittleBoyLegForeground" displayOrder="6" width="100" anonymous="true" id="12">
      <elementSeq exposures="1" val="1" id="12"/>
@@ -1339,6 +1399,12 @@
      <elementSeq exposures="28" val="29" id="12"/>
      <elementSeq exposures="29" val="30" id="12"/>
      <elementSeq exposures="30" val="28" id="12"/>
+     <elementSeq exposures="31" val="32" id="12"/>
+     <elementSeq exposures="32" val="33" id="12"/>
+     <elementSeq exposures="33" val="31" id="12"/>
+     <elementSeq exposures="34" val="35" id="12"/>
+     <elementSeq exposures="35" val="36" id="12"/>
+     <elementSeq exposures="36" val="34" id="12"/>
     </column>
     <column type="3" name="LittleBoyRough_Opacity" displayOrder="12" width="100" anonymous="false">
      <step val="1" start="1" stop="1"/>

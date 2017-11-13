@@ -65,7 +65,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: FallingBlock
+    path: FallingBlock/FallingFloor
     classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -77,7 +77,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3245995832
+      path: 1677039657
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 23
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: FallingBlock
+    path: FallingBlock/FallingFloor
     classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves: []

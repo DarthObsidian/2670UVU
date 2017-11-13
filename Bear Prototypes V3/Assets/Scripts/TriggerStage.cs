@@ -6,6 +6,7 @@ public class TriggerStage : MonoBehaviour
 {
 	public GameObject go;
 	public bool setStage;
+	public string boolName;
 	public StaticVars.TriggerType type;
 	public StaticVars.ButtonType button;
 
@@ -34,7 +35,7 @@ public class TriggerStage : MonoBehaviour
 		switch(type)
 		{
 			case StaticVars.TriggerType.ANIM:
-				go.GetComponent<Animator>().SetBool("Move", setStage);
+				go.GetComponentInChildren<Animator>().SetBool(boolName, setStage);
 				break;
 			case StaticVars.TriggerType.BOOL:
 				go.SetActive(setStage);

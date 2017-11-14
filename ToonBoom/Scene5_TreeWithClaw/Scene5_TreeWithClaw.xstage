@@ -544,6 +544,12 @@
     <dwg name="34" scaleFactor="1"/>
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="8" elementName="LittleBoyTorso" elementFolder="LittleBoyTorso" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -584,6 +590,12 @@
     <dwg name="34" scaleFactor="1"/>
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="9" elementName="LittleBoyArmForeground" elementFolder="LittleBoyArmForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -624,6 +636,12 @@
     <dwg name="34" scaleFactor="1"/>
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="10" elementName="LittleBoyArmBackground" elementFolder="LittleBoyArmBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -699,6 +717,12 @@
     <dwg name="34" scaleFactor="1"/>
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="12" elementName="LittleBoyLegForeground" elementFolder="LittleBoyLegForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -739,6 +763,12 @@
     <dwg name="34" scaleFactor="1"/>
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -1220,6 +1250,12 @@
      <elementSeq exposures="34" val="35" id="7"/>
      <elementSeq exposures="35" val="36" id="7"/>
      <elementSeq exposures="36" val="34" id="7"/>
+     <elementSeq exposures="37" val="38" id="7"/>
+     <elementSeq exposures="38" val="39" id="7"/>
+     <elementSeq exposures="39" val="37" id="7"/>
+     <elementSeq exposures="40" val="41" id="7"/>
+     <elementSeq exposures="41" val="42" id="7"/>
+     <elementSeq exposures="42" val="40" id="7"/>
     </column>
     <column type="0" name="LittleBoyTorso" displayOrder="5" width="100" anonymous="true" id="8">
      <elementSeq exposures="1" val="1" id="8"/>
@@ -1258,6 +1294,12 @@
      <elementSeq exposures="34" val="35" id="8"/>
      <elementSeq exposures="35" val="36" id="8"/>
      <elementSeq exposures="36" val="34" id="8"/>
+     <elementSeq exposures="37" val="38" id="8"/>
+     <elementSeq exposures="38" val="39" id="8"/>
+     <elementSeq exposures="39" val="37" id="8"/>
+     <elementSeq exposures="40" val="41" id="8"/>
+     <elementSeq exposures="41" val="42" id="8"/>
+     <elementSeq exposures="42" val="40" id="8"/>
     </column>
     <column type="0" name="LittleBoyArmForeground" displayOrder="3" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
@@ -1296,6 +1338,12 @@
      <elementSeq exposures="34" val="35" id="9"/>
      <elementSeq exposures="35" val="36" id="9"/>
      <elementSeq exposures="36" val="34" id="9"/>
+     <elementSeq exposures="37" val="38" id="9"/>
+     <elementSeq exposures="38" val="39" id="9"/>
+     <elementSeq exposures="39" val="37" id="9"/>
+     <elementSeq exposures="40" val="41" id="9"/>
+     <elementSeq exposures="41" val="42" id="9"/>
+     <elementSeq exposures="42" val="40" id="9"/>
     </column>
     <column type="0" name="LittleBoyArmBackground" displayOrder="8" width="100" anonymous="true" id="10">
      <elementSeq exposures="1" val="1" id="10"/>
@@ -1367,6 +1415,12 @@
      <elementSeq exposures="34" val="35" id="11"/>
      <elementSeq exposures="35" val="36" id="11"/>
      <elementSeq exposures="36" val="34" id="11"/>
+     <elementSeq exposures="37" val="38" id="11"/>
+     <elementSeq exposures="38" val="39" id="11"/>
+     <elementSeq exposures="39" val="37" id="11"/>
+     <elementSeq exposures="40" val="41" id="11"/>
+     <elementSeq exposures="41" val="42" id="11"/>
+     <elementSeq exposures="42" val="40" id="11"/>
     </column>
     <column type="0" name="LittleBoyLegForeground" displayOrder="6" width="100" anonymous="true" id="12">
      <elementSeq exposures="1" val="1" id="12"/>
@@ -1405,6 +1459,12 @@
      <elementSeq exposures="34" val="35" id="12"/>
      <elementSeq exposures="35" val="36" id="12"/>
      <elementSeq exposures="36" val="34" id="12"/>
+     <elementSeq exposures="37" val="38" id="12"/>
+     <elementSeq exposures="38" val="39" id="12"/>
+     <elementSeq exposures="39" val="37" id="12"/>
+     <elementSeq exposures="40" val="41" id="12"/>
+     <elementSeq exposures="41" val="42" id="12"/>
+     <elementSeq exposures="42" val="40" id="12"/>
     </column>
     <column type="3" name="LittleBoyRough_Opacity" displayOrder="12" width="100" anonymous="false">
      <step val="1" start="1" stop="1"/>

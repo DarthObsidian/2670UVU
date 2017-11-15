@@ -7,7 +7,6 @@ public class MoveCharacter : MonoBehaviour
 {
 	CharacterController cc;
 	Vector3 tempMove;
-	Vector3 scale = Vector3.one; //This will need to be removed once I've got a crouching animation
 	float speed = 5;
 	float gravity = 0.75f;
 	public float jumpHeight = 0.2f;
@@ -33,12 +32,13 @@ public class MoveCharacter : MonoBehaviour
 	{
 		if(firstStart == true)
 		{
-			MoveInput.KeyAction = Move;
+			MoveInput.KeyAction += Move;
+			MoveInput.JumpAction += Jump;
+			MoveInput.CrouchAction += Crouch;
 			firstStart = false;
 		}
 		
-		MoveInput.JumpAction = Jump;
-		MoveInput.CrouchAction = Crouch;
+		
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		ChangeKnockback.SendKnockback = SendKnockbackHandler;
@@ -131,20 +131,20 @@ public class MoveCharacter : MonoBehaviour
 		}	
 	}
 
-	void Crouch()//this will need to change once i have a crouching animation
+	void Crouch()
 	{	
-		if(transform.localScale.y == 0.5f)
+		if(cc.height == 1)
 		{
-			transform.localScale = Vector3.one;
+			cc.height = 2;
+			cc.center = new Vector3(0,0,0);
 		} else {
-			scale.y = 0.5f;
-			transform.localScale = scale;
+			cc.height = 1;
+			cc.center = new Vector3(0,-0.5f,0);
 		}		
 	}
 
 	void Restart()
 	{
-		gameObject.transform.localScale = Vector3.one;
 		tempMove = Vector3.zero;
 		PlayButton.Play += OnPlay;
 	}

@@ -24,6 +24,7 @@ public class PushObject : MonoBehaviour
 
 		Vector3 pushDir = new Vector3 (hit.moveDirection.x, 0, 0);
 		body.velocity = pushDir * pushPower;
+		AnimateCharacter.PushAction();
 		}
 	}
 }

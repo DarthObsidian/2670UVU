@@ -30,6 +30,7 @@ public class ChangeKnockback : MonoBehaviour
 					SendKnockback(StaticVars.bounce, 0f, 0f);
 					break;
 			}
+			AnimateCharacter.DamageAction();
 		}
 	}
 }

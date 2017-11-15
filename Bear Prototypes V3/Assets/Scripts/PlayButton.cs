@@ -14,7 +14,7 @@ public class PlayButton : MonoBehaviour
 	{
 		if(Play != null)
 		{
-			Play();
+			Play();//this could be changed to get rid of some if statements
 			player.GetComponent<MoveInput>().canPlay = true;
 			player.GetComponent<MoveInput>().BeginHandler();
 			Invoke("TurnOffButton", 0.5f);

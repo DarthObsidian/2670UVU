@@ -538,6 +538,8 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
  <Element Name="LittleBoyTorso" ID="8" Folder="LittleBoyTorso">
   <Drawing Key="" Name="1" Version="1"/>
@@ -582,6 +584,8 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
  <Element Name="LittleBoyArmForeground" ID="9" Folder="LittleBoyArmForeground">
   <Drawing Key="" Name="1" Version="1"/>
@@ -626,6 +630,8 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
  <Element Name="LittleBoyArmBackground" ID="10" Folder="LittleBoyArmBackground">
   <Drawing Key="" Name="1" Version="1"/>
@@ -703,6 +709,8 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
  <Element Name="LittleBoyLegForeground" ID="12" Folder="LittleBoyLegForeground">
   <Drawing Key="" Name="1" Version="1"/>
@@ -747,5 +755,7 @@
   <Drawing Key="" Name="40" Version="1"/>
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
  </Element>
 </SceneVersion>

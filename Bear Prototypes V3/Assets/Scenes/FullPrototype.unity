@@ -878,13 +878,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  dragSpeed: 2
+  dragSpeed: 4
   boostSpeed: 10
   gravity: 0.75
-  dragGravity: 1
+  dragGravity: 0.01
   boostGravity: 1
   defaultJump: 0.3
-  dragJump: 0.5
+  dragJump: 0.03
   boostJump: 0.5
   knockback: 0.2
   boostedKnockback: 0.3
@@ -6335,7 +6335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4301113625993774, guid: 5441700adab308941913a61e65e96baa, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114618519561361624, guid: 5441700adab308941913a61e65e96baa,
         type: 2}
@@ -9178,7 +9178,7 @@ Transform:
   - {fileID: 197330026}
   - {fileID: 517409700}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404348927
 GameObject:

@@ -38,6 +38,8 @@ public class StaticVars
 	public static int altarCount;
 	public static int totalAltars;
 	public static int startingAltars;
+	public static int jumpCount;
+	public static int jumpMax;
 
 	public enum GameSpeed { DRAG, BOOST	}
 	public enum KnockBack { NORMAL, INCREASE, DECREASE, BOUNCE }

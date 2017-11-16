@@ -5,15 +5,15 @@ using UnityEngine;
 public class GameData : MonoBehaviour
 {
 	public float speed = 5f;
-	public float dragSpeed = 1f;
+	public float dragSpeed = 4f;
 	public float boostSpeed = 10f;
 	
 	public float gravity = 0.75f;
-	public float dragGravity = 0.25f;
+	public float dragGravity = 0.01f;
 	public float boostGravity = 1f;
 
 	public float defaultJump = 0.3f;
-	public float dragJump = 0.02f;
+	public float dragJump = 0.03f;
 	public float boostJump;
 
 	public float knockback = 0.1f;
@@ -38,6 +38,9 @@ public class GameData : MonoBehaviour
 	public int altarCount = 0;
 	public int totalAltars = 3;
 	public int startingAltars = 3;
+
+	public int jumpCount = 0;
+	public int jumpMax = 2;
 
 	void Awake()
 	{
@@ -75,5 +78,8 @@ public class GameData : MonoBehaviour
 		StaticVars.altarCount = altarCount;
 		StaticVars.totalAltars = totalAltars;
 		StaticVars.startingAltars = startingAltars;
+
+		StaticVars.jumpCount = jumpCount;
+		StaticVars.jumpMax = jumpMax;
 	}
 }

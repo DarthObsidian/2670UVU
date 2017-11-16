@@ -10,8 +10,6 @@ public class MoveCharacter : MonoBehaviour
 	float speed = 5;
 	float gravity = 0.75f;
 	public float jumpHeight = 0.2f;
-	int jumpCount = 0;
-	int jumpMax = 2;
 	float knockDistance;
 	float knockback;
 	float knockCount;
@@ -67,7 +65,7 @@ public class MoveCharacter : MonoBehaviour
 
 	private void ChangeJumpCountHandler(int _newCount)
 	{
-		jumpCount = _newCount;
+		StaticVars.jumpCount = _newCount;
 	}
 	
     void Move(float _movement)
@@ -78,15 +76,15 @@ public class MoveCharacter : MonoBehaviour
 
 			if(cc.isGrounded)
 			{
-				jumpCount = 0;
+				StaticVars.jumpCount = 0;
 				tempMove.y = 0;				
 			} else {
-				if(inWater == false || Input.GetKeyDown(KeyCode.Space))
-				{
+				//if(inWater == false || Input.GetKeyDown(KeyCode.Space))
+				//{
 					tempMove.y -= gravity * Time.deltaTime;
-				} else {
-					tempMove.y = -gravity * Time.deltaTime;
-				}
+				//} else {
+				//	tempMove.y = -gravity * Time.deltaTime;
+				//}
 			}
 
 			if(gameObject.transform.position.z != 0)
@@ -107,10 +105,10 @@ public class MoveCharacter : MonoBehaviour
 
 	void Jump()
 	{
-		if(jumpCount < jumpMax)
+		if(StaticVars.jumpCount < StaticVars.jumpMax)
 		{
 			tempMove.y = jumpHeight;
-			if(!inWater) { jumpCount++; }
+			if(!inWater) { StaticVars.jumpCount++; }
 		}
 	}
 

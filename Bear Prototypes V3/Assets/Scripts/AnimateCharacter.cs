@@ -37,7 +37,10 @@ public class AnimateCharacter : MonoBehaviour
 
 	private void AnimJump()
 	{
-		anims.SetTrigger("Jump");
+		if(StaticVars.jumpCount < StaticVars.jumpMax)
+		{
+			anims.SetTrigger("Jump");
+		}
 	}
 
 	private void AnimCrouch()

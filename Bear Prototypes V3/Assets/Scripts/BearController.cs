@@ -5,6 +5,12 @@ using UnityEngine;
 public class BearController : MonoBehaviour 
 {
 	public GameObject attacker;
+	Animator anims;
+
+	void Start()
+	{
+		anims = GetComponentInChildren<Animator>();	
+	}
 
 	void OnTriggerEnter()
 	{
@@ -19,7 +25,8 @@ public class BearController : MonoBehaviour
 
 	IEnumerator ShowAttack()
 	{
-
+		anims.SetTrigger("Attack");
+		yield return new WaitForSeconds(0.15f);
 		attacker.SetActive(true);
 		yield return new WaitForSeconds(0.1f);
 		attacker.SetActive(false);

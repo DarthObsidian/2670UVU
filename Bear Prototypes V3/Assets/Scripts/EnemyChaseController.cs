@@ -15,5 +15,15 @@ public class EnemyChaseController : MonoBehaviour
 	void OnTriggerStay(Collider other)
 	{
 		ai.destination = other.transform.position;
+		EnemyAnimationController.EnemyAnimAction(true);
+	}
+
+	IEnumerator Moving()
+	{
+		while(ai.hasPath)
+		{
+			yield return new WaitForFixedUpdate();
+		}
+		EnemyAnimationController.EnemyAnimAction(false);
 	}
 }

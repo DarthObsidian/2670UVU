@@ -20,6 +20,7 @@ public class AnimateCharacter : MonoBehaviour
 	{
 		DamageAction = AnimDamage;
 		PushAction += AnimPush;
+		ChangeInWater.SendInWater += AnimSwim;
 		MoveInput.KeyAction += AnimRun;
 		MoveInput.JumpAction += AnimJump;
 		MoveInput.CrouchAction += AnimCrouch;
@@ -63,5 +64,10 @@ public class AnimateCharacter : MonoBehaviour
 	private void AnimPush()
 	{
 		anims.SetTrigger("Push");
+	}
+
+	private void AnimSwim(bool _swim)
+	{
+		anims.SetBool("InWater", _swim);
 	}
 }

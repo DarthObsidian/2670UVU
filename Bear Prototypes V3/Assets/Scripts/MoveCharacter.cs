@@ -33,14 +33,13 @@ public class MoveCharacter : MonoBehaviour
 			MoveInput.KeyAction += Move;
 			MoveInput.JumpAction += Jump;
 			MoveInput.CrouchAction += Crouch;
+			ChangeInWater.SendInWater += SendInWaterHandler;
 			firstStart = false;
 		}
 		
-		
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
-		ChangeKnockback.SendKnockback = SendKnockbackHandler;
-		ChangeInWater.SendInWater = SendInWaterHandler;
+		ChangeKnockback.SendKnockback = SendKnockbackHandler;	
 		ChangeJumpCount.ChangeJumpAction = ChangeJumpCountHandler;
 	}
 

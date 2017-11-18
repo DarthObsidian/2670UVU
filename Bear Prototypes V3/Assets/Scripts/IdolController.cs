@@ -5,7 +5,7 @@ using System;
 
 public class IdolController : MonoBehaviour 
 {
-	public static Action<Transform> IdolAction;
+	public Transform altarLocation;
 
 	void Start()
 	{
@@ -14,27 +14,12 @@ public class IdolController : MonoBehaviour
 
 	void OnTriggerEnter()
 	{
-		if(IdolAction == null)
-		{
-			IdolAction = SendIdol;
-		}
-	}
-
-	void SendIdol(Transform _altar)
-	{
-		AttachObject.UnattachAction();
-		transform.position = _altar.position;
-		transform.localRotation = _altar.rotation;
-		IdolAction = null;
+		gameObject.transform.position = altarLocation.position;
+		StaticVars.idolCount++;
 	}
 
 	void Restart()
 	{
-		if(AttachObject.UnattachAction != null)
-		{
-			AttachObject.UnattachAction();
-		}
-		gameObject.transform.localScale = Vector3.one;
-		IdolAction = null;
-	}
+		StaticVars.idolCount = 0;
+	}	
 }

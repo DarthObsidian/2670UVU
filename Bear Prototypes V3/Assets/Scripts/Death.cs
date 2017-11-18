@@ -22,10 +22,6 @@ public class Death : MonoBehaviour
 
 	void Respawn()
 	{
-		if(AttachObject.UnattachAction != null)
-		{
-			AttachObject.UnattachAction();
-		}
 		gameObject.transform.position = checkpoint.position;
 		SendHealth.UpdateHealth(5.0f);
 	}

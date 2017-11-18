@@ -6,30 +6,13 @@ public class AltarController : MonoBehaviour
 {
 	public GameObject go;
 	public Transform appearSpot;
-
-	void Start()
-	{
-		EndGame.End += Restart;
-	}
+	public int idolsNeeded;
 
 	void OnTriggerEnter()
 	{
-		if(IdolController.IdolAction != null)
+		if(StaticVars.idolCount >= idolsNeeded)
 		{
-			IdolController.IdolAction(transform);
-			GetComponent<BoxCollider>().enabled = false;
-			StaticVars.altarCount++;
+			go.transform.position = appearSpot.transform.position;
 		}
-		if(StaticVars.altarCount >= StaticVars.totalAltars)
-		{
-			go.transform.position = appearSpot.position;
-		}
-	}
-
-	void Restart()
-	{
-		StaticVars.altarCount = 0;
-		StaticVars.totalAltars = StaticVars.startingAltars;
-		GetComponent<BoxCollider>().enabled = true;
 	}
 }

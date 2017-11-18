@@ -16,6 +16,9 @@ ModelImporter:
     100016: transform2
     100018: transform3
     100020: Tree
+    100022: SwampGround_Puzzle4
+    100024: Water2
+    100026: Water3
     400000: Door
     400002: //RootNode
     400004: SwampGround_Puzzle
@@ -27,20 +30,33 @@ ModelImporter:
     400016: transform2
     400018: transform3
     400020: Tree
+    400022: SwampGround_Puzzle4
+    400024: Water2
+    400026: Water3
     2100000: lambert1
     2300000: Door
     2300002: SwampGround_Puzzle3
     2300004: Tree
     2300006: //RootNode
+    2300008: SwampGround_Puzzle
+    2300010: SwampGround_Puzzle4
+    2300012: Water2
+    2300014: Water3
     3300000: Door
     3300002: SwampGround_Puzzle3
     3300004: Tree
     3300006: //RootNode
+    3300008: SwampGround_Puzzle
+    3300010: SwampGround_Puzzle4
+    3300012: Water2
+    3300014: Water3
     4300000: Tree
     4300002: Door
     4300004: SwampGround_Puzzle3
     4300006: SwampGround_Puzzle4
     4300008: SwampGround_Puzzle
+    4300010: Water2
+    4300012: Water3
     9500000: //RootNode
   externalObjects: {}
   materials:

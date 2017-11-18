@@ -35,9 +35,8 @@ public class GameData : MonoBehaviour
 	public bool hasFood = false;
 	public bool menuOpen = true;
 
-	public int altarCount = 0;
-	public int totalAltars = 3;
-	public int startingAltars = 3;
+	public int idolCount = 0;
+	public int totalIdols = 13;
 
 	public int jumpCount = 0;
 	public int jumpMax = 2;
@@ -75,9 +74,8 @@ public class GameData : MonoBehaviour
 		StaticVars.hasFood = hasFood;
 		StaticVars.menuOpen = menuOpen;
 
-		StaticVars.altarCount = altarCount;
-		StaticVars.totalAltars = totalAltars;
-		StaticVars.startingAltars = startingAltars;
+		StaticVars.idolCount = idolCount;
+		StaticVars.totalIdols = totalIdols;
 
 		StaticVars.jumpCount = jumpCount;
 		StaticVars.jumpMax = jumpMax;

@@ -35,9 +35,8 @@ public class StaticVars
 	public static bool hasFood;
 	public static bool menuOpen;
 
-	public static int altarCount;
-	public static int totalAltars;
-	public static int startingAltars;
+	public static int idolCount;
+	public static int totalIdols;
 	public static int jumpCount;
 	public static int jumpMax;
 

@@ -16,21 +16,23 @@ public class ChangeKnockback : MonoBehaviour
 			{
 				case StaticVars.KnockBack.NORMAL:
 					SendKnockback(StaticVars.defaultKnockback, StaticVars.defaultKnockDistance, StaticVars.knockCount);
+					AnimateCharacter.DamageAction();
 					break;
 			
 				case StaticVars.KnockBack.DECREASE:
 					SendKnockback(StaticVars.nerfedKnockback, StaticVars.nerfedKnockDistance, StaticVars.nerfedKnockCount);
+					AnimateCharacter.DamageAction();
 					break;
 
 				case StaticVars.KnockBack.INCREASE:
 					SendKnockback(StaticVars.boostedKnockback, StaticVars.boostedKnockDistance, StaticVars.boostedKnockCount);
+					AnimateCharacter.DamageAction();
 					break;
 			
 				case StaticVars.KnockBack.BOUNCE:
 					SendKnockback(StaticVars.bounce, 0f, 0f);
 					break;
 			}
-			AnimateCharacter.DamageAction();
 		}
 	}
 }

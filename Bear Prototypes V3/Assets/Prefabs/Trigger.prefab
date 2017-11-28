@@ -86,7 +86,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 123cf49f7f2ed054db35b3936ae9da9c, type: 2}
+  - {fileID: 2100000, guid: 70c2a7ab17a110345aa5455765d83bce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -174,8 +174,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 0}
-  setStage: 0
-  type: 1
+  setStage: 1
+  boolName: OpenDoor
+  type: 0
   button: 1
 --- !u!135 &135042092015004350
 SphereCollider:

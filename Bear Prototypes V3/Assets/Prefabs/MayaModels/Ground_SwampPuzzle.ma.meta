@@ -3,7 +3,7 @@ guid: 1218c7ecac5351d4e99d66cab59dc1b7
 timeCreated: 1509590009
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Door
     100002: //RootNode
@@ -19,6 +19,9 @@ ModelImporter:
     100022: SwampGround_Puzzle4
     100024: Water2
     100026: Water3
+    100028: group1
+    100030: pPlane1
+    100032: pPlane2
     400000: Door
     400002: //RootNode
     400004: SwampGround_Puzzle
@@ -33,6 +36,9 @@ ModelImporter:
     400022: SwampGround_Puzzle4
     400024: Water2
     400026: Water3
+    400028: group1
+    400030: pPlane1
+    400032: pPlane2
     2100000: lambert1
     2300000: Door
     2300002: SwampGround_Puzzle3
@@ -42,6 +48,8 @@ ModelImporter:
     2300010: SwampGround_Puzzle4
     2300012: Water2
     2300014: Water3
+    2300016: pPlane1
+    2300018: pPlane2
     3300000: Door
     3300002: SwampGround_Puzzle3
     3300004: Tree
@@ -50,6 +58,8 @@ ModelImporter:
     3300010: SwampGround_Puzzle4
     3300012: Water2
     3300014: Water3
+    3300016: pPlane1
+    3300018: pPlane2
     4300000: Tree
     4300002: Door
     4300004: SwampGround_Puzzle3
@@ -57,13 +67,13 @@ ModelImporter:
     4300008: SwampGround_Puzzle
     4300010: Water2
     4300012: Water3
+    4300014: pPlane1
+    4300016: pPlane2
     9500000: //RootNode
-  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -76,7 +86,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

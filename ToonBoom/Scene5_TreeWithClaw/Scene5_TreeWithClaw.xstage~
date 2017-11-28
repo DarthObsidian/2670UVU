@@ -336,6 +336,7 @@
     <dwg name="50" scaleFactor="1"/>
     <dwg name="51" scaleFactor="1"/>
     <dwg name="52" scaleFactor="1"/>
+    <dwg name="53" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="6" elementName="OlderboyRough" elementFolder="OlderboyRough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -895,6 +896,12 @@
     <dwg name="68" scaleFactor="1"/>
     <dwg name="69" scaleFactor="1"/>
     <dwg name="70" scaleFactor="1"/>
+    <dwg name="71" scaleFactor="1"/>
+    <dwg name="72" scaleFactor="1"/>
+    <dwg name="73" scaleFactor="1"/>
+    <dwg name="74" scaleFactor="1"/>
+    <dwg name="75" scaleFactor="1"/>
+    <dwg name="76" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -913,7 +920,7 @@
  <scenes>
   <scene name="Top" id="08d4f9a590500874" nbframes="150">
    <columns>
-    <column type="0" name="LittleBoyRough" displayOrder="9" width="100" anonymous="true" id="1">
+    <column type="0" name="LittleBoyRough" display="false" displayOrder="9" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="22" id="1"/>
      <elementSeq exposures="3" val="2" id="1"/>
@@ -1149,6 +1156,7 @@
      <elementSeq exposures="1-150" val="1" id="4"/>
     </column>
     <column type="0" name="Tree" displayOrder="1" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1" val="53" id="5"/>
      <elementSeq exposures="21" val="1" id="5"/>
      <elementSeq exposures="22" val="2" id="5"/>
      <elementSeq exposures="23" val="3" id="5"/>
@@ -1202,7 +1210,7 @@
      <elementSeq exposures="71" val="51" id="5"/>
      <elementSeq exposures="72-150" val="52" id="5"/>
     </column>
-    <column type="0" name="OlderboyRough" displayOrder="2" width="100" anonymous="true" id="6">
+    <column type="0" name="OlderboyRough" display="false" displayOrder="2" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="28" id="6"/>
      <elementSeq exposures="3" val="27" id="6"/>
@@ -1715,8 +1723,14 @@
      <elementSeq exposures="66" val="64" id="12"/>
      <elementSeq exposures="67" val="68" id="12"/>
      <elementSeq exposures="68" val="69" id="12"/>
-     <elementSeq exposures="69-71" val="67" id="12"/>
+     <elementSeq exposures="69" val="67" id="12"/>
+     <elementSeq exposures="70" val="71" id="12"/>
+     <elementSeq exposures="71" val="72" id="12"/>
      <elementSeq exposures="72" val="70" id="12"/>
+     <elementSeq exposures="73" val="74" id="12"/>
+     <elementSeq exposures="74" val="75" id="12"/>
+     <elementSeq exposures="75" val="73" id="12"/>
+     <elementSeq exposures="76" val="76" id="12"/>
     </column>
     <column type="3" name="LittleBoyRough_Opacity" displayOrder="12" width="100" anonymous="false">
      <step val="1" start="1" stop="1"/>
@@ -1784,7 +1798,6 @@
      </module>
      <module type="READ" name="Tree" pos="0,0,0" publishUnderTab="Tree">
       <options>
-       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1889,6 +1902,7 @@
      </module>
      <module type="READ" name="OlderboyRough" pos="0,0,0" publishUnderTab="OlderBoy">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -2618,6 +2632,7 @@
      </module>
      <module type="READ" name="LittleBoyRough" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

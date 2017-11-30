@@ -2632,7 +2632,6 @@
      </module>
      <module type="READ" name="LittleBoyRough" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

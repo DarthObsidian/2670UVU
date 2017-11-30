@@ -22,6 +22,7 @@ public class LockedDoorController : MonoBehaviour
 				anim.SetBool("OpenDoor", true);
 				AttachObject.UnattachAction();
 				KeyController.SetKey();
+				gameObject.GetComponent<BoxCollider>().enabled = false;
 			}
 		} else {
 			anim.SetBool("OpenDoor", true);
@@ -41,6 +42,7 @@ public class LockedDoorController : MonoBehaviour
 		if(lockedDoor == true)
 		{
 			anim.SetBool("OpenDoor", false);
+			gameObject.GetComponent<BoxCollider>().enabled = true;
 		}
 	}
 }

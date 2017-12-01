@@ -920,7 +920,7 @@
  <scenes>
   <scene name="Top" id="08d4f9a590500874" nbframes="150">
    <columns>
-    <column type="0" name="LittleBoyRough" displayOrder="9" width="100" anonymous="true" id="1">
+    <column type="0" name="LittleBoyRough" display="false" displayOrder="9" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="22" id="1"/>
      <elementSeq exposures="3" val="2" id="1"/>
@@ -2632,6 +2632,7 @@
      </module>
      <module type="READ" name="LittleBoyRough" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

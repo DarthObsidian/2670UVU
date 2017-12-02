@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class ChangeSpeed : MonoBehaviour 
 {
-	public static Action<float, float, float> SendSpeed;
+	public static UnityAction<float, float, float> SendSpeed;
 	public StaticVars.GameSpeed speedType;
 
 	void OnTriggerEnter()

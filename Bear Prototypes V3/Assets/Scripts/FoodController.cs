@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class FoodController : MonoBehaviour 
 {
-	public static Action SetFood;
+	public static UnityAction SetFood;
 	public GameObject UIFood;
 
 	void OnTriggerEnter()

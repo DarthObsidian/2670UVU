@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class LockedDoorController : MonoBehaviour 
 {
@@ -21,7 +20,6 @@ public class LockedDoorController : MonoBehaviour
 			if(StaticVars.hasKey)
 			{
 				anim.SetBool("OpenDoor", true);
-				//AttachObject.UnattachAction();
 				KeyController.SetKey();
 				gameObject.GetComponent<BoxCollider>().enabled = false;
 			}

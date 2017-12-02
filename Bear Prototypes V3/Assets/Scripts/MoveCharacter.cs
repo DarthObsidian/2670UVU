@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -59,7 +58,7 @@ public class MoveCharacter : MonoBehaviour
 
 	private void SendInWaterHandler(bool _inWater)
 	{
-		inWater = _inWater;
+		StaticVars.inWater = _inWater;
 	}
 
 	private void ChangeJumpCountHandler(int _newCount)
@@ -107,7 +106,7 @@ public class MoveCharacter : MonoBehaviour
 		if(StaticVars.jumpCount < StaticVars.jumpMax)
 		{
 			tempMove.y = jumpHeight;
-			if(!inWater) { StaticVars.jumpCount++; }
+			if(StaticVars.inWater == false) { StaticVars.jumpCount++; }
 		}
 	}
 

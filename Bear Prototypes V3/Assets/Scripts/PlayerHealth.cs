@@ -10,7 +10,11 @@ public class PlayerHealth : MonoBehaviour
 	{
 		if(other.tag == "Player")
 		{
-			SendHealth.UpdateHealth(power);	
+			SendHealth.UpdateHealth(power);
+			if(power < 0)
+			{
+				DamageFlash.DamageAction();
+			}
 		}
 	}
 }

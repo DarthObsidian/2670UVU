@@ -34,6 +34,7 @@ public class GameData : MonoBehaviour
 	public bool holdingObject = false;
 	public bool hasFood = false;
 	public bool menuOpen = true;
+	public bool inWater = false;
 
 	public int idolCount = 0;
 	public int totalIdols = 13;
@@ -73,6 +74,7 @@ public class GameData : MonoBehaviour
 		StaticVars.holdingObject = holdingObject;
 		StaticVars.hasFood = hasFood;
 		StaticVars.menuOpen = menuOpen;
+		StaticVars.inWater = inWater;
 
 		StaticVars.idolCount = idolCount;
 		StaticVars.totalIdols = totalIdols;

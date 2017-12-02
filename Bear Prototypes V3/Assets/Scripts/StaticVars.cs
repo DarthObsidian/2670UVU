@@ -34,6 +34,7 @@ public class StaticVars
 	public static bool holdingObject;
 	public static bool hasFood;
 	public static bool menuOpen;
+	public static bool inWater;
 
 	public static int idolCount;
 	public static int totalIdols;

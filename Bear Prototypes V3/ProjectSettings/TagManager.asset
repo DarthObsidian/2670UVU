@@ -23,7 +23,7 @@ TagManager:
   - 
   - 
   - MovableBlocks
-  - 
+  - MovableBlocks/Stopper
   - 
   - Enemy/Enemy
   - Enemy/Waypoint

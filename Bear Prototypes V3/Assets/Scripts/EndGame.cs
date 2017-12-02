@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour 
 {
-	public static Action End;
+	public static UnityAction End;
 	public GameObject player;
 	public Image mainMenu;
 

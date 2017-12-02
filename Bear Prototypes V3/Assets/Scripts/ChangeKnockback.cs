@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class ChangeKnockback : MonoBehaviour 
 {
-	public static Action<float, float, float> SendKnockback;
+	public static UnityAction<float, float, float> SendKnockback;
 	public StaticVars.KnockBack knockType;
 
 	void OnTriggerEnter(Collider other)

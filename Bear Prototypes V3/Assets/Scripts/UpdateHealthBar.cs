@@ -12,7 +12,7 @@ public class UpdateHealthBar : MonoBehaviour
 	void Start () 
 	{
 		healthBar = GetComponent<Image>();
-		SendHealth.HealthAction += ChangeHealthBar;
+		SendHealth.HealthAction = ChangeHealthBar;
 		healthBar.color = good;
 		EndGame.End += Restart;
 	}

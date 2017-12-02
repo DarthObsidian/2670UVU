@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Death : MonoBehaviour 
 {
 	Transform checkpoint;
-	public static Action DeathAction;
+	public static UnityAction DeathAction;
 	
 	void Start()
 	{

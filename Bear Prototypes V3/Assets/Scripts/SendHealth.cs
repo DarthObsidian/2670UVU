@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class SendHealth
 {
-	public static Action<float> HealthAction;
+	public static UnityAction<float> HealthAction;
 	public static float health = 1.0f;
 
 	public static void UpdateHealth(float _power)

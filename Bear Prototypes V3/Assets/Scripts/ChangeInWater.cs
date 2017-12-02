@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class ChangeInWater : MonoBehaviour 
 {
-	public static Action<bool> SendInWater;
+	public static UnityAction<bool> SendInWater;
 
 	void OnTriggerEnter()
 	{

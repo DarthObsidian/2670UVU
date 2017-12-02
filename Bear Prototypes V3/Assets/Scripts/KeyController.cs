@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class KeyController : MonoBehaviour 
 {
-	public static Action SetKey;
+	public static UnityAction SetKey;
 	public GameObject MenuKey;
 
 	void OnTriggerEnter()

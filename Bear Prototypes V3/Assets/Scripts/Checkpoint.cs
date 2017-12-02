@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class Checkpoint : MonoBehaviour 
 {
-	public static Action<Transform> CheckpointAction; 
+	public static UnityAction<Transform> CheckpointAction; 
 
 	void OnTriggerEnter()
 	{

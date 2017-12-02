@@ -11,4 +11,8 @@
  <element id="10" elementName="LittleBoyArmBackground" elementFolder="LittleBoyArmBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="11" elementName="LittleBoyLegBackground" elementFolder="LittleBoyLegBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="12" elementName="LittleBoyLegForeground" elementFolder="LittleBoyLegForeground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="OlderBoyBackground" elementFolder="OlderBoyBackground.13" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="OlderboyForeground" elementFolder="OlderboyForeground.14" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="OlderboyHead" elementFolder="OlderboyHead.15" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="16" elementName="OlderBoyTorso" elementFolder="OlderBoyTorso.16" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

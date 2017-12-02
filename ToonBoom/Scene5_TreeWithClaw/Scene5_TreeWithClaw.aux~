@@ -1115,6 +1115,7 @@
   <Drawing Key="" Name="119" Version="1"/>
   <Drawing Key="" Name="120" Version="1"/>
   <Drawing Key="" Name="110111" Version="1"/>
+  <Drawing Key="" Name="121" Version="1"/>
  </Element>
  <Element Name="OlderboyHead" ID="15" Folder="OlderboyHead.15">
   <Drawing Key="" Name="1" Version="1"/>
@@ -1344,5 +1345,6 @@
   <Drawing Key="" Name="111" Version="1"/>
   <Drawing Key="" Name="112" Version="1"/>
   <Drawing Key="" Name="113" Version="1"/>
+  <Drawing Key="" Name="9224" Version="1"/>
  </Element>
 </SceneVersion>

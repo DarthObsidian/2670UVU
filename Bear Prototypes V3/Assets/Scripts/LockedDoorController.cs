@@ -7,6 +7,7 @@ public class LockedDoorController : MonoBehaviour
 {
 	Animator anim;
 	public bool lockedDoor;
+	
 	void Start()
 	{
 		anim = GetComponentInChildren<Animator>();
@@ -20,7 +21,7 @@ public class LockedDoorController : MonoBehaviour
 			if(StaticVars.hasKey)
 			{
 				anim.SetBool("OpenDoor", true);
-				AttachObject.UnattachAction();
+				//AttachObject.UnattachAction();
 				KeyController.SetKey();
 				gameObject.GetComponent<BoxCollider>().enabled = false;
 			}

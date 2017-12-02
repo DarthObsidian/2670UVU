@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameData : MonoBehaviour
 {
-	public float speed = 5f;
+	public float speed = 7f;
 	public float dragSpeed = 4f;
 	public float boostSpeed = 10f;
 	
@@ -16,13 +16,13 @@ public class GameData : MonoBehaviour
 	public float dragJump = 0.03f;
 	public float boostJump;
 
-	public float knockback = 0.1f;
-	public float boostedKnockback = 0.2f;
-	public float nerfedKnockback = 0.05f;
+	public float knockback = 0.2f;
+	public float boostedKnockback = 0.3f;
+	public float nerfedKnockback = 0.15f;
 
-	public float knockDistance = 0.1f;
-	public float boostedKnockDistance = 0.2f;
-	public float nerfedKnockDistance = 0.05f;
+	public float knockDistance = 0.2f;
+	public float boostedKnockDistance = 0.3f;
+	public float nerfedKnockDistance = 0.15f;
 
 	public float knockCount;
 	public float boostedKnockCount;

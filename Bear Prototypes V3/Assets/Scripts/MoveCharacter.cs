@@ -7,9 +7,9 @@ public class MoveCharacter : MonoBehaviour
 {
 	CharacterController cc;
 	Vector3 tempMove;
-	float speed = 5;
+	float speed = 7;
 	float gravity = 0.75f;
-	public float jumpHeight = 0.2f;
+	public float jumpHeight = 0.3f;
 	float knockDistance;
 	float knockback;
 	float knockCount;

@@ -6,20 +6,23 @@ using System;
 public class FoodController : MonoBehaviour 
 {
 	public static Action SetFood;
+	public GameObject UIFood;
 
 	void OnTriggerEnter()
 	{
 		if(StaticVars.hasFood == false)
 		{
 			StaticVars.hasFood = true;
+			gameObject.SetActive(false);
+			UIFood.SetActive(true);
 			SetFood = SetFoodHandler;
 		}
 	}
 
 	void SetFoodHandler()
 	{
-		gameObject.SetActive(false);
+		
 		StaticVars.hasFood = false;
-		AttachObject.UnattachAction();
+		UIFood.SetActive(false);
 	}
 }

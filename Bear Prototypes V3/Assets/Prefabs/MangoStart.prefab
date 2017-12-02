@@ -19,10 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4986091874823486}
-  - component: {fileID: 114245150779731134}
   - component: {fileID: 65266807574372596}
   - component: {fileID: 114950882610286036}
-  - component: {fileID: 114219521158917342}
   - component: {fileID: 114036416361092152}
   m_Layer: 0
   m_Name: Mango
@@ -83,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1891590887507930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.85, y: -64.21, z: 0}
+  m_LocalPosition: {x: 20.85, y: -67.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4986091874823486}
@@ -97,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384777238640114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.69, z: 0.78}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4466837208431998}
@@ -170,30 +168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {fileID: 4557668061148124}
   beginState: 1
---- !u!114 &114219521158917342
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384777238640114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fc790dc853d6d3429a9861abb191481, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114245150779731134
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384777238640114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9953a3292eb398a4f94972feb4e3b69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {fileID: 4557668061148124}
-  beginState: 1
 --- !u!114 &114950882610286036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -205,3 +179,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2972079bae378434489fb224dec90db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIFood: {fileID: 0}

@@ -230,6 +230,10 @@
     <dwg name="71" scaleFactor="1"/>
     <dwg name="72" scaleFactor="1"/>
     <dwg name="73" scaleFactor="1"/>
+    <dwg name="74" scaleFactor="1"/>
+    <dwg name="75" scaleFactor="1"/>
+    <dwg name="76" scaleFactor="1"/>
+    <dwg name="77" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="5" elementName="LegBackground" elementFolder="LegBackground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -616,6 +620,10 @@
      <elementSeq exposures="71" val="71" id="4"/>
      <elementSeq exposures="72" val="72" id="4"/>
      <elementSeq exposures="73" val="73" id="4"/>
+     <elementSeq exposures="74" val="74" id="4"/>
+     <elementSeq exposures="75" val="75" id="4"/>
+     <elementSeq exposures="76" val="76" id="4"/>
+     <elementSeq exposures="77" val="77" id="4"/>
     </column>
     <column type="0" name="LegBackground" displayOrder="4" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>

@@ -5,12 +5,14 @@ using UnityEngine;
 public class LockedDoorController : MonoBehaviour 
 {
 	Animator anim;
+	AudioSource sound;
 	public bool lockedDoor;
 	
 	void Start()
 	{
 		anim = GetComponentInChildren<Animator>();
 		EndGame.End += Reset;
+		sound = GetComponent<AudioSource>();
 	}
 
 	void OnTriggerEnter(Collider other)
@@ -20,6 +22,7 @@ public class LockedDoorController : MonoBehaviour
 			if(StaticVars.hasKey)
 			{
 				anim.SetBool("OpenDoor", true);
+				sound.Play();
 				KeyController.SetKey();
 				gameObject.GetComponent<BoxCollider>().enabled = false;
 			}

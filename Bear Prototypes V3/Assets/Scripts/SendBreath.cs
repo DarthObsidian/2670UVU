@@ -27,6 +27,7 @@ public class SendBreath
 		if(breathAmount <= 0f)
 		{
 			SendHealth.UpdateHealth(-0.2f);
+			DamageFlash.DamageAction();
 		}
 	}
 }

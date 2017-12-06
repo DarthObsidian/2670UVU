@@ -7,15 +7,34 @@ public class Checkpoint : MonoBehaviour
 {
 	public static UnityAction<Transform> CheckpointAction; 
 	AudioSource sound;
+	public GameObject flame;
+	bool flameOn = false;
+	public bool isTorch;
 
 	void Start()
 	{
-		sound = GetComponent<AudioSource>();
+		if(isTorch == true)
+		{
+			sound = GetComponent<AudioSource>();
+			EndGame.End += Restart;
+		}
+		
 	}
 
 	void OnTriggerEnter()
 	{
 		CheckpointAction(transform);
-		sound.Play();
+		if(flameOn == false && isTorch == true)
+		{
+			sound.Play();
+			flame.SetActive(true);
+			flameOn = true;
+		}
+	}
+
+	void Restart()
+	{
+		flame.SetActive(false);
+		flameOn = false;
 	}
 }

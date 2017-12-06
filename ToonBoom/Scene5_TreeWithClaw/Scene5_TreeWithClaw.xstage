@@ -1016,6 +1016,7 @@
     <dwg name="108" scaleFactor="1"/>
     <dwg name="109" scaleFactor="1"/>
     <dwg name="110" scaleFactor="1"/>
+    <dwg name="111" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="14" elementName="OlderboyForeground" elementFolder="OlderboyForeground.14" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1142,6 +1143,7 @@
     <dwg name="120" scaleFactor="1"/>
     <dwg name="110111" scaleFactor="1"/>
     <dwg name="121" scaleFactor="1"/>
+    <dwg name="122" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="15" elementName="OlderboyHead" elementFolder="OlderboyHead.15" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1258,6 +1260,26 @@
     <dwg name="110" scaleFactor="1"/>
     <dwg name="111" scaleFactor="1"/>
     <dwg name="1090" scaleFactor="1"/>
+    <dwg name="112" scaleFactor="1"/>
+    <dwg name="113" scaleFactor="1"/>
+    <dwg name="114" scaleFactor="1"/>
+    <dwg name="115" scaleFactor="1"/>
+    <dwg name="116" scaleFactor="1"/>
+    <dwg name="117" scaleFactor="1"/>
+    <dwg name="118" scaleFactor="1"/>
+    <dwg name="119" scaleFactor="1"/>
+    <dwg name="120" scaleFactor="1"/>
+    <dwg name="121" scaleFactor="1"/>
+    <dwg name="122" scaleFactor="1"/>
+    <dwg name="123" scaleFactor="1"/>
+    <dwg name="124" scaleFactor="1"/>
+    <dwg name="125" scaleFactor="1"/>
+    <dwg name="126" scaleFactor="1"/>
+    <dwg name="127" scaleFactor="1"/>
+    <dwg name="128" scaleFactor="1"/>
+    <dwg name="129" scaleFactor="1"/>
+    <dwg name="130" scaleFactor="1"/>
+    <dwg name="131" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="16" elementName="OlderBoyTorso" elementFolder="OlderBoyTorso.16" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1702,7 +1724,7 @@
      <elementSeq exposures="71" val="51" id="5"/>
      <elementSeq exposures="72-150" val="52" id="5"/>
     </column>
-    <column type="0" name="OlderboyRough" display="false" displayOrder="6" width="100" anonymous="true" id="6">
+    <column type="0" name="OlderboyRough" displayOrder="6" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="28" id="6"/>
      <elementSeq exposures="3" val="27" id="6"/>
@@ -2318,6 +2340,7 @@
      <elementSeq exposures="87" val="51" id="13"/>
      <elementSeq exposures="88" val="110" id="13"/>
      <elementSeq exposures="89" val="23" id="13"/>
+     <elementSeq exposures="90" val="111" id="13"/>
      <elementSeq exposures="109" val="24" id="13"/>
      <elementSeq exposures="110" val="52" id="13"/>
      <elementSeq exposures="111" val="53" id="13"/>
@@ -2430,6 +2453,7 @@
      <elementSeq exposures="87" val="70" id="14"/>
      <elementSeq exposures="88" val="92" id="14"/>
      <elementSeq exposures="89" val="69" id="14"/>
+     <elementSeq exposures="90" val="122" id="14"/>
      <elementSeq exposures="105" val="109" id="14"/>
      <elementSeq exposures="106" val="110" id="14"/>
      <elementSeq exposures="107" val="111" id="14"/>
@@ -2552,6 +2576,12 @@
      <elementSeq exposures="87" val="94" id="15"/>
      <elementSeq exposures="88" val="95" id="15"/>
      <elementSeq exposures="89" val="23" id="15"/>
+     <elementSeq exposures="90" val="112" id="15"/>
+     <elementSeq exposures="105" val="127" id="15"/>
+     <elementSeq exposures="106" val="128" id="15"/>
+     <elementSeq exposures="107" val="129" id="15"/>
+     <elementSeq exposures="108" val="130" id="15"/>
+     <elementSeq exposures="109" val="131" id="15"/>
      <elementSeq exposures="110" val="24" id="15"/>
      <elementSeq exposures="111" val="96" id="15"/>
      <elementSeq exposures="112" val="97" id="15"/>
@@ -2666,20 +2696,6 @@
      <elementSeq exposures="88" val="106" id="16"/>
      <elementSeq exposures="89" val="107" id="16"/>
      <elementSeq exposures="90" val="114" id="16"/>
-     <elementSeq exposures="91" val="115" id="16"/>
-     <elementSeq exposures="92" val="116" id="16"/>
-     <elementSeq exposures="93" val="117" id="16"/>
-     <elementSeq exposures="94" val="118" id="16"/>
-     <elementSeq exposures="95" val="119" id="16"/>
-     <elementSeq exposures="96" val="120" id="16"/>
-     <elementSeq exposures="97" val="121" id="16"/>
-     <elementSeq exposures="98" val="122" id="16"/>
-     <elementSeq exposures="99" val="123" id="16"/>
-     <elementSeq exposures="100" val="124" id="16"/>
-     <elementSeq exposures="101" val="125" id="16"/>
-     <elementSeq exposures="102" val="126" id="16"/>
-     <elementSeq exposures="103" val="127" id="16"/>
-     <elementSeq exposures="104" val="128" id="16"/>
      <elementSeq exposures="105" val="129" id="16"/>
      <elementSeq exposures="106" val="130" id="16"/>
      <elementSeq exposures="107" val="131" id="16"/>
@@ -3291,7 +3307,6 @@
      </module>
      <module type="READ" name="OlderboyRough" pos="0,0,0" publishUnderTab="OlderBoy">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

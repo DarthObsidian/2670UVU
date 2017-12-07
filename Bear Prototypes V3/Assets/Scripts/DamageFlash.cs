@@ -12,7 +12,7 @@ public class DamageFlash : MonoBehaviour
 	void Start()
 	{
 		damageColor = GetComponent<Image>();
-		DamageAction = ShowDamage;
+		DamageAction += ShowDamage;
 		damageColor.enabled = false;
 	}
 

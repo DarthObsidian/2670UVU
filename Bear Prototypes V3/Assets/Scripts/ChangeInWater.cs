@@ -10,10 +10,12 @@ public class ChangeInWater : MonoBehaviour
 	void OnTriggerEnter()
 	{
 		SendInWater(true);
+		AudioController.SplashAction();
 	}
 
 	void OnTriggerExit()
 	{
 		SendInWater(false);
+		AudioController.SplashAction();
 	}
 }

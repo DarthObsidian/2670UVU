@@ -7,11 +7,18 @@ public class KeyController : MonoBehaviour
 {
 	public static UnityAction SetKey;
 	public GameObject MenuKey;
+	AudioSource sound;
+
+	void Start()
+	{
+		sound = GetComponentInParent<AudioSource>();
+	}
 
 	void OnTriggerEnter()
 	{
 		if(StaticVars.hasKey == false)
 		{
+			sound.Play();
 			StaticVars.hasKey = true;
 			SetKey = UseKey;
 			gameObject.SetActive(false);
@@ -23,6 +30,5 @@ public class KeyController : MonoBehaviour
 	{
 		StaticVars.hasKey = false;
 		MenuKey.SetActive(false);
-		//gameObject.SetActive(false);
 	}
 }

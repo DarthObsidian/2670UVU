@@ -28,6 +28,7 @@ public class LockedDoorController : MonoBehaviour
 			}
 		} else {
 			anim.SetBool("OpenDoor", true);
+			sound.Play();
 		}
 	}
 

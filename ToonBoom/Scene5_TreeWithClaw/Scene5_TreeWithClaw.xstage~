@@ -1671,10 +1671,10 @@
      <elementSeq exposures="149" val="149" id="3"/>
      <elementSeq exposures="150" val="150" id="3"/>
     </column>
-    <column type="0" name="Background" displayOrder="16" width="100" anonymous="true" id="4">
+    <column type="0" name="Background" display="false" displayOrder="16" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-150" val="1" id="4"/>
     </column>
-    <column type="0" name="Tree" displayOrder="1" width="100" anonymous="true" id="5">
+    <column type="0" name="Tree" display="false" displayOrder="1" width="100" anonymous="true" id="5">
      <elementSeq exposures="21" val="1" id="5"/>
      <elementSeq exposures="22" val="2" id="5"/>
      <elementSeq exposures="23" val="3" id="5"/>
@@ -1728,7 +1728,7 @@
      <elementSeq exposures="71" val="51" id="5"/>
      <elementSeq exposures="72-150" val="52" id="5"/>
     </column>
-    <column type="0" name="OlderboyRough" displayOrder="6" width="100" anonymous="true" id="6">
+    <column type="0" name="OlderboyRough" display="false" displayOrder="6" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="28" id="6"/>
      <elementSeq exposures="3" val="27" id="6"/>
@@ -1865,7 +1865,7 @@
      <elementSeq exposures="134" val="164" id="6"/>
      <elementSeq exposures="135" val="163" id="6"/>
     </column>
-    <column type="0" name="LittleBoyHead" displayOrder="8" width="100" anonymous="true" id="7">
+    <column type="0" name="LittleBoyHead" display="false" displayOrder="8" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
      <elementSeq exposures="2" val="3" id="7"/>
      <elementSeq exposures="3" val="2" id="7"/>
@@ -1932,7 +1932,7 @@
      <elementSeq exposures="64" val="64" id="7"/>
      <elementSeq exposures="65" val="65" id="7"/>
     </column>
-    <column type="0" name="LittleBoyTorso" displayOrder="9" width="100" anonymous="true" id="8">
+    <column type="0" name="LittleBoyTorso" display="false" displayOrder="9" width="100" anonymous="true" id="8">
      <elementSeq exposures="1" val="1" id="8"/>
      <elementSeq exposures="2" val="3" id="8"/>
      <elementSeq exposures="3" val="2" id="8"/>
@@ -2000,7 +2000,7 @@
      <elementSeq exposures="65" val="65" id="8"/>
      <elementSeq exposures="66" val="66" id="8"/>
     </column>
-    <column type="0" name="LittleBoyArmForeground" displayOrder="7" width="100" anonymous="true" id="9">
+    <column type="0" name="LittleBoyArmForeground" display="false" displayOrder="7" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
      <elementSeq exposures="2" val="3" id="9"/>
      <elementSeq exposures="3" val="2" id="9"/>
@@ -2068,7 +2068,7 @@
      <elementSeq exposures="65" val="66" id="9"/>
      <elementSeq exposures="66" val="64" id="9"/>
     </column>
-    <column type="0" name="LittleBoyArmBackground" displayOrder="13" width="100" anonymous="true" id="10">
+    <column type="0" name="LittleBoyArmBackground" display="false" displayOrder="13" width="100" anonymous="true" id="10">
      <elementSeq exposures="1" val="1" id="10"/>
      <elementSeq exposures="2" val="3" id="10"/>
      <elementSeq exposures="3" val="2" id="10"/>
@@ -2101,7 +2101,7 @@
      <elementSeq exposures="32" val="31" id="10"/>
      <elementSeq exposures="33" val="29" id="10"/>
     </column>
-    <column type="0" name="LittleBoyLegBackground" displayOrder="11" width="100" anonymous="true" id="11">
+    <column type="0" name="LittleBoyLegBackground" display="false" displayOrder="11" width="100" anonymous="true" id="11">
      <elementSeq exposures="1" val="1" id="11"/>
      <elementSeq exposures="2" val="3" id="11"/>
      <elementSeq exposures="3" val="2" id="11"/>
@@ -2172,7 +2172,7 @@
      <elementSeq exposures="68" val="69" id="11"/>
      <elementSeq exposures="69" val="67" id="11"/>
     </column>
-    <column type="0" name="LittleBoyLegForeground" displayOrder="10" width="100" anonymous="true" id="12">
+    <column type="0" name="LittleBoyLegForeground" display="false" displayOrder="10" width="100" anonymous="true" id="12">
      <elementSeq exposures="1" val="1" id="12"/>
      <elementSeq exposures="2" val="3" id="12"/>
      <elementSeq exposures="3" val="2" id="12"/>
@@ -2254,7 +2254,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="ATV-08E084F4FC10237E" displayOrder="5" width="100" anonymous="true" id="13">
+    <column type="0" name="ATV-08E084F4FC10237E" display="false" displayOrder="5" width="100" anonymous="true" id="13">
      <elementSeq exposures="1" val="1" id="13"/>
      <elementSeq exposures="2" val="67" id="13"/>
      <elementSeq exposures="3" val="30" id="13"/>
@@ -2371,7 +2371,7 @@
      <elementSeq exposures="128" val="66" id="13"/>
      <elementSeq exposures="129" val="29" id="13"/>
     </column>
-    <column type="0" name="ATV-08E084F4FC104CE3" displayOrder="3" width="100" anonymous="true" id="14">
+    <column type="0" name="ATV-08E084F4FC104CE3" display="false" displayOrder="3" width="100" anonymous="true" id="14">
      <elementSeq exposures="1" val="1" id="14"/>
      <elementSeq exposures="2" val="2" id="14"/>
      <elementSeq exposures="3" val="3" id="14"/>
@@ -2494,7 +2494,7 @@
      <elementSeq exposures="134" val="119" id="14"/>
      <elementSeq exposures="135" val="120" id="14"/>
     </column>
-    <column type="0" name="ATV-08E084F4FC1052B4" displayOrder="2" width="100" anonymous="true" id="15">
+    <column type="0" name="ATV-08E084F4FC1052B4" display="false" displayOrder="2" width="100" anonymous="true" id="15">
      <elementSeq exposures="1" val="1" id="15"/>
      <elementSeq exposures="2" val="31" id="15"/>
      <elementSeq exposures="3" val="30" id="15"/>
@@ -2795,6 +2795,7 @@
      </module>
      <module type="READ" name="Tree" pos="0,0,0" publishUnderTab="Tree">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -2899,6 +2900,7 @@
      </module>
      <module type="READ" name="OlderboyHead" pos="0,0,0" publishUnderTab="OlderboyHead">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3003,6 +3005,7 @@
      </module>
      <module type="READ" name="OlderboyForeground" pos="0,0,0" publishUnderTab="OlderboyForeground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3211,6 +3214,7 @@
      </module>
      <module type="READ" name="OlderBoyBackground" pos="0,0,0" publishUnderTab="OlderBoyBackground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3315,6 +3319,7 @@
      </module>
      <module type="READ" name="OlderboyRough" pos="0,0,0" publishUnderTab="OlderBoy">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -3420,6 +3425,7 @@
      </module>
      <module type="READ" name="LittleBoyArmForeground" pos="0,0,0" publishUnderTab="LittleBoyForeground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3524,6 +3530,7 @@
      </module>
      <module type="READ" name="LittleBoyHead" pos="0,0,0" publishUnderTab="LittleBoyHead">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3628,6 +3635,7 @@
      </module>
      <module type="READ" name="LittleBoyTorso" pos="0,0,0" publishUnderTab="LittleBoyTorso">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3732,6 +3740,7 @@
      </module>
      <module type="READ" name="LittleBoyLegForeground" pos="0,0,0" publishUnderTab="LittleBoyLegForeground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3836,6 +3845,7 @@
      </module>
      <module type="READ" name="LittleBoyLegBackground" pos="0,0,0" publishUnderTab="LittleBoyLegBackground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3940,6 +3950,7 @@
      </module>
      <module type="READ" name="LittleBoyArmBackground" pos="0,0,0" publishUnderTab="LittleBoyArmBackground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -4256,6 +4267,7 @@
      </module>
      <module type="READ" name="Background" pos="0,0,0" publishUnderTab="Background">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

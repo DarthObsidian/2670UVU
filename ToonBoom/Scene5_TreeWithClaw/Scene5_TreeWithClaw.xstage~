@@ -3315,7 +3315,6 @@
      </module>
      <module type="READ" name="OlderboyRough" pos="0,0,0" publishUnderTab="OlderBoy">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

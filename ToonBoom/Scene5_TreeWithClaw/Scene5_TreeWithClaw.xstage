@@ -1728,7 +1728,7 @@
      <elementSeq exposures="71" val="51" id="5"/>
      <elementSeq exposures="72-150" val="52" id="5"/>
     </column>
-    <column type="0" name="OlderboyRough" displayOrder="6" width="100" anonymous="true" id="6">
+    <column type="0" name="OlderboyRough" display="false" displayOrder="6" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="28" id="6"/>
      <elementSeq exposures="3" val="27" id="6"/>

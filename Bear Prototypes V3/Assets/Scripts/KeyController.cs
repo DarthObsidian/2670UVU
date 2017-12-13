@@ -12,6 +12,7 @@ public class KeyController : MonoBehaviour
 	void Start()
 	{
 		sound = GetComponentInParent<AudioSource>();
+		EndGame.End += UseKey;
 	}
 
 	void OnTriggerEnter()

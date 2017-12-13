@@ -8,6 +8,11 @@ public class FoodController : MonoBehaviour
 	public static UnityAction SetFood;
 	public GameObject UIFood;
 
+	void Start()
+	{
+		EndGame.End += SetFoodHandler;
+	}
+
 	void OnTriggerEnter()
 	{
 		if(StaticVars.hasFood == false)
@@ -20,8 +25,7 @@ public class FoodController : MonoBehaviour
 	}
 
 	void SetFoodHandler()
-	{
-		
+	{	
 		StaticVars.hasFood = false;
 		UIFood.SetActive(false);
 	}

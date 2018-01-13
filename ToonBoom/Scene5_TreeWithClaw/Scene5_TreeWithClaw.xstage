@@ -1455,7 +1455,7 @@
  <scenes>
   <scene name="Top" id="08d4f9a590500874" nbframes="150">
    <columns>
-    <column type="0" name="LittleBoyRough" displayOrder="14" width="100" anonymous="true" id="1">
+    <column type="0" name="LittleBoyRough" display="false" displayOrder="14" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="22" id="1"/>
      <elementSeq exposures="3" val="2" id="1"/>
@@ -1535,7 +1535,7 @@
      <elementSeq exposures="77" val="118" id="1"/>
      <elementSeq exposures="78" val="113" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4F9A59057EAEF" display="false" displayOrder="15" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08D4F9A59057EAEF" displayOrder="15" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
      <elementSeq exposures="2" val="2" id="3"/>
      <elementSeq exposures="3" val="3" id="3"/>
@@ -1744,7 +1744,7 @@
      <elementSeq exposures="71" val="51" id="5"/>
      <elementSeq exposures="72-150" val="52" id="5"/>
     </column>
-    <column type="0" name="OlderboyRough" displayOrder="6" width="100" anonymous="true" id="6">
+    <column type="0" name="OlderboyRough" display="false" displayOrder="6" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="28" id="6"/>
      <elementSeq exposures="3" val="27" id="6"/>
@@ -3347,6 +3347,7 @@
      </module>
      <module type="READ" name="OlderboyRough" pos="0,0,0" publishUnderTab="OlderBoy">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -4076,6 +4077,7 @@
      </module>
      <module type="READ" name="LittleBoyRough" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

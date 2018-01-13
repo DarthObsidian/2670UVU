@@ -997,6 +997,10 @@
   <Drawing Key="" Name="113" Version="1"/>
   <Drawing Key="" Name="114" Version="1"/>
   <Drawing Key="" Name="115" Version="1"/>
+  <Drawing Key="" Name="116" Version="1"/>
+  <Drawing Key="" Name="117" Version="1"/>
+  <Drawing Key="" Name="118" Version="1"/>
+  <Drawing Key="" Name="119" Version="1"/>
  </Element>
  <Element Name="OlderboyForeground" ID="14" Folder="OlderboyForeground.14">
   <Drawing Key="" Name="1" Version="1"/>
@@ -1122,6 +1126,10 @@
   <Drawing Key="" Name="110111" Version="1"/>
   <Drawing Key="" Name="121" Version="1"/>
   <Drawing Key="" Name="122" Version="1"/>
+  <Drawing Key="" Name="123" Version="1"/>
+  <Drawing Key="" Name="124" Version="1"/>
+  <Drawing Key="" Name="125" Version="1"/>
+  <Drawing Key="" Name="126" Version="1"/>
  </Element>
  <Element Name="OlderboyHead" ID="15" Folder="OlderboyHead.15">
   <Drawing Key="" Name="1" Version="1"/>
@@ -1256,6 +1264,10 @@
   <Drawing Key="" Name="129" Version="1"/>
   <Drawing Key="" Name="130" Version="1"/>
   <Drawing Key="" Name="131" Version="1"/>
+  <Drawing Key="" Name="132" Version="1"/>
+  <Drawing Key="" Name="133" Version="1"/>
+  <Drawing Key="" Name="134" Version="1"/>
+  <Drawing Key="" Name="135" Version="1"/>
  </Element>
  <Element Name="OlderBoyTorso" ID="16" Folder="OlderBoyTorso.16">
   <Drawing Key="" Name="1" Version="1"/>
@@ -1391,5 +1403,9 @@
   <Drawing Key="" Name="130" Version="1"/>
   <Drawing Key="" Name="131" Version="1"/>
   <Drawing Key="" Name="132" Version="1"/>
+  <Drawing Key="" Name="133" Version="1"/>
+  <Drawing Key="" Name="134" Version="1"/>
+  <Drawing Key="" Name="135" Version="1"/>
+  <Drawing Key="" Name="136" Version="1"/>
  </Element>
 </SceneVersion>

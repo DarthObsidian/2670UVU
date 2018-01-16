@@ -398,7 +398,7 @@
  <scenes>
   <scene name="Top" id="08d6cba460400973" nbframes="77">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="6" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="6" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="26" id="1"/>
      <elementSeq exposures="3" val="2" id="1"/>
@@ -477,7 +477,7 @@
      <elementSeq exposures="76" val="63" id="1"/>
      <elementSeq exposures="77" val="64" id="1"/>
     </column>
-    <column type="0" name="ATV-08D6CBA4604010C4" display="false" displayOrder="7" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D6CBA4604010C4" displayOrder="7" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -543,7 +543,7 @@
      <elementSeq exposures="63" val="63" id="2"/>
      <elementSeq exposures="64" val="64" id="2"/>
     </column>
-    <column type="0" name="Background" display="false" displayOrder="8" width="100" anonymous="true" id="3">
+    <column type="0" name="Background" displayOrder="8" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-77" val="1" id="3"/>
     </column>
     <column type="0" name="Legforground" displayOrder="3" width="100" anonymous="true" id="4">
@@ -762,7 +762,7 @@
      <elementSeq exposures="51" val="31" id="7"/>
      <elementSeq exposures="52" val="32" id="7"/>
     </column>
-    <column type="0" name="ArmBackground" displayOrder="5" width="100" anonymous="true" id="8"/>
+    <column type="0" name="ArmBackground" display="false" displayOrder="5" width="100" anonymous="true" id="8"/>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -1241,6 +1241,7 @@
      </module>
      <module type="READ" name="ArmBackground" pos="0,0,0" publishUnderTab="ArmBackground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

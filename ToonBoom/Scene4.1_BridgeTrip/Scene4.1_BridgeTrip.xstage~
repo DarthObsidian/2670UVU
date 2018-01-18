@@ -1241,6 +1241,7 @@
      </module>
      <module type="READ" name="ArmBackground" pos="0,0,0" publishUnderTab="ArmBackground">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

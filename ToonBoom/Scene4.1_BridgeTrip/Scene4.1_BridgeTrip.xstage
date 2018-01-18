@@ -762,7 +762,7 @@
      <elementSeq exposures="51" val="31" id="7"/>
      <elementSeq exposures="52" val="32" id="7"/>
     </column>
-    <column type="0" name="ArmBackground" display="false" displayOrder="5" width="100" anonymous="true" id="8"/>
+    <column type="0" name="ArmBackground" displayOrder="5" width="100" anonymous="true" id="8"/>
    </columns>
    <options>
     <defaultDisplay val="Display"/>

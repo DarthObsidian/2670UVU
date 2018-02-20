@@ -19,6 +19,10 @@ public class SpawnCharacter : MonoBehaviour {
 		{
 			SpawnPlayer();
 		}
+		else
+		{
+			other.gameObject.SetActive(false);
+		}
 	}
 
 	public void SpawnPlayer ()

@@ -48,13 +48,16 @@ public class EnimyNavigation : MonoBehaviour
 			}
 		}
 		*/
-	void Update(){
-        if (!forceApplied){
+	void Update()
+	{
+        if (!forceApplied)
+		{
 			nav.SetDestination(Player.position);
         }
 	}
 
-    public void ApplyForce(Vector3 _force, bool _applyingForce) {
+    public void ApplyForce(Vector3 _force, bool _applyingForce) 
+	{
         nav.Move(_force);
         forceApplied = _applyingForce;
     }

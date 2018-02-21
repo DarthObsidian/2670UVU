@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4998319619854386}
   - component: {fileID: 33044041622255916}
-  - component: {fileID: 135862629436110728}
   - component: {fileID: 23257201593076006}
   - component: {fileID: 135639846733911084}
   - component: {fileID: 114989144779165688}
@@ -30,7 +29,7 @@ GameObject:
   - component: {fileID: 54424125580210354}
   m_Layer: 9
   m_Name: Enemy Large (KB)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,18 +153,6 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.75
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &135862629436110728
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1561466638991918}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &195640207862201408
 NavMeshAgent:

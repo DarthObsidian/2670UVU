@@ -9,7 +9,6 @@ public class Health : MonoBehaviour
 
 	public Element currentElement;
 
-	//private Rigidbody RB;
 	private CharacterController CC;
     private EnimyNavigation eNav;
 	private bool isMoveable = false;
@@ -23,13 +22,13 @@ public class Health : MonoBehaviour
 
 	void Setup()
 	{																						//Determines if there is a character controller or a rigidbody attached
-		//RB = this.gameObject.GetComponent<Rigidbody>();
-		CC = this.gameObject.GetComponent<CharacterController>();
-        eNav = this.gameObject.GetComponent<EnimyNavigation>();
+		CC = GetComponent<CharacterController>();
+        eNav = GetComponent<EnimyNavigation>();
 		if (CC != null) 
 		{
 			isMoveable = true;
 			usesCC = true;
+			usesNav = false;
 		}
         if (eNav != null) 
 		{
@@ -37,17 +36,11 @@ public class Health : MonoBehaviour
             usesNav = true;
             usesCC = false;
         }
-		//if (RB != null) 
-		//{
-		//	CC = null;
-		//	isMoveable = true;
-		//	usesCC = false;
-		//}
 	}
 
 	public void TakeDamage(int _dam, int _kBForce, Element damElement, Vector3 _dir ) 
 	{																						//takes the damage, knockback force, element, and force direction
-
+		
 		if (damElement != null) 
 		{																					//if the damager has an element assigned to it
 			for (int i = 0; i < currentElement.weaknesses.Length; i++) 
@@ -70,8 +63,6 @@ public class Health : MonoBehaviour
 			currentHealth += _dam; 
 		}																					//if there are no elements just apply damage normally
 
-        //print(currentHealth);
-
 		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
 		_dir = calculateForce(_dir, currentHealth, .01f) + calculateForce(_dir, _kBForce, .05f);		//trying different ways of calculating the force
 
@@ -86,11 +77,7 @@ public class Health : MonoBehaviour
 			    if (usesCC) 
 				{																			//if it has a character controller
 				    StartCoroutine (ApplyForceCC (_dir));									//use the character controller mehtod of adding force
-			    } 
-				//else 
-				//{
-				//	AddForce( _dir, RB);
-				//}																			//else, ie if it has a RB, add force using the RB method
+			    }
             }
 		}
 	}
@@ -102,11 +89,6 @@ public class Health : MonoBehaviour
 		_forceVec.z *= _num2 * _num;
 		return _forceVec;
 	}
-
-	//public void AddForce(Vector3 _force, Rigidbody _RB)
-	//{																						//RB overload method of adding force
-	//	RB.AddForce (calculateForce (_force, 30f , 1f), ForceMode.VelocityChange);			//uses the force vector and a multiplyer to add force to the object
-	//}
 
 	public Vector3 AddForce(Vector3 _force, CharacterController _CC)
 	{																						//CC overload method of adding force

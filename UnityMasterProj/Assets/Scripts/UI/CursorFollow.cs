@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorFollow : MonoBehaviour {
+public class CursorFollow : MonoBehaviour 
+{
 
-	void LateUpdate(){
+	void LateUpdate()
+	{
 		transform.position = Input.mousePosition;
 	}
 }

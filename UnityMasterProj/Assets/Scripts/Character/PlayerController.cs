@@ -38,13 +38,12 @@ public class PlayerController : MonoBehaviour
         }
 	}
 
-	///
-	/// MOVE INPUT
-	///
-	void MoveInput(){
+	//Moves the character based on input from user
+	void MoveInput()
+	{
 		if(Time.timeScale ==  1)
 		{
-			if(cc.isGrounded) 
+			if(isGrounded()) 
 			{
 				verticalVelocity = player.Jump(verticalVelocity);
 			}
@@ -55,7 +54,6 @@ public class PlayerController : MonoBehaviour
 
 			speed = player.Run(speed);
 
-			//move = Vector3.zero;
 			move.x = Input.GetAxis("Horizontal") * speed;
 			move.z = Input.GetAxis("Vertical") * speed;
 			move.y = verticalVelocity;
@@ -65,64 +63,106 @@ public class PlayerController : MonoBehaviour
 			cc.Move(move * Time.deltaTime);
 		}
 	}
+
+	//checks if the player is on the ground
+	//parameters: none
+	//returns: true if isGrounded, false if not
+	//there was a glitch where going down/uphill made the character see itself as not grounded when using cc.isGrounded
+	private bool isGrounded()
+	{
+		if(cc.isGrounded)
+		{
+			return true;
+		}
+
+		Vector3 bottom = cc.transform.position - new Vector3(0, cc.height / 2, 0);
+
+		RaycastHit hit;
+		//checks via raycast to see if the player is close enough to the ground to count as being grounded
+		if(Physics.Raycast(bottom, new Vector3(0, -1, 0), out hit, 0.2f ))
+		{
+			cc.Move(new Vector3(0, -hit.distance, 0));
+			return true;
+		}
 		
-	/// 
-	/// ABILITIES
-	/// 
-	void AbilityInput(){
+		return false;
+	}
+		
+	void AbilityInput()
+	{
 		if(Input.GetButtonDown("Ability01"))								//checks to see if the button was pressed
 		{																	//****button strings must match****\\
 			TriggerAbility(primaryAbility, "Ability01");					//triggers ability, passes the desired ability and the button string into the method
 		}
 	}
 
-	void TriggerAbility (ABS_Abilities _ability, string _key) {				//takes the selected ability and the input key
-		if (_ability.canCharge) {											//if it is chargable
+	void TriggerAbility (ABS_Abilities _ability, string _key)
+	 {																		//takes the selected ability and the input key
+		if (_ability.canCharge) 
+		{																	//if it is chargable
 			StartCoroutine (Charging (_ability, _key));						//start the charging coroutine
-		}else{
-			MoveAbility (_ability, 0f);										//else, just use the ability and send zero for the charge time
+		}
+		else
+		{
+			MoveAbility (_ability, 0f);											//else, just use the ability and send zero for the charge time
 		}
 	}
 
-	IEnumerator Charging(ABS_Abilities _ability, string _key){					//Takes the ability and the string of the button used to activate it
+	IEnumerator Charging(ABS_Abilities _ability, string _key)
+	{																			//Takes the ability and the string of the button used to activate it
 		float charge = 0f;														//creates a float to track how long the buttons has been held
-		while (charge < _ability.maxChargeTime) {								//while the current charge is less than the max charge time of the ability
-			if (Input.GetButtonUp (_key)) { break; }							//break out of the loop if the player releases the button, break out of the while loop
+		while (charge < _ability.maxChargeTime) 
+		{																		//while the current charge is less than the max charge time of the ability
+			if (Input.GetButtonUp (_key))
+			{ 
+				break; 
+			}																	//break out of the loop if the player releases the button, break out of the while loop
 			charge += Time.deltaTime;											//Add to the charge time
 			yield return null;													//wait for a frame
 		}
 		MoveAbility(_ability, charge);											//Activate MoveEnemy
 	}
 
-	void MoveAbility(ABS_Abilities _ability, float _charge){
-		if (_ability.movingAbility){
+	void MoveAbility(ABS_Abilities _ability, float _charge)
+	{
+		if (_ability.movingAbility)
+		{
 			StartCoroutine (AbilityMove (_ability.UseAbility ("default", weaponAnims, _charge, CameraPos, this.transform)));
-		}else{
-			if (_ability.hasImpact) { 					//adds force to the character
+		}
+		else
+		{
+			if (_ability.hasImpact) 
+			{ 					//adds force to the character
 				move = _ability.UseAbility ("default", weaponAnims, _charge, CameraPos);
 				StartCoroutine (Impact (_ability));
-			}else{
+			}
+			else
+			{
 				_ability.UseAbility ("defult", weaponAnims, _charge, _ability.damageGO, this.transform); //** not tested**
 				//use ability
 			}
 		}
 	}
 
-	IEnumerator Impact(ABS_Abilities _ability){
+	IEnumerator Impact(ABS_Abilities _ability)
+	{
 		//canMove = false;
-		while (cc.isGrounded != true) {
+		while (cc.isGrounded != true) 
+		{
 			print("I believe I can fly!");
 			cc.Move (move);
 			yield return null;
 		}
-		/*if(_ability.impactForce.End){
+		/*if(_ability.impactForce.End)
+		{
 			_ability.SetImpactLoc (cc.transform.position);
 			//play smash animation
 		}*/
 		canMove = true;
 	}
 	
-    IEnumerator AbilityMove(List<Vector3> _posList) {						//takes a list of positions
+    IEnumerator AbilityMove(List<Vector3> _posList) 
+	{																		//takes a list of positions
         if (_posList != null)												//double checks to make sure theres a place to move
         {
             canMove = false;												//disables movement

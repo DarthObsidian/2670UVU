@@ -117,5 +117,4 @@ public class Health : MonoBehaviour
         }
         eNav.ApplyForce(_force, false);
     }
-
 }

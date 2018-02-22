@@ -13,14 +13,19 @@ public class SO_Melee : ABS_Abilities
 
 		float _charge = 0f;
 
-		if(_chargeTime != 0f){
+		if(_chargeTime != 0f)
+		{
 			_charge = _chargeTime / maxChargeTime;																		//set it to the percent of the full charge
-			if (_charge >= 1f) { _charge = 1; }																			//to avoid issues
+			if (_charge >= 1f) 
+			{
+				_charge = 1;
+			}																											//to avoid issues
 		}
 
 		float abilityRange = Mathf.Lerp (minRange, maxRange, _charge);													//sets the ability range
 		float cost= Mathf.Lerp(minCost, maxCost, _charge);																//sets the ability cost (--ammo)
-		if (doesDamage) {																								//if it does damage
+		if (doesDamage) 
+		{																								//if it does damage
 			SetDamage (Mathf.Lerp (minDamage, maxDamage, _charge), Mathf.Lerp (minKB, maxKB, _charge));					//set damage and knockback based on charge
 		}
 

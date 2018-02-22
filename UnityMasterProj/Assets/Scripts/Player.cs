@@ -8,5 +8,4 @@ public class Player : ScriptableObject {
 	public Elemental.elementType currentElement = Elemental.elementType.Neutral;
 	public List<GameObject> animals;
 	public GameObject currentAnimal;
-
 }

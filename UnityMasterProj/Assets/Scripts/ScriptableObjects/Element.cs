@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/Element")]
-public class Element : ScriptableObject {
+public class Element : ScriptableObject 
+{
 
 	public string elementName = "default";
 

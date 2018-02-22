@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class ElementManager : MonoBehaviour {
+public class ElementManager : MonoBehaviour 
+{
 	public SO_Player player;
 	private Animal animal;
 	public Text elementTxt;
 	public Image symbol0;
 	public Image symbol1;
 
-	void Start(){
+	void Start()
+	{
 		player.animals.Clear ();
 		player.currentElement = Elemental.elementType.Neutral;
 		elementTxt = GameObject.Find("Element_Display_Text").GetComponent<Text>();
@@ -18,14 +20,18 @@ public class ElementManager : MonoBehaviour {
 		player.currentAnimal = null;
 	}
 
-	void Update(){
-		if (Input.GetKeyDown (KeyCode.Q)) {
-			if (player.animals.Count == 2) {
+	void Update()
+	{
+		if (Input.GetKeyDown (KeyCode.Q)) 
+		{
+			if (player.animals.Count == 2) 
+			{
 				SwapElements ();
 			}
 		}
 	}
-	void SwapElements(){
+	void SwapElements()
+	{
 		GameObject _temp = player.animals [1];
 		player.animals [1] = player.animals [0];
 

@@ -24,5 +24,4 @@ public class Refresh : MonoBehaviour
 			Debug.Log("Properties refreshed for: " + o.name);
 		}
 	}
-
 }

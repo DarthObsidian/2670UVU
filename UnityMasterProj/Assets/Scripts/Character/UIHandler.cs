@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIHandler : MonoBehaviour {
+public class UIHandler : MonoBehaviour 
+{
 
 	public GameObject deadMenu;
 

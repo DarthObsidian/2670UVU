@@ -58,9 +58,6 @@ public class PlayerController : MonoBehaviour
         }
 	}
 
-	///
-	/// MOVE INPUT
-	///
 	void MoveInput(){
 		if(Time.timeScale ==  1)
 		{
@@ -106,22 +103,23 @@ public class PlayerController : MonoBehaviour
 			cc.Move(new Vector3(0, -hit.distance, 0));
 			return true;
 		}
-		
-	/// 
-	/// ABILITIES
-	/// 
-	void AbilityInput(){
-		if(Input.GetButtonDown("Ability01"))								//checks to see if the button was pressed
-		{																	//****button strings must match****\\
-			TriggerAbility(primaryAbility, "Ability01");					//triggers ability, passes the desired ability and the button string into the method
+
+		return false;
+	}
+
+	void AbilityInput()
+	{
+		if(Input.GetButtonDown("Ability01"))									//checks to see if the button was pressed
+		{																		//****button strings must match****\\
+			TriggerAbility(primaryAbility, "Ability01");						//triggers ability, passes the desired ability and the button string into the method
 		}
 	}
 
-	void TriggerAbility (ABS_Abilities _ability, string _key) {				//takes the selected ability and the input key
-		if (_ability.canCharge) {											//if it is chargable
-			StartCoroutine (Charging (_ability, _key));						//start the charging coroutine
-		}else{
-			MoveAbility (_ability, 0f);										//else, just use the ability and send zero for the charge time
+	void TriggerAbility (ABS_Abilities _ability, string _key) 
+	{																			//takes the selected ability and the input key
+		if (_ability.canCharge) 
+		{																		//if it is chargable
+			StartCoroutine (Charging (_ability, _key));							//start the charging coroutine
 		}
 		else
 		{
@@ -129,10 +127,15 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	IEnumerator Charging(ABS_Abilities _ability, string _key){					//Takes the ability and the string of the button used to activate it
+	IEnumerator Charging(ABS_Abilities _ability, string _key)
+	{																			//Takes the ability and the string of the button used to activate it
 		float charge = 0f;														//creates a float to track how long the buttons has been held
-		while (charge < _ability.maxChargeTime) {								//while the current charge is less than the max charge time of the ability
-			if (Input.GetButtonUp (_key)) { break; }							//break out of the loop if the player releases the button, break out of the while loop
+		while (charge < _ability.maxChargeTime) 
+		{																		//while the current charge is less than the max charge time of the ability
+			if (Input.GetButtonUp (_key)) 
+			{ 
+				break; 
+			}																	//break out of the loop if the player releases the button, break out of the while loop
 			charge += Time.deltaTime;											//Add to the charge time
 			yield return null;													//wait for a frame
 		}
@@ -144,11 +147,16 @@ public class PlayerController : MonoBehaviour
 		if (_ability.movingAbility)
 		{
 			StartCoroutine (AbilityMove (_ability.UseAbility ("default", weaponAnims, _charge, CameraPos, this.transform)));
-		}else{
-			if (_ability.hasImpact) { 					//adds force to the character
+		}
+		else
+		{
+			if (_ability.hasImpact) 
+			{																			 					//adds force to the character
 				move = _ability.UseAbility ("default", weaponAnims, _charge, CameraPos);
 				StartCoroutine (Impact (_ability));
-			}else{
+			}
+			else
+			{
 				_ability.UseAbility ("defult", weaponAnims, _charge, _ability.damageGO, this.transform); //** not tested**
 				//use ability
 			}
@@ -158,7 +166,8 @@ public class PlayerController : MonoBehaviour
 	IEnumerator Impact(ABS_Abilities _ability)
 	{
 		//canMove = false;
-		while (cc.isGrounded != true) {
+		while (cc.isGrounded != true) 
+		{
 			print("I believe I can fly!");
 			cc.Move (move);
 			yield return null;
@@ -171,51 +180,6 @@ public class PlayerController : MonoBehaviour
 		canMove = true;
 	}
 	
-    IEnumerator AbilityMove(List<Vector3> _posList) {						//takes a list of positions
-        if (_posList != null)												//double checks to make sure theres a place to move
-        {
-            canMove = false;												//disables movement
-            yield return null;												//waits for a frame
-            cc.Move(_posList[0] - this.transform.position);					//moves the character to the starting position
-            for (int i = 0; i < _posList.Count - 1; i++)					//for loop that moves through all of the positions
-            {
-                yield return null;											//waits for a frame
-                cc.Move(_posList[i + 1] - _posList[i]);						//moves the player to next position
-            }
-            canMove = true;													//allows the player to move again
-        }
-    }
-}
-	//Moves the character based on input from user
-	void MoveInput()
-	{
-		return false;
-	}
-		
-	void AbilityInput()
-	{
-	void TriggerAbility (ABS_Abilities _ability, string _key)
-	 {																		//takes the selected ability and the input key
-		if (_ability.canCharge) 
-		{																	//if it is chargable
-	IEnumerator Charging(ABS_Abilities _ability, string _key)
-	{																			//Takes the ability and the string of the button used to activate it
-		while (charge < _ability.maxChargeTime) 
-		{																		//while the current charge is less than the max charge time of the ability
-			if (Input.GetButtonUp (_key))
-			{ 
-				break; 
-			}																	//break out of the loop if the player releases the button, break out of the while loop
-		}
-		else
-		{
-			if (_ability.hasImpact) 
-			{ 					//adds force to the character
-			}
-			else
-			{
-		while (cc.isGrounded != true) 
-		{
     IEnumerator AbilityMove(List<Vector3> _posList) 
 	{																		//takes a list of positions
         if (_posList != null)												//double checks to make sure theres a place to move
@@ -230,3 +194,5 @@ public class PlayerController : MonoBehaviour
             }
             canMove = true;													//allows the player to move again
         }
+    }
+}

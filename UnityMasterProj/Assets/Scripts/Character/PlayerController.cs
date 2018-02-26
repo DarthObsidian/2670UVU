@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
 	public SO_Player player;
 	public ABS_Abilities primaryAbility, secondaryAbility, recoveryAbility;
 
+	//TEST LIST FOR KNOCKBACK, will need to be intregrated into actual abilites
+	public List<ABS_Abilities> abilites;
+
+	//variables relating to movement
 	private float verticalVelocity = 0.0f;
 	private float speed = 0;
 	[HideInInspector]public Vector3 move = Vector3.zero;
@@ -18,7 +22,13 @@ public class PlayerController : MonoBehaviour
 
     public Transform CameraPos;
 
-    private bool canMove = false;
+    public bool canMove = false;
+
+	//variables relating to knockback
+	float healthPercent;
+	float knockDistance;
+	public float knockbackTime = 0.25f;
+	float knockbackCount;
 
 	void Awake()
 	{
@@ -58,27 +68,37 @@ public class PlayerController : MonoBehaviour
         }
 	}
 
-	void MoveInput(){
+	void MoveInput()
+	{
 		if(Time.timeScale ==  1)
 		{
-			if(isGrounded()) 
+			if(knockbackCount <= 0)
 			{
-				verticalVelocity = player.Jump(verticalVelocity);
+				if(isGrounded()) 
+				{
+					verticalVelocity = player.Jump(verticalVelocity);
+				}
+		
+				speed = player.Run(speed);
+
+				move.x = Input.GetAxis("Horizontal") * speed;
+				move.z = Input.GetAxis("Vertical") * speed;
+				
+				//this makes the character controller move based off the local rotation and not global
+				move = transform.TransformDirection(move);
+				
+			}
+			else
+			{
+				knockbackCount -= Time.deltaTime;
 			}
 
-			else
+			if(!isGrounded())
 			{
 				verticalVelocity = player.ApplyGravity(verticalVelocity);
 			}
 
-			speed = player.Run(speed);
-
-			move.x = Input.GetAxis("Horizontal") * speed;
-			move.z = Input.GetAxis("Vertical") * speed;
 			move.y = verticalVelocity;
-
-			//this makes the character controller move based off the local rotation and not global
-			move = transform.TransformDirection(move);
 			cc.Move(move * Time.deltaTime);
 		}
 	}
@@ -105,6 +125,40 @@ public class PlayerController : MonoBehaviour
 		}
 
 		return false;
+	}
+
+	//knocks the player back based off current hp and enemy knockback stregth
+	//parameters: damage taken, knockback stregth, direction to be knocked back
+	//returns: none
+	public void TakeDamage(float _damage, float _knockback, Vector3 _direction)
+	{
+		knockbackCount = knockbackTime;
+
+		healthPercent += _damage;
+		knockDistance = (healthPercent / 100) + _knockback;
+		
+		move = _direction * knockDistance;
+		verticalVelocity = knockDistance;
+
+		cc.Move(move * Time.deltaTime);
+	}
+
+	//calculates direction of knockback
+	//this should probably be move onto the abilites themselves
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.tag == "Enemy")
+		{
+			Vector3 hitDirection = other.transform.position - transform.position;
+			hitDirection = hitDirection.normalized;
+			if(hitDirection.y < 0)
+			{
+				hitDirection.y = 1.0f;
+			}
+
+			SO_Attack.Damage = other.GetComponent<EnimyNavigation>().TakeDamage;
+			abilites[0].UseAbilty(hitDirection);
+		}
 	}
 
 	void AbilityInput()

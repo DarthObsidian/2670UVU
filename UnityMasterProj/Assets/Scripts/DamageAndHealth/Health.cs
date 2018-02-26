@@ -111,10 +111,10 @@ public class Health : MonoBehaviour
         Vector3 _force = _impactForce;                                                      //stores the initial force on a temp varaible
         while (Vector3.Distance(_force, Vector3.zero) > .1f)
 		{                             													    //enclosing loop, while there is still force to be applied
-            eNav.ApplyForce(_force, true);                                                  //Method call to apply forces to the NavMesh
+//            eNav.ApplyForce(_force, true);                                                  //Method call to apply forces to the NavMesh
             _force -= calculateForce(_force, Time.deltaTime, 3f);
             yield return null;                                                              //wait a frame before going around again
         }
-        eNav.ApplyForce(_force, false);
+//       eNav.ApplyForce(_force, false);
     }
 }

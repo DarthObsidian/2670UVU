@@ -26,6 +26,9 @@ public abstract class ABS_Abilities : ScriptableObject
 	public bool hasImpact;
 	//public enum inpactForce {Start, End, None};
 
+	//TEST FUNCTION for knockback
+	public virtual void UseAbilty(Vector3 _direction) {}
+
 	public virtual void SetupAbility()
 	{
 		if (doesDamage) 

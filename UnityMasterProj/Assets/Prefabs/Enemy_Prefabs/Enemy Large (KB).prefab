@@ -24,8 +24,6 @@ GameObject:
   - component: {fileID: 135639846733911084}
   - component: {fileID: 114989144779165688}
   - component: {fileID: 195640207862201408}
-  - component: {fileID: 114788561414056866}
-  - component: {fileID: 114948018166282740}
   - component: {fileID: 54424125580210354}
   m_Layer: 9
   m_Name: Enemy Large (KB)
@@ -98,37 +96,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114788561414056866
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1561466638991918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  baseDamage: 15
-  baseKnockBack: 15
---- !u!114 &114948018166282740
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1561466638991918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 0
-  currentElement: {fileID: 0}
 --- !u!114 &114989144779165688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,8 +112,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669be5fa134da3a40b4fb028a11e4b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPosition: {fileID: 0}
-  forceApplied: 0
+  player: {fileID: 0}
+  enemy: {fileID: 11400000, guid: fdec532f781e94441b41dc11094d326e, type: 2}
+  abilites:
+  - {fileID: 11400000, guid: 9e808ec23aa859647b9d00ba1b480596, type: 2}
+  healthPercent: 0
+  knockbackTime: 0.25
 --- !u!135 &135639846733911084
 SphereCollider:
   m_ObjectHideFlags: 1
